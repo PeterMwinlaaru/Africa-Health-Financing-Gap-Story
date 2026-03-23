@@ -5,6 +5,7 @@ import './App.css';
 // Layout Components
 import Header from './components/Layout/Header';
 import Footer from './components/Layout/Footer';
+import ScrollToTop from './components/ScrollToTop';
 
 // Pages (OWID-style)
 import Home from './pages/Home/Home';
@@ -20,6 +21,7 @@ import Sources from './pages/Sources/Sources';
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="App">
         <Header />
         <main className="main-content">
