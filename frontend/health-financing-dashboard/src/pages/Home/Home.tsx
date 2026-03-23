@@ -159,21 +159,21 @@ const Home: React.FC = () => {
         <p className="tools-intro">Three powerful ways to analyze Africa's health financing data</p>
 
         <div className="tools-grid-main">
-          {/* Data Explorer */}
-          <Link to="/explorer" className="tool-card-main">
-            <div className="tool-icon-large">📈</div>
-            <h3>Data Explorer</h3>
+          {/* Indicators Library */}
+          <Link to="/indicators" className="tool-card-main">
+            <div className="tool-icon-large">📚</div>
+            <h3>Indicators Library</h3>
             <p className="tool-description">
-              Visualize trends over time, compare multiple countries side-by-side,
-              filter by year ranges, and export charts and datasets for your reports.
+              Browse all indicators organized by theme. Each indicator includes detailed
+              analysis, policy context, benchmarks, and country comparisons.
             </p>
             <ul className="tool-features">
-              <li>Time series visualization</li>
-              <li>Multi-country comparison</li>
-              <li>Advanced filtering</li>
-              <li>Export data & charts</li>
+              <li>6 thematic areas</li>
+              <li>Detailed context</li>
+              <li>Benchmark comparisons</li>
+              <li>Policy insights</li>
             </ul>
-            <span className="tool-cta">Launch Explorer →</span>
+            <span className="tool-cta">Browse All Indicators →</span>
           </Link>
 
           {/* Cross-Dimensional Analysis */}
@@ -194,21 +194,21 @@ const Home: React.FC = () => {
             <span className="tool-cta">Analyze Relationships →</span>
           </Link>
 
-          {/* Indicators Library */}
-          <Link to="/indicators" className="tool-card-main">
-            <div className="tool-icon-large">📚</div>
-            <h3>Indicators Library</h3>
+          {/* Data Explorer */}
+          <Link to="/explorer" className="tool-card-main">
+            <div className="tool-icon-large">📈</div>
+            <h3>Data Explorer</h3>
             <p className="tool-description">
-              Browse all indicators organized by theme. Each indicator includes detailed
-              analysis, policy context, benchmarks, and country comparisons.
+              Visualize trends over time, compare multiple countries side-by-side,
+              filter by year ranges, and export charts and datasets for your reports.
             </p>
             <ul className="tool-features">
-              <li>6 thematic areas</li>
-              <li>Detailed context</li>
-              <li>Benchmark comparisons</li>
-              <li>Policy insights</li>
+              <li>Time series visualization</li>
+              <li>Multi-country comparison</li>
+              <li>Advanced filtering</li>
+              <li>Export data & charts</li>
             </ul>
-            <span className="tool-cta">Browse All Indicators →</span>
+            <span className="tool-cta">Launch Explorer →</span>
           </Link>
         </div>
       </section>
