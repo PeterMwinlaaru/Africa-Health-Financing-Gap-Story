@@ -1,0 +1,2690 @@
+[
+  {
+    "year":2000,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":6.83102226,
+    "max_budget_priority":6.83102226,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2000,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":2.42206764,
+    "max_budget_priority":12.02784538,
+    "range_budget_priority":9.60577774
+  },
+  {
+    "year":2000,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_budget_priority":10.02161694,
+    "max_budget_priority":11.39878941,
+    "range_budget_priority":1.37717247
+  },
+  {
+    "year":2000,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":11.77479267,
+    "max_budget_priority":11.77479267,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2000,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":6.31664944,
+    "max_budget_priority":7.04260349,
+    "range_budget_priority":0.72595405
+  },
+  {
+    "year":2000,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_budget_priority":2.44484162,
+    "max_budget_priority":8.3682642,
+    "range_budget_priority":5.92342258
+  },
+  {
+    "year":2000,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":6.05200052,
+    "max_budget_priority":9.1551466,
+    "range_budget_priority":3.10314608
+  },
+  {
+    "year":2000,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":2.27290344,
+    "max_budget_priority":32.57132339,
+    "range_budget_priority":30.29841995
+  },
+  {
+    "year":2000,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":2.51425123,
+    "max_budget_priority":10.54292107,
+    "range_budget_priority":8.02866984
+  },
+  {
+    "year":2000,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":2.73858261,
+    "max_budget_priority":9.79427242,
+    "range_budget_priority":7.05568981
+  },
+  {
+    "year":2000,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_budget_priority":2.36681986,
+    "max_budget_priority":8.95994949,
+    "range_budget_priority":6.59312963
+  },
+  {
+    "year":2000,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":2.30962849,
+    "max_budget_priority":5.24128246,
+    "range_budget_priority":2.93165397
+  },
+  {
+    "year":2000,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":6.03982067,
+    "max_budget_priority":8.77923775,
+    "range_budget_priority":2.73941708
+  },
+  {
+    "year":2000,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":6.87927103,
+    "max_budget_priority":18.65596581,
+    "range_budget_priority":11.77669478
+  },
+  {
+    "year":2001,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":8.02577591,
+    "max_budget_priority":8.02577591,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2001,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":2.49895263,
+    "max_budget_priority":11.97196674,
+    "range_budget_priority":9.47301411
+  },
+  {
+    "year":2001,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_budget_priority":10.7257576,
+    "max_budget_priority":11.86877632,
+    "range_budget_priority":1.14301872
+  },
+  {
+    "year":2001,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":11.36873627,
+    "max_budget_priority":11.36873627,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2001,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":6.31664944,
+    "max_budget_priority":7.04260349,
+    "range_budget_priority":0.72595405
+  },
+  {
+    "year":2001,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_budget_priority":2.52350521,
+    "max_budget_priority":8.34352493,
+    "range_budget_priority":5.82001972
+  },
+  {
+    "year":2001,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":4.11416817,
+    "max_budget_priority":8.79931068,
+    "range_budget_priority":4.68514251
+  },
+  {
+    "year":2001,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":3.31901908,
+    "max_budget_priority":7.02692604,
+    "range_budget_priority":3.70790696
+  },
+  {
+    "year":2001,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":2.42193055,
+    "max_budget_priority":10.57568169,
+    "range_budget_priority":8.15375114
+  },
+  {
+    "year":2001,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":5.96825457,
+    "max_budget_priority":9.28485775,
+    "range_budget_priority":3.31660318
+  },
+  {
+    "year":2001,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_budget_priority":2.4863112,
+    "max_budget_priority":11.17305183,
+    "range_budget_priority":8.68674063
+  },
+  {
+    "year":2001,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":2.90732694,
+    "max_budget_priority":4.53776979,
+    "range_budget_priority":1.63044285
+  },
+  {
+    "year":2001,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":5.78298664,
+    "max_budget_priority":9.26661205,
+    "range_budget_priority":3.48362541
+  },
+  {
+    "year":2001,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":7.01589203,
+    "max_budget_priority":18.65596581,
+    "range_budget_priority":11.64007378
+  },
+  {
+    "year":2002,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":6.45610762,
+    "max_budget_priority":6.45610762,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2002,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":2.49895263,
+    "max_budget_priority":14.0413332,
+    "range_budget_priority":11.54238057
+  },
+  {
+    "year":2002,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_budget_priority":8.60752106,
+    "max_budget_priority":11.72442532,
+    "range_budget_priority":3.11690426
+  },
+  {
+    "year":2002,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":10.70719147,
+    "max_budget_priority":10.70719147,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2002,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":6.31664944,
+    "max_budget_priority":7.04260349,
+    "range_budget_priority":0.72595405
+  },
+  {
+    "year":2002,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_budget_priority":2.52350521,
+    "max_budget_priority":8.35599804,
+    "range_budget_priority":5.83249283
+  },
+  {
+    "year":2002,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":5.49563599,
+    "max_budget_priority":9.78842449,
+    "range_budget_priority":4.2927885
+  },
+  {
+    "year":2002,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":1.3442719,
+    "max_budget_priority":8.54080868,
+    "range_budget_priority":7.19653678
+  },
+  {
+    "year":2002,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":3.58240104,
+    "max_budget_priority":10.98641014,
+    "range_budget_priority":7.4040091
+  },
+  {
+    "year":2002,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":4.19123077,
+    "max_budget_priority":9.1893816,
+    "range_budget_priority":4.99815083
+  },
+  {
+    "year":2002,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_budget_priority":2.74149632,
+    "max_budget_priority":9.50427818,
+    "range_budget_priority":6.76278186
+  },
+  {
+    "year":2002,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":3.19876695,
+    "max_budget_priority":4.66366768,
+    "range_budget_priority":1.46490073
+  },
+  {
+    "year":2002,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":7.75643206,
+    "max_budget_priority":7.97343826,
+    "range_budget_priority":0.2170062
+  },
+  {
+    "year":2002,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":7.24555254,
+    "max_budget_priority":19.85424995,
+    "range_budget_priority":12.60869741
+  },
+  {
+    "year":2003,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":9.28865337,
+    "max_budget_priority":9.28865337,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2003,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":2.49895263,
+    "max_budget_priority":13.11782169,
+    "range_budget_priority":10.61886906
+  },
+  {
+    "year":2003,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_budget_priority":8.98155689,
+    "max_budget_priority":12.54862976,
+    "range_budget_priority":3.56707287
+  },
+  {
+    "year":2003,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":10.07152081,
+    "max_budget_priority":10.07152081,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2003,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":6.31664944,
+    "max_budget_priority":7.6335125,
+    "range_budget_priority":1.31686306
+  },
+  {
+    "year":2003,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_budget_priority":2.52350521,
+    "max_budget_priority":7.62989426,
+    "range_budget_priority":5.10638905
+  },
+  {
+    "year":2003,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":5.81530714,
+    "max_budget_priority":9.70851707,
+    "range_budget_priority":3.89320993
+  },
+  {
+    "year":2003,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":1.85525787,
+    "max_budget_priority":11.67833424,
+    "range_budget_priority":9.82307637
+  },
+  {
+    "year":2003,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":2.60668302,
+    "max_budget_priority":11.40784454,
+    "range_budget_priority":8.80116152
+  },
+  {
+    "year":2003,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":4.26046801,
+    "max_budget_priority":11.39668179,
+    "range_budget_priority":7.13621378
+  },
+  {
+    "year":2003,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_budget_priority":2.86385393,
+    "max_budget_priority":11.36700153,
+    "range_budget_priority":8.5031476
+  },
+  {
+    "year":2003,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":2.86154866,
+    "max_budget_priority":6.7543745,
+    "range_budget_priority":3.89282584
+  },
+  {
+    "year":2003,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":6.30859995,
+    "max_budget_priority":9.43778801,
+    "range_budget_priority":3.12918806
+  },
+  {
+    "year":2003,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":7.11917353,
+    "max_budget_priority":19.49809647,
+    "range_budget_priority":12.37892294
+  },
+  {
+    "year":2004,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":9.5548315,
+    "max_budget_priority":9.5548315,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2004,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":2.49895263,
+    "max_budget_priority":10.78895473,
+    "range_budget_priority":8.2900021
+  },
+  {
+    "year":2004,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_budget_priority":11.27606392,
+    "max_budget_priority":15.0313797,
+    "range_budget_priority":3.75531578
+  },
+  {
+    "year":2004,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":9.52674675,
+    "max_budget_priority":9.52674675,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2004,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":4.99515104,
+    "max_budget_priority":6.31664944,
+    "range_budget_priority":1.3214984
+  },
+  {
+    "year":2004,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_budget_priority":2.52350521,
+    "max_budget_priority":8.39099884,
+    "range_budget_priority":5.86749363
+  },
+  {
+    "year":2004,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":5.38615036,
+    "max_budget_priority":11.55348301,
+    "range_budget_priority":6.16733265
+  },
+  {
+    "year":2004,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":1.78429937,
+    "max_budget_priority":8.56359005,
+    "range_budget_priority":6.77929068
+  },
+  {
+    "year":2004,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":2.96115541,
+    "max_budget_priority":11.54679012,
+    "range_budget_priority":8.58563471
+  },
+  {
+    "year":2004,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":5.65226936,
+    "max_budget_priority":9.74261189,
+    "range_budget_priority":4.09034253
+  },
+  {
+    "year":2004,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_budget_priority":1.86152697,
+    "max_budget_priority":9.63142586,
+    "range_budget_priority":7.76989889
+  },
+  {
+    "year":2004,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":3.27431989,
+    "max_budget_priority":6.51321602,
+    "range_budget_priority":3.23889613
+  },
+  {
+    "year":2004,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":5.42119884,
+    "max_budget_priority":8.66916943,
+    "range_budget_priority":3.24797059
+  },
+  {
+    "year":2004,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":7.99441957,
+    "max_budget_priority":20.06664658,
+    "range_budget_priority":12.07222701
+  },
+  {
+    "year":2005,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":9.28934002,
+    "max_budget_priority":9.28934002,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2005,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":1.11400759,
+    "max_budget_priority":10.54040527,
+    "range_budget_priority":9.42639768
+  },
+  {
+    "year":2005,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_budget_priority":6.40039492,
+    "max_budget_priority":12.42341423,
+    "range_budget_priority":6.02301931
+  },
+  {
+    "year":2005,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":8.09948635,
+    "max_budget_priority":8.09948635,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2005,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":6.03783035,
+    "max_budget_priority":8.39700031,
+    "range_budget_priority":2.35916996
+  },
+  {
+    "year":2005,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_budget_priority":2.52350521,
+    "max_budget_priority":12.34742451,
+    "range_budget_priority":9.8239193
+  },
+  {
+    "year":2005,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":5.32781839,
+    "max_budget_priority":12.6199131,
+    "range_budget_priority":7.29209471
+  },
+  {
+    "year":2005,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":1.95315254,
+    "max_budget_priority":11.51896095,
+    "range_budget_priority":9.56580841
+  },
+  {
+    "year":2005,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":3.84421062,
+    "max_budget_priority":11.35010338,
+    "range_budget_priority":7.50589276
+  },
+  {
+    "year":2005,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":4.8206377,
+    "max_budget_priority":12.61231613,
+    "range_budget_priority":7.79167843
+  },
+  {
+    "year":2005,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_budget_priority":2.37759972,
+    "max_budget_priority":13.63450813,
+    "range_budget_priority":11.25690841
+  },
+  {
+    "year":2005,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":2.83986473,
+    "max_budget_priority":5.07680273,
+    "range_budget_priority":2.236938
+  },
+  {
+    "year":2005,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":5.78062487,
+    "max_budget_priority":7.76159906,
+    "range_budget_priority":1.98097419
+  },
+  {
+    "year":2005,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":7.36270761,
+    "max_budget_priority":18.94181824,
+    "range_budget_priority":11.57911063
+  },
+  {
+    "year":2006,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":7.90729713,
+    "max_budget_priority":7.90729713,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2006,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":1.62111926,
+    "max_budget_priority":10.24768925,
+    "range_budget_priority":8.62656999
+  },
+  {
+    "year":2006,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_budget_priority":7.14463902,
+    "max_budget_priority":9.17792225,
+    "range_budget_priority":2.03328323
+  },
+  {
+    "year":2006,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":9.4422226,
+    "max_budget_priority":9.4422226,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2006,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":5.29271793,
+    "max_budget_priority":5.67257071,
+    "range_budget_priority":0.37985278
+  },
+  {
+    "year":2006,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_budget_priority":2.52350521,
+    "max_budget_priority":13.54461861,
+    "range_budget_priority":11.0211134
+  },
+  {
+    "year":2006,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":5.18173981,
+    "max_budget_priority":13.50882816,
+    "range_budget_priority":8.32708835
+  },
+  {
+    "year":2006,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":1.69165504,
+    "max_budget_priority":5.18314695,
+    "range_budget_priority":3.49149191
+  },
+  {
+    "year":2006,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":3.55967808,
+    "max_budget_priority":11.73456955,
+    "range_budget_priority":8.17489147
+  },
+  {
+    "year":2006,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":4.7187376,
+    "max_budget_priority":12.62098312,
+    "range_budget_priority":7.90224552
+  },
+  {
+    "year":2006,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_budget_priority":1.88660884,
+    "max_budget_priority":11.49724102,
+    "range_budget_priority":9.61063218
+  },
+  {
+    "year":2006,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":2.53066921,
+    "max_budget_priority":5.76007175,
+    "range_budget_priority":3.22940254
+  },
+  {
+    "year":2006,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":5.27548695,
+    "max_budget_priority":7.84512997,
+    "range_budget_priority":2.56964302
+  },
+  {
+    "year":2006,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":7.30248404,
+    "max_budget_priority":18.42737389,
+    "range_budget_priority":11.12488985
+  },
+  {
+    "year":2007,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":7.26253414,
+    "max_budget_priority":7.26253414,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2007,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":2.37287188,
+    "max_budget_priority":11.83832264,
+    "range_budget_priority":9.46545076
+  },
+  {
+    "year":2007,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_budget_priority":5.99494457,
+    "max_budget_priority":9.87465858,
+    "range_budget_priority":3.87971401
+  },
+  {
+    "year":2007,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":10.46531487,
+    "max_budget_priority":10.46531487,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2007,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":3.54459715,
+    "max_budget_priority":5.60290384,
+    "range_budget_priority":2.05830669
+  },
+  {
+    "year":2007,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_budget_priority":2.52350521,
+    "max_budget_priority":8.63178158,
+    "range_budget_priority":6.10827637
+  },
+  {
+    "year":2007,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":4.33239889,
+    "max_budget_priority":10.88657188,
+    "range_budget_priority":6.55417299
+  },
+  {
+    "year":2007,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":2.05207968,
+    "max_budget_priority":4.27638435,
+    "range_budget_priority":2.22430467
+  },
+  {
+    "year":2007,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":3.88567042,
+    "max_budget_priority":11.84733677,
+    "range_budget_priority":7.96166635
+  },
+  {
+    "year":2007,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":4.51627111,
+    "max_budget_priority":12.37345791,
+    "range_budget_priority":7.8571868
+  },
+  {
+    "year":2007,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_budget_priority":2.78024507,
+    "max_budget_priority":10.09019661,
+    "range_budget_priority":7.30995154
+  },
+  {
+    "year":2007,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":2.44153905,
+    "max_budget_priority":6.36190653,
+    "range_budget_priority":3.92036748
+  },
+  {
+    "year":2007,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":4.81298208,
+    "max_budget_priority":7.63073635,
+    "range_budget_priority":2.81775427
+  },
+  {
+    "year":2007,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":6.8428731,
+    "max_budget_priority":20.65299988,
+    "range_budget_priority":13.81012678
+  },
+  {
+    "year":2008,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":8.90184402,
+    "max_budget_priority":8.90184402,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2008,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":2.37287188,
+    "max_budget_priority":8.97678375,
+    "range_budget_priority":6.60391187
+  },
+  {
+    "year":2008,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_budget_priority":4.2314992,
+    "max_budget_priority":5.28349304,
+    "range_budget_priority":1.05199384
+  },
+  {
+    "year":2008,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":8.78631306,
+    "max_budget_priority":8.78631306,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2008,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":5.66810656,
+    "max_budget_priority":6.62496853,
+    "range_budget_priority":0.95686197
+  },
+  {
+    "year":2008,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_budget_priority":2.52350521,
+    "max_budget_priority":9.1883316,
+    "range_budget_priority":6.66482639
+  },
+  {
+    "year":2008,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":2.86453962,
+    "max_budget_priority":12.48550034,
+    "range_budget_priority":9.62096072
+  },
+  {
+    "year":2008,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":3.46105146,
+    "max_budget_priority":4.54892206,
+    "range_budget_priority":1.0878706
+  },
+  {
+    "year":2008,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":4.48034525,
+    "max_budget_priority":11.84145737,
+    "range_budget_priority":7.36111212
+  },
+  {
+    "year":2008,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":4.0603714,
+    "max_budget_priority":13.34263515,
+    "range_budget_priority":9.28226375
+  },
+  {
+    "year":2008,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_budget_priority":2.67598891,
+    "max_budget_priority":9.87775517,
+    "range_budget_priority":7.20176626
+  },
+  {
+    "year":2008,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":2.43119001,
+    "max_budget_priority":5.61290503,
+    "range_budget_priority":3.18171502
+  },
+  {
+    "year":2008,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":3.70079064,
+    "max_budget_priority":7.68720913,
+    "range_budget_priority":3.98641849
+  },
+  {
+    "year":2008,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":6.12254477,
+    "max_budget_priority":17.22389221,
+    "range_budget_priority":11.10134744
+  },
+  {
+    "year":2009,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":7.43247128,
+    "max_budget_priority":7.43247128,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2009,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":2.37287188,
+    "max_budget_priority":10.43949318,
+    "range_budget_priority":8.0666213
+  },
+  {
+    "year":2009,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_budget_priority":3.54986572,
+    "max_budget_priority":4.57543802,
+    "range_budget_priority":1.0255723
+  },
+  {
+    "year":2009,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":14.01954556,
+    "max_budget_priority":14.01954556,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2009,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":4.9652133,
+    "max_budget_priority":5.23243809,
+    "range_budget_priority":0.26722479
+  },
+  {
+    "year":2009,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_budget_priority":2.52350521,
+    "max_budget_priority":8.69414043,
+    "range_budget_priority":6.17063522
+  },
+  {
+    "year":2009,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":2.77465606,
+    "max_budget_priority":7.58396149,
+    "range_budget_priority":4.80930543
+  },
+  {
+    "year":2009,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":2.52816463,
+    "max_budget_priority":3.2723732,
+    "range_budget_priority":0.74420857
+  },
+  {
+    "year":2009,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":4.47624159,
+    "max_budget_priority":12.0754261,
+    "range_budget_priority":7.59918451
+  },
+  {
+    "year":2009,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":5.77788925,
+    "max_budget_priority":13.33174038,
+    "range_budget_priority":7.55385113
+  },
+  {
+    "year":2009,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_budget_priority":1.60398209,
+    "max_budget_priority":12.35655785,
+    "range_budget_priority":10.75257576
+  },
+  {
+    "year":2009,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":1.93038285,
+    "max_budget_priority":6.81763697,
+    "range_budget_priority":4.88725412
+  },
+  {
+    "year":2009,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":4.08903933,
+    "max_budget_priority":8.64468479,
+    "range_budget_priority":4.55564546
+  },
+  {
+    "year":2009,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":6.25206232,
+    "max_budget_priority":13.49217892,
+    "range_budget_priority":7.2401166
+  },
+  {
+    "year":2010,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":8.98343086,
+    "max_budget_priority":8.98343086,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2010,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":2.37287188,
+    "max_budget_priority":15.20979691,
+    "range_budget_priority":12.83692503
+  },
+  {
+    "year":2010,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_budget_priority":3.34147334,
+    "max_budget_priority":3.49792719,
+    "range_budget_priority":0.15645385
+  },
+  {
+    "year":2010,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":9.48801804,
+    "max_budget_priority":9.48801804,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2010,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":4.67241478,
+    "max_budget_priority":5.77464294,
+    "range_budget_priority":1.10222816
+  },
+  {
+    "year":2010,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_budget_priority":2.52350521,
+    "max_budget_priority":9.17788696,
+    "range_budget_priority":6.65438175
+  },
+  {
+    "year":2010,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":2.83923602,
+    "max_budget_priority":7.32137966,
+    "range_budget_priority":4.48214364
+  },
+  {
+    "year":2010,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":2.67579794,
+    "max_budget_priority":4.10028458,
+    "range_budget_priority":1.42448664
+  },
+  {
+    "year":2010,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":4.22304821,
+    "max_budget_priority":13.03182125,
+    "range_budget_priority":8.80877304
+  },
+  {
+    "year":2010,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":4.24956799,
+    "max_budget_priority":13.76667213,
+    "range_budget_priority":9.51710414
+  },
+  {
+    "year":2010,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_budget_priority":1.76977015,
+    "max_budget_priority":11.91557407,
+    "range_budget_priority":10.14580392
+  },
+  {
+    "year":2010,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":2.06918454,
+    "max_budget_priority":6.81337643,
+    "range_budget_priority":4.74419189
+  },
+  {
+    "year":2010,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":4.33412743,
+    "max_budget_priority":9.18787575,
+    "range_budget_priority":4.85374832
+  },
+  {
+    "year":2010,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":8.06093502,
+    "max_budget_priority":14.5885601,
+    "range_budget_priority":6.52762508
+  },
+  {
+    "year":2011,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":8.27868843,
+    "max_budget_priority":8.27868843,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2011,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":2.09114432,
+    "max_budget_priority":13.9367857,
+    "range_budget_priority":11.84564138
+  },
+  {
+    "year":2011,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_budget_priority":2.93255639,
+    "max_budget_priority":3.68802667,
+    "range_budget_priority":0.75547028
+  },
+  {
+    "year":2011,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":7.03567696,
+    "max_budget_priority":7.03567696,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2011,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":4.34422016,
+    "max_budget_priority":6.77999687,
+    "range_budget_priority":2.43577671
+  },
+  {
+    "year":2011,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_budget_priority":2.52350521,
+    "max_budget_priority":8.29973888,
+    "range_budget_priority":5.77623367
+  },
+  {
+    "year":2011,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":6.76211929,
+    "max_budget_priority":8.47449207,
+    "range_budget_priority":1.71237278
+  },
+  {
+    "year":2011,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":2.33683133,
+    "max_budget_priority":4.30936193,
+    "range_budget_priority":1.9725306
+  },
+  {
+    "year":2011,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":4.40092897,
+    "max_budget_priority":12.38613319,
+    "range_budget_priority":7.98520422
+  },
+  {
+    "year":2011,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":4.58056879,
+    "max_budget_priority":14.27736378,
+    "range_budget_priority":9.69679499
+  },
+  {
+    "year":2011,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_budget_priority":2.77141333,
+    "max_budget_priority":12.07416725,
+    "range_budget_priority":9.30275392
+  },
+  {
+    "year":2011,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":2.15473962,
+    "max_budget_priority":7.18316364,
+    "range_budget_priority":5.02842402
+  },
+  {
+    "year":2011,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":6.4195838,
+    "max_budget_priority":9.03425121,
+    "range_budget_priority":2.61466741
+  },
+  {
+    "year":2011,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":7.36220407,
+    "max_budget_priority":14.67442226,
+    "range_budget_priority":7.31221819
+  },
+  {
+    "year":2012,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":10.42676163,
+    "max_budget_priority":10.42676163,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2012,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":2.37287188,
+    "max_budget_priority":12.93699551,
+    "range_budget_priority":10.56412363
+  },
+  {
+    "year":2012,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_budget_priority":3.96469712,
+    "max_budget_priority":4.22331715,
+    "range_budget_priority":0.25862003
+  },
+  {
+    "year":2012,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":9.06086254,
+    "max_budget_priority":9.06086254,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2012,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":4.3945961,
+    "max_budget_priority":5.09623861,
+    "range_budget_priority":0.70164251
+  },
+  {
+    "year":2012,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_budget_priority":2.66254306,
+    "max_budget_priority":6.30897522,
+    "range_budget_priority":3.64643216
+  },
+  {
+    "year":2012,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":5.35224819,
+    "max_budget_priority":7.35927916,
+    "range_budget_priority":2.00703097
+  },
+  {
+    "year":2012,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":2.67131019,
+    "max_budget_priority":4.56686974,
+    "range_budget_priority":1.89555955
+  },
+  {
+    "year":2012,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":4.16698551,
+    "max_budget_priority":12.63853073,
+    "range_budget_priority":8.47154522
+  },
+  {
+    "year":2012,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":4.20151329,
+    "max_budget_priority":13.99154949,
+    "range_budget_priority":9.7900362
+  },
+  {
+    "year":2012,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_budget_priority":2.63003397,
+    "max_budget_priority":8.9727478,
+    "range_budget_priority":6.34271383
+  },
+  {
+    "year":2012,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":1.99630141,
+    "max_budget_priority":6.19158506,
+    "range_budget_priority":4.19528365
+  },
+  {
+    "year":2012,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":7.41257477,
+    "max_budget_priority":10.06144714,
+    "range_budget_priority":2.64887237
+  },
+  {
+    "year":2012,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":8.31904316,
+    "max_budget_priority":14.46731377,
+    "range_budget_priority":6.14827061
+  },
+  {
+    "year":2013,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":8.47202492,
+    "max_budget_priority":8.47202492,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2013,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":2.37287188,
+    "max_budget_priority":10.26806545,
+    "range_budget_priority":7.89519357
+  },
+  {
+    "year":2013,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_budget_priority":5.03679276,
+    "max_budget_priority":7.34515285,
+    "range_budget_priority":2.30836009
+  },
+  {
+    "year":2013,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":7.5176096,
+    "max_budget_priority":7.5176096,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2013,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":4.72615862,
+    "max_budget_priority":7.15567255,
+    "range_budget_priority":2.42951393
+  },
+  {
+    "year":2013,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_budget_priority":1.15725291,
+    "max_budget_priority":6.55533648,
+    "range_budget_priority":5.39808357
+  },
+  {
+    "year":2013,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":4.449965,
+    "max_budget_priority":7.14972067,
+    "range_budget_priority":2.69975567
+  },
+  {
+    "year":2013,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":2.20951629,
+    "max_budget_priority":8.44008923,
+    "range_budget_priority":6.23057294
+  },
+  {
+    "year":2013,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":4.1566329,
+    "max_budget_priority":12.49827194,
+    "range_budget_priority":8.34163904
+  },
+  {
+    "year":2013,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":4.57540083,
+    "max_budget_priority":11.66008472,
+    "range_budget_priority":7.08468389
+  },
+  {
+    "year":2013,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_budget_priority":2.62362289,
+    "max_budget_priority":9.02955627,
+    "range_budget_priority":6.40593338
+  },
+  {
+    "year":2013,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":2.11071348,
+    "max_budget_priority":5.25754023,
+    "range_budget_priority":3.14682675
+  },
+  {
+    "year":2013,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":4.97124195,
+    "max_budget_priority":11.70106602,
+    "range_budget_priority":6.72982407
+  },
+  {
+    "year":2013,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":8.00718403,
+    "max_budget_priority":14.33791637,
+    "range_budget_priority":6.33073234
+  },
+  {
+    "year":2014,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":9.53861809,
+    "max_budget_priority":9.53861809,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2014,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":2.37287188,
+    "max_budget_priority":13.92414951,
+    "range_budget_priority":11.55127763
+  },
+  {
+    "year":2014,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_budget_priority":3.94678593,
+    "max_budget_priority":5.54861546,
+    "range_budget_priority":1.60182953
+  },
+  {
+    "year":2014,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":10.61807156,
+    "max_budget_priority":10.61807156,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2014,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":4.31728172,
+    "max_budget_priority":8.58090496,
+    "range_budget_priority":4.26362324
+  },
+  {
+    "year":2014,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_budget_priority":2.46118927,
+    "max_budget_priority":7.77367115,
+    "range_budget_priority":5.31248188
+  },
+  {
+    "year":2014,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":3.81965494,
+    "max_budget_priority":7.8450079,
+    "range_budget_priority":4.02535296
+  },
+  {
+    "year":2014,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":1.9499675,
+    "max_budget_priority":7.77581406,
+    "range_budget_priority":5.82584656
+  },
+  {
+    "year":2014,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":4.16148472,
+    "max_budget_priority":13.54343796,
+    "range_budget_priority":9.38195324
+  },
+  {
+    "year":2014,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":3.61568022,
+    "max_budget_priority":11.59240246,
+    "range_budget_priority":7.97672224
+  },
+  {
+    "year":2014,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_budget_priority":3.04792023,
+    "max_budget_priority":9.98307133,
+    "range_budget_priority":6.9351511
+  },
+  {
+    "year":2014,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":2.06072378,
+    "max_budget_priority":6.38458252,
+    "range_budget_priority":4.32385874
+  },
+  {
+    "year":2014,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":5.71347761,
+    "max_budget_priority":11.41803837,
+    "range_budget_priority":5.70456076
+  },
+  {
+    "year":2014,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":10.52838707,
+    "max_budget_priority":14.9161272,
+    "range_budget_priority":4.38774013
+  },
+  {
+    "year":2015,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":9.90167999,
+    "max_budget_priority":9.90167999,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2015,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":2.37287188,
+    "max_budget_priority":15.27427959,
+    "range_budget_priority":12.90140771
+  },
+  {
+    "year":2015,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_budget_priority":3.26452565,
+    "max_budget_priority":5.24520254,
+    "range_budget_priority":1.98067689
+  },
+  {
+    "year":2015,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":6.66369581,
+    "max_budget_priority":6.66369581,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2015,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":5.55443764,
+    "max_budget_priority":9.72891998,
+    "range_budget_priority":4.17448234
+  },
+  {
+    "year":2015,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_budget_priority":2.50101542,
+    "max_budget_priority":7.15264177,
+    "range_budget_priority":4.65162635
+  },
+  {
+    "year":2015,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":2.44571519,
+    "max_budget_priority":8.07448006,
+    "range_budget_priority":5.62876487
+  },
+  {
+    "year":2015,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":1.81293964,
+    "max_budget_priority":4.93684101,
+    "range_budget_priority":3.12390137
+  },
+  {
+    "year":2015,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":5.05797672,
+    "max_budget_priority":12.1791687,
+    "range_budget_priority":7.12119198
+  },
+  {
+    "year":2015,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":4.56262541,
+    "max_budget_priority":10.86027813,
+    "range_budget_priority":6.29765272
+  },
+  {
+    "year":2015,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_budget_priority":1.98006856,
+    "max_budget_priority":10.09395409,
+    "range_budget_priority":8.11388553
+  },
+  {
+    "year":2015,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":1.78799117,
+    "max_budget_priority":7.03487396,
+    "range_budget_priority":5.24688279
+  },
+  {
+    "year":2015,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":7.51431656,
+    "max_budget_priority":10.60481071,
+    "range_budget_priority":3.09049415
+  },
+  {
+    "year":2015,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":9.45841885,
+    "max_budget_priority":15.23773575,
+    "range_budget_priority":5.7793169
+  },
+  {
+    "year":2016,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":9.45435524,
+    "max_budget_priority":9.45435524,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2016,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":2.37287188,
+    "max_budget_priority":17.51086807,
+    "range_budget_priority":15.13799619
+  },
+  {
+    "year":2016,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_budget_priority":4.94713306,
+    "max_budget_priority":5.72502089,
+    "range_budget_priority":0.77788783
+  },
+  {
+    "year":2016,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":12.92873669,
+    "max_budget_priority":12.92873669,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2016,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":5.99596214,
+    "max_budget_priority":9.67796707,
+    "range_budget_priority":3.68200493
+  },
+  {
+    "year":2016,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_budget_priority":2.36231256,
+    "max_budget_priority":11.03399372,
+    "range_budget_priority":8.67168116
+  },
+  {
+    "year":2016,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":3.03607512,
+    "max_budget_priority":9.52143383,
+    "range_budget_priority":6.48535871
+  },
+  {
+    "year":2016,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":1.81293964,
+    "max_budget_priority":8.00215721,
+    "range_budget_priority":6.18921757
+  },
+  {
+    "year":2016,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":5.05797672,
+    "max_budget_priority":12.51508331,
+    "range_budget_priority":7.45710659
+  },
+  {
+    "year":2016,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":5.43269682,
+    "max_budget_priority":10.33607674,
+    "range_budget_priority":4.90337992
+  },
+  {
+    "year":2016,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_budget_priority":4.12965584,
+    "max_budget_priority":10.39242458,
+    "range_budget_priority":6.26276874
+  },
+  {
+    "year":2016,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":3.11053944,
+    "max_budget_priority":9.20255756,
+    "range_budget_priority":6.09201812
+  },
+  {
+    "year":2016,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":9.90810204,
+    "max_budget_priority":10.60594082,
+    "range_budget_priority":0.69783878
+  },
+  {
+    "year":2016,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":10.2022686,
+    "max_budget_priority":15.28983974,
+    "range_budget_priority":5.08757114
+  },
+  {
+    "year":2017,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":9.54629803,
+    "max_budget_priority":9.54629803,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2017,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":2.10620522,
+    "max_budget_priority":15.03208733,
+    "range_budget_priority":12.92588211
+  },
+  {
+    "year":2017,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_budget_priority":4.67839575,
+    "max_budget_priority":5.25997734,
+    "range_budget_priority":0.58158159
+  },
+  {
+    "year":2017,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":8.32499409,
+    "max_budget_priority":8.32499409,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2017,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":6.07456493,
+    "max_budget_priority":8.18961334,
+    "range_budget_priority":2.11504841
+  },
+  {
+    "year":2017,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_budget_priority":2.75228286,
+    "max_budget_priority":10.2352047,
+    "range_budget_priority":7.48292184
+  },
+  {
+    "year":2017,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":3.58549595,
+    "max_budget_priority":9.52143383,
+    "range_budget_priority":5.93593788
+  },
+  {
+    "year":2017,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":0.73440903,
+    "max_budget_priority":10.76263332,
+    "range_budget_priority":10.02822429
+  },
+  {
+    "year":2017,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":5.41994762,
+    "max_budget_priority":11.56142235,
+    "range_budget_priority":6.14147473
+  },
+  {
+    "year":2017,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":5.36431932,
+    "max_budget_priority":11.97283363,
+    "range_budget_priority":6.60851431
+  },
+  {
+    "year":2017,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_budget_priority":3.47824264,
+    "max_budget_priority":9.27400303,
+    "range_budget_priority":5.79576039
+  },
+  {
+    "year":2017,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":3.93629169,
+    "max_budget_priority":9.7150774,
+    "range_budget_priority":5.77878571
+  },
+  {
+    "year":2017,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":8.86267471,
+    "max_budget_priority":10.60604,
+    "range_budget_priority":1.74336529
+  },
+  {
+    "year":2017,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":10.20433331,
+    "max_budget_priority":15.28983974,
+    "range_budget_priority":5.08550643
+  },
+  {
+    "year":2018,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":9.58416653,
+    "max_budget_priority":9.58416653,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2018,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":2.10620522,
+    "max_budget_priority":10.42956638,
+    "range_budget_priority":8.32336116
+  },
+  {
+    "year":2018,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_budget_priority":3.91087461,
+    "max_budget_priority":4.86149549,
+    "range_budget_priority":0.95062088
+  },
+  {
+    "year":2018,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":6.17103291,
+    "max_budget_priority":6.17103291,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2018,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":5.73160601,
+    "max_budget_priority":8.7133112,
+    "range_budget_priority":2.98170519
+  },
+  {
+    "year":2018,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_budget_priority":2.59429789,
+    "max_budget_priority":8.78502369,
+    "range_budget_priority":6.1907258
+  },
+  {
+    "year":2018,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":3.99391246,
+    "max_budget_priority":9.41473198,
+    "range_budget_priority":5.42081952
+  },
+  {
+    "year":2018,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":1.95703375,
+    "max_budget_priority":9.38566875,
+    "range_budget_priority":7.428635
+  },
+  {
+    "year":2018,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":4.72158527,
+    "max_budget_priority":10.78331375,
+    "range_budget_priority":6.06172848
+  },
+  {
+    "year":2018,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":5.36431932,
+    "max_budget_priority":10.77791023,
+    "range_budget_priority":5.41359091
+  },
+  {
+    "year":2018,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_budget_priority":3.87917757,
+    "max_budget_priority":11.26552677,
+    "range_budget_priority":7.3863492
+  },
+  {
+    "year":2018,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":4.27754259,
+    "max_budget_priority":9.41520691,
+    "range_budget_priority":5.13766432
+  },
+  {
+    "year":2018,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":9.27033234,
+    "max_budget_priority":10.60616875,
+    "range_budget_priority":1.33583641
+  },
+  {
+    "year":2018,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":10.20625019,
+    "max_budget_priority":15.28983974,
+    "range_budget_priority":5.08358955
+  },
+  {
+    "year":2019,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":9.58416653,
+    "max_budget_priority":9.58416653,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2019,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":2.10620522,
+    "max_budget_priority":7.90786219,
+    "range_budget_priority":5.80165697
+  },
+  {
+    "year":2019,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_budget_priority":4.84231758,
+    "max_budget_priority":4.86149549,
+    "range_budget_priority":0.01917791
+  },
+  {
+    "year":2019,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":5.55815172,
+    "max_budget_priority":5.55815172,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2019,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":6.52060223,
+    "max_budget_priority":7.93860054,
+    "range_budget_priority":1.41799831
+  },
+  {
+    "year":2019,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_budget_priority":2.44074059,
+    "max_budget_priority":9.57691097,
+    "range_budget_priority":7.13617038
+  },
+  {
+    "year":2019,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":4.13345671,
+    "max_budget_priority":9.43801022,
+    "range_budget_priority":5.30455351
+  },
+  {
+    "year":2019,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":2.17985916,
+    "max_budget_priority":9.77780437,
+    "range_budget_priority":7.59794521
+  },
+  {
+    "year":2019,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":4.82284689,
+    "max_budget_priority":12.07894421,
+    "range_budget_priority":7.25609732
+  },
+  {
+    "year":2019,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":3.26649117,
+    "max_budget_priority":12.93035984,
+    "range_budget_priority":9.66386867
+  },
+  {
+    "year":2019,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_budget_priority":3.12481403,
+    "max_budget_priority":11.78346062,
+    "range_budget_priority":8.65864659
+  },
+  {
+    "year":2019,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":4.79222822,
+    "max_budget_priority":9.59155846,
+    "range_budget_priority":4.79933024
+  },
+  {
+    "year":2019,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":8.36049366,
+    "max_budget_priority":8.83036137,
+    "range_budget_priority":0.46986771
+  },
+  {
+    "year":2019,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":9.0032053,
+    "max_budget_priority":15.28983974,
+    "range_budget_priority":6.28663444
+  },
+  {
+    "year":2020,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":9.58416653,
+    "max_budget_priority":9.58416653,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2020,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":2.10620522,
+    "max_budget_priority":7.33287811,
+    "range_budget_priority":5.22667289
+  },
+  {
+    "year":2020,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_budget_priority":3.95443511,
+    "max_budget_priority":4.86442041,
+    "range_budget_priority":0.9099853
+  },
+  {
+    "year":2020,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":9.54511547,
+    "max_budget_priority":9.54511547,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2020,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":6.8733201,
+    "max_budget_priority":7.06412458,
+    "range_budget_priority":0.19080448
+  },
+  {
+    "year":2020,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_budget_priority":3.74818683,
+    "max_budget_priority":11.64750004,
+    "range_budget_priority":7.89931321
+  },
+  {
+    "year":2020,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":4.15930223,
+    "max_budget_priority":8.91046047,
+    "range_budget_priority":4.75115824
+  },
+  {
+    "year":2020,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":3.65950561,
+    "max_budget_priority":12.80399513,
+    "range_budget_priority":9.14448952
+  },
+  {
+    "year":2020,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":5.16112232,
+    "max_budget_priority":12.48706436,
+    "range_budget_priority":7.32594204
+  },
+  {
+    "year":2020,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":4.7405839,
+    "max_budget_priority":10.56005478,
+    "range_budget_priority":5.81947088
+  },
+  {
+    "year":2020,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_budget_priority":2.68062353,
+    "max_budget_priority":13.44707775,
+    "range_budget_priority":10.76645422
+  },
+  {
+    "year":2020,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":6.39538145,
+    "max_budget_priority":9.59155846,
+    "range_budget_priority":3.19617701
+  },
+  {
+    "year":2020,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":8.83030605,
+    "max_budget_priority":9.74319744,
+    "range_budget_priority":0.91289139
+  },
+  {
+    "year":2020,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":8.99296188,
+    "max_budget_priority":16.88567543,
+    "range_budget_priority":7.89271355
+  },
+  {
+    "year":2021,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":9.58416653,
+    "max_budget_priority":9.58416653,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2021,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":2.10620522,
+    "max_budget_priority":8.35194492,
+    "range_budget_priority":6.2457397
+  },
+  {
+    "year":2021,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_budget_priority":5.64191198,
+    "max_budget_priority":6.42073488,
+    "range_budget_priority":0.7788229
+  },
+  {
+    "year":2021,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":7.86141205,
+    "max_budget_priority":7.86141205,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2021,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":5.75638103,
+    "max_budget_priority":7.11263514,
+    "range_budget_priority":1.35625411
+  },
+  {
+    "year":2021,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_budget_priority":2.56088448,
+    "max_budget_priority":9.83841515,
+    "range_budget_priority":7.27753067
+  },
+  {
+    "year":2021,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":3.31527162,
+    "max_budget_priority":9.28240871,
+    "range_budget_priority":5.96713709
+  },
+  {
+    "year":2021,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":2.86292386,
+    "max_budget_priority":13.14262199,
+    "range_budget_priority":10.27969813
+  },
+  {
+    "year":2021,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":6.79944944,
+    "max_budget_priority":12.38628578,
+    "range_budget_priority":5.58683634
+  },
+  {
+    "year":2021,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":4.7405839,
+    "max_budget_priority":12.30096912,
+    "range_budget_priority":7.56038522
+  },
+  {
+    "year":2021,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_budget_priority":1.68089795,
+    "max_budget_priority":14.88970947,
+    "range_budget_priority":13.20881152
+  },
+  {
+    "year":2021,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":8.99737644,
+    "max_budget_priority":9.59155846,
+    "range_budget_priority":0.59418202
+  },
+  {
+    "year":2021,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":6.91146994,
+    "max_budget_priority":8.82852936,
+    "range_budget_priority":1.91705942
+  },
+  {
+    "year":2021,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":10.8982172,
+    "max_budget_priority":16.88567543,
+    "range_budget_priority":5.98745823
+  },
+  {
+    "year":2022,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":9.58416653,
+    "max_budget_priority":9.58416653,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2022,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":2.10620522,
+    "max_budget_priority":8.20253277,
+    "range_budget_priority":6.09632755
+  },
+  {
+    "year":2022,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_budget_priority":7.26373339,
+    "max_budget_priority":8.47619724,
+    "range_budget_priority":1.21246385
+  },
+  {
+    "year":2022,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":4.62260628,
+    "max_budget_priority":4.62260628,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2022,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":3.28711009,
+    "max_budget_priority":6.95726824,
+    "range_budget_priority":3.67015815
+  },
+  {
+    "year":2022,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_budget_priority":2.56088448,
+    "max_budget_priority":8.39684868,
+    "range_budget_priority":5.8359642
+  },
+  {
+    "year":2022,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":4.73731661,
+    "max_budget_priority":8.65115547,
+    "range_budget_priority":3.91383886
+  },
+  {
+    "year":2022,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":3.52587986,
+    "max_budget_priority":8.34457493,
+    "range_budget_priority":4.81869507
+  },
+  {
+    "year":2022,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":5.94327879,
+    "max_budget_priority":10.83969498,
+    "range_budget_priority":4.89641619
+  },
+  {
+    "year":2022,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":4.7405839,
+    "max_budget_priority":12.88314819,
+    "range_budget_priority":8.14256429
+  },
+  {
+    "year":2022,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_budget_priority":2.55340433,
+    "max_budget_priority":16.06422043,
+    "range_budget_priority":13.5108161
+  },
+  {
+    "year":2022,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":5.86133051,
+    "max_budget_priority":9.59155846,
+    "range_budget_priority":3.73022795
+  },
+  {
+    "year":2022,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":5.06271315,
+    "max_budget_priority":5.25156403,
+    "range_budget_priority":0.18885088
+  },
+  {
+    "year":2022,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":8.60920906,
+    "max_budget_priority":16.88567543,
+    "range_budget_priority":8.27646637
+  },
+  {
+    "year":2023,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":9.58416653,
+    "max_budget_priority":9.58416653,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2023,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":2.13586187,
+    "max_budget_priority":8.92309856,
+    "range_budget_priority":6.78723669
+  },
+  {
+    "year":2023,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_budget_priority":7.26373339,
+    "max_budget_priority":8.47619724,
+    "range_budget_priority":1.21246385
+  },
+  {
+    "year":2023,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":7.14617443,
+    "max_budget_priority":7.14617443,
+    "range_budget_priority":0.0
+  },
+  {
+    "year":2023,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":3.28711009,
+    "max_budget_priority":6.76256466,
+    "range_budget_priority":3.47545457
+  },
+  {
+    "year":2023,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_budget_priority":2.56088448,
+    "max_budget_priority":8.77536201,
+    "range_budget_priority":6.21447753
+  },
+  {
+    "year":2023,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_budget_priority":4.73731661,
+    "max_budget_priority":8.65115547,
+    "range_budget_priority":3.91383886
+  },
+  {
+    "year":2023,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":3.91280055,
+    "max_budget_priority":8.7735281,
+    "range_budget_priority":4.86072755
+  },
+  {
+    "year":2023,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":5.94327879,
+    "max_budget_priority":12.10021591,
+    "range_budget_priority":6.15693712
+  },
+  {
+    "year":2023,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":4.7405839,
+    "max_budget_priority":11.83322239,
+    "range_budget_priority":7.09263849
+  },
+  {
+    "year":2023,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_budget_priority":2.55340433,
+    "max_budget_priority":13.78944969,
+    "range_budget_priority":11.23604536
+  },
+  {
+    "year":2023,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_budget_priority":5.86530781,
+    "max_budget_priority":9.59155846,
+    "range_budget_priority":3.72625065
+  },
+  {
+    "year":2023,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_budget_priority":6.16833448,
+    "max_budget_priority":9.57147312,
+    "range_budget_priority":3.40313864
+  },
+  {
+    "year":2023,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_budget_priority":8.24311256,
+    "max_budget_priority":16.88567543,
+    "range_budget_priority":8.64256287
+  }
+]

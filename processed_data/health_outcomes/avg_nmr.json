@@ -1,0 +1,2018 @@
+[
+  {
+    "year":2000,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":11.809176938
+  },
+  {
+    "year":2000,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":83.7210022193
+  },
+  {
+    "year":2000,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_nmr":100.9189764595
+  },
+  {
+    "year":2000,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_nmr":70.789385135
+  },
+  {
+    "year":2000,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_nmr":103.1394768685
+  },
+  {
+    "year":2000,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_nmr":99.311164788
+  },
+  {
+    "year":2000,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":73.711652293
+  },
+  {
+    "year":2000,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":68.9657476627
+  },
+  {
+    "year":2000,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":44.0630193385
+  },
+  {
+    "year":2000,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":88.8413363385
+  },
+  {
+    "year":2000,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_nmr":75.7146361743
+  },
+  {
+    "year":2000,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":78.623919817
+  },
+  {
+    "year":2000,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":28.0728626545
+  },
+  {
+    "year":2000,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":37.968017342
+  },
+  {
+    "year":2001,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":11.848720968
+  },
+  {
+    "year":2001,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":79.9470052654
+  },
+  {
+    "year":2001,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_nmr":99.288789953
+  },
+  {
+    "year":2001,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_nmr":68.875529448
+  },
+  {
+    "year":2001,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_nmr":96.5966875605
+  },
+  {
+    "year":2001,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_nmr":95.946040176
+  },
+  {
+    "year":2001,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":70.939547858
+  },
+  {
+    "year":2001,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":66.617250415
+  },
+  {
+    "year":2001,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":42.177879578
+  },
+  {
+    "year":2001,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":87.2491712678
+  },
+  {
+    "year":2001,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_nmr":73.174796992
+  },
+  {
+    "year":2001,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":76.4645212515
+  },
+  {
+    "year":2001,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":27.2361795895
+  },
+  {
+    "year":2001,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":37.453384439
+  },
+  {
+    "year":2002,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":11.896842492
+  },
+  {
+    "year":2002,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":76.116505581
+  },
+  {
+    "year":2002,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_nmr":97.4949075935
+  },
+  {
+    "year":2002,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_nmr":66.93069935
+  },
+  {
+    "year":2002,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_nmr":89.793982101
+  },
+  {
+    "year":2002,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_nmr":92.476746909
+  },
+  {
+    "year":2002,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":68.0781499995
+  },
+  {
+    "year":2002,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":63.855642713
+  },
+  {
+    "year":2002,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":40.2321851545
+  },
+  {
+    "year":2002,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":85.1473193928
+  },
+  {
+    "year":2002,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_nmr":70.6286425111
+  },
+  {
+    "year":2002,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":74.3271133095
+  },
+  {
+    "year":2002,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":26.36065274
+  },
+  {
+    "year":2002,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":37.1253381292
+  },
+  {
+    "year":2003,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":11.955162559
+  },
+  {
+    "year":2003,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":72.3399777677
+  },
+  {
+    "year":2003,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_nmr":95.6466068515
+  },
+  {
+    "year":2003,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_nmr":65.039122735
+  },
+  {
+    "year":2003,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_nmr":83.3151890615
+  },
+  {
+    "year":2003,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_nmr":88.9792675805
+  },
+  {
+    "year":2003,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":65.2487751223
+  },
+  {
+    "year":2003,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":60.8791612273
+  },
+  {
+    "year":2003,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":38.2899691682
+  },
+  {
+    "year":2003,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":82.997971604
+  },
+  {
+    "year":2003,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_nmr":68.191571699
+  },
+  {
+    "year":2003,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":72.0846242495
+  },
+  {
+    "year":2003,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":25.4449177925
+  },
+  {
+    "year":2003,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":37.1670162913
+  },
+  {
+    "year":2004,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":12.010557333
+  },
+  {
+    "year":2004,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":68.5631552527
+  },
+  {
+    "year":2004,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_nmr":93.7119625625
+  },
+  {
+    "year":2004,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_nmr":68.2351308
+  },
+  {
+    "year":2004,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_nmr":77.4403257915
+  },
+  {
+    "year":2004,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_nmr":85.5305821399
+  },
+  {
+    "year":2004,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":62.5540071297
+  },
+  {
+    "year":2004,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":57.799015333
+  },
+  {
+    "year":2004,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":36.419934214
+  },
+  {
+    "year":2004,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":80.4757900272
+  },
+  {
+    "year":2004,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_nmr":65.9421441766
+  },
+  {
+    "year":2004,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":69.7280713055
+  },
+  {
+    "year":2004,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":24.4626624035
+  },
+  {
+    "year":2004,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":37.1951681808
+  },
+  {
+    "year":2005,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":12.079962734
+  },
+  {
+    "year":2005,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":64.9776982361
+  },
+  {
+    "year":2005,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_nmr":91.7257322345
+  },
+  {
+    "year":2005,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_nmr":66.758785097
+  },
+  {
+    "year":2005,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_nmr":72.6415290055
+  },
+  {
+    "year":2005,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_nmr":82.1998766805
+  },
+  {
+    "year":2005,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":59.9036590205
+  },
+  {
+    "year":2005,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":54.8206301663
+  },
+  {
+    "year":2005,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":34.6492033232
+  },
+  {
+    "year":2005,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":77.9468779148
+  },
+  {
+    "year":2005,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_nmr":63.8535084069
+  },
+  {
+    "year":2005,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":67.470028166
+  },
+  {
+    "year":2005,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":23.4213439055
+  },
+  {
+    "year":2005,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":35.7331299773
+  },
+  {
+    "year":2006,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":12.166428629
+  },
+  {
+    "year":2006,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":61.6209769764
+  },
+  {
+    "year":2006,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_nmr":89.4194163985
+  },
+  {
+    "year":2006,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_nmr":59.931412838
+  },
+  {
+    "year":2006,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_nmr":68.7902766845
+  },
+  {
+    "year":2006,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_nmr":79.0257616776
+  },
+  {
+    "year":2006,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":57.6021620805
+  },
+  {
+    "year":2006,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":51.8821917957
+  },
+  {
+    "year":2006,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":33.0256698483
+  },
+  {
+    "year":2006,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":73.4606205938
+  },
+  {
+    "year":2006,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_nmr":62.0335435664
+  },
+  {
+    "year":2006,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":65.267070437
+  },
+  {
+    "year":2006,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":22.349503254
+  },
+  {
+    "year":2006,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":35.03868764
+  },
+  {
+    "year":2007,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":12.26178496
+  },
+  {
+    "year":2007,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":58.5250039397
+  },
+  {
+    "year":2007,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_nmr":87.3083584595
+  },
+  {
+    "year":2007,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_nmr":58.429745699
+  },
+  {
+    "year":2007,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_nmr":64.802807301
+  },
+  {
+    "year":2007,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_nmr":76.0614940592
+  },
+  {
+    "year":2007,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":55.3962817163
+  },
+  {
+    "year":2007,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":49.2655146293
+  },
+  {
+    "year":2007,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":31.5629706175
+  },
+  {
+    "year":2007,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":71.4020775835
+  },
+  {
+    "year":2007,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_nmr":60.3427262114
+  },
+  {
+    "year":2007,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":62.9499412305
+  },
+  {
+    "year":2007,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":21.2807416705
+  },
+  {
+    "year":2007,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":35.6651641818
+  },
+  {
+    "year":2008,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":12.356735466
+  },
+  {
+    "year":2008,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":55.6657084141
+  },
+  {
+    "year":2008,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_nmr":85.2806578835
+  },
+  {
+    "year":2008,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_nmr":57.0294582
+  },
+  {
+    "year":2008,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_nmr":62.1515392735
+  },
+  {
+    "year":2008,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_nmr":73.322025652
+  },
+  {
+    "year":2008,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":53.3684403342
+  },
+  {
+    "year":2008,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":46.8513783577
+  },
+  {
+    "year":2008,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":30.2866153735
+  },
+  {
+    "year":2008,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":70.784172098
+  },
+  {
+    "year":2008,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_nmr":58.7625838983
+  },
+  {
+    "year":2008,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":60.763863582
+  },
+  {
+    "year":2008,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":20.2994210105
+  },
+  {
+    "year":2008,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":35.853247149
+  },
+  {
+    "year":2009,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":12.461870277
+  },
+  {
+    "year":2009,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":53.1900739053
+  },
+  {
+    "year":2009,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_nmr":159.9004878365
+  },
+  {
+    "year":2009,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_nmr":55.718295185
+  },
+  {
+    "year":2009,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_nmr":59.5807170665
+  },
+  {
+    "year":2009,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_nmr":70.7990097649
+  },
+  {
+    "year":2009,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":51.8254320372
+  },
+  {
+    "year":2009,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":44.789044394
+  },
+  {
+    "year":2009,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":29.171222624
+  },
+  {
+    "year":2009,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":67.0614785237
+  },
+  {
+    "year":2009,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_nmr":57.3445380194
+  },
+  {
+    "year":2009,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":58.929382512
+  },
+  {
+    "year":2009,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":19.4430454125
+  },
+  {
+    "year":2009,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":35.7708018272
+  },
+  {
+    "year":2010,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":12.574681876
+  },
+  {
+    "year":2010,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":50.8213048229
+  },
+  {
+    "year":2010,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_nmr":85.438016657
+  },
+  {
+    "year":2010,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_nmr":54.516552583
+  },
+  {
+    "year":2010,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_nmr":58.5239031555
+  },
+  {
+    "year":2010,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_nmr":68.4906087279
+  },
+  {
+    "year":2010,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":50.4705694723
+  },
+  {
+    "year":2010,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":42.6879827517
+  },
+  {
+    "year":2010,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":28.2003373992
+  },
+  {
+    "year":2010,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":64.7135510404
+  },
+  {
+    "year":2010,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_nmr":55.9834596636
+  },
+  {
+    "year":2010,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":56.898810136
+  },
+  {
+    "year":2010,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":18.709164659
+  },
+  {
+    "year":2010,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":35.408517236
+  },
+  {
+    "year":2011,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":12.688665612
+  },
+  {
+    "year":2011,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":48.5534858649
+  },
+  {
+    "year":2011,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_nmr":79.3870896195
+  },
+  {
+    "year":2011,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_nmr":53.394497219
+  },
+  {
+    "year":2011,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_nmr":54.7981539555
+  },
+  {
+    "year":2011,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_nmr":66.3698620264
+  },
+  {
+    "year":2011,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":49.2062829115
+  },
+  {
+    "year":2011,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":40.951986209
+  },
+  {
+    "year":2011,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":27.3289751225
+  },
+  {
+    "year":2011,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":61.5822961936
+  },
+  {
+    "year":2011,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_nmr":54.7222449351
+  },
+  {
+    "year":2011,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":54.95620472
+  },
+  {
+    "year":2011,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":18.8211109805
+  },
+  {
+    "year":2011,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":35.8368182735
+  },
+  {
+    "year":2012,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":12.812816831
+  },
+  {
+    "year":2012,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":46.6577731354
+  },
+  {
+    "year":2012,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_nmr":77.5574095005
+  },
+  {
+    "year":2012,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_nmr":52.349825969
+  },
+  {
+    "year":2012,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_nmr":52.015436697
+  },
+  {
+    "year":2012,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_nmr":64.4459899799
+  },
+  {
+    "year":2012,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":48.2019144255
+  },
+  {
+    "year":2012,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":39.2391038953
+  },
+  {
+    "year":2012,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":26.5394413232
+  },
+  {
+    "year":2012,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":59.5637012328
+  },
+  {
+    "year":2012,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_nmr":53.449278353
+  },
+  {
+    "year":2012,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":53.11810641
+  },
+  {
+    "year":2012,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":17.5411038855
+  },
+  {
+    "year":2012,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":35.7341915378
+  },
+  {
+    "year":2013,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":12.94668833
+  },
+  {
+    "year":2013,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":50.4732978044
+  },
+  {
+    "year":2013,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_nmr":78.8175909735
+  },
+  {
+    "year":2013,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_nmr":51.282310959
+  },
+  {
+    "year":2013,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_nmr":49.82807892
+  },
+  {
+    "year":2013,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_nmr":62.6884659036
+  },
+  {
+    "year":2013,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":47.1146605838
+  },
+  {
+    "year":2013,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":37.5237834853
+  },
+  {
+    "year":2013,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":25.7836786223
+  },
+  {
+    "year":2013,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":57.70690025
+  },
+  {
+    "year":2013,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_nmr":52.2356492746
+  },
+  {
+    "year":2013,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":51.4194425245
+  },
+  {
+    "year":2013,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":17.064534046
+  },
+  {
+    "year":2013,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":35.0785111995
+  },
+  {
+    "year":2014,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":13.067474908
+  },
+  {
+    "year":2014,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":48.81466776
+  },
+  {
+    "year":2014,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_nmr":87.460591074
+  },
+  {
+    "year":2014,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_nmr":50.138001667
+  },
+  {
+    "year":2014,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_nmr":48.05656801
+  },
+  {
+    "year":2014,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_nmr":61.4261352359
+  },
+  {
+    "year":2014,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":45.972183665
+  },
+  {
+    "year":2014,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":36.0085729173
+  },
+  {
+    "year":2014,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":25.0423237095
+  },
+  {
+    "year":2014,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":56.0773097566
+  },
+  {
+    "year":2014,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_nmr":51.1499236921
+  },
+  {
+    "year":2014,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":50.021004804
+  },
+  {
+    "year":2014,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":16.635752663
+  },
+  {
+    "year":2014,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":34.7808498238
+  },
+  {
+    "year":2015,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":13.172061017
+  },
+  {
+    "year":2015,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":47.3009359749
+  },
+  {
+    "year":2015,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_nmr":72.601828336
+  },
+  {
+    "year":2015,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_nmr":48.957365086
+  },
+  {
+    "year":2015,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_nmr":46.5607186455
+  },
+  {
+    "year":2015,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_nmr":59.943991121
+  },
+  {
+    "year":2015,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":44.816730438
+  },
+  {
+    "year":2015,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":34.4124221057
+  },
+  {
+    "year":2015,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":24.3259179798
+  },
+  {
+    "year":2015,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":54.108667671
+  },
+  {
+    "year":2015,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_nmr":50.0430962616
+  },
+  {
+    "year":2015,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":48.465576199
+  },
+  {
+    "year":2015,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":16.2518767695
+  },
+  {
+    "year":2015,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":34.336497116
+  },
+  {
+    "year":2016,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":13.26928968
+  },
+  {
+    "year":2016,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":45.897152021
+  },
+  {
+    "year":2016,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_nmr":74.020875416
+  },
+  {
+    "year":2016,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_nmr":47.753699148
+  },
+  {
+    "year":2016,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_nmr":45.2793696345
+  },
+  {
+    "year":2016,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_nmr":58.1110093078
+  },
+  {
+    "year":2016,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":43.7510285425
+  },
+  {
+    "year":2016,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":33.1200571057
+  },
+  {
+    "year":2016,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":23.60969854
+  },
+  {
+    "year":2016,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":52.172982393
+  },
+  {
+    "year":2016,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_nmr":48.8944273117
+  },
+  {
+    "year":2016,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":46.7843004325
+  },
+  {
+    "year":2016,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":15.892174844
+  },
+  {
+    "year":2016,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":33.9116370648
+  },
+  {
+    "year":2017,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":13.365316162
+  },
+  {
+    "year":2017,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":60.7537494546
+  },
+  {
+    "year":2017,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_nmr":78.318496249
+  },
+  {
+    "year":2017,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_nmr":46.474861985
+  },
+  {
+    "year":2017,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_nmr":43.8026504055
+  },
+  {
+    "year":2017,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_nmr":56.7182755264
+  },
+  {
+    "year":2017,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":42.6716635503
+  },
+  {
+    "year":2017,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":31.8262937753
+  },
+  {
+    "year":2017,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":22.8997367625
+  },
+  {
+    "year":2017,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":50.930940219
+  },
+  {
+    "year":2017,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_nmr":47.8060152486
+  },
+  {
+    "year":2017,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":45.572330282
+  },
+  {
+    "year":2017,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":15.5516936155
+  },
+  {
+    "year":2017,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":32.7725256573
+  },
+  {
+    "year":2018,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":13.467906467
+  },
+  {
+    "year":2018,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":49.7021760052
+  },
+  {
+    "year":2018,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_nmr":70.676699385
+  },
+  {
+    "year":2018,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_nmr":45.291700598
+  },
+  {
+    "year":2018,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_nmr":42.5528932845
+  },
+  {
+    "year":2018,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_nmr":55.3775840845
+  },
+  {
+    "year":2018,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":41.5187765725
+  },
+  {
+    "year":2018,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":30.6794435593
+  },
+  {
+    "year":2018,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":22.1635683998
+  },
+  {
+    "year":2018,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":48.7018074636
+  },
+  {
+    "year":2018,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_nmr":46.6819931643
+  },
+  {
+    "year":2018,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":44.199366238
+  },
+  {
+    "year":2018,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":15.242672613
+  },
+  {
+    "year":2018,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":32.1999596575
+  },
+  {
+    "year":2019,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":13.550237479
+  },
+  {
+    "year":2019,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":45.7263453669
+  },
+  {
+    "year":2019,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_nmr":94.877954202
+  },
+  {
+    "year":2019,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_nmr":44.039691078
+  },
+  {
+    "year":2019,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_nmr":41.6519900655
+  },
+  {
+    "year":2019,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_nmr":54.0772094928
+  },
+  {
+    "year":2019,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":40.464263084
+  },
+  {
+    "year":2019,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":30.3770304153
+  },
+  {
+    "year":2019,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":21.4123716178
+  },
+  {
+    "year":2019,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":47.379437357
+  },
+  {
+    "year":2019,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_nmr":45.4672237189
+  },
+  {
+    "year":2019,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":42.9134988485
+  },
+  {
+    "year":2019,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":14.9583294445
+  },
+  {
+    "year":2019,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":31.6178777827
+  },
+  {
+    "year":2020,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":13.574935053
+  },
+  {
+    "year":2020,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":44.8338532941
+  },
+  {
+    "year":2020,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_nmr":69.054476463
+  },
+  {
+    "year":2020,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_nmr":42.815182188
+  },
+  {
+    "year":2020,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_nmr":40.6948364735
+  },
+  {
+    "year":2020,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_nmr":52.7742674472
+  },
+  {
+    "year":2020,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":39.4737173608
+  },
+  {
+    "year":2020,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":28.731308329
+  },
+  {
+    "year":2020,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":20.6142839125
+  },
+  {
+    "year":2020,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":45.9898648336
+  },
+  {
+    "year":2020,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_nmr":44.2518119544
+  },
+  {
+    "year":2020,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":41.365875297
+  },
+  {
+    "year":2020,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":14.688664421
+  },
+  {
+    "year":2020,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":30.914828863
+  },
+  {
+    "year":2021,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":13.503012614
+  },
+  {
+    "year":2021,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":43.9748793522
+  },
+  {
+    "year":2021,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_nmr":77.767410146
+  },
+  {
+    "year":2021,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_nmr":41.579544269
+  },
+  {
+    "year":2021,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_nmr":39.5685706365
+  },
+  {
+    "year":2021,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_nmr":51.4910909349
+  },
+  {
+    "year":2021,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":38.4614862828
+  },
+  {
+    "year":2021,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":27.7988746867
+  },
+  {
+    "year":2021,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":19.8184537712
+  },
+  {
+    "year":2021,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":44.7056125062
+  },
+  {
+    "year":2021,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_nmr":43.0017959186
+  },
+  {
+    "year":2021,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":40.3480805315
+  },
+  {
+    "year":2021,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":14.436918076
+  },
+  {
+    "year":2021,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":30.145584989
+  },
+  {
+    "year":2022,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":13.344183807
+  },
+  {
+    "year":2022,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":45.3658536623
+  },
+  {
+    "year":2022,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_nmr":124.67976816
+  },
+  {
+    "year":2022,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_nmr":40.310863902
+  },
+  {
+    "year":2022,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_nmr":38.5224684595
+  },
+  {
+    "year":2022,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_nmr":50.1856666
+  },
+  {
+    "year":2022,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":37.397871435
+  },
+  {
+    "year":2022,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":26.9158770267
+  },
+  {
+    "year":2022,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":19.04887119
+  },
+  {
+    "year":2022,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":43.2487363494
+  },
+  {
+    "year":2022,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_nmr":41.767168186
+  },
+  {
+    "year":2022,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":39.041707921
+  },
+  {
+    "year":2022,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":14.192851601
+  },
+  {
+    "year":2022,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":29.3291893338
+  },
+  {
+    "year":2023,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":13.132598065
+  },
+  {
+    "year":2023,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":42.2080581986
+  },
+  {
+    "year":2023,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_nmr":59.5503942725
+  },
+  {
+    "year":2023,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_nmr":39.152476258
+  },
+  {
+    "year":2023,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_nmr":37.388644502
+  },
+  {
+    "year":2023,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_nmr":48.9013290934
+  },
+  {
+    "year":2023,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_nmr":36.1870980832
+  },
+  {
+    "year":2023,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":26.1031224887
+  },
+  {
+    "year":2023,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":18.3036004885
+  },
+  {
+    "year":2023,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":41.73516254
+  },
+  {
+    "year":2023,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_nmr":40.5821543104
+  },
+  {
+    "year":2023,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_nmr":37.8027111225
+  },
+  {
+    "year":2023,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_nmr":17.8360757955
+  },
+  {
+    "year":2023,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_nmr":28.6500994588
+  }
+]

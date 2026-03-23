@@ -1,0 +1,2018 @@
+[
+  {
+    "year":2000,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":62.0
+  },
+  {
+    "year":2000,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":20.4285714286
+  },
+  {
+    "year":2000,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":20.5
+  },
+  {
+    "year":2000,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":27.0
+  },
+  {
+    "year":2000,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":24.0
+  },
+  {
+    "year":2000,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":23.75
+  },
+  {
+    "year":2000,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":26.25
+  },
+  {
+    "year":2000,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":32.6666666667
+  },
+  {
+    "year":2000,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":53.0
+  },
+  {
+    "year":2000,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":35.5
+  },
+  {
+    "year":2000,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":28.7142857143
+  },
+  {
+    "year":2000,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":31.0
+  },
+  {
+    "year":2000,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":67.0
+  },
+  {
+    "year":2000,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":52.75
+  },
+  {
+    "year":2001,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":62.0
+  },
+  {
+    "year":2001,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":20.8571428571
+  },
+  {
+    "year":2001,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":20.0
+  },
+  {
+    "year":2001,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":27.0
+  },
+  {
+    "year":2001,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":23.0
+  },
+  {
+    "year":2001,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":23.125
+  },
+  {
+    "year":2001,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":26.75
+  },
+  {
+    "year":2001,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":32.6666666667
+  },
+  {
+    "year":2001,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":53.0
+  },
+  {
+    "year":2001,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":37.0
+  },
+  {
+    "year":2001,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":28.0
+  },
+  {
+    "year":2001,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":30.5
+  },
+  {
+    "year":2001,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":67.5
+  },
+  {
+    "year":2001,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":53.5
+  },
+  {
+    "year":2002,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":62.0
+  },
+  {
+    "year":2002,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":21.7142857143
+  },
+  {
+    "year":2002,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":20.0
+  },
+  {
+    "year":2002,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":27.0
+  },
+  {
+    "year":2002,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":21.5
+  },
+  {
+    "year":2002,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":22.625
+  },
+  {
+    "year":2002,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":28.75
+  },
+  {
+    "year":2002,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":33.0
+  },
+  {
+    "year":2002,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":53.75
+  },
+  {
+    "year":2002,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":37.25
+  },
+  {
+    "year":2002,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":27.2857142857
+  },
+  {
+    "year":2002,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":30.0
+  },
+  {
+    "year":2002,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":67.5
+  },
+  {
+    "year":2002,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":54.5
+  },
+  {
+    "year":2003,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":63.0
+  },
+  {
+    "year":2003,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":22.1428571429
+  },
+  {
+    "year":2003,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":20.0
+  },
+  {
+    "year":2003,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":27.0
+  },
+  {
+    "year":2003,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":22.5
+  },
+  {
+    "year":2003,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":22.875
+  },
+  {
+    "year":2003,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":29.5
+  },
+  {
+    "year":2003,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":33.0
+  },
+  {
+    "year":2003,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":54.25
+  },
+  {
+    "year":2003,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":38.25
+  },
+  {
+    "year":2003,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":27.0
+  },
+  {
+    "year":2003,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":30.5
+  },
+  {
+    "year":2003,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":67.5
+  },
+  {
+    "year":2003,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":55.0
+  },
+  {
+    "year":2004,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":64.0
+  },
+  {
+    "year":2004,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":22.4285714286
+  },
+  {
+    "year":2004,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":19.5
+  },
+  {
+    "year":2004,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":28.0
+  },
+  {
+    "year":2004,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":23.5
+  },
+  {
+    "year":2004,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":23.125
+  },
+  {
+    "year":2004,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":30.75
+  },
+  {
+    "year":2004,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":33.6666666667
+  },
+  {
+    "year":2004,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":55.25
+  },
+  {
+    "year":2004,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":39.75
+  },
+  {
+    "year":2004,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":27.7142857143
+  },
+  {
+    "year":2004,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":31.5
+  },
+  {
+    "year":2004,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":67.5
+  },
+  {
+    "year":2004,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":57.5
+  },
+  {
+    "year":2005,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":64.0
+  },
+  {
+    "year":2005,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":23.5714285714
+  },
+  {
+    "year":2005,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":20.0
+  },
+  {
+    "year":2005,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":29.0
+  },
+  {
+    "year":2005,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":25.0
+  },
+  {
+    "year":2005,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":25.125
+  },
+  {
+    "year":2005,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":33.75
+  },
+  {
+    "year":2005,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":34.3333333333
+  },
+  {
+    "year":2005,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":55.5
+  },
+  {
+    "year":2005,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":41.5
+  },
+  {
+    "year":2005,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":28.7142857143
+  },
+  {
+    "year":2005,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":35.0
+  },
+  {
+    "year":2005,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":68.0
+  },
+  {
+    "year":2005,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":58.25
+  },
+  {
+    "year":2006,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":65.0
+  },
+  {
+    "year":2006,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":27.1428571429
+  },
+  {
+    "year":2006,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":21.0
+  },
+  {
+    "year":2006,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":31.0
+  },
+  {
+    "year":2006,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":30.0
+  },
+  {
+    "year":2006,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":29.125
+  },
+  {
+    "year":2006,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":36.0
+  },
+  {
+    "year":2006,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":37.0
+  },
+  {
+    "year":2006,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":56.75
+  },
+  {
+    "year":2006,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":44.5
+  },
+  {
+    "year":2006,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":31.2857142857
+  },
+  {
+    "year":2006,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":39.0
+  },
+  {
+    "year":2006,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":68.0
+  },
+  {
+    "year":2006,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":59.25
+  },
+  {
+    "year":2007,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":66.0
+  },
+  {
+    "year":2007,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":30.1428571429
+  },
+  {
+    "year":2007,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":23.0
+  },
+  {
+    "year":2007,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":33.0
+  },
+  {
+    "year":2007,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":32.5
+  },
+  {
+    "year":2007,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":30.0
+  },
+  {
+    "year":2007,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":37.5
+  },
+  {
+    "year":2007,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":37.6666666667
+  },
+  {
+    "year":2007,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":57.0
+  },
+  {
+    "year":2007,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":46.5
+  },
+  {
+    "year":2007,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":34.0
+  },
+  {
+    "year":2007,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":44.0
+  },
+  {
+    "year":2007,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":68.5
+  },
+  {
+    "year":2007,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":60.0
+  },
+  {
+    "year":2008,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":66.0
+  },
+  {
+    "year":2008,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":31.4285714286
+  },
+  {
+    "year":2008,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":24.5
+  },
+  {
+    "year":2008,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":34.0
+  },
+  {
+    "year":2008,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":35.5
+  },
+  {
+    "year":2008,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":31.125
+  },
+  {
+    "year":2008,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":39.25
+  },
+  {
+    "year":2008,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":38.3333333333
+  },
+  {
+    "year":2008,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":57.5
+  },
+  {
+    "year":2008,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":47.25
+  },
+  {
+    "year":2008,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":35.0
+  },
+  {
+    "year":2008,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":44.5
+  },
+  {
+    "year":2008,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":68.5
+  },
+  {
+    "year":2008,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":60.5
+  },
+  {
+    "year":2009,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":67.0
+  },
+  {
+    "year":2009,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":32.5714285714
+  },
+  {
+    "year":2009,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":25.5
+  },
+  {
+    "year":2009,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":37.0
+  },
+  {
+    "year":2009,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":37.0
+  },
+  {
+    "year":2009,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":33.375
+  },
+  {
+    "year":2009,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":40.25
+  },
+  {
+    "year":2009,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":38.6666666667
+  },
+  {
+    "year":2009,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":58.75
+  },
+  {
+    "year":2009,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":47.25
+  },
+  {
+    "year":2009,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":36.2857142857
+  },
+  {
+    "year":2009,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":43.5
+  },
+  {
+    "year":2009,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":69.0
+  },
+  {
+    "year":2009,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":61.25
+  },
+  {
+    "year":2010,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":67.0
+  },
+  {
+    "year":2010,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":34.7142857143
+  },
+  {
+    "year":2010,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":26.0
+  },
+  {
+    "year":2010,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":38.0
+  },
+  {
+    "year":2010,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":37.0
+  },
+  {
+    "year":2010,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":35.25
+  },
+  {
+    "year":2010,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":42.25
+  },
+  {
+    "year":2010,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":39.0
+  },
+  {
+    "year":2010,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":59.75
+  },
+  {
+    "year":2010,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":47.2
+  },
+  {
+    "year":2010,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":37.5714285714
+  },
+  {
+    "year":2010,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":43.5
+  },
+  {
+    "year":2010,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":69.5
+  },
+  {
+    "year":2010,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":61.75
+  },
+  {
+    "year":2011,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":72.0
+  },
+  {
+    "year":2011,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":36.1428571429
+  },
+  {
+    "year":2011,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":27.5
+  },
+  {
+    "year":2011,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":39.0
+  },
+  {
+    "year":2011,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":38.5
+  },
+  {
+    "year":2011,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":37.75
+  },
+  {
+    "year":2011,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":45.0
+  },
+  {
+    "year":2011,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":45.6666666667
+  },
+  {
+    "year":2011,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":59.5
+  },
+  {
+    "year":2011,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":48.6
+  },
+  {
+    "year":2011,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":39.4285714286
+  },
+  {
+    "year":2011,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":43.5
+  },
+  {
+    "year":2011,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":65.5
+  },
+  {
+    "year":2011,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":62.25
+  },
+  {
+    "year":2012,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":73.0
+  },
+  {
+    "year":2012,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":37.2857142857
+  },
+  {
+    "year":2012,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":26.5
+  },
+  {
+    "year":2012,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":41.0
+  },
+  {
+    "year":2012,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":41.0
+  },
+  {
+    "year":2012,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":38.625
+  },
+  {
+    "year":2012,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":45.5
+  },
+  {
+    "year":2012,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":48.0
+  },
+  {
+    "year":2012,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":59.0
+  },
+  {
+    "year":2012,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":48.6
+  },
+  {
+    "year":2012,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":41.0
+  },
+  {
+    "year":2012,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":47.5
+  },
+  {
+    "year":2012,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":66.5
+  },
+  {
+    "year":2012,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":62.5
+  },
+  {
+    "year":2013,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":76.0
+  },
+  {
+    "year":2013,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":37.375
+  },
+  {
+    "year":2013,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":26.0
+  },
+  {
+    "year":2013,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":45.0
+  },
+  {
+    "year":2013,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":42.0
+  },
+  {
+    "year":2013,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":39.0
+  },
+  {
+    "year":2013,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":46.0
+  },
+  {
+    "year":2013,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":46.6666666667
+  },
+  {
+    "year":2013,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":59.5
+  },
+  {
+    "year":2013,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":50.4
+  },
+  {
+    "year":2013,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":41.5714285714
+  },
+  {
+    "year":2013,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":48.0
+  },
+  {
+    "year":2013,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":69.5
+  },
+  {
+    "year":2013,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":62.75
+  },
+  {
+    "year":2014,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":79.0
+  },
+  {
+    "year":2014,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":38.5
+  },
+  {
+    "year":2014,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":29.5
+  },
+  {
+    "year":2014,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":46.0
+  },
+  {
+    "year":2014,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":43.0
+  },
+  {
+    "year":2014,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":39.875
+  },
+  {
+    "year":2014,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":45.5
+  },
+  {
+    "year":2014,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":46.6666666667
+  },
+  {
+    "year":2014,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":60.25
+  },
+  {
+    "year":2014,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":52.4
+  },
+  {
+    "year":2014,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":43.0
+  },
+  {
+    "year":2014,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":47.5
+  },
+  {
+    "year":2014,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":71.0
+  },
+  {
+    "year":2014,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":64.25
+  },
+  {
+    "year":2015,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":80.0
+  },
+  {
+    "year":2015,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":39.0
+  },
+  {
+    "year":2015,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":28.5
+  },
+  {
+    "year":2015,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":45.0
+  },
+  {
+    "year":2015,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":45.0
+  },
+  {
+    "year":2015,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":41.0
+  },
+  {
+    "year":2015,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":46.25
+  },
+  {
+    "year":2015,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":46.6666666667
+  },
+  {
+    "year":2015,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":60.75
+  },
+  {
+    "year":2015,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":53.0
+  },
+  {
+    "year":2015,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":43.8571428571
+  },
+  {
+    "year":2015,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":48.0
+  },
+  {
+    "year":2015,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":71.5
+  },
+  {
+    "year":2015,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":65.25
+  },
+  {
+    "year":2016,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":81.0
+  },
+  {
+    "year":2016,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":39.25
+  },
+  {
+    "year":2016,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":27.5
+  },
+  {
+    "year":2016,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":46.0
+  },
+  {
+    "year":2016,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":46.5
+  },
+  {
+    "year":2016,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":40.25
+  },
+  {
+    "year":2016,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":47.75
+  },
+  {
+    "year":2016,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":47.0
+  },
+  {
+    "year":2016,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":61.0
+  },
+  {
+    "year":2016,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":53.8
+  },
+  {
+    "year":2016,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":44.0
+  },
+  {
+    "year":2016,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":49.0
+  },
+  {
+    "year":2016,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":71.5
+  },
+  {
+    "year":2016,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":65.75
+  },
+  {
+    "year":2017,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":81.0
+  },
+  {
+    "year":2017,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":39.6666666667
+  },
+  {
+    "year":2017,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":30.0
+  },
+  {
+    "year":2017,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":47.0
+  },
+  {
+    "year":2017,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":49.0
+  },
+  {
+    "year":2017,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":41.5
+  },
+  {
+    "year":2017,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":49.75
+  },
+  {
+    "year":2017,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":46.0
+  },
+  {
+    "year":2017,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":63.0
+  },
+  {
+    "year":2017,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":56.2
+  },
+  {
+    "year":2017,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":46.1428571429
+  },
+  {
+    "year":2017,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":49.5
+  },
+  {
+    "year":2017,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":71.0
+  },
+  {
+    "year":2017,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":66.0
+  },
+  {
+    "year":2018,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":78.0
+  },
+  {
+    "year":2018,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":39.4444444444
+  },
+  {
+    "year":2018,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":29.0
+  },
+  {
+    "year":2018,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":47.0
+  },
+  {
+    "year":2018,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":50.0
+  },
+  {
+    "year":2018,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":41.75
+  },
+  {
+    "year":2018,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":48.25
+  },
+  {
+    "year":2018,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":47.6666666667
+  },
+  {
+    "year":2018,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":63.25
+  },
+  {
+    "year":2018,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":54.2
+  },
+  {
+    "year":2018,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":47.4285714286
+  },
+  {
+    "year":2018,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":49.0
+  },
+  {
+    "year":2018,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":69.0
+  },
+  {
+    "year":2018,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":64.5
+  },
+  {
+    "year":2019,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":78.0
+  },
+  {
+    "year":2019,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":40.0
+  },
+  {
+    "year":2019,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":27.5
+  },
+  {
+    "year":2019,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":47.0
+  },
+  {
+    "year":2019,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":50.5
+  },
+  {
+    "year":2019,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":41.75
+  },
+  {
+    "year":2019,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":48.75
+  },
+  {
+    "year":2019,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":49.0
+  },
+  {
+    "year":2019,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":62.5
+  },
+  {
+    "year":2019,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":54.8
+  },
+  {
+    "year":2019,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":48.1428571429
+  },
+  {
+    "year":2019,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":48.5
+  },
+  {
+    "year":2019,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":67.0
+  },
+  {
+    "year":2019,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":65.5
+  },
+  {
+    "year":2020,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":79.0
+  },
+  {
+    "year":2020,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":41.1111111111
+  },
+  {
+    "year":2020,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":30.0
+  },
+  {
+    "year":2020,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":47.0
+  },
+  {
+    "year":2020,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":50.0
+  },
+  {
+    "year":2020,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":41.25
+  },
+  {
+    "year":2020,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":49.25
+  },
+  {
+    "year":2020,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":49.6666666667
+  },
+  {
+    "year":2020,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":62.5
+  },
+  {
+    "year":2020,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":55.2
+  },
+  {
+    "year":2020,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":48.2857142857
+  },
+  {
+    "year":2020,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":50.0
+  },
+  {
+    "year":2020,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":68.5
+  },
+  {
+    "year":2020,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":66.75
+  },
+  {
+    "year":2021,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":78.0
+  },
+  {
+    "year":2021,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":40.5555555556
+  },
+  {
+    "year":2021,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":29.0
+  },
+  {
+    "year":2021,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":46.0
+  },
+  {
+    "year":2021,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":51.0
+  },
+  {
+    "year":2021,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":43.375
+  },
+  {
+    "year":2021,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":50.0
+  },
+  {
+    "year":2021,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":49.0
+  },
+  {
+    "year":2021,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":62.5
+  },
+  {
+    "year":2021,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":54.6
+  },
+  {
+    "year":2021,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":49.0
+  },
+  {
+    "year":2021,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":49.0
+  },
+  {
+    "year":2021,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":69.0
+  },
+  {
+    "year":2021,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":67.25
+  },
+  {
+    "year":2022,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":79.0
+  },
+  {
+    "year":2022,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":41.5555555556
+  },
+  {
+    "year":2022,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":30.0
+  },
+  {
+    "year":2022,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":48.0
+  },
+  {
+    "year":2022,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":51.0
+  },
+  {
+    "year":2022,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":44.375
+  },
+  {
+    "year":2022,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":51.25
+  },
+  {
+    "year":2022,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":51.0
+  },
+  {
+    "year":2022,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":61.75
+  },
+  {
+    "year":2022,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":56.8
+  },
+  {
+    "year":2022,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":49.7142857143
+  },
+  {
+    "year":2022,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":48.5
+  },
+  {
+    "year":2022,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":70.5
+  },
+  {
+    "year":2022,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":69.0
+  },
+  {
+    "year":2023,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":80.0
+  },
+  {
+    "year":2023,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":42.1111111111
+  },
+  {
+    "year":2023,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":32.5
+  },
+  {
+    "year":2023,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":48.0
+  },
+  {
+    "year":2023,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":51.0
+  },
+  {
+    "year":2023,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":45.25
+  },
+  {
+    "year":2023,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_uhc_index":51.25
+  },
+  {
+    "year":2023,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":51.0
+  },
+  {
+    "year":2023,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":63.0
+  },
+  {
+    "year":2023,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":58.4
+  },
+  {
+    "year":2023,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_uhc_index":49.8571428571
+  },
+  {
+    "year":2023,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_uhc_index":48.5
+  },
+  {
+    "year":2023,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_uhc_index":70.5
+  },
+  {
+    "year":2023,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_uhc_index":68.75
+  }
+]

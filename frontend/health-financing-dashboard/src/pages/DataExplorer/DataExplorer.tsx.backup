@@ -1,0 +1,892 @@
+import React, { useState, useEffect } from 'react';
+import api from '../../services/api';
+import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
+import './DataExplorer.css';
+
+// Indicator metadata with explanatory notes - aligned with 11 thematic areas
+const INDICATOR_INFO: Record<string, {
+  title: string;
+  description: string;
+  interpretation: string;
+  benchmark?: string;
+  unit: string;
+}> = {
+  // 3.1 Public Health Financing
+  'Gov exp Health per capita': {
+    title: 'Government Health Expenditure Per Capita',
+    description: 'The amount of money governments spend on health per person. This is a critical indicator of public commitment to health systems.',
+    interpretation: 'Higher values indicate greater government investment in health. Low-income countries should aim for at least $112 per capita, lower-middle-income countries $146, and upper-middle-income countries $477.',
+    benchmark: 'International thresholds: $112 (Low), $146 (Lower-middle), $477 (Upper-middle) per capita',
+    unit: 'US$ per capita'
+  },
+  'Gap for Gov exp Health per capita': {
+    title: 'Health Financing Gap',
+    description: 'The difference between current government health spending and the recommended threshold for each income group.',
+    interpretation: 'Higher gaps indicate greater need for increased health investment to meet minimum standards.',
+    benchmark: 'Gap should be zero or negative (meeting threshold)',
+    unit: 'US$ per capita'
+  },
+  'Gov exp Health on GDP': {
+    title: 'Government Health Expenditure as % of GDP',
+    description: 'Government health spending as a percentage of gross domestic product.',
+    interpretation: 'Shows the macroeconomic priority given to health. WHO recommends at least 5% of GDP for health.',
+    benchmark: '5% of GDP recommended',
+    unit: 'Percentage of GDP'
+  },
+  'Gap Gov exp Health on GDP': {
+    title: 'Gap to GDP Benchmark',
+    description: 'Difference between current government health spending as % GDP and the 5% benchmark.',
+    interpretation: 'Positive values indicate spending below the benchmark; negative values indicate exceeding it.',
+    unit: 'Percentage points'
+  },
+  'Gov exp Health on GDP > 5': {
+    title: 'Meets 5% GDP Benchmark',
+    description: 'Binary indicator whether government health expenditure exceeds 5% of GDP.',
+    interpretation: '1 = meets benchmark (≥5%), 0 = below benchmark (<5%).',
+    benchmark: '5% of GDP',
+    unit: 'Binary (0 or 1)'
+  },
+  'Gov exp Health on GDP > 2016 Value': {
+    title: 'Health/GDP Improved Since 2016',
+    description: 'Binary indicator whether current health spending as % GDP exceeds the 2016 baseline.',
+    interpretation: '1 = improved, 0 = declined or stagnant. Tracks progress over time.',
+    unit: 'Binary (0 or 1)'
+  },
+  'Gov exp Health per capita > 2016 Value': {
+    title: 'Per Capita Spending Improved Since 2016',
+    description: 'Binary indicator whether per capita health spending exceeds 2016 levels.',
+    interpretation: '1 = improved, 0 = declined. Shows real investment growth.',
+    unit: 'Binary (0 or 1)'
+  },
+  'Gov exp Health per capita More than Threshold': {
+    title: 'Exceeds Income-Adjusted Threshold',
+    description: 'Binary indicator whether government health spending meets the income-specific threshold.',
+    interpretation: '1 = meets threshold, 0 = below threshold. Income-adjusted benchmark.',
+    unit: 'Binary (0 or 1)'
+  },
+  'below_threshold': {
+    title: 'Below Health Financing Threshold',
+    description: 'Binary indicator for countries with government health expenditure below income-specific threshold.',
+    interpretation: '1 = below threshold (needs improvement), 0 = meets or exceeds threshold.',
+    unit: 'Binary (0 or 1)'
+  },
+  'meets_threshold': {
+    title: 'Meets Health Financing Threshold',
+    description: 'Binary indicator for countries meeting their income-specific health financing threshold.',
+    interpretation: '1 = meets threshold, 0 = below threshold. Inverse of below_threshold.',
+    unit: 'Binary (0 or 1)'
+  },
+  'public_health_gap': {
+    title: 'Public Health Financing Gap (Alternative)',
+    description: 'Alternative calculation of the gap between current and target health financing.',
+    interpretation: 'Similar to "Gap for Gov exp Health per capita" but may use different methodology.',
+    unit: 'US$ per capita'
+  },
+  'income_threshold': {
+    title: 'Income-Specific Threshold Value',
+    description: 'The health financing threshold applicable to the country based on income classification.',
+    interpretation: 'Threshold values: $112 (Low), $146 (Lower-middle), $477 (Upper-middle).',
+    unit: 'US$ per capita'
+  },
+  'gov_exp_pc_thres': {
+    title: 'Government Expenditure Per Capita Threshold',
+    description: 'Threshold value for government health expenditure per capita.',
+    interpretation: 'Country-specific or income-group-specific benchmark for comparison.',
+    unit: 'US$ per capita'
+  },
+  'thres50': {
+    title: '50th Percentile Threshold',
+    description: 'Median value used as benchmark for health financing comparisons.',
+    interpretation: 'Countries above this are in the top half; below are in the bottom half.',
+    unit: 'Value (context-dependent)'
+  },
+  'thres75': {
+    title: '75th Percentile Threshold',
+    description: 'Upper quartile value used as benchmark for health financing comparisons.',
+    interpretation: 'Countries above this are in the top 25%; below are in the bottom 75%.',
+    unit: 'Value (context-dependent)'
+  },
+  // 3.2 Budget Priority
+  'Gov exp Health on budget': {
+    title: 'Government Health Budget Share',
+    description: 'The percentage of total government spending allocated to health. This reflects political priority given to health.',
+    interpretation: 'The 2001 Abuja Declaration committed African governments to allocate at least 15% of their budgets to health. Most countries have not achieved this target.',
+    benchmark: 'Abuja Declaration target: 15% of government budget',
+    unit: 'Percentage of government budget'
+  },
+  'Gap Gov exp Health on budget': {
+    title: 'Gap to Abuja Target',
+    description: 'Difference between current health budget share and the 15% Abuja Declaration target.',
+    interpretation: 'Positive values = below target, negative values = exceeding target. Most countries show large positive gaps.',
+    benchmark: '15% Abuja target',
+    unit: 'Percentage points'
+  },
+  'Gov exp Health on budget > 15': {
+    title: 'Meets Abuja 15% Target',
+    description: 'Binary indicator whether health budget share meets or exceeds 15%.',
+    interpretation: '1 = meets Abuja target (≥15%), 0 = below target. Very few countries achieve this.',
+    benchmark: '15% Abuja Declaration',
+    unit: 'Binary (0 or 1)'
+  },
+  'Gov exp Health on budget > 2016 Value': {
+    title: 'Budget Priority Improved Since 2016',
+    description: 'Binary indicator whether health budget share exceeds 2016 baseline.',
+    interpretation: '1 = improved priority, 0 = declined. Tracks political commitment changes.',
+    unit: 'Binary (0 or 1)'
+  },
+  'below_abuja': {
+    title: 'Below Abuja Target',
+    description: 'Binary indicator for countries allocating less than 15% of budget to health.',
+    interpretation: '1 = below Abuja target (majority of countries), 0 = meets target.',
+    unit: 'Binary (0 or 1)'
+  },
+  'meets_abuja': {
+    title: 'Meets Abuja Target',
+    description: 'Binary indicator for countries meeting the 15% Abuja Declaration target.',
+    interpretation: '1 = meets target, 0 = below. Inverse of below_abuja.',
+    unit: 'Binary (0 or 1)'
+  },
+  'budget_priority_gap': {
+    title: 'Budget Priority Gap (Alternative)',
+    description: 'Alternative calculation of gap to Abuja target.',
+    interpretation: 'Similar to "Gap Gov exp Health on budget" but may use different calculation method.',
+    unit: 'Percentage points'
+  },
+  // 3.3 Financial Protection
+  'Out-of-pocket on health exp': {
+    title: 'Out-of-Pocket Health Expenditure',
+    description: 'The share of health spending that households pay directly when receiving care. High levels indicate weak financial protection.',
+    interpretation: 'Lower values are better. When out-of-pocket spending exceeds 20% of total health expenditure, households face high financial risk and many skip needed care due to cost.',
+    benchmark: 'Benchmark: Should be below 20%',
+    unit: 'Percentage of total health expenditure'
+  },
+  'Out-of-pocket on health exp < 20': {
+    title: 'OOP Below 20% Benchmark',
+    description: 'Binary indicator whether out-of-pocket spending is below the 20% safety threshold.',
+    interpretation: '1 = good financial protection (<20%), 0 = poor protection (≥20%). Most African countries fail this.',
+    benchmark: '20% threshold',
+    unit: 'Binary (0 or 1)'
+  },
+  'below_oop_benchmark': {
+    title: 'Below OOP Benchmark',
+    description: 'Binary indicator for countries with OOP spending below 20%.',
+    interpretation: '1 = below 20% (good), 0 = at or above 20% (poor financial protection).',
+    unit: 'Binary (0 or 1)'
+  },
+  'oop_above_20': {
+    title: 'OOP Above 20% Threshold',
+    description: 'Binary indicator for countries with OOP spending exceeding the safety threshold.',
+    interpretation: '1 = above 20% (poor financial protection), 0 = below 20% (good). Inverse of below_oop_benchmark.',
+    unit: 'Binary (0 or 1)'
+  },
+  'financial_protection_gap': {
+    title: 'Financial Protection Gap',
+    description: 'Gap between current OOP levels and the 20% benchmark.',
+    interpretation: 'Positive values = OOP too high (poor protection), negative values = below benchmark (good protection).',
+    benchmark: '20% OOP threshold',
+    unit: 'Percentage points'
+  },
+  'Exc Out-of-pocket on health exp': {
+    title: 'Health Expenditure Excluding OOP',
+    description: 'Total health expenditure minus out-of-pocket payments.',
+    interpretation: 'Shows pooled/prepaid financing. Higher values indicate better risk pooling and financial protection.',
+    unit: 'Percentage of total health expenditure'
+  },
+  // 3.4 Financing Structure
+  'Govern on health exp': {
+    title: 'Government Share of Health Expenditure',
+    description: 'The proportion of total health spending that comes from government sources.',
+    interpretation: 'Higher government share indicates more equitable financing. Government should be the dominant funder (>50%) for sustainable health systems.',
+    benchmark: 'Government share should exceed 50%',
+    unit: 'Percentage of total health expenditure'
+  },
+  'External on health exp': {
+    title: 'External/Donor Health Financing',
+    description: 'The proportion of health spending from external sources like donors and development partners.',
+    interpretation: 'High external dependence indicates financing vulnerability. Countries should gradually transition to domestic funding.',
+    unit: 'Percentage of total health expenditure'
+  },
+  'Domest Private on health exp': {
+    title: 'Domestic Private Health Expenditure',
+    description: 'Total private health spending from domestic sources (OOP + voluntary prepayments + other private).',
+    interpretation: 'Shows the burden on private households and employers. High values may indicate inadequate public financing.',
+    unit: 'Percentage of total health expenditure'
+  },
+  'gov_dominant': {
+    title: 'Government is Dominant Financing Source',
+    description: 'Binary indicator whether government is the largest single source of health financing.',
+    interpretation: '1 = government dominant (>50% or largest share), 0 = other sources dominate. Preferred for equity.',
+    unit: 'Binary (0 or 1)'
+  },
+  'dominant_financing_source': {
+    title: 'Dominant Financing Source',
+    description: 'Identifies which financing source contributes the largest share.',
+    interpretation: 'Values: "government", "oop", "voluntary", "external", or "other". Shows financing structure at a glance.',
+    unit: 'Category'
+  },
+  'gov_highest': {
+    title: 'Government Has Highest Share',
+    description: 'Binary indicator if government financing exceeds all other sources.',
+    interpretation: '1 = government is largest source, 0 = another source is larger.',
+    unit: 'Binary (0 or 1)'
+  },
+  'vol_highest': {
+    title: 'Voluntary Prepayments Highest',
+    description: 'Binary indicator if voluntary insurance is the dominant financing source.',
+    interpretation: '1 = voluntary prepayments largest, 0 = other source larger. Rare in Africa.',
+    unit: 'Binary (0 or 1)'
+  },
+  'oop_highest': {
+    title: 'Out-of-Pocket is Dominant Source',
+    description: 'Binary indicator if OOP payments are the largest financing source.',
+    interpretation: '1 = OOP dominant (poor financial protection), 0 = other source larger.',
+    unit: 'Binary (0 or 1)'
+  },
+  'other_highest': {
+    title: 'Other Private is Dominant',
+    description: 'Binary indicator if other private sources dominate.',
+    interpretation: '1 = other private largest, 0 = different source larger.',
+    unit: 'Binary (0 or 1)'
+  },
+  'ext_highest': {
+    title: 'External Financing is Dominant',
+    description: 'Binary indicator if external/donor funding is the largest source.',
+    interpretation: '1 = external dominant (high aid dependency), 0 = domestic sources larger.',
+    unit: 'Binary (0 or 1)'
+  },
+  // 3.5 UHC Index
+  'Universal health coverage': {
+    title: 'Universal Health Coverage (UHC) Index',
+    description: 'Measures the extent to which populations can access essential health services. The index ranges from 0 to 100.',
+    interpretation: 'Higher scores mean better coverage. Progress is assessed using 50th and 75th percentile benchmarks from the data. Africa\'s average is around 45-50.',
+    benchmark: 'Progress measured against 50th and 75th percentile benchmarks',
+    unit: 'Index (0-100)'
+  },
+  'uhc_below_50': {
+    title: 'UHC Below 50',
+    description: 'Binary indicator whether UHC index is below 50.',
+    interpretation: '1 = below 50 (low coverage), 0 = at or above 50 (moderate/good coverage).',
+    unit: 'Binary (0 or 1)'
+  },
+  'uhc_above_50': {
+    title: 'UHC Above 50',
+    description: 'Categorical/binary indicator for UHC index above 50.',
+    interpretation: 'May show ">50%" or 1/0. Indicates moderate to good service coverage.',
+    unit: 'Category or Binary'
+  },
+  'uhc_year_avg': {
+    title: 'UHC Year-Specific Average',
+    description: 'Average UHC index for the specific year across countries.',
+    interpretation: 'Benchmark for comparing individual countries to the group average.',
+    unit: 'Index (0-100)'
+  },
+  'uhc_below_avg': {
+    title: 'UHC Below Average',
+    description: 'Binary indicator whether country UHC is below the year-specific average.',
+    interpretation: '1 = below average, 0 = at or above average.',
+    unit: 'Binary (0 or 1)'
+  },
+  'uhc_below_50_or_avg': {
+    title: 'UHC Below 50 or Average',
+    description: 'Binary indicator if UHC is below either 50 or the year average (whichever is higher).',
+    interpretation: '1 = below threshold, 0 = meets threshold. Composite benchmark.',
+    unit: 'Binary (0 or 1)'
+  },
+  'uhc_p50': {
+    title: 'UHC 50th Percentile Value',
+    description: 'Median UHC index value for the year.',
+    interpretation: 'Half of countries are above this, half below. Used as benchmark.',
+    unit: 'Index (0-100)'
+  },
+  'uhc_p75': {
+    title: 'UHC 75th Percentile Value',
+    description: 'Upper quartile UHC index value for the year.',
+    interpretation: '25% of countries exceed this. High performance benchmark.',
+    unit: 'Index (0-100)'
+  },
+  'uhc_above_p50': {
+    title: 'UHC Above Median',
+    description: 'Binary indicator whether country UHC exceeds the median.',
+    interpretation: '1 = above median (top half), 0 = below median (bottom half).',
+    unit: 'Binary (0 or 1)'
+  },
+  'uhc_above_p75': {
+    title: 'UHC Above 75th Percentile',
+    description: 'Binary indicator whether country UHC is in the top quartile.',
+    interpretation: '1 = top 25% (high performers), 0 = bottom 75%.',
+    unit: 'Binary (0 or 1)'
+  },
+  // 3.6 Health Outcomes - Neonatal Mortality
+  'Neonatal mortality rate': {
+    title: 'Neonatal Mortality Rate',
+    description: 'The number of newborns who die during the first 28 days of life, per 1,000 live births. This is a key indicator of health system performance.',
+    interpretation: 'Lower rates indicate better maternal and newborn health services. The SDG target is to reduce neonatal mortality to at least as low as 12 per 1,000 live births.',
+    benchmark: 'SDG Target: 12 or fewer per 1,000 live births',
+    unit: 'Deaths per 1,000 live births'
+  },
+  // 3.6 Health Outcomes - Maternal Mortality
+  'Maternal mortality ratio': {
+    title: 'Maternal Mortality Ratio',
+    description: 'The number of women who die from pregnancy-related causes per 100,000 live births. Reflects access to quality maternal healthcare.',
+    interpretation: 'Lower values indicate better maternal health services and outcomes. The SDG target is to reduce maternal mortality to less than 70 per 100,000 live births.',
+    benchmark: 'SDG Target: Below 70 per 100,000 live births',
+    unit: 'Deaths per 100,000 live births'
+  },
+  // 3.7 Financing × UHC
+  'financial hardship': {
+    title: 'Financial Hardship from Health Costs',
+    description: 'Percentage of population experiencing catastrophic or impoverishing health expenditure.',
+    interpretation: 'Lower values indicate better financial protection. High values mean many households face severe financial stress due to health costs.',
+    unit: 'Percentage'
+  },
+  'health_tax_above_50th': {
+    title: 'Health Spending Above 50th Percentile (Tax Context)',
+    description: 'Binary indicator if health spending is above median in relation to tax revenue capacity.',
+    interpretation: '1 = above median relative to tax base, 0 = below. Links fiscal capacity to health spending.',
+    unit: 'Binary (0 or 1)'
+  },
+  'health_tax_above_75th': {
+    title: 'Health Spending Above 75th Percentile (Tax Context)',
+    description: 'Binary indicator if health spending is in top quartile relative to tax revenue.',
+    interpretation: '1 = top 25% performers (high health priority given tax constraints), 0 = bottom 75%.',
+    unit: 'Binary (0 or 1)'
+  },
+  'health_gdp_above_50th': {
+    title: 'Health/GDP Above Median',
+    description: 'Binary indicator if health expenditure as % GDP exceeds the median.',
+    interpretation: '1 = above median (higher health priority), 0 = below median.',
+    unit: 'Binary (0 or 1)'
+  },
+  'health_gdp_above_75th': {
+    title: 'Health/GDP Above 75th Percentile',
+    description: 'Binary indicator if health expenditure as % GDP is in the top quartile.',
+    interpretation: '1 = top 25% (very high health priority), 0 = bottom 75%.',
+    unit: 'Binary (0 or 1)'
+  },
+  // 3.8 Financing × Outcomes
+  'nmr_on_course': {
+    title: 'Countries On Track for NMR Target',
+    description: 'Binary indicator showing whether the country is progressing adequately toward the SDG neonatal mortality target of 12 per 1,000 live births.',
+    interpretation: '1 = on track, 0 = off track. Countries on track show sufficient annual reduction rates to meet the target.',
+    unit: 'Binary (0 or 1)'
+  },
+  'mmr_on_course': {
+    title: 'Countries On Track for MMR Target',
+    description: 'Binary indicator showing whether the country is progressing adequately toward the SDG maternal mortality target of 70 per 100,000 live births.',
+    interpretation: '1 = on track, 0 = off track. Countries on track show sufficient annual reduction rates to meet the target.',
+    unit: 'Binary (0 or 1)'
+  },
+  // 3.9 Structure × UHC
+  'Voluntary Prepayments on health exp': {
+    title: 'Voluntary Health Insurance Share',
+    description: 'Percentage of health expenditure from voluntary prepaid schemes like private insurance and community-based health insurance.',
+    interpretation: 'Reflects the development of prepayment mechanisms beyond government. Can complement public financing but should not replace it.',
+    unit: 'Percentage of total health expenditure'
+  },
+  'Other Private on health exp': {
+    title: 'Other Private Health Expenditure Share',
+    description: 'Percentage of health spending from other private sources excluding out-of-pocket and voluntary insurance.',
+    interpretation: 'Includes employer-provided health benefits and other private arrangements.',
+    unit: 'Percentage of total health expenditure'
+  },
+  // 3.10 Structure × Outcomes (using same fields with different context)
+  'imr_category': {
+    title: 'Infant Mortality Rate Category',
+    description: 'Categorical indicator showing whether infant mortality rate is above or below the SDG target threshold.',
+    interpretation: 'Shows at-a-glance whether countries meet the infant mortality benchmark. ">12" means above target (worse), "≤12" means at or below target (better).',
+    unit: 'Category'
+  },
+  'mmr_category': {
+    title: 'Maternal Mortality Ratio Category',
+    description: 'Categorical indicator showing whether maternal mortality ratio is above or below the SDG target threshold.',
+    interpretation: 'Shows at-a-glance whether countries meet the maternal mortality benchmark. ">70" means above target (worse), "≤70" means at or below target (better).',
+    unit: 'Category'
+  },
+  // 3.11 Fiscal Space / Economic Indicators
+  'Expenditure per capita current': {
+    title: 'Current Health Expenditure Per Capita',
+    description: 'Total health spending per person from all sources including government, private, and external.',
+    interpretation: 'Higher values indicate more resources available for health, though distribution and efficiency also matter.',
+    unit: 'US$ per capita'
+  },
+  'Expenditure on GDP': {
+    title: 'Health Expenditure as % of GDP',
+    description: 'The share of the economy dedicated to health spending.',
+    interpretation: 'Shows the overall priority given to health in the economy. Most developed countries spend 8-12% of GDP on health.',
+    unit: 'Percentage of GDP'
+  },
+  'GDP per capita Current': {
+    title: 'GDP Per Capita (Current US$)',
+    description: 'Economic output per person in current US dollars. Measures overall economic capacity.',
+    interpretation: 'Higher GDP per capita indicates greater economic resources available. Affects ability to finance health systems.',
+    unit: 'Current US$'
+  },
+  'GDP per capita Constant 2023': {
+    title: 'GDP Per Capita (Constant 2023 US$)',
+    description: 'Economic output per person adjusted for inflation, in constant 2023 US dollars. Allows comparison across years.',
+    interpretation: 'Shows real economic growth over time. Important for understanding changing fiscal capacity.',
+    unit: 'Constant 2023 US$'
+  },
+  'Tax Revenue per GDP': {
+    title: 'Tax Revenue as % of GDP',
+    description: 'Domestic tax collection as a percentage of economic output. Measures revenue mobilization capacity.',
+    interpretation: 'Higher values indicate stronger tax systems and greater potential for health financing. Most developed countries collect 25-35% of GDP in taxes.',
+    unit: 'Percentage of GDP'
+  },
+  'Total Revenue per GDP': {
+    title: 'Total Government Revenue as % of GDP',
+    description: 'Total government revenue (tax and non-tax) as a percentage of GDP. Measures overall fiscal capacity.',
+    interpretation: 'Indicates the government\'s ability to fund public services including health. Higher values mean more fiscal space.',
+    unit: 'Percentage of GDP'
+  },
+  'health_elasticity': {
+    title: 'Health Spending Elasticity',
+    description: 'Ratio of health expenditure growth to GDP growth. Measures how health spending responds to economic growth.',
+    interpretation: 'Values >1 mean health spending grows faster than the economy (prioritization). Values <1 mean health spending lags economic growth.',
+    unit: 'Ratio'
+  },
+  'Exp Health on GDP': {
+    title: 'Total Health Expenditure as % GDP (Alternative)',
+    description: 'Alternative field for total health expenditure as percentage of GDP.',
+    interpretation: 'Similar to "Expenditure on GDP". May include all sources (government + private + external).',
+    unit: 'Percentage of GDP'
+  },
+  'Exp Health per capita': {
+    title: 'Total Health Expenditure Per Capita (Alternative)',
+    description: 'Alternative field for total health expenditure per capita.',
+    interpretation: 'Similar to "Expenditure per capita current". Total spending from all sources.',
+    unit: 'US$ per capita'
+  },
+  'Expenditure per capita constant': {
+    title: 'Health Expenditure Per Capita (Constant 2023 US$)',
+    description: 'Total health expenditure per person in inflation-adjusted constant 2023 dollars.',
+    interpretation: 'Allows real comparison across years. Shows whether health spending is truly increasing.',
+    unit: 'Constant 2023 US$'
+  },
+  'Expenditure in million Constant 2023': {
+    title: 'Total Health Expenditure (Million Constant 2023 US$)',
+    description: 'Total health expenditure in millions, adjusted for inflation.',
+    interpretation: 'Aggregate national health spending. Useful for understanding total resource envelope.',
+    unit: 'Million Constant 2023 US$'
+  },
+  'gdp_growth': {
+    title: 'GDP Growth Rate',
+    description: 'Annual percentage growth rate of gross domestic product.',
+    interpretation: 'Shows economic expansion or contraction. Positive growth creates fiscal space for health.',
+    unit: 'Percentage growth'
+  },
+  'health_exp_growth': {
+    title: 'Health Expenditure Growth Rate',
+    description: 'Annual percentage growth rate of total health expenditure.',
+    interpretation: 'Shows how fast health spending is increasing. Compare with GDP growth to see prioritization.',
+    unit: 'Percentage growth'
+  },
+  'Population': {
+    title: 'Total Population',
+    description: 'Total population in thousands.',
+    interpretation: 'Population size affects aggregate health needs and resource requirements.',
+    unit: 'Thousands'
+  },
+  'Direct foreign transfers, in million current US$': {
+    title: 'Foreign Direct Transfers (Million Current US$)',
+    description: 'External health assistance in millions of current US dollars.',
+    interpretation: 'Shows donor/development partner contributions. High values indicate aid dependency.',
+    unit: 'Million Current US$'
+  },
+  'Direct foreign transfers, in current US$ per capita': {
+    title: 'Foreign Direct Transfers Per Capita (Current US$)',
+    description: 'External health assistance per person in current dollars.',
+    interpretation: 'Per capita view of aid. Shows relative dependency on external financing.',
+    unit: 'Current US$ per capita'
+  },
+  'Direct foreign transfers, as % of Gross domestic product (GDP)': {
+    title: 'Foreign Transfers as % of GDP',
+    description: 'External health assistance as percentage of national economic output.',
+    interpretation: 'Shows aid relative to economy size. High values indicate significant external dependency.',
+    unit: 'Percentage of GDP'
+  },
+  'Direct foreign transfers, as % of Current Health Expenditure (CHE)': {
+    title: 'Foreign Transfers as % of Health Expenditure',
+    description: 'External health assistance as percentage of total health spending.',
+    interpretation: 'Shows donor share of health financing. Ideally should decline over time as domestic financing grows.',
+    unit: 'Percentage of CHE'
+  },
+  'Direct foreign transfers, in million constant (2023) US$': {
+    title: 'Foreign Transfers (Million Constant 2023 US$)',
+    description: 'External health assistance in inflation-adjusted millions.',
+    interpretation: 'Real value of aid over time. Shows whether external support is actually increasing.',
+    unit: 'Million Constant 2023 US$'
+  },
+  'Direct foreign transfers, in constant (2023) US$ per capita': {
+    title: 'Foreign Transfers Per Capita (Constant 2023 US$)',
+    description: 'External health assistance per person, inflation-adjusted.',
+    interpretation: 'Real per capita aid over time. Allows comparison across years.',
+    unit: 'Constant 2023 US$ per capita'
+  },
+  'Gross fixed capital formation, in million current US$': {
+    title: 'Capital Formation (Million Current US$)',
+    description: 'Gross fixed capital formation (investment) in millions of current dollars.',
+    interpretation: 'Shows investment levels. Higher investment may crowd out or crowd in health spending depending on priorities.',
+    unit: 'Million Current US$'
+  },
+  'Gross fixed capital formation, in current US$ per capita': {
+    title: 'Capital Formation Per Capita (Current US$)',
+    description: 'Investment per person in current dollars.',
+    interpretation: 'Per capita investment levels. Indicates economic development trajectory.',
+    unit: 'Current US$ per capita'
+  },
+  'Gross fixed capital formation, as % of Gross domestic product (GDP)': {
+    title: 'Capital Formation as % of GDP',
+    description: 'Investment as percentage of economic output.',
+    interpretation: 'Shows investment rate. Higher rates may indicate economic growth potential.',
+    unit: 'Percentage of GDP'
+  },
+  'Gross fixed capital formation, in million constant (2023) US$': {
+    title: 'Capital Formation (Million Constant 2023 US$)',
+    description: 'Investment in millions, inflation-adjusted.',
+    interpretation: 'Real investment levels over time.',
+    unit: 'Million Constant 2023 US$'
+  },
+  'Gross fixed capital formation, in constant (2023) US$ per capita': {
+    title: 'Capital Formation Per Capita (Constant 2023 US$)',
+    description: 'Investment per person, inflation-adjusted.',
+    interpretation: 'Real per capita investment trends.',
+    unit: 'Constant 2023 US$ per capita'
+  }
+};
+
+const DataExplorer: React.FC = () => {
+  const [countries, setCountries] = useState<string[]>([]);
+  const [selectedCountries, setSelectedCountries] = useState<string[]>([]);
+  const [indicator, setIndicator] = useState<string>('Gov exp Health per capita');
+  const [data, setData] = useState<any[]>([]);
+  const [loading, setLoading] = useState<boolean>(false);
+  const [masterData, setMasterData] = useState<any[]>([]);
+  const [dataLoaded, setDataLoaded] = useState<boolean>(false);
+
+  // Load countries and master data once on mount
+  useEffect(() => {
+    const loadInitialData = async () => {
+      setLoading(true);
+      try {
+        console.log('Loading countries...');
+        const countryList = await api.getCountries();
+        console.log('Countries loaded:', countryList?.length);
+
+        console.log('Loading master data...');
+        const rawData = await api.getMasterData();
+        console.log('Raw data type:', typeof rawData, 'isArray:', Array.isArray(rawData));
+
+        setCountries(Array.isArray(countryList) ? countryList : []);
+
+        // Handle different response formats
+        let parsedData: any[] = [];
+        if (Array.isArray(rawData)) {
+          parsedData = rawData;
+        } else if (typeof rawData === 'string') {
+          try {
+            parsedData = JSON.parse(rawData);
+          } catch (e) {
+            console.error('Failed to parse rawData as JSON:', e);
+          }
+        } else if (rawData && typeof rawData === 'object') {
+          // Maybe it's wrapped in an object
+          const obj = rawData as any;
+          parsedData = obj.data || obj.records || [];
+        }
+
+        console.log('Parsed data records:', parsedData.length);
+        setMasterData(parsedData);
+        setDataLoaded(true);
+
+        if (Array.isArray(countryList) && countryList.length >= 2) {
+          setSelectedCountries([countryList[0], countryList[1]]);
+        }
+      } catch (error) {
+        console.error('Error loading initial data:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
+    loadInitialData();
+  }, []);
+
+  // Process chart data when selection changes (no API call needed)
+  useEffect(() => {
+    if (!dataLoaded || selectedCountries.length === 0 || !Array.isArray(masterData) || masterData.length === 0) {
+      setData([]);
+      return;
+    }
+
+    const filtered = masterData.filter((d: any) => selectedCountries.includes(d.location));
+    const byYear = filtered.reduce((acc: any, d: any) => {
+      if (!acc[d.year]) acc[d.year] = { year: d.year };
+      const value = d[indicator];
+      if (value !== undefined && value !== null) {
+        acc[d.year][d.location] = value;
+      }
+      return acc;
+    }, {});
+
+    setData(Object.values(byYear).sort((a: any, b: any) => a.year - b.year));
+  }, [selectedCountries, indicator, masterData, dataLoaded]);
+
+  const handleCountryToggle = (country: string) => {
+    setSelectedCountries(prev =>
+      prev.includes(country)
+        ? prev.filter(c => c !== country)
+        : [...prev, country]
+    );
+  };
+
+  const indicatorInfo = INDICATOR_INFO[indicator] || {
+    title: indicator,
+    description: 'No description available',
+    interpretation: 'No interpretation available',
+    unit: 'Value'
+  };
+
+  return (
+    <div className="data-explorer-page">
+      <h1>Data Explorer</h1>
+      <p className="subtitle">Create custom visualizations by selecting countries and indicators</p>
+
+      <div className="explorer-container">
+        <div className="controls-panel">
+          <div className="control-group">
+            <h3>1. Select Indicator</h3>
+            <select value={indicator} onChange={(e) => setIndicator(e.target.value)}>
+              <optgroup label="3.1 Public Health Financing">
+                <option value="Gov exp Health per capita">Government Health Expenditure Per Capita</option>
+                <option value="Gap for Gov exp Health per capita">Health Financing Gap</option>
+                <option value="Gov exp Health on GDP">Government Health Expenditure as % GDP</option>
+                <option value="Gap Gov exp Health on GDP">Gap to GDP Benchmark</option>
+                <option value="Gov exp Health on GDP > 5">Meets 5% GDP Benchmark</option>
+                <option value="Gov exp Health on GDP > 2016 Value">Health/GDP Improved Since 2016</option>
+                <option value="Gov exp Health per capita > 2016 Value">Per Capita Improved Since 2016</option>
+                <option value="Gov exp Health per capita More than Threshold">Exceeds Income-Adjusted Threshold</option>
+                <option value="below_threshold">Below Health Financing Threshold</option>
+                <option value="meets_threshold">Meets Health Financing Threshold</option>
+                <option value="public_health_gap">Public Health Gap (Alternative)</option>
+                <option value="income_threshold">Income-Specific Threshold Value</option>
+                <option value="gov_exp_pc_thres">Gov Expenditure Per Capita Threshold</option>
+                <option value="thres50">50th Percentile Threshold</option>
+                <option value="thres75">75th Percentile Threshold</option>
+              </optgroup>
+              <optgroup label="3.2 Budget Priority">
+                <option value="Gov exp Health on budget">Government Health Budget Share (Abuja)</option>
+                <option value="Gap Gov exp Health on budget">Gap to Abuja Target</option>
+                <option value="Gov exp Health on budget > 15">Meets Abuja 15% Target</option>
+                <option value="Gov exp Health on budget > 2016 Value">Budget Priority Improved Since 2016</option>
+                <option value="below_abuja">Below Abuja Target</option>
+                <option value="meets_abuja">Meets Abuja Target</option>
+                <option value="budget_priority_gap">Budget Priority Gap (Alternative)</option>
+              </optgroup>
+              <optgroup label="3.3 Financial Protection">
+                <option value="Out-of-pocket on health exp">Out-of-Pocket Expenditure Share</option>
+                <option value="Out-of-pocket on health exp < 20">OOP Below 20% Benchmark</option>
+                <option value="below_oop_benchmark">Below OOP Benchmark</option>
+                <option value="oop_above_20">OOP Above 20% Threshold</option>
+                <option value="financial_protection_gap">Financial Protection Gap</option>
+                <option value="Exc Out-of-pocket on health exp">Health Expenditure Excluding OOP</option>
+              </optgroup>
+              <optgroup label="3.4 Financing Structure">
+                <option value="Govern on health exp">Government Share of Health Exp</option>
+                <option value="External on health exp">External/Donor Share of Health Exp</option>
+                <option value="Domest Private on health exp">Domestic Private Health Expenditure</option>
+                <option value="gov_dominant">Government is Dominant Source</option>
+                <option value="dominant_financing_source">Dominant Financing Source</option>
+                <option value="gov_highest">Government Has Highest Share</option>
+                <option value="vol_highest">Voluntary Prepayments Highest</option>
+                <option value="oop_highest">OOP is Dominant Source</option>
+                <option value="other_highest">Other Private is Dominant</option>
+                <option value="ext_highest">External Financing is Dominant</option>
+              </optgroup>
+              <optgroup label="3.5 Universal Health Coverage">
+                <option value="Universal health coverage">UHC Service Coverage Index</option>
+                <option value="uhc_below_50">UHC Below 50</option>
+                <option value="uhc_above_50">UHC Above 50</option>
+                <option value="uhc_year_avg">UHC Year-Specific Average</option>
+                <option value="uhc_below_avg">UHC Below Average</option>
+                <option value="uhc_below_50_or_avg">UHC Below 50 or Average</option>
+                <option value="uhc_p50">UHC 50th Percentile Value</option>
+                <option value="uhc_p75">UHC 75th Percentile Value</option>
+                <option value="uhc_above_p50">UHC Above Median</option>
+                <option value="uhc_above_p75">UHC Above 75th Percentile</option>
+              </optgroup>
+              <optgroup label="3.6 Health Outcomes">
+                <option value="Neonatal mortality rate">Neonatal Mortality Rate</option>
+                <option value="Maternal mortality ratio">Maternal Mortality Ratio</option>
+              </optgroup>
+              <optgroup label="3.7 Financing × UHC">
+                <option value="financial hardship">Financial Hardship from Health Costs</option>
+                <option value="health_tax_above_50th">Health Spending Above 50th (Tax Context)</option>
+                <option value="health_tax_above_75th">Health Spending Above 75th (Tax Context)</option>
+                <option value="health_gdp_above_50th">Health/GDP Above Median</option>
+                <option value="health_gdp_above_75th">Health/GDP Above 75th Percentile</option>
+              </optgroup>
+              <optgroup label="3.8 Financing × Outcomes">
+                <option value="nmr_on_course">On Track for NMR Target</option>
+                <option value="mmr_on_course">On Track for MMR Target</option>
+              </optgroup>
+              <optgroup label="3.9 Structure × UHC">
+                <option value="Voluntary Prepayments on health exp">Voluntary Health Insurance Share</option>
+                <option value="Other Private on health exp">Other Private Expenditure Share</option>
+              </optgroup>
+              <optgroup label="3.10 Structure × Outcomes">
+                <option value="imr_category">Infant Mortality Category (vs Target)</option>
+                <option value="mmr_category">Maternal Mortality Category (vs Target)</option>
+              </optgroup>
+              <optgroup label="3.11 Fiscal Space / Economic Indicators">
+                <option value="Expenditure per capita current">Total Health Expenditure Per Capita</option>
+                <option value="Expenditure on GDP">Health Expenditure as % GDP</option>
+                <option value="GDP per capita Current">GDP Per Capita (Current)</option>
+                <option value="GDP per capita Constant 2023">GDP Per Capita (Constant 2023)</option>
+                <option value="Tax Revenue per GDP">Tax Revenue as % GDP</option>
+                <option value="Total Revenue per GDP">Total Government Revenue as % GDP</option>
+                <option value="health_elasticity">Health Spending Elasticity</option>
+                <option value="Exp Health on GDP">Total Health Exp as % GDP (Alt)</option>
+                <option value="Exp Health per capita">Total Health Exp Per Capita (Alt)</option>
+                <option value="Expenditure per capita constant">Health Exp Per Capita (Constant 2023)</option>
+                <option value="Expenditure in million Constant 2023">Total Health Exp (Million Constant 2023)</option>
+                <option value="gdp_growth">GDP Growth Rate</option>
+                <option value="health_exp_growth">Health Expenditure Growth Rate</option>
+                <option value="Population">Total Population</option>
+                <option value="Direct foreign transfers, in million current US$">Foreign Transfers (Million Current)</option>
+                <option value="Direct foreign transfers, in current US$ per capita">Foreign Transfers Per Capita (Current)</option>
+                <option value="Direct foreign transfers, as % of Gross domestic product (GDP)">Foreign Transfers as % GDP</option>
+                <option value="Direct foreign transfers, as % of Current Health Expenditure (CHE)">Foreign Transfers as % CHE</option>
+                <option value="Direct foreign transfers, in million constant (2023) US$">Foreign Transfers (Million Constant 2023)</option>
+                <option value="Direct foreign transfers, in constant (2023) US$ per capita">Foreign Transfers Per Capita (Constant 2023)</option>
+                <option value="Gross fixed capital formation, in million current US$">Capital Formation (Million Current)</option>
+                <option value="Gross fixed capital formation, in current US$ per capita">Capital Formation Per Capita (Current)</option>
+                <option value="Gross fixed capital formation, as % of Gross domestic product (GDP)">Capital Formation as % GDP</option>
+                <option value="Gross fixed capital formation, in million constant (2023) US$">Capital Formation (Million Constant 2023)</option>
+                <option value="Gross fixed capital formation, in constant (2023) US$ per capita">Capital Formation Per Capita (Constant 2023)</option>
+              </optgroup>
+            </select>
+          </div>
+
+          <div className="control-group">
+            <h3>2. Select Countries (max 5)</h3>
+            <div className="country-checkboxes">
+              {countries.map(country => (
+                <label key={country}>
+                  <input
+                    type="checkbox"
+                    checked={selectedCountries.includes(country)}
+                    onChange={() => handleCountryToggle(country)}
+                    disabled={selectedCountries.length >= 5 && !selectedCountries.includes(country)}
+                  />
+                  {country}
+                </label>
+              ))}
+            </div>
+            <p className="helper-text">
+              {selectedCountries.length === 0 && 'Select at least one country to generate a chart'}
+              {selectedCountries.length > 0 && selectedCountries.length < 5 && `${selectedCountries.length} selected. You can select up to 5 countries.`}
+              {selectedCountries.length === 5 && 'Maximum 5 countries selected'}
+            </p>
+          </div>
+        </div>
+
+        <div className="chart-panel">
+          <h3>Your Custom Chart</h3>
+          <p style={{fontSize: '12px', color: '#666'}}>
+            Debug: masterData={masterData.length}, selected={selectedCountries.length}, chartData={data.length}, loaded={dataLoaded ? 'yes' : 'no'}
+          </p>
+          {loading ? (
+            <p className="no-data">Loading chart data...</p>
+          ) : data.length > 0 ? (
+            <ResponsiveContainer width="100%" height={500}>
+              <LineChart data={data}>
+                <CartesianGrid strokeDasharray="3 3" />
+                <XAxis dataKey="year" />
+                <YAxis />
+                <Tooltip />
+                <Legend />
+                {selectedCountries.map((country, idx) => (
+                  <Line
+                    key={country}
+                    type="monotone"
+                    dataKey={country}
+                    stroke={['#3b82f6', '#10b981', '#f59e0b', '#ef4444', '#8b5cf6'][idx]}
+                    strokeWidth={2}
+                  />
+                ))}
+              </LineChart>
+            </ResponsiveContainer>
+          ) : (
+            <p className="no-data">Select countries to generate a chart</p>
+          )}
+        </div>
+      </div>
+
+      {/* Dynamic Explanatory Notes */}
+      <div className="indicator-explanation">
+        <h2>About this indicator</h2>
+
+        <div className="explanation-section">
+          <h3>{indicatorInfo.title}</h3>
+          <p className="indicator-description">{indicatorInfo.description}</p>
+        </div>
+
+        <div className="explanation-section">
+          <h4>How to interpret this data</h4>
+          <p>{indicatorInfo.interpretation}</p>
+        </div>
+
+        {indicatorInfo.benchmark && (
+          <div className="explanation-section benchmark">
+            <h4>📊 Benchmark</h4>
+            <p className="benchmark-text">{indicatorInfo.benchmark}</p>
+          </div>
+        )}
+
+        <div className="explanation-section">
+          <h4>Measurement unit</h4>
+          <p className="unit-text">{indicatorInfo.unit}</p>
+        </div>
+
+        {selectedCountries.length > 0 && (
+          <div className="explanation-section countries-info">
+            <h4>Countries you're comparing</h4>
+            <div className="selected-countries-list">
+              {selectedCountries.map((country, idx) => (
+                <span key={country} className="country-badge" style={{
+                  backgroundColor: ['#eff6ff', '#ecfdf5', '#fef3c7', '#fee2e2', '#f3e8ff'][idx],
+                  color: ['#3b82f6', '#10b981', '#f59e0b', '#ef4444', '#8b5cf6'][idx]
+                }}>
+                  {country}
+                </span>
+              ))}
+            </div>
+          </div>
+        )}
+
+        <div className="explanation-section tip">
+          <h4>💡 Pro Tip</h4>
+          <p>
+            Try comparing countries with different income levels or from different regions to see how
+            economic development and geography impact {indicatorInfo.title.toLowerCase()}.
+          </p>
+        </div>
+      </div>
+
+      {/* Data Source */}
+      <div className="data-source-section">
+        <h3>Data Source</h3>
+        <p>
+          <strong>WHO Global Health Expenditure Database</strong> - All health financing indicators are
+          sourced from the World Health Organization's comprehensive database covering health expenditure
+          across all member states.
+        </p>
+        <a href="https://apps.who.int/nha/database" target="_blank" rel="noopener noreferrer">
+          Visit WHO GHED →
+        </a>
+      </div>
+    </div>
+  );
+};
+
+export default DataExplorer;

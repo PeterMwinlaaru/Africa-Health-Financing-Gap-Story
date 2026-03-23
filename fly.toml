@@ -1,0 +1,117 @@
+# =============================================
+# Fly.io Application Configuration
+# =============================================
+# This file configures the deployment of the Health Financing Gap Analysis Platform to Fly.io
+# Documentation: https://fly.io/docs/reference/configuration/
+
+app = "health-financing-gap"
+primary_region = "jnb"  # Johannesburg, South Africa (closest to African users)
+
+# Build configuration
+[build]
+  # Build the application from Dockerfile
+  dockerfile = "Dockerfile"
+
+# Environment variables
+[env]
+  NODE_ENV = "production"
+  PORT = "8080"
+  DATA_PATH = "./processed_data"
+  ENABLE_COMPRESSION = "true"
+  CACHE_MAX_AGE = "3600"
+  ENABLE_REQUEST_LOGGING = "true"
+
+# HTTP service configuration
+[[services]]
+  protocol = "tcp"
+  internal_port = 8080
+  processes = ["app"]
+
+  [[services.ports]]
+    port = 80
+    handlers = ["http"]
+    force_https = true
+
+  [[services.ports]]
+    port = 443
+    handlers = ["tls", "http"]
+
+  # Health checks
+  [services.concurrency]
+    type = "connections"
+    hard_limit = 25
+    soft_limit = 20
+
+  [[services.tcp_checks]]
+    interval = "15s"
+    timeout = "2s"
+    grace_period = "10s"
+    restart_limit = 0
+
+  [[services.http_checks]]
+    interval = "10s"
+    timeout = "2s"
+    grace_period = "5s"
+    method = "get"
+    path = "/api/health"
+    protocol = "http"
+    restart_limit = 0
+
+# VM resources
+[vm]
+  cpu_kind = "shared"
+  cpus = 1
+  memory_mb = 1024  # 1GB RAM (can increase if needed)
+
+# Deployment configuration
+[deploy]
+  strategy = "rolling"
+  max_unavailable = 0.5
+
+# Metrics
+[metrics]
+  port = 9091
+  path = "/metrics"
+
+# =============================================
+# Setup Instructions
+# =============================================
+#
+# 1. Install Fly CLI:
+#    Windows: iwr https://fly.io/install.ps1 -useb | iex
+#    macOS/Linux: curl -L https://fly.io/install.sh | sh
+#
+# 2. Login to Fly.io:
+#    fly auth login
+#
+# 3. Create the app (first time only):
+#    fly apps create health-financing-gap --org personal
+#
+# 4. Set secrets (environment variables that shouldn't be in this file):
+#    fly secrets set ALLOWED_ORIGINS="https://health-financing-gap.fly.dev,https://health-dashboard-winter-sky-9151.fly.dev"
+#
+# 5. Deploy the application:
+#    fly deploy
+#
+# 6. Open the deployed app:
+#    fly open
+#
+# 7. View logs:
+#    fly logs
+#
+# 8. Scale resources if needed:
+#    fly scale memory 2048  # Increase to 2GB RAM
+#    fly scale count 2      # Run 2 instances
+#
+# =============================================
+# Notes
+# =============================================
+#
+# - Region 'jnb' (Johannesburg) is recommended for African users
+# - Alternative regions: fra (Frankfurt), ams (Amsterdam)
+# - The app will be available at: https://health-financing-gap.fly.dev
+# - Fly.io provides free SSL certificates automatically
+# - Free tier includes: 3 shared-cpu VMs with 256MB RAM each
+# - This configuration uses 1 VM with 1GB RAM (within free tier limits)
+#
+# =============================================

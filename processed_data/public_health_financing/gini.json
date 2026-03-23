@@ -1,0 +1,2018 @@
+[
+  {
+    "year":2000,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2000,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.304440723
+  },
+  {
+    "year":2000,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.0039213152
+  },
+  {
+    "year":2000,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2000,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.0181160327
+  },
+  {
+    "year":2000,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.200620733
+  },
+  {
+    "year":2000,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.3137495574
+  },
+  {
+    "year":2000,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.322635902
+  },
+  {
+    "year":2000,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.4412189208
+  },
+  {
+    "year":2000,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.4150905817
+  },
+  {
+    "year":2000,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.5447484705
+  },
+  {
+    "year":2000,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.3396550232
+  },
+  {
+    "year":2000,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.2300175922
+  },
+  {
+    "year":2000,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.133307249
+  },
+  {
+    "year":2001,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2001,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.333680425
+  },
+  {
+    "year":2001,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.0381417205
+  },
+  {
+    "year":2001,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2001,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.0701084933
+  },
+  {
+    "year":2001,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.2013347857
+  },
+  {
+    "year":2001,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.286621195
+  },
+  {
+    "year":2001,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.2560131468
+  },
+  {
+    "year":2001,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.4350294783
+  },
+  {
+    "year":2001,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.2945741142
+  },
+  {
+    "year":2001,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.5325087111
+  },
+  {
+    "year":2001,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.3470662847
+  },
+  {
+    "year":2001,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.2315867319
+  },
+  {
+    "year":2001,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.1341801062
+  },
+  {
+    "year":2002,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2002,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.3350030729
+  },
+  {
+    "year":2002,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.0951515147
+  },
+  {
+    "year":2002,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2002,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.0224985232
+  },
+  {
+    "year":2002,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.1790135791
+  },
+  {
+    "year":2002,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.2093089472
+  },
+  {
+    "year":2002,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.3348208748
+  },
+  {
+    "year":2002,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.416081052
+  },
+  {
+    "year":2002,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.2985762817
+  },
+  {
+    "year":2002,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.5398928775
+  },
+  {
+    "year":2002,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.3358580262
+  },
+  {
+    "year":2002,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.2078079326
+  },
+  {
+    "year":2002,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.1405476583
+  },
+  {
+    "year":2003,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2003,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.3404890176
+  },
+  {
+    "year":2003,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.0592643771
+  },
+  {
+    "year":2003,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2003,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.022078938
+  },
+  {
+    "year":2003,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.2390613585
+  },
+  {
+    "year":2003,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.2198493883
+  },
+  {
+    "year":2003,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.4124432075
+  },
+  {
+    "year":2003,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.4596848396
+  },
+  {
+    "year":2003,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.412857
+  },
+  {
+    "year":2003,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.5291275139
+  },
+  {
+    "year":2003,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.2941602793
+  },
+  {
+    "year":2003,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.1833104216
+  },
+  {
+    "year":2003,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.1296115237
+  },
+  {
+    "year":2004,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2004,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.2793842533
+  },
+  {
+    "year":2004,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.1771256021
+  },
+  {
+    "year":2004,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2004,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.0720804298
+  },
+  {
+    "year":2004,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.2708344394
+  },
+  {
+    "year":2004,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.1757197403
+  },
+  {
+    "year":2004,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.3861493834
+  },
+  {
+    "year":2004,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.4703902759
+  },
+  {
+    "year":2004,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.412398494
+  },
+  {
+    "year":2004,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.5173184392
+  },
+  {
+    "year":2004,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.2611696872
+  },
+  {
+    "year":2004,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.1664165696
+  },
+  {
+    "year":2004,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.1278901725
+  },
+  {
+    "year":2005,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2005,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.2696755645
+  },
+  {
+    "year":2005,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.2302477842
+  },
+  {
+    "year":2005,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2005,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.0961049184
+  },
+  {
+    "year":2005,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.2432885675
+  },
+  {
+    "year":2005,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.1676733246
+  },
+  {
+    "year":2005,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.3875984545
+  },
+  {
+    "year":2005,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.4335504846
+  },
+  {
+    "year":2005,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.4661176322
+  },
+  {
+    "year":2005,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.5026309888
+  },
+  {
+    "year":2005,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.1629607965
+  },
+  {
+    "year":2005,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.1601021791
+  },
+  {
+    "year":2005,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.1306713288
+  },
+  {
+    "year":2006,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2006,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.2807376821
+  },
+  {
+    "year":2006,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.1162415843
+  },
+  {
+    "year":2006,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2006,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.064940768
+  },
+  {
+    "year":2006,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.2542331593
+  },
+  {
+    "year":2006,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.2258505978
+  },
+  {
+    "year":2006,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.2029701409
+  },
+  {
+    "year":2006,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.4149217665
+  },
+  {
+    "year":2006,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.382634144
+  },
+  {
+    "year":2006,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.5162314614
+  },
+  {
+    "year":2006,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.1373374388
+  },
+  {
+    "year":2006,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.1539135329
+  },
+  {
+    "year":2006,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.1438796246
+  },
+  {
+    "year":2007,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2007,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.275667744
+  },
+  {
+    "year":2007,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.1156514318
+  },
+  {
+    "year":2007,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2007,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.1380463508
+  },
+  {
+    "year":2007,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.2003080597
+  },
+  {
+    "year":2007,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.238739048
+  },
+  {
+    "year":2007,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.1277440551
+  },
+  {
+    "year":2007,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.4153636223
+  },
+  {
+    "year":2007,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.3443190257
+  },
+  {
+    "year":2007,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.5340422384
+  },
+  {
+    "year":2007,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.1191251014
+  },
+  {
+    "year":2007,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.1301457369
+  },
+  {
+    "year":2007,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.1584123587
+  },
+  {
+    "year":2008,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2008,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.3420818934
+  },
+  {
+    "year":2008,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.1559510156
+  },
+  {
+    "year":2008,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2008,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.0063089316
+  },
+  {
+    "year":2008,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.1922472811
+  },
+  {
+    "year":2008,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.2618630373
+  },
+  {
+    "year":2008,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.2905370803
+  },
+  {
+    "year":2008,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.3990823595
+  },
+  {
+    "year":2008,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.3395940393
+  },
+  {
+    "year":2008,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.5165874228
+  },
+  {
+    "year":2008,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.0379143342
+  },
+  {
+    "year":2008,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.0869925889
+  },
+  {
+    "year":2008,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.102824017
+  },
+  {
+    "year":2009,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2009,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.3030115187
+  },
+  {
+    "year":2009,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.184850249
+  },
+  {
+    "year":2009,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2009,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.0221804044
+  },
+  {
+    "year":2009,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.1960460355
+  },
+  {
+    "year":2009,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.3254472646
+  },
+  {
+    "year":2009,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.1972802308
+  },
+  {
+    "year":2009,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.3974771033
+  },
+  {
+    "year":2009,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.3585019661
+  },
+  {
+    "year":2009,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.52850943
+  },
+  {
+    "year":2009,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.025403028
+  },
+  {
+    "year":2009,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.1158023112
+  },
+  {
+    "year":2009,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.1382992954
+  },
+  {
+    "year":2010,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2010,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.320468706
+  },
+  {
+    "year":2010,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.2289986258
+  },
+  {
+    "year":2010,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2010,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.0479913825
+  },
+  {
+    "year":2010,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.1554543071
+  },
+  {
+    "year":2010,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.329157471
+  },
+  {
+    "year":2010,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.2385570809
+  },
+  {
+    "year":2010,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.4102514978
+  },
+  {
+    "year":2010,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.406324849
+  },
+  {
+    "year":2010,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.5409218071
+  },
+  {
+    "year":2010,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.0976359585
+  },
+  {
+    "year":2010,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.1269392962
+  },
+  {
+    "year":2010,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.1353077332
+  },
+  {
+    "year":2011,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2011,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.3490383063
+  },
+  {
+    "year":2011,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.280427793
+  },
+  {
+    "year":2011,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2011,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.0229503173
+  },
+  {
+    "year":2011,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.1728600635
+  },
+  {
+    "year":2011,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.2834703324
+  },
+  {
+    "year":2011,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.2210501834
+  },
+  {
+    "year":2011,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.4081666193
+  },
+  {
+    "year":2011,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.3701549917
+  },
+  {
+    "year":2011,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.5609705059
+  },
+  {
+    "year":2011,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.1139611415
+  },
+  {
+    "year":2011,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.0106904038
+  },
+  {
+    "year":2011,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.1456588488
+  },
+  {
+    "year":2012,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2012,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.2672791213
+  },
+  {
+    "year":2012,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.2239289426
+  },
+  {
+    "year":2012,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2012,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.1211236175
+  },
+  {
+    "year":2012,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.2034489433
+  },
+  {
+    "year":2012,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.2852011699
+  },
+  {
+    "year":2012,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.2088147903
+  },
+  {
+    "year":2012,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.399040266
+  },
+  {
+    "year":2012,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.3436803155
+  },
+  {
+    "year":2012,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.5359713112
+  },
+  {
+    "year":2012,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.0312830326
+  },
+  {
+    "year":2012,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.1427060328
+  },
+  {
+    "year":2012,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.1182937995
+  },
+  {
+    "year":2013,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2013,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.3875237308
+  },
+  {
+    "year":2013,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.2524757086
+  },
+  {
+    "year":2013,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2013,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.090826288
+  },
+  {
+    "year":2013,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.2322692941
+  },
+  {
+    "year":2013,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.2820116148
+  },
+  {
+    "year":2013,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.2714467203
+  },
+  {
+    "year":2013,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.396015984
+  },
+  {
+    "year":2013,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.325969962
+  },
+  {
+    "year":2013,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.53441494
+  },
+  {
+    "year":2013,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.1246881106
+  },
+  {
+    "year":2013,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.1508321627
+  },
+  {
+    "year":2013,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.0864722974
+  },
+  {
+    "year":2014,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2014,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.3817434343
+  },
+  {
+    "year":2014,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.3050199864
+  },
+  {
+    "year":2014,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2014,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.0981709442
+  },
+  {
+    "year":2014,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.1809128598
+  },
+  {
+    "year":2014,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.3024955977
+  },
+  {
+    "year":2014,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.2504293928
+  },
+  {
+    "year":2014,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.3776031946
+  },
+  {
+    "year":2014,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.2289610569
+  },
+  {
+    "year":2014,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.5312669996
+  },
+  {
+    "year":2014,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.0795498891
+  },
+  {
+    "year":2014,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.0434880964
+  },
+  {
+    "year":2014,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.0405222257
+  },
+  {
+    "year":2015,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2015,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.3401978129
+  },
+  {
+    "year":2015,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.3115599613
+  },
+  {
+    "year":2015,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2015,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.0212324946
+  },
+  {
+    "year":2015,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.1360331939
+  },
+  {
+    "year":2015,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.346233621
+  },
+  {
+    "year":2015,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.2489244858
+  },
+  {
+    "year":2015,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.3176266896
+  },
+  {
+    "year":2015,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.3029966706
+  },
+  {
+    "year":2015,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.5319175793
+  },
+  {
+    "year":2015,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.1207297913
+  },
+  {
+    "year":2015,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.0960464983
+  },
+  {
+    "year":2015,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.0499055693
+  },
+  {
+    "year":2016,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2016,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.3126142596
+  },
+  {
+    "year":2016,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.2051963904
+  },
+  {
+    "year":2016,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2016,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.025240403
+  },
+  {
+    "year":2016,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.2299396776
+  },
+  {
+    "year":2016,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.2659755682
+  },
+  {
+    "year":2016,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.3560709103
+  },
+  {
+    "year":2016,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.3459719395
+  },
+  {
+    "year":2016,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.3181369372
+  },
+  {
+    "year":2016,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.5308753289
+  },
+  {
+    "year":2016,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.1754885556
+  },
+  {
+    "year":2016,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.1423939113
+  },
+  {
+    "year":2016,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.0165558311
+  },
+  {
+    "year":2017,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2017,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.3544266895
+  },
+  {
+    "year":2017,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.0877826495
+  },
+  {
+    "year":2017,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2017,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.0103008796
+  },
+  {
+    "year":2017,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.2516417109
+  },
+  {
+    "year":2017,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.2239901936
+  },
+  {
+    "year":2017,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.4537633677
+  },
+  {
+    "year":2017,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.3494939747
+  },
+  {
+    "year":2017,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.3219419885
+  },
+  {
+    "year":2017,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.5237193491
+  },
+  {
+    "year":2017,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.1638051979
+  },
+  {
+    "year":2017,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.1378970295
+  },
+  {
+    "year":2017,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.064319408
+  },
+  {
+    "year":2018,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2018,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.3265126609
+  },
+  {
+    "year":2018,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.0799973239
+  },
+  {
+    "year":2018,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2018,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.0065385175
+  },
+  {
+    "year":2018,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.2291495381
+  },
+  {
+    "year":2018,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.2371021642
+  },
+  {
+    "year":2018,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.4020855128
+  },
+  {
+    "year":2018,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.3517520828
+  },
+  {
+    "year":2018,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.3131925772
+  },
+  {
+    "year":2018,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.5603470137
+  },
+  {
+    "year":2018,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.1464373047
+  },
+  {
+    "year":2018,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.1889669573
+  },
+  {
+    "year":2018,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.0332336734
+  },
+  {
+    "year":2019,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2019,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.3255932713
+  },
+  {
+    "year":2019,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.0486734032
+  },
+  {
+    "year":2019,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2019,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.0161581797
+  },
+  {
+    "year":2019,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.2183870419
+  },
+  {
+    "year":2019,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.2405694389
+  },
+  {
+    "year":2019,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.3286148152
+  },
+  {
+    "year":2019,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.3406629597
+  },
+  {
+    "year":2019,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.4759796249
+  },
+  {
+    "year":2019,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.5659363119
+  },
+  {
+    "year":2019,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.194009714
+  },
+  {
+    "year":2019,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.2291481429
+  },
+  {
+    "year":2019,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.0485953098
+  },
+  {
+    "year":2020,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2020,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.3693549908
+  },
+  {
+    "year":2020,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.047882243
+  },
+  {
+    "year":2020,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2020,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.0404129143
+  },
+  {
+    "year":2020,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.2215047803
+  },
+  {
+    "year":2020,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.2748023042
+  },
+  {
+    "year":2020,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.3391322128
+  },
+  {
+    "year":2020,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.3659393579
+  },
+  {
+    "year":2020,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.3863939582
+  },
+  {
+    "year":2020,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.5633885936
+  },
+  {
+    "year":2020,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.1776905251
+  },
+  {
+    "year":2020,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.249804505
+  },
+  {
+    "year":2020,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.0541413513
+  },
+  {
+    "year":2021,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2021,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.3698415871
+  },
+  {
+    "year":2021,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.021766345
+  },
+  {
+    "year":2021,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2021,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.0808637595
+  },
+  {
+    "year":2021,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.2303912467
+  },
+  {
+    "year":2021,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.3074630077
+  },
+  {
+    "year":2021,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.3767760986
+  },
+  {
+    "year":2021,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.3008437731
+  },
+  {
+    "year":2021,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.3800421325
+  },
+  {
+    "year":2021,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.5874452256
+  },
+  {
+    "year":2021,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.1301751412
+  },
+  {
+    "year":2021,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.1486853384
+  },
+  {
+    "year":2021,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.0638316593
+  },
+  {
+    "year":2022,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2022,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.367044218
+  },
+  {
+    "year":2022,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.0540490471
+  },
+  {
+    "year":2022,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2022,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.2140836296
+  },
+  {
+    "year":2022,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.2192783572
+  },
+  {
+    "year":2022,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.2848726547
+  },
+  {
+    "year":2022,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.3525217865
+  },
+  {
+    "year":2022,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.275415103
+  },
+  {
+    "year":2022,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.3220743999
+  },
+  {
+    "year":2022,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.574752739
+  },
+  {
+    "year":2022,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.2065224896
+  },
+  {
+    "year":2022,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.1887670825
+  },
+  {
+    "year":2022,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.0850781401
+  },
+  {
+    "year":2023,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2023,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.3744145829
+  },
+  {
+    "year":2023,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.1078134008
+  },
+  {
+    "year":2023,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.0
+  },
+  {
+    "year":2023,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.2259488127
+  },
+  {
+    "year":2023,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.2397358666
+  },
+  {
+    "year":2023,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "gini_public_health_exp":0.2600497181
+  },
+  {
+    "year":2023,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.3422079082
+  },
+  {
+    "year":2023,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.3332465549
+  },
+  {
+    "year":2023,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.3507626567
+  },
+  {
+    "year":2023,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "gini_public_health_exp":0.5546913292
+  },
+  {
+    "year":2023,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "gini_public_health_exp":0.1879733023
+  },
+  {
+    "year":2023,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "gini_public_health_exp":0.2527034973
+  },
+  {
+    "year":2023,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "gini_public_health_exp":0.0972203437
+  }
+]

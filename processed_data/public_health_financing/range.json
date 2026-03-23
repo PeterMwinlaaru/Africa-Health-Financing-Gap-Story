@@ -1,0 +1,2690 @@
+[
+  {
+    "year":2000,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":279.37433247,
+    "max_public_exp":279.37433247,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2000,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":0.74352572,
+    "max_public_exp":5.17371463,
+    "range_public_exp":4.43018891
+  },
+  {
+    "year":2000,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_public_exp":3.83142667,
+    "max_public_exp":3.89199864,
+    "range_public_exp":0.06057197
+  },
+  {
+    "year":2000,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_public_exp":4.73373894,
+    "max_public_exp":4.73373894,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2000,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_public_exp":3.55273952,
+    "max_public_exp":3.81986418,
+    "range_public_exp":0.26712466
+  },
+  {
+    "year":2000,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_public_exp":1.13918856,
+    "max_public_exp":4.17386853,
+    "range_public_exp":3.03467997
+  },
+  {
+    "year":2000,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":2.6928073,
+    "max_public_exp":14.73145575,
+    "range_public_exp":12.03864845
+  },
+  {
+    "year":2000,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":4.57101766,
+    "max_public_exp":18.70930694,
+    "range_public_exp":14.13828928
+  },
+  {
+    "year":2000,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":3.19820808,
+    "max_public_exp":58.47010699,
+    "range_public_exp":55.27189891
+  },
+  {
+    "year":2000,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":5.29778175,
+    "max_public_exp":40.23559627,
+    "range_public_exp":34.93781452
+  },
+  {
+    "year":2000,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_public_exp":1.44369482,
+    "max_public_exp":42.45136274,
+    "range_public_exp":41.00766792
+  },
+  {
+    "year":2000,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":8.6164431,
+    "max_public_exp":45.12046386,
+    "range_public_exp":36.50402076
+  },
+  {
+    "year":2000,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":44.51503652,
+    "max_public_exp":120.36621216,
+    "range_public_exp":75.85117564
+  },
+  {
+    "year":2000,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":62.03759119,
+    "max_public_exp":121.69667936,
+    "range_public_exp":59.65908817
+  },
+  {
+    "year":2001,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":276.443628,
+    "max_public_exp":276.443628,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2001,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":0.22044757,
+    "max_public_exp":5.85219295,
+    "range_public_exp":5.63174538
+  },
+  {
+    "year":2001,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_public_exp":3.48332084,
+    "max_public_exp":4.05864819,
+    "range_public_exp":0.57532735
+  },
+  {
+    "year":2001,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_public_exp":5.06124129,
+    "max_public_exp":5.06124129,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2001,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_public_exp":3.01497628,
+    "max_public_exp":3.998366,
+    "range_public_exp":0.98338972
+  },
+  {
+    "year":2001,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_public_exp":1.23157338,
+    "max_public_exp":4.09434851,
+    "range_public_exp":2.86277513
+  },
+  {
+    "year":2001,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":3.639677,
+    "max_public_exp":13.15562484,
+    "range_public_exp":9.51594784
+  },
+  {
+    "year":2001,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":5.58268912,
+    "max_public_exp":18.13380993,
+    "range_public_exp":12.55112081
+  },
+  {
+    "year":2001,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":3.55302269,
+    "max_public_exp":59.49349291,
+    "range_public_exp":55.94047022
+  },
+  {
+    "year":2001,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":7.63380623,
+    "max_public_exp":34.98955807,
+    "range_public_exp":27.35575184
+  },
+  {
+    "year":2001,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_public_exp":1.65380834,
+    "max_public_exp":46.40479522,
+    "range_public_exp":44.75098688
+  },
+  {
+    "year":2001,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":8.74663312,
+    "max_public_exp":48.44568124,
+    "range_public_exp":39.69904812
+  },
+  {
+    "year":2001,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":51.11676805,
+    "max_public_exp":139.32377318,
+    "range_public_exp":88.20700513
+  },
+  {
+    "year":2001,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":62.58302821,
+    "max_public_exp":111.78326007,
+    "range_public_exp":49.20023186
+  },
+  {
+    "year":2002,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":295.43088195,
+    "max_public_exp":295.43088195,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2002,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":0.16944773,
+    "max_public_exp":5.32762769,
+    "range_public_exp":5.15817996
+  },
+  {
+    "year":2002,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_public_exp":3.53497367,
+    "max_public_exp":5.19662296,
+    "range_public_exp":1.66164929
+  },
+  {
+    "year":2002,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_public_exp":5.7139129,
+    "max_public_exp":5.7139129,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2002,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_public_exp":3.69111126,
+    "max_public_exp":4.03894077,
+    "range_public_exp":0.34782951
+  },
+  {
+    "year":2002,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_public_exp":1.28402814,
+    "max_public_exp":3.52976186,
+    "range_public_exp":2.24573372
+  },
+  {
+    "year":2002,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":4.83969226,
+    "max_public_exp":13.53287244,
+    "range_public_exp":8.69318018
+  },
+  {
+    "year":2002,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":4.31311127,
+    "max_public_exp":20.1213104,
+    "range_public_exp":15.80819913
+  },
+  {
+    "year":2002,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":5.66648985,
+    "max_public_exp":64.5227548,
+    "range_public_exp":58.85626495
+  },
+  {
+    "year":2002,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":7.47626369,
+    "max_public_exp":32.75072984,
+    "range_public_exp":25.27446615
+  },
+  {
+    "year":2002,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_public_exp":2.96833681,
+    "max_public_exp":50.31913328,
+    "range_public_exp":47.35079647
+  },
+  {
+    "year":2002,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":9.34394933,
+    "max_public_exp":47.58207094,
+    "range_public_exp":38.23812161
+  },
+  {
+    "year":2002,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":50.197046,
+    "max_public_exp":121.59764521,
+    "range_public_exp":71.40059921
+  },
+  {
+    "year":2002,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":61.98269218,
+    "max_public_exp":116.37255173,
+    "range_public_exp":54.38985955
+  },
+  {
+    "year":2003,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":336.13733234,
+    "max_public_exp":336.13733234,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2003,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":0.37090691,
+    "max_public_exp":7.66168508,
+    "range_public_exp":7.29077817
+  },
+  {
+    "year":2003,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_public_exp":4.47814804,
+    "max_public_exp":5.6824739,
+    "range_public_exp":1.20432586
+  },
+  {
+    "year":2003,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_public_exp":7.33121181,
+    "max_public_exp":7.33121181,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2003,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_public_exp":3.99025259,
+    "max_public_exp":4.35893498,
+    "range_public_exp":0.36868239
+  },
+  {
+    "year":2003,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_public_exp":0.95477203,
+    "max_public_exp":5.24900238,
+    "range_public_exp":4.29423035
+  },
+  {
+    "year":2003,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":5.69415175,
+    "max_public_exp":16.28638513,
+    "range_public_exp":10.59223338
+  },
+  {
+    "year":2003,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":5.620118,
+    "max_public_exp":37.60682569,
+    "range_public_exp":31.98670769
+  },
+  {
+    "year":2003,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":5.6511191,
+    "max_public_exp":76.56874533,
+    "range_public_exp":70.91762623
+  },
+  {
+    "year":2003,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":6.4880598,
+    "max_public_exp":60.09539152,
+    "range_public_exp":53.60733172
+  },
+  {
+    "year":2003,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_public_exp":2.26466407,
+    "max_public_exp":62.10102193,
+    "range_public_exp":59.83635786
+  },
+  {
+    "year":2003,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":17.52466365,
+    "max_public_exp":67.61276069,
+    "range_public_exp":50.08809704
+  },
+  {
+    "year":2003,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":58.25024877,
+    "max_public_exp":125.68459704,
+    "range_public_exp":67.43434827
+  },
+  {
+    "year":2003,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":82.6986805,
+    "max_public_exp":157.23350153,
+    "range_public_exp":74.53482103
+  },
+  {
+    "year":2004,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":362.99493509,
+    "max_public_exp":362.99493509,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2004,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":0.36617992,
+    "max_public_exp":5.9157699,
+    "range_public_exp":5.54958998
+  },
+  {
+    "year":2004,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_public_exp":4.61428683,
+    "max_public_exp":9.67698823,
+    "range_public_exp":5.0627014
+  },
+  {
+    "year":2004,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_public_exp":11.09162193,
+    "max_public_exp":11.09162193,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2004,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_public_exp":3.35841844,
+    "max_public_exp":4.48982846,
+    "range_public_exp":1.13141002
+  },
+  {
+    "year":2004,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_public_exp":1.46912248,
+    "max_public_exp":6.86392641,
+    "range_public_exp":5.39480393
+  },
+  {
+    "year":2004,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":7.088611,
+    "max_public_exp":16.28800644,
+    "range_public_exp":9.19939544
+  },
+  {
+    "year":2004,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":6.22817259,
+    "max_public_exp":34.38276705,
+    "range_public_exp":28.15459446
+  },
+  {
+    "year":2004,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":6.00305046,
+    "max_public_exp":85.52288264,
+    "range_public_exp":79.51983218
+  },
+  {
+    "year":2004,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":7.21766002,
+    "max_public_exp":78.05587061,
+    "range_public_exp":70.83821059
+  },
+  {
+    "year":2004,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_public_exp":1.33633442,
+    "max_public_exp":66.67031858,
+    "range_public_exp":65.33398416
+  },
+  {
+    "year":2004,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":23.31647894,
+    "max_public_exp":74.31132495,
+    "range_public_exp":50.99484601
+  },
+  {
+    "year":2004,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":66.13586817,
+    "max_public_exp":132.12298449,
+    "range_public_exp":65.98711632
+  },
+  {
+    "year":2004,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":100.4314369,
+    "max_public_exp":195.46391135,
+    "range_public_exp":95.03247445
+  },
+  {
+    "year":2005,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":372.73684575,
+    "max_public_exp":372.73684575,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2005,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":0.44389999,
+    "max_public_exp":5.9159373,
+    "range_public_exp":5.47203731
+  },
+  {
+    "year":2005,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_public_exp":3.41263081,
+    "max_public_exp":9.23835261,
+    "range_public_exp":5.8257218
+  },
+  {
+    "year":2005,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_public_exp":14.48552016,
+    "max_public_exp":14.48552016,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2005,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_public_exp":4.22039951,
+    "max_public_exp":6.22884759,
+    "range_public_exp":2.00844808
+  },
+  {
+    "year":2005,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_public_exp":1.55965701,
+    "max_public_exp":6.44752841,
+    "range_public_exp":4.8878714
+  },
+  {
+    "year":2005,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":7.67737513,
+    "max_public_exp":16.56994689,
+    "range_public_exp":8.89257176
+  },
+  {
+    "year":2005,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":7.45090519,
+    "max_public_exp":38.94584836,
+    "range_public_exp":31.49494317
+  },
+  {
+    "year":2005,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":8.18935537,
+    "max_public_exp":86.3170726,
+    "range_public_exp":78.12771723
+  },
+  {
+    "year":2005,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":8.83702237,
+    "max_public_exp":107.23089295,
+    "range_public_exp":98.39387058
+  },
+  {
+    "year":2005,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_public_exp":1.27350527,
+    "max_public_exp":66.39965555,
+    "range_public_exp":65.12615028
+  },
+  {
+    "year":2005,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":34.6570512,
+    "max_public_exp":68.17090127,
+    "range_public_exp":33.51385007
+  },
+  {
+    "year":2005,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":69.87079668,
+    "max_public_exp":135.69332399,
+    "range_public_exp":65.82252731
+  },
+  {
+    "year":2005,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":92.58404927,
+    "max_public_exp":194.92925491,
+    "range_public_exp":102.34520564
+  },
+  {
+    "year":2006,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":387.25586992,
+    "max_public_exp":387.25586992,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2006,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":0.5396442,
+    "max_public_exp":6.13655578,
+    "range_public_exp":5.59691158
+  },
+  {
+    "year":2006,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_public_exp":4.31361982,
+    "max_public_exp":6.92683679,
+    "range_public_exp":2.61321697
+  },
+  {
+    "year":2006,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_public_exp":20.12819249,
+    "max_public_exp":20.12819249,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2006,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_public_exp":4.02493303,
+    "max_public_exp":5.22652685,
+    "range_public_exp":1.20159382
+  },
+  {
+    "year":2006,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_public_exp":1.4992463,
+    "max_public_exp":6.84194483,
+    "range_public_exp":5.34269853
+  },
+  {
+    "year":2006,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":7.34747621,
+    "max_public_exp":21.7729202,
+    "range_public_exp":14.42544399
+  },
+  {
+    "year":2006,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":4.42199857,
+    "max_public_exp":11.67323897,
+    "range_public_exp":7.2512404
+  },
+  {
+    "year":2006,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":8.79465345,
+    "max_public_exp":93.45848136,
+    "range_public_exp":84.66382791
+  },
+  {
+    "year":2006,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":13.97853116,
+    "max_public_exp":104.99565926,
+    "range_public_exp":91.0171281
+  },
+  {
+    "year":2006,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_public_exp":1.11011723,
+    "max_public_exp":74.95369671,
+    "range_public_exp":73.84357948
+  },
+  {
+    "year":2006,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":46.67523661,
+    "max_public_exp":82.02632128,
+    "range_public_exp":35.35108467
+  },
+  {
+    "year":2006,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":79.94733251,
+    "max_public_exp":151.05659311,
+    "range_public_exp":71.1092606
+  },
+  {
+    "year":2006,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":91.2153648,
+    "max_public_exp":196.30659369,
+    "range_public_exp":105.09122889
+  },
+  {
+    "year":2007,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":343.8530961,
+    "max_public_exp":343.8530961,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2007,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":0.65161731,
+    "max_public_exp":7.98976086,
+    "range_public_exp":7.33814355
+  },
+  {
+    "year":2007,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_public_exp":5.00488744,
+    "max_public_exp":8.01685338,
+    "range_public_exp":3.01196594
+  },
+  {
+    "year":2007,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_public_exp":29.60162681,
+    "max_public_exp":29.60162681,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2007,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_public_exp":3.37715081,
+    "max_public_exp":5.95318974,
+    "range_public_exp":2.57603893
+  },
+  {
+    "year":2007,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_public_exp":2.65106935,
+    "max_public_exp":7.37094309,
+    "range_public_exp":4.71987374
+  },
+  {
+    "year":2007,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":7.29965374,
+    "max_public_exp":23.61336094,
+    "range_public_exp":16.3137072
+  },
+  {
+    "year":2007,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":7.54214712,
+    "max_public_exp":14.18523647,
+    "range_public_exp":6.64308935
+  },
+  {
+    "year":2007,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":10.73361212,
+    "max_public_exp":108.00201349,
+    "range_public_exp":97.26840137
+  },
+  {
+    "year":2007,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":16.64833535,
+    "max_public_exp":119.41255653,
+    "range_public_exp":102.76422118
+  },
+  {
+    "year":2007,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_public_exp":1.56463984,
+    "max_public_exp":90.77570509,
+    "range_public_exp":89.21106525
+  },
+  {
+    "year":2007,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":60.73159221,
+    "max_public_exp":98.72126863,
+    "range_public_exp":37.98967642
+  },
+  {
+    "year":2007,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":105.28618748,
+    "max_public_exp":179.38320259,
+    "range_public_exp":74.09701511
+  },
+  {
+    "year":2007,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":95.84571124,
+    "max_public_exp":232.94096583,
+    "range_public_exp":137.09525459
+  },
+  {
+    "year":2008,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":251.11452886,
+    "max_public_exp":251.11452886,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2008,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":0.89637356,
+    "max_public_exp":9.58436116,
+    "range_public_exp":8.6879876
+  },
+  {
+    "year":2008,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_public_exp":3.79158801,
+    "max_public_exp":7.22890088,
+    "range_public_exp":3.43731287
+  },
+  {
+    "year":2008,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_public_exp":26.45692884,
+    "max_public_exp":26.45692884,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2008,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_public_exp":7.14766264,
+    "max_public_exp":7.33034415,
+    "range_public_exp":0.18268151
+  },
+  {
+    "year":2008,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_public_exp":3.03154384,
+    "max_public_exp":8.43124883,
+    "range_public_exp":5.39970499
+  },
+  {
+    "year":2008,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":6.30570119,
+    "max_public_exp":28.3243147,
+    "range_public_exp":22.01861351
+  },
+  {
+    "year":2008,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":8.21752337,
+    "max_public_exp":31.13279453,
+    "range_public_exp":22.91527116
+  },
+  {
+    "year":2008,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":14.51998651,
+    "max_public_exp":125.10540272,
+    "range_public_exp":110.58541621
+  },
+  {
+    "year":2008,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":21.80924526,
+    "max_public_exp":133.60904457,
+    "range_public_exp":111.79979931
+  },
+  {
+    "year":2008,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_public_exp":1.89661634,
+    "max_public_exp":87.47573312,
+    "range_public_exp":85.57911678
+  },
+  {
+    "year":2008,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":88.42804103,
+    "max_public_exp":102.93916115,
+    "range_public_exp":14.51112012
+  },
+  {
+    "year":2008,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":148.5784402,
+    "max_public_exp":211.16919678,
+    "range_public_exp":62.59075658
+  },
+  {
+    "year":2008,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":110.38717169,
+    "max_public_exp":209.3500365,
+    "range_public_exp":98.96286481
+  },
+  {
+    "year":2009,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":216.04401359,
+    "max_public_exp":216.04401359,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2009,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":0.87506385,
+    "max_public_exp":10.6109672,
+    "range_public_exp":9.73590335
+  },
+  {
+    "year":2009,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_public_exp":3.34143171,
+    "max_public_exp":7.26124749,
+    "range_public_exp":3.91981578
+  },
+  {
+    "year":2009,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_public_exp":32.89474536,
+    "max_public_exp":32.89474536,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2009,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_public_exp":6.39286987,
+    "max_public_exp":6.98638441,
+    "range_public_exp":0.59351454
+  },
+  {
+    "year":2009,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_public_exp":3.03272665,
+    "max_public_exp":9.87644001,
+    "range_public_exp":6.84371336
+  },
+  {
+    "year":2009,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":5.34607209,
+    "max_public_exp":29.77602738,
+    "range_public_exp":24.42995529
+  },
+  {
+    "year":2009,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":6.54714725,
+    "max_public_exp":17.94695417,
+    "range_public_exp":11.39980692
+  },
+  {
+    "year":2009,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":12.61536327,
+    "max_public_exp":127.3258742,
+    "range_public_exp":114.71051093
+  },
+  {
+    "year":2009,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":18.9534015,
+    "max_public_exp":144.53961117,
+    "range_public_exp":125.58620967
+  },
+  {
+    "year":2009,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_public_exp":1.723324,
+    "max_public_exp":93.16787029,
+    "range_public_exp":91.44454629
+  },
+  {
+    "year":2009,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":102.19443472,
+    "max_public_exp":113.13444589,
+    "range_public_exp":10.94001117
+  },
+  {
+    "year":2009,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":146.87305666,
+    "max_public_exp":235.41205576,
+    "range_public_exp":88.5389991
+  },
+  {
+    "year":2009,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":114.2849542,
+    "max_public_exp":242.54178211,
+    "range_public_exp":128.25682791
+  },
+  {
+    "year":2010,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":317.21803715,
+    "max_public_exp":317.21803715,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2010,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":1.25141795,
+    "max_public_exp":12.10347888,
+    "range_public_exp":10.85206093
+  },
+  {
+    "year":2010,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_public_exp":2.75021569,
+    "max_public_exp":7.39813023,
+    "range_public_exp":4.64791454
+  },
+  {
+    "year":2010,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_public_exp":23.95597544,
+    "max_public_exp":23.95597544,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2010,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_public_exp":6.17109126,
+    "max_public_exp":7.48150522,
+    "range_public_exp":1.31041396
+  },
+  {
+    "year":2010,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_public_exp":2.80935656,
+    "max_public_exp":8.16387231,
+    "range_public_exp":5.35451575
+  },
+  {
+    "year":2010,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":5.22299622,
+    "max_public_exp":30.80122574,
+    "range_public_exp":25.57822952
+  },
+  {
+    "year":2010,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":5.68323096,
+    "max_public_exp":24.4089272,
+    "range_public_exp":18.72569624
+  },
+  {
+    "year":2010,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":12.14262464,
+    "max_public_exp":134.22998752,
+    "range_public_exp":122.08736288
+  },
+  {
+    "year":2010,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":22.63248268,
+    "max_public_exp":168.82466174,
+    "range_public_exp":146.19217906
+  },
+  {
+    "year":2010,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_public_exp":2.3928857,
+    "max_public_exp":92.36904474,
+    "range_public_exp":89.97615904
+  },
+  {
+    "year":2010,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":88.51553608,
+    "max_public_exp":131.47314819,
+    "range_public_exp":42.95761211
+  },
+  {
+    "year":2010,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":158.38740503,
+    "max_public_exp":266.17461241,
+    "range_public_exp":107.78720738
+  },
+  {
+    "year":2010,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":157.66975753,
+    "max_public_exp":318.9651985,
+    "range_public_exp":161.29544097
+  },
+  {
+    "year":2011,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":316.32840153,
+    "max_public_exp":316.32840153,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2011,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":1.2472376,
+    "max_public_exp":14.30779297,
+    "range_public_exp":13.06055537
+  },
+  {
+    "year":2011,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_public_exp":2.21734988,
+    "max_public_exp":7.88114988,
+    "range_public_exp":5.6638
+  },
+  {
+    "year":2011,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_public_exp":18.35939432,
+    "max_public_exp":18.35939432,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2011,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_public_exp":7.7609665,
+    "max_public_exp":8.50770903,
+    "range_public_exp":0.74674253
+  },
+  {
+    "year":2011,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_public_exp":3.14370932,
+    "max_public_exp":9.76029624,
+    "range_public_exp":6.61658692
+  },
+  {
+    "year":2011,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":9.60834108,
+    "max_public_exp":39.30130183,
+    "range_public_exp":29.69296075
+  },
+  {
+    "year":2011,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":8.67433582,
+    "max_public_exp":28.25323918,
+    "range_public_exp":19.57890336
+  },
+  {
+    "year":2011,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":14.47915548,
+    "max_public_exp":152.69720838,
+    "range_public_exp":138.2180529
+  },
+  {
+    "year":2011,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":21.98633569,
+    "max_public_exp":155.74212344,
+    "range_public_exp":133.75578775
+  },
+  {
+    "year":2011,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_public_exp":3.24950878,
+    "max_public_exp":104.5245189,
+    "range_public_exp":101.27501012
+  },
+  {
+    "year":2011,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":101.88086494,
+    "max_public_exp":162.03263156,
+    "range_public_exp":60.15176662
+  },
+  {
+    "year":2011,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":193.17331314,
+    "max_public_exp":201.61418878,
+    "range_public_exp":8.44087564
+  },
+  {
+    "year":2011,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":158.6551413,
+    "max_public_exp":356.2614069,
+    "range_public_exp":197.6062656
+  },
+  {
+    "year":2012,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":427.88126776,
+    "max_public_exp":427.88126776,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2012,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":2.13075712,
+    "max_public_exp":14.52360075,
+    "range_public_exp":12.39284363
+  },
+  {
+    "year":2012,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_public_exp":3.38952886,
+    "max_public_exp":8.88821185,
+    "range_public_exp":5.49868299
+  },
+  {
+    "year":2012,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_public_exp":19.79718033,
+    "max_public_exp":19.79718033,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2012,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_public_exp":5.1677065,
+    "max_public_exp":8.47185178,
+    "range_public_exp":3.30414528
+  },
+  {
+    "year":2012,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_public_exp":3.03417257,
+    "max_public_exp":9.48608652,
+    "range_public_exp":6.45191395
+  },
+  {
+    "year":2012,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":9.84032792,
+    "max_public_exp":37.14756023,
+    "range_public_exp":27.30723231
+  },
+  {
+    "year":2012,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":9.27550332,
+    "max_public_exp":30.56539207,
+    "range_public_exp":21.28988875
+  },
+  {
+    "year":2012,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":16.69002276,
+    "max_public_exp":153.96982507,
+    "range_public_exp":137.27980231
+  },
+  {
+    "year":2012,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":24.75716275,
+    "max_public_exp":148.41121369,
+    "range_public_exp":123.65405094
+  },
+  {
+    "year":2012,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_public_exp":3.47869741,
+    "max_public_exp":104.61692194,
+    "range_public_exp":101.13822453
+  },
+  {
+    "year":2012,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":121.62574334,
+    "max_public_exp":137.86079499,
+    "range_public_exp":16.23505165
+  },
+  {
+    "year":2012,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":243.0186462,
+    "max_public_exp":437.14577995,
+    "range_public_exp":194.12713375
+  },
+  {
+    "year":2012,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":172.04140431,
+    "max_public_exp":334.41255453,
+    "range_public_exp":162.37115022
+  },
+  {
+    "year":2013,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":416.97273848,
+    "max_public_exp":416.97273848,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2013,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":0.52391006,
+    "max_public_exp":15.31113542,
+    "range_public_exp":14.78722536
+  },
+  {
+    "year":2013,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_public_exp":3.58603686,
+    "max_public_exp":10.90157904,
+    "range_public_exp":7.31554218
+  },
+  {
+    "year":2013,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_public_exp":16.12481003,
+    "max_public_exp":16.12481003,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2013,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_public_exp":7.12571102,
+    "max_public_exp":10.2891688,
+    "range_public_exp":3.16345778
+  },
+  {
+    "year":2013,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_public_exp":2.16164337,
+    "max_public_exp":12.25013884,
+    "range_public_exp":10.08849547
+  },
+  {
+    "year":2013,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":10.57847839,
+    "max_public_exp":37.48983419,
+    "range_public_exp":26.9113558
+  },
+  {
+    "year":2013,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":7.57046427,
+    "max_public_exp":41.7556284,
+    "range_public_exp":34.18516413
+  },
+  {
+    "year":2013,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":20.94549516,
+    "max_public_exp":168.20038633,
+    "range_public_exp":147.25489117
+  },
+  {
+    "year":2013,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":23.85359769,
+    "max_public_exp":135.28117951,
+    "range_public_exp":111.42758182
+  },
+  {
+    "year":2013,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_public_exp":3.65686342,
+    "max_public_exp":110.39780548,
+    "range_public_exp":106.74094206
+  },
+  {
+    "year":2013,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":100.73986929,
+    "max_public_exp":167.67653887,
+    "range_public_exp":66.93666958
+  },
+  {
+    "year":2013,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":234.15631731,
+    "max_public_exp":436.45618556,
+    "range_public_exp":202.29986825
+  },
+  {
+    "year":2013,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":183.93819534,
+    "max_public_exp":303.75176668,
+    "range_public_exp":119.81357134
+  },
+  {
+    "year":2014,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":422.14803468,
+    "max_public_exp":422.14803468,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2014,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":0.45925519,
+    "max_public_exp":15.90090046,
+    "range_public_exp":15.44164527
+  },
+  {
+    "year":2014,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_public_exp":2.91429313,
+    "max_public_exp":12.03233179,
+    "range_public_exp":9.11803866
+  },
+  {
+    "year":2014,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_public_exp":22.43848227,
+    "max_public_exp":22.43848227,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2014,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_public_exp":8.03348862,
+    "max_public_exp":11.95881533,
+    "range_public_exp":3.92532671
+  },
+  {
+    "year":2014,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_public_exp":3.88930809,
+    "max_public_exp":12.44316982,
+    "range_public_exp":8.55386173
+  },
+  {
+    "year":2014,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":8.96585132,
+    "max_public_exp":38.98350953,
+    "range_public_exp":30.01765821
+  },
+  {
+    "year":2014,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":9.72798401,
+    "max_public_exp":41.94376012,
+    "range_public_exp":32.21577611
+  },
+  {
+    "year":2014,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":21.45281982,
+    "max_public_exp":167.19781221,
+    "range_public_exp":145.74499239
+  },
+  {
+    "year":2014,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":32.34112202,
+    "max_public_exp":106.64200368,
+    "range_public_exp":74.30088166
+  },
+  {
+    "year":2014,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_public_exp":4.67905309,
+    "max_public_exp":110.48785375,
+    "range_public_exp":105.80880066
+  },
+  {
+    "year":2014,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":101.24445194,
+    "max_public_exp":139.55570321,
+    "range_public_exp":38.31125127
+  },
+  {
+    "year":2014,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":257.11406553,
+    "max_public_exp":306.10030743,
+    "range_public_exp":48.9862419
+  },
+  {
+    "year":2014,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":245.39548978,
+    "max_public_exp":299.65550085,
+    "range_public_exp":54.26001107
+  },
+  {
+    "year":2015,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":416.90320975,
+    "max_public_exp":416.90320975,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2015,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":0.47546042,
+    "max_public_exp":15.4478565,
+    "range_public_exp":14.97239608
+  },
+  {
+    "year":2015,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_public_exp":1.66988994,
+    "max_public_exp":7.1917615,
+    "range_public_exp":5.52187156
+  },
+  {
+    "year":2015,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_public_exp":13.29970564,
+    "max_public_exp":13.29970564,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2015,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_public_exp":10.0197614,
+    "max_public_exp":10.9084789,
+    "range_public_exp":0.8887175
+  },
+  {
+    "year":2015,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_public_exp":3.46916113,
+    "max_public_exp":9.17579828,
+    "range_public_exp":5.70663715
+  },
+  {
+    "year":2015,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":6.19654436,
+    "max_public_exp":40.57703751,
+    "range_public_exp":34.38049315
+  },
+  {
+    "year":2015,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":5.14828493,
+    "max_public_exp":26.83455592,
+    "range_public_exp":21.68627099
+  },
+  {
+    "year":2015,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":22.06227246,
+    "max_public_exp":134.2013903,
+    "range_public_exp":112.13911784
+  },
+  {
+    "year":2015,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":21.50839213,
+    "max_public_exp":104.6915212,
+    "range_public_exp":83.18312907
+  },
+  {
+    "year":2015,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_public_exp":3.20848647,
+    "max_public_exp":98.9225539,
+    "range_public_exp":95.71406743
+  },
+  {
+    "year":2015,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":67.40756821,
+    "max_public_exp":110.32209961,
+    "range_public_exp":42.9145314
+  },
+  {
+    "year":2015,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":203.29667971,
+    "max_public_exp":299.97084703,
+    "range_public_exp":96.67416732
+  },
+  {
+    "year":2015,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":214.93031666,
+    "max_public_exp":280.75873444,
+    "range_public_exp":65.82841778
+  },
+  {
+    "year":2016,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":465.50486554,
+    "max_public_exp":465.50486554,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2016,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":0.55149667,
+    "max_public_exp":11.42369052,
+    "range_public_exp":10.87219385
+  },
+  {
+    "year":2016,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_public_exp":2.3212538,
+    "max_public_exp":5.55264504,
+    "range_public_exp":3.23139124
+  },
+  {
+    "year":2016,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_public_exp":20.28414574,
+    "max_public_exp":20.28414574,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2016,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_public_exp":7.60744897,
+    "max_public_exp":8.4163429,
+    "range_public_exp":0.80889393
+  },
+  {
+    "year":2016,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_public_exp":3.29394944,
+    "max_public_exp":15.84240991,
+    "range_public_exp":12.54846047
+  },
+  {
+    "year":2016,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":7.83787778,
+    "max_public_exp":33.36855742,
+    "range_public_exp":25.53067964
+  },
+  {
+    "year":2016,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":5.27569638,
+    "max_public_exp":44.23699364,
+    "range_public_exp":38.96129726
+  },
+  {
+    "year":2016,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":18.77898371,
+    "max_public_exp":131.04868589,
+    "range_public_exp":112.26970218
+  },
+  {
+    "year":2016,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":19.31378064,
+    "max_public_exp":94.47781462,
+    "range_public_exp":75.16403398
+  },
+  {
+    "year":2016,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_public_exp":4.72583518,
+    "max_public_exp":99.944698,
+    "range_public_exp":95.21886282
+  },
+  {
+    "year":2016,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":64.49291983,
+    "max_public_exp":134.24558676,
+    "range_public_exp":69.75266693
+  },
+  {
+    "year":2016,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":174.48679725,
+    "max_public_exp":313.44336609,
+    "range_public_exp":138.95656884
+  },
+  {
+    "year":2016,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":238.38038862,
+    "max_public_exp":258.97910501,
+    "range_public_exp":20.59871639
+  },
+  {
+    "year":2017,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":487.2759871,
+    "max_public_exp":487.2759871,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2017,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":0.75412048,
+    "max_public_exp":11.85407936,
+    "range_public_exp":11.09995888
+  },
+  {
+    "year":2017,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_public_exp":3.15086408,
+    "max_public_exp":4.49283184,
+    "range_public_exp":1.34196776
+  },
+  {
+    "year":2017,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_public_exp":12.21247329,
+    "max_public_exp":12.21247329,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2017,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_public_exp":8.17915694,
+    "max_public_exp":8.52325603,
+    "range_public_exp":0.34409909
+  },
+  {
+    "year":2017,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_public_exp":3.90299783,
+    "max_public_exp":19.04949663,
+    "range_public_exp":15.1464988
+  },
+  {
+    "year":2017,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":9.62355554,
+    "max_public_exp":30.01998296,
+    "range_public_exp":20.39642742
+  },
+  {
+    "year":2017,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":2.11259902,
+    "max_public_exp":53.8876186,
+    "range_public_exp":51.77501958
+  },
+  {
+    "year":2017,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":19.88436923,
+    "max_public_exp":120.18954446,
+    "range_public_exp":100.30517523
+  },
+  {
+    "year":2017,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":23.07750517,
+    "max_public_exp":134.72959802,
+    "range_public_exp":111.65209285
+  },
+  {
+    "year":2017,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_public_exp":5.00711269,
+    "max_public_exp":99.39557445,
+    "range_public_exp":94.38846176
+  },
+  {
+    "year":2017,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":61.69181438,
+    "max_public_exp":121.80838845,
+    "range_public_exp":60.11657407
+  },
+  {
+    "year":2017,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":175.10578376,
+    "max_public_exp":308.47429713,
+    "range_public_exp":133.36851337
+  },
+  {
+    "year":2017,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":262.95240586,
+    "max_public_exp":356.39495476,
+    "range_public_exp":93.4425489
+  },
+  {
+    "year":2018,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":490.84618281,
+    "max_public_exp":490.84618281,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2018,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":0.70823206,
+    "max_public_exp":12.68199256,
+    "range_public_exp":11.9737605
+  },
+  {
+    "year":2018,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_public_exp":3.21596194,
+    "max_public_exp":4.44104151,
+    "range_public_exp":1.22507957
+  },
+  {
+    "year":2018,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_public_exp":7.88856853,
+    "max_public_exp":7.88856853,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2018,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_public_exp":9.00582078,
+    "max_public_exp":9.24448061,
+    "range_public_exp":0.23865983
+  },
+  {
+    "year":2018,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_public_exp":4.08529907,
+    "max_public_exp":16.54260849,
+    "range_public_exp":12.45730942
+  },
+  {
+    "year":2018,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":11.69287192,
+    "max_public_exp":36.4200352,
+    "range_public_exp":24.72716328
+  },
+  {
+    "year":2018,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":5.66157484,
+    "max_public_exp":48.26725195,
+    "range_public_exp":42.60567711
+  },
+  {
+    "year":2018,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":15.69535372,
+    "max_public_exp":112.22465153,
+    "range_public_exp":96.52929781
+  },
+  {
+    "year":2018,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":30.56645175,
+    "max_public_exp":135.73398674,
+    "range_public_exp":105.16753499
+  },
+  {
+    "year":2018,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_public_exp":5.76204271,
+    "max_public_exp":133.24628142,
+    "range_public_exp":127.48423871
+  },
+  {
+    "year":2018,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":67.07641183,
+    "max_public_exp":122.63933795,
+    "range_public_exp":55.56292612
+  },
+  {
+    "year":2018,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":175.9806211,
+    "max_public_exp":389.81335232,
+    "range_public_exp":213.83273122
+  },
+  {
+    "year":2018,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":274.0200636,
+    "max_public_exp":318.75981908,
+    "range_public_exp":44.73975548
+  },
+  {
+    "year":2019,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":483.20827875,
+    "max_public_exp":483.20827875,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2019,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":0.8102189,
+    "max_public_exp":14.33773611,
+    "range_public_exp":13.52751721
+  },
+  {
+    "year":2019,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_public_exp":3.77337779,
+    "max_public_exp":4.58725909,
+    "range_public_exp":0.8138813
+  },
+  {
+    "year":2019,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_public_exp":7.17046331,
+    "max_public_exp":7.17046331,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2019,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_public_exp":8.8854186,
+    "max_public_exp":9.47888607,
+    "range_public_exp":0.59346747
+  },
+  {
+    "year":2019,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_public_exp":3.46580799,
+    "max_public_exp":17.16469763,
+    "range_public_exp":13.69888964
+  },
+  {
+    "year":2019,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":12.57189089,
+    "max_public_exp":39.37885207,
+    "range_public_exp":26.80696118
+  },
+  {
+    "year":2019,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":6.32829881,
+    "max_public_exp":43.5287584,
+    "range_public_exp":37.20045959
+  },
+  {
+    "year":2019,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":19.45967919,
+    "max_public_exp":125.87926176,
+    "range_public_exp":106.41958257
+  },
+  {
+    "year":2019,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":7.86121479,
+    "max_public_exp":167.95304845,
+    "range_public_exp":160.09183366
+  },
+  {
+    "year":2019,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_public_exp":5.15910829,
+    "max_public_exp":141.88993757,
+    "range_public_exp":136.73082928
+  },
+  {
+    "year":2019,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":54.77774925,
+    "max_public_exp":124.24018612,
+    "range_public_exp":69.46243687
+  },
+  {
+    "year":2019,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":146.38565972,
+    "max_public_exp":394.07827253,
+    "range_public_exp":247.69261281
+  },
+  {
+    "year":2019,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":249.31325719,
+    "max_public_exp":313.62231793,
+    "range_public_exp":64.30906074
+  },
+  {
+    "year":2020,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":514.55152112,
+    "max_public_exp":514.55152112,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2020,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":1.19417853,
+    "max_public_exp":16.65234961,
+    "range_public_exp":15.45817108
+  },
+  {
+    "year":2020,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_public_exp":4.78277479,
+    "max_public_exp":5.79582938,
+    "range_public_exp":1.01305459
+  },
+  {
+    "year":2020,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_public_exp":7.83273023,
+    "max_public_exp":7.83273023,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2020,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_public_exp":9.4061562,
+    "max_public_exp":11.06038103,
+    "range_public_exp":1.65422483
+  },
+  {
+    "year":2020,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_public_exp":7.00420642,
+    "max_public_exp":23.59401043,
+    "range_public_exp":16.58980401
+  },
+  {
+    "year":2020,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":8.95510561,
+    "max_public_exp":42.59929056,
+    "range_public_exp":33.64418495
+  },
+  {
+    "year":2020,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":9.44591998,
+    "max_public_exp":64.80884234,
+    "range_public_exp":55.36292236
+  },
+  {
+    "year":2020,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":18.0258376,
+    "max_public_exp":153.02479505,
+    "range_public_exp":134.99895745
+  },
+  {
+    "year":2020,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":11.29845171,
+    "max_public_exp":118.08877339,
+    "range_public_exp":106.79032168
+  },
+  {
+    "year":2020,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_public_exp":6.13564555,
+    "max_public_exp":164.79145092,
+    "range_public_exp":158.65580537
+  },
+  {
+    "year":2020,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":59.59175318,
+    "max_public_exp":125.29810525,
+    "range_public_exp":65.70635207
+  },
+  {
+    "year":2020,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":123.98084324,
+    "max_public_exp":371.55503051,
+    "range_public_exp":247.57418727
+  },
+  {
+    "year":2020,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":252.65630987,
+    "max_public_exp":326.19200345,
+    "range_public_exp":73.53569358
+  },
+  {
+    "year":2021,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":450.00630881,
+    "max_public_exp":450.00630881,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2021,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":1.89745208,
+    "max_public_exp":21.84829527,
+    "range_public_exp":19.95084319
+  },
+  {
+    "year":2021,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_public_exp":6.38819603,
+    "max_public_exp":6.96970123,
+    "range_public_exp":0.5815052
+  },
+  {
+    "year":2021,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_public_exp":5.65297739,
+    "max_public_exp":5.65297739,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2021,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_public_exp":8.40634952,
+    "max_public_exp":11.65001571,
+    "range_public_exp":3.24366619
+  },
+  {
+    "year":2021,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_public_exp":5.2372968,
+    "max_public_exp":24.50182223,
+    "range_public_exp":19.26452543
+  },
+  {
+    "year":2021,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":10.22188383,
+    "max_public_exp":45.95190943,
+    "range_public_exp":35.7300256
+  },
+  {
+    "year":2021,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":8.1746975,
+    "max_public_exp":80.19544512,
+    "range_public_exp":72.02074762
+  },
+  {
+    "year":2021,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":29.15847917,
+    "max_public_exp":159.79183405,
+    "range_public_exp":130.63335488
+  },
+  {
+    "year":2021,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":20.05877633,
+    "max_public_exp":146.74192152,
+    "range_public_exp":126.68314519
+  },
+  {
+    "year":2021,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_public_exp":4.40088277,
+    "max_public_exp":182.09204234,
+    "range_public_exp":177.69115957
+  },
+  {
+    "year":2021,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":79.4583788,
+    "max_public_exp":135.39569849,
+    "range_public_exp":55.93731969
+  },
+  {
+    "year":2021,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":119.54725442,
+    "max_public_exp":220.73815774,
+    "range_public_exp":101.19090332
+  },
+  {
+    "year":2021,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":287.66584771,
+    "max_public_exp":376.98816882,
+    "range_public_exp":89.32232111
+  },
+  {
+    "year":2022,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":482.32263458,
+    "max_public_exp":482.32263458,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2022,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":1.78770458,
+    "max_public_exp":23.72770061,
+    "range_public_exp":21.93999603
+  },
+  {
+    "year":2022,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_public_exp":7.19933295,
+    "max_public_exp":8.94444453,
+    "range_public_exp":1.74511158
+  },
+  {
+    "year":2022,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_public_exp":5.60501076,
+    "max_public_exp":5.60501076,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2022,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_public_exp":5.29930194,
+    "max_public_exp":13.2351455,
+    "range_public_exp":7.93584356
+  },
+  {
+    "year":2022,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_public_exp":5.9483952,
+    "max_public_exp":22.82665384,
+    "range_public_exp":16.87825864
+  },
+  {
+    "year":2022,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":11.25410135,
+    "max_public_exp":42.26814462,
+    "range_public_exp":31.01404327
+  },
+  {
+    "year":2022,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":10.72591004,
+    "max_public_exp":55.66496274,
+    "range_public_exp":44.9390527
+  },
+  {
+    "year":2022,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":33.43987382,
+    "max_public_exp":145.5626508,
+    "range_public_exp":112.12277698
+  },
+  {
+    "year":2022,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":20.66689952,
+    "max_public_exp":127.50130835,
+    "range_public_exp":106.83440883
+  },
+  {
+    "year":2022,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_public_exp":6.42340842,
+    "max_public_exp":184.73594136,
+    "range_public_exp":178.31253294
+  },
+  {
+    "year":2022,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":65.84550723,
+    "max_public_exp":158.51753556,
+    "range_public_exp":92.67202833
+  },
+  {
+    "year":2022,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":85.17147857,
+    "max_public_exp":188.48684542,
+    "range_public_exp":103.31536685
+  },
+  {
+    "year":2022,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":252.55717181,
+    "max_public_exp":358.75471313,
+    "range_public_exp":106.19754132
+  },
+  {
+    "year":2023,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":538.46083483,
+    "max_public_exp":538.46083483,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2023,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":3.14048574,
+    "max_public_exp":24.76385589,
+    "range_public_exp":21.62337015
+  },
+  {
+    "year":2023,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "min_public_exp":7.72851315,
+    "max_public_exp":11.9777011,
+    "range_public_exp":4.24918795
+  },
+  {
+    "year":2023,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "min_public_exp":4.37346736,
+    "max_public_exp":4.37346736,
+    "range_public_exp":0.0
+  },
+  {
+    "year":2023,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "min_public_exp":5.28969102,
+    "max_public_exp":14.01214479,
+    "range_public_exp":8.72245377
+  },
+  {
+    "year":2023,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "min_public_exp":5.97892743,
+    "max_public_exp":22.55664526,
+    "range_public_exp":16.57771783
+  },
+  {
+    "year":2023,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "min_public_exp":11.48315586,
+    "max_public_exp":38.1540972,
+    "range_public_exp":26.67094134
+  },
+  {
+    "year":2023,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":11.62274284,
+    "max_public_exp":63.22889128,
+    "range_public_exp":51.60614844
+  },
+  {
+    "year":2023,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":31.46490648,
+    "max_public_exp":171.83541244,
+    "range_public_exp":140.37050596
+  },
+  {
+    "year":2023,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":20.35901935,
+    "max_public_exp":126.5018177,
+    "range_public_exp":106.14279835
+  },
+  {
+    "year":2023,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "min_public_exp":6.8243476,
+    "max_public_exp":169.93649485,
+    "range_public_exp":163.11214725
+  },
+  {
+    "year":2023,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "min_public_exp":75.36635162,
+    "max_public_exp":166.17179936,
+    "range_public_exp":90.80544774
+  },
+  {
+    "year":2023,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "min_public_exp":123.8676409,
+    "max_public_exp":377.01951102,
+    "range_public_exp":253.15187012
+  },
+  {
+    "year":2023,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "min_public_exp":232.3342768,
+    "max_public_exp":369.45645879,
+    "range_public_exp":137.12218199
+  }
+]

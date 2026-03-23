@@ -1,0 +1,158 @@
+# =============================================
+# Git Ignore for Health Financing Platform
+# =============================================
+# This file specifies what should NOT be committed to Git
+# IMPORTANT: processed_data/ is NOT listed here - it MUST be committed!
+
+# =============================================
+# Dependencies
+# =============================================
+node_modules/
+frontend/health-financing-dashboard/node_modules/
+backend/node_modules/
+
+# =============================================
+# Build Outputs
+# =============================================
+# Frontend build (will be rebuilt on deployment)
+frontend/health-financing-dashboard/build/
+build/
+dist/
+
+# =============================================
+# Environment Files (NEVER COMMIT!)
+# =============================================
+.env
+.env.local
+.env.development
+.env.production
+.env.*.local
+
+# Backend environment files
+backend/.env
+backend/.env.local
+backend/.env.development
+backend/.env.production
+
+# Frontend environment files
+frontend/health-financing-dashboard/.env
+frontend/health-financing-dashboard/.env.local
+frontend/health-financing-dashboard/.env.development
+frontend/health-financing-dashboard/.env.production
+
+# IMPORTANT: .env.example files ARE committed (they're templates)
+!backend/.env.example
+!frontend/health-financing-dashboard/.env.example
+!frontend/health-financing-dashboard/.env.production.example
+
+# =============================================
+# Logs
+# =============================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# =============================================
+# Testing
+# =============================================
+coverage/
+.nyc_output/
+frontend/health-financing-dashboard/coverage/
+
+# =============================================
+# IDE and Editor Files
+# =============================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# =============================================
+# OS Files
+# =============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# =============================================
+# Temporary Files
+# =============================================
+tmp/
+temp/
+*.tmp
+.cache/
+tmpclaude-*
+
+# =============================================
+# Optional npm cache directory
+# =============================================
+.npm
+
+# =============================================
+# Optional REPL history
+# =============================================
+.node_repl_history
+
+# =============================================
+# IMPORTANT: Data Files (DO COMMIT!)
+# =============================================
+# The processed_data/ folder is NOT listed here
+# This ensures all data files ARE committed to Git
+# Your colleague needs this data for the platform to work!
+
+# =============================================
+# Python (if any data processing scripts exist)
+# =============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+*.egg-info/
+.ipynb_checkpoints/
+
+# =============================================
+# Data Processing (exclude raw/intermediate files if any)
+# =============================================
+# Only exclude if you have separate raw data folders
+# data-processing/raw_data/
+# data-processing/intermediate/
+
+# Keep processed_data/ - this is what the platform needs!
+# processed_data/ is intentionally NOT listed here
+
+# Exclude reports folder (development artifacts)
+reports/
+
+# =============================================
+# Deployment-specific files
+# =============================================
+# These are committed as .example files
+# Actual deployment files are excluded
+fly.toml.local
+
+# =============================================
+# Package manager files
+# =============================================
+package-lock.json.backup
+yarn.lock.backup
+
+# =============================================

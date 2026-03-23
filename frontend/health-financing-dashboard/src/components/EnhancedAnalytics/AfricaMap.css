@@ -1,0 +1,118 @@
+.africa-map-container {
+  margin: var(--spacing-xl) 0;
+}
+
+/* Smooth rendering - eliminate white dots at borders */
+.africa-map-container .leaflet-container {
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  shape-rendering: crispEdges;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.africa-map-container svg {
+  shape-rendering: geometricPrecision;
+}
+
+.africa-map-container svg path {
+  shape-rendering: geometricPrecision;
+  stroke-linejoin: round !important;
+  stroke-linecap: round !important;
+  vector-effect: non-scaling-stroke;
+}
+
+.africa-map-container .leaflet-overlay-pane svg {
+  shape-rendering: geometricPrecision;
+  filter: contrast(1.01);
+}
+
+.africa-map-container .leaflet-overlay-pane {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.africa-map-container h3 {
+  margin-bottom: var(--spacing-lg);
+  color: var(--charcoal);
+  font-size: var(--font-h4);
+}
+
+.map-loading,
+.map-error {
+  padding: var(--spacing-2xl);
+  text-align: center;
+  color: var(--medium-gray);
+  background: var(--bg-light);
+  border-radius: var(--radius-md);
+}
+
+.map-legend {
+  margin-top: var(--spacing-lg);
+  padding: var(--spacing-lg);
+  background: var(--bg-white);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+}
+
+.map-legend h4 {
+  margin: 0 0 var(--spacing-md) 0;
+  font-size: 0.95rem;
+  color: var(--dark-gray);
+  font-weight: var(--font-weight-semibold);
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  padding: 0.25rem 0;
+  font-size: 0.9rem;
+  color: var(--dark-gray);
+}
+
+.legend-color {
+  width: 30px;
+  height: 18px;
+  border-radius: 3px;
+  border: 1px solid #999;
+  flex-shrink: 0;
+}
+
+/* Leaflet popup customization */
+.leaflet-popup-content-wrapper {
+  border-radius: var(--radius-sm);
+  font-family: inherit;
+}
+
+.leaflet-popup-content {
+  margin: var(--spacing-sm);
+  font-size: 0.9rem;
+}
+
+.leaflet-popup-content strong {
+  color: var(--charcoal);
+  font-weight: var(--font-weight-semibold);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .africa-map-container {
+    margin: var(--spacing-lg) 0;
+  }
+
+  .map-legend {
+    padding: var(--spacing-md);
+  }
+
+  .legend-item {
+    font-size: 0.85rem;
+  }
+
+  .legend-color {
+    width: 25px;
+    height: 15px;
+  }
+}

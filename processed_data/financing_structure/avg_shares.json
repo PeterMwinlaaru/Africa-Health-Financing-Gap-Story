@@ -1,0 +1,3362 @@
+[
+  {
+    "year":2000,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":82.11167908,
+    "avg_voluntary_prepaid_share":null,
+    "avg_oop_share":17.88831902,
+    "avg_other_private_share":null,
+    "avg_external_share":0.0
+  },
+  {
+    "year":2000,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":29.2912569729,
+    "avg_voluntary_prepaid_share":1.8364103733,
+    "avg_oop_share":46.8319715757,
+    "avg_other_private_share":5.8790120582,
+    "avg_external_share":17.2635524029
+  },
+  {
+    "year":2000,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_gov_share":38.647520065,
+    "avg_voluntary_prepaid_share":0.40842684,
+    "avg_oop_share":52.247198105,
+    "avg_other_private_share":1.218639642,
+    "avg_external_share":7.478215335
+  },
+  {
+    "year":2000,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":33.82594299,
+    "avg_voluntary_prepaid_share":1.55993438,
+    "avg_oop_share":61.82265854,
+    "avg_other_private_share":null,
+    "avg_external_share":null
+  },
+  {
+    "year":2000,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":46.926942825,
+    "avg_voluntary_prepaid_share":2.0685271,
+    "avg_oop_share":27.8220787,
+    "avg_other_private_share":0.0,
+    "avg_external_share":23.18245363
+  },
+  {
+    "year":2000,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_gov_share":16.8580337775,
+    "avg_voluntary_prepaid_share":1.52443925,
+    "avg_oop_share":62.2555518137,
+    "avg_other_private_share":2.262528836,
+    "avg_external_share":16.6802534763
+  },
+  {
+    "year":2000,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":25.6949346075,
+    "avg_voluntary_prepaid_share":1.8436819,
+    "avg_oop_share":52.47625351,
+    "avg_other_private_share":2.3504890054,
+    "avg_external_share":17.6346415275
+  },
+  {
+    "year":2000,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":28.9697879167,
+    "avg_voluntary_prepaid_share":0.4657681933,
+    "avg_oop_share":58.3382568333,
+    "avg_other_private_share":2.0796584686,
+    "avg_external_share":10.1465285633
+  },
+  {
+    "year":2000,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":31.77937436,
+    "avg_voluntary_prepaid_share":6.08305194,
+    "avg_oop_share":58.2015113825,
+    "avg_other_private_share":2.9399388631,
+    "avg_external_share":1.61697429
+  },
+  {
+    "year":2000,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":50.67246151,
+    "avg_voluntary_prepaid_share":3.47298636,
+    "avg_oop_share":32.76739931,
+    "avg_other_private_share":13.6702543894,
+    "avg_external_share":3.70270869
+  },
+  {
+    "year":2000,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_gov_share":32.8225830614,
+    "avg_voluntary_prepaid_share":2.209428228,
+    "avg_oop_share":53.52603531,
+    "avg_other_private_share":1.2567071319,
+    "avg_external_share":8.36244355
+  },
+  {
+    "year":2000,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":39.702022555,
+    "avg_voluntary_prepaid_share":3.84647834,
+    "avg_oop_share":52.663900375,
+    "avg_other_private_share":0.7897826433,
+    "avg_external_share":2.99781609
+  },
+  {
+    "year":2000,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":60.33616066,
+    "avg_voluntary_prepaid_share":0.81809813,
+    "avg_oop_share":38.542812345,
+    "avg_other_private_share":1.3717688322,
+    "avg_external_share":0.0260935
+  },
+  {
+    "year":2000,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":49.8334226625,
+    "avg_voluntary_prepaid_share":24.5775064075,
+    "avg_oop_share":18.916859745,
+    "avg_other_private_share":1.1934073418,
+    "avg_external_share":5.478803855
+  },
+  {
+    "year":2001,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":82.64809418,
+    "avg_voluntary_prepaid_share":null,
+    "avg_oop_share":17.09648132,
+    "avg_other_private_share":null,
+    "avg_external_share":0.25542524
+  },
+  {
+    "year":2001,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":28.4433253829,
+    "avg_voluntary_prepaid_share":1.3705665533,
+    "avg_oop_share":45.4482492729,
+    "avg_other_private_share":4.9039421082,
+    "avg_external_share":20.7302748829
+  },
+  {
+    "year":2001,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_gov_share":36.344049455,
+    "avg_voluntary_prepaid_share":0.9636738,
+    "avg_oop_share":56.18190575,
+    "avg_other_private_share":1.2771047056,
+    "avg_external_share":5.23326623
+  },
+  {
+    "year":2001,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":33.33333206,
+    "avg_voluntary_prepaid_share":1.60818708,
+    "avg_oop_share":62.28070068,
+    "avg_other_private_share":null,
+    "avg_external_share":null
+  },
+  {
+    "year":2001,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":43.71904564,
+    "avg_voluntary_prepaid_share":2.12572455,
+    "avg_oop_share":22.617375375,
+    "avg_other_private_share":0.0,
+    "avg_external_share":31.5378561
+  },
+  {
+    "year":2001,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_gov_share":17.2190358025,
+    "avg_voluntary_prepaid_share":1.5223795014,
+    "avg_oop_share":59.8401149513,
+    "avg_other_private_share":2.5297373384,
+    "avg_external_share":18.46222043
+  },
+  {
+    "year":2001,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":25.298451665,
+    "avg_voluntary_prepaid_share":1.7811385825,
+    "avg_oop_share":54.15287304,
+    "avg_other_private_share":2.3756341785,
+    "avg_external_share":16.391902805
+  },
+  {
+    "year":2001,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":33.7817866,
+    "avg_voluntary_prepaid_share":0.4780564267,
+    "avg_oop_share":54.83686447,
+    "avg_other_private_share":2.0138116082,
+    "avg_external_share":8.8894809067
+  },
+  {
+    "year":2001,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":31.9859075525,
+    "avg_voluntary_prepaid_share":5.931342465,
+    "avg_oop_share":58.413404465,
+    "avg_other_private_share":2.8382089138,
+    "avg_external_share":1.4765473433
+  },
+  {
+    "year":2001,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":46.760030745,
+    "avg_voluntary_prepaid_share":4.4147781833,
+    "avg_oop_share":32.5383172025,
+    "avg_other_private_share":9.9687407811,
+    "avg_external_share":7.3855324675
+  },
+  {
+    "year":2001,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_gov_share":34.50165592,
+    "avg_voluntary_prepaid_share":2.473454376,
+    "avg_oop_share":51.44446809,
+    "avg_other_private_share":1.2428323336,
+    "avg_external_share":8.9505663943
+  },
+  {
+    "year":2001,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":34.813506125,
+    "avg_voluntary_prepaid_share":3.693220825,
+    "avg_oop_share":52.574245455,
+    "avg_other_private_share":0.7655106485,
+    "avg_external_share":8.15351695
+  },
+  {
+    "year":2001,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":65.3495388,
+    "avg_voluntary_prepaid_share":0.84755743,
+    "avg_oop_share":33.598233225,
+    "avg_other_private_share":1.2106177807,
+    "avg_external_share":0.023140345
+  },
+  {
+    "year":2001,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":49.33690262,
+    "avg_voluntary_prepaid_share":25.44907859,
+    "avg_oop_share":18.5190351025,
+    "avg_other_private_share":1.569016993,
+    "avg_external_share":5.1259667
+  },
+  {
+    "year":2002,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":86.68162537,
+    "avg_voluntary_prepaid_share":null,
+    "avg_oop_share":12.48222733,
+    "avg_other_private_share":null,
+    "avg_external_share":0.8361448
+  },
+  {
+    "year":2002,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":28.43165357,
+    "avg_voluntary_prepaid_share":1.5497795833,
+    "avg_oop_share":44.95277868,
+    "avg_other_private_share":4.9872498016,
+    "avg_external_share":21.0124424557
+  },
+  {
+    "year":2002,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_gov_share":31.348939895,
+    "avg_voluntary_prepaid_share":1.076735915,
+    "avg_oop_share":57.16660881,
+    "avg_other_private_share":1.3736815453,
+    "avg_external_share":9.034033895
+  },
+  {
+    "year":2002,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":34.20050812,
+    "avg_voluntary_prepaid_share":1.58629441,
+    "avg_oop_share":61.42131805,
+    "avg_other_private_share":null,
+    "avg_external_share":null
+  },
+  {
+    "year":2002,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":36.524440765,
+    "avg_voluntary_prepaid_share":1.74386886,
+    "avg_oop_share":21.48617172,
+    "avg_other_private_share":0.00000143,
+    "avg_external_share":40.245517735
+  },
+  {
+    "year":2002,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_gov_share":17.3363292212,
+    "avg_voluntary_prepaid_share":1.4894084943,
+    "avg_oop_share":56.769635915,
+    "avg_other_private_share":2.5321477729,
+    "avg_external_share":21.5313987163
+  },
+  {
+    "year":2002,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":26.5028376575,
+    "avg_voluntary_prepaid_share":1.68140578,
+    "avg_oop_share":51.0599184025,
+    "avg_other_private_share":2.2796686617,
+    "avg_external_share":18.476169465
+  },
+  {
+    "year":2002,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":29.09607315,
+    "avg_voluntary_prepaid_share":0.50771396,
+    "avg_oop_share":57.8383611033,
+    "avg_other_private_share":2.173105518,
+    "avg_external_share":10.3847463133
+  },
+  {
+    "year":2002,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":33.667270185,
+    "avg_voluntary_prepaid_share":5.5585984725,
+    "avg_oop_share":56.95080185,
+    "avg_other_private_share":2.6387075583,
+    "avg_external_share":1.93678507
+  },
+  {
+    "year":2002,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":42.43262577,
+    "avg_voluntary_prepaid_share":4.7762652433,
+    "avg_oop_share":31.280498025,
+    "avg_other_private_share":9.0771948497,
+    "avg_external_share":13.969696105
+  },
+  {
+    "year":2002,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_gov_share":31.2839471286,
+    "avg_voluntary_prepaid_share":2.681289738,
+    "avg_oop_share":51.8397554671,
+    "avg_other_private_share":1.2804842792,
+    "avg_external_share":11.64934584
+  },
+  {
+    "year":2002,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":24.24796772,
+    "avg_voluntary_prepaid_share":4.020665795,
+    "avg_oop_share":68.25829697,
+    "avg_other_private_share":0.5761707723,
+    "avg_external_share":2.896898745
+  },
+  {
+    "year":2002,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":71.094715115,
+    "avg_voluntary_prepaid_share":0.95434374,
+    "avg_oop_share":27.80706215,
+    "avg_other_private_share":1.1975963116,
+    "avg_external_share":0.02225268
+  },
+  {
+    "year":2002,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":50.10716915,
+    "avg_voluntary_prepaid_share":25.1641719225,
+    "avg_oop_share":18.378448845,
+    "avg_other_private_share":1.4427315593,
+    "avg_external_share":4.90747851
+  },
+  {
+    "year":2003,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":85.29311371,
+    "avg_voluntary_prepaid_share":null,
+    "avg_oop_share":13.69384193,
+    "avg_other_private_share":null,
+    "avg_external_share":1.01304066
+  },
+  {
+    "year":2003,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":30.2857542029,
+    "avg_voluntary_prepaid_share":1.3093741133,
+    "avg_oop_share":41.2485724857,
+    "avg_other_private_share":4.6203819911,
+    "avg_external_share":23.3830254414
+  },
+  {
+    "year":2003,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_gov_share":34.195508005,
+    "avg_voluntary_prepaid_share":1.59750119,
+    "avg_oop_share":48.240680695,
+    "avg_other_private_share":1.0791355073,
+    "avg_external_share":14.88717461
+  },
+  {
+    "year":2003,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":32.46046829,
+    "avg_voluntary_prepaid_share":1.38306212,
+    "avg_oop_share":62.56050873,
+    "avg_other_private_share":2.1206946373,
+    "avg_external_share":1.47526622
+  },
+  {
+    "year":2003,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":35.774168015,
+    "avg_voluntary_prepaid_share":1.46040088,
+    "avg_oop_share":16.6429801,
+    "avg_other_private_share":2.182005942,
+    "avg_external_share":43.940444945
+  },
+  {
+    "year":2003,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_gov_share":17.0191093662,
+    "avg_voluntary_prepaid_share":1.49708157,
+    "avg_oop_share":57.2720477588,
+    "avg_other_private_share":2.4825752373,
+    "avg_external_share":21.3806356187
+  },
+  {
+    "year":2003,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":25.9500308025,
+    "avg_voluntary_prepaid_share":1.6482005425,
+    "avg_oop_share":48.199492455,
+    "avg_other_private_share":2.9993178844,
+    "avg_external_share":21.202958345
+  },
+  {
+    "year":2003,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":33.6373602567,
+    "avg_voluntary_prepaid_share":0.46469827,
+    "avg_oop_share":54.9576988233,
+    "avg_other_private_share":1.9918948213,
+    "avg_external_share":8.9483478067
+  },
+  {
+    "year":2003,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":31.733359335,
+    "avg_voluntary_prepaid_share":5.39628277,
+    "avg_oop_share":57.724170685,
+    "avg_other_private_share":2.3219945431,
+    "avg_external_share":2.8241926725
+  },
+  {
+    "year":2003,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":42.54920721,
+    "avg_voluntary_prepaid_share":4.67935118,
+    "avg_oop_share":31.113464595,
+    "avg_other_private_share":8.4776364962,
+    "avg_external_share":16.46958813
+  },
+  {
+    "year":2003,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_gov_share":32.4632223671,
+    "avg_voluntary_prepaid_share":2.215696484,
+    "avg_oop_share":54.0314344671,
+    "avg_other_private_share":1.0526468232,
+    "avg_external_share":9.9970632614
+  },
+  {
+    "year":2003,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":30.38400841,
+    "avg_voluntary_prepaid_share":3.721458825,
+    "avg_oop_share":62.994615555,
+    "avg_other_private_share":0.6403665245,
+    "avg_external_share":2.25955069
+  },
+  {
+    "year":2003,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":71.469532015,
+    "avg_voluntary_prepaid_share":0.98076802,
+    "avg_oop_share":27.451886175,
+    "avg_other_private_share":1.1261675358,
+    "avg_external_share":0.025114005
+  },
+  {
+    "year":2003,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":51.16884613,
+    "avg_voluntary_prepaid_share":23.228645205,
+    "avg_oop_share":18.25509894,
+    "avg_other_private_share":1.3586536646,
+    "avg_external_share":5.9887560675
+  },
+  {
+    "year":2004,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":81.70999146,
+    "avg_voluntary_prepaid_share":null,
+    "avg_oop_share":15.64156914,
+    "avg_other_private_share":null,
+    "avg_external_share":2.64843535
+  },
+  {
+    "year":2004,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":26.7417447914,
+    "avg_voluntary_prepaid_share":1.2465150967,
+    "avg_oop_share":38.6988958629,
+    "avg_other_private_share":3.2591106494,
+    "avg_external_share":30.6973945057
+  },
+  {
+    "year":2004,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_gov_share":35.226970675,
+    "avg_voluntary_prepaid_share":1.49135083,
+    "avg_oop_share":52.072423935,
+    "avg_other_private_share":0.9443657994,
+    "avg_external_share":10.264888765
+  },
+  {
+    "year":2004,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":37.85013962,
+    "avg_voluntary_prepaid_share":1.26050425,
+    "avg_oop_share":57.1778717,
+    "avg_other_private_share":2.3109240532,
+    "avg_external_share":1.40056026
+  },
+  {
+    "year":2004,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":26.42568111,
+    "avg_voluntary_prepaid_share":1.87173557,
+    "avg_oop_share":12.65311718,
+    "avg_other_private_share":0.000002865,
+    "avg_external_share":59.049463275
+  },
+  {
+    "year":2004,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_gov_share":18.4692320813,
+    "avg_voluntary_prepaid_share":1.4849973943,
+    "avg_oop_share":55.5759588488,
+    "avg_other_private_share":1.9917691605,
+    "avg_external_share":22.120239795
+  },
+  {
+    "year":2004,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":28.1505415425,
+    "avg_voluntary_prepaid_share":1.6352847225,
+    "avg_oop_share":48.41536808,
+    "avg_other_private_share":1.9810380787,
+    "avg_external_share":19.8177680975
+  },
+  {
+    "year":2004,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":29.9870382967,
+    "avg_voluntary_prepaid_share":0.52808159,
+    "avg_oop_share":54.9264971433,
+    "avg_other_private_share":1.9444848498,
+    "avg_external_share":12.6138981167
+  },
+  {
+    "year":2004,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":31.6490864775,
+    "avg_voluntary_prepaid_share":5.2081318,
+    "avg_oop_share":58.4834136975,
+    "avg_other_private_share":2.2699134946,
+    "avg_external_share":2.3894545
+  },
+  {
+    "year":2004,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":42.00002718,
+    "avg_voluntary_prepaid_share":4.9245543267,
+    "avg_oop_share":31.026484965,
+    "avg_other_private_share":8.1797011693,
+    "avg_external_share":17.1452963325
+  },
+  {
+    "year":2004,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_gov_share":32.53089537,
+    "avg_voluntary_prepaid_share":2.425502022,
+    "avg_oop_share":53.00356647,
+    "avg_other_private_share":1.0767515615,
+    "avg_external_share":10.8637816214
+  },
+  {
+    "year":2004,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":31.352682115,
+    "avg_voluntary_prepaid_share":3.723116425,
+    "avg_oop_share":61.791578295,
+    "avg_other_private_share":0.7387581766,
+    "avg_external_share":2.39386499
+  },
+  {
+    "year":2004,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":68.56999588,
+    "avg_voluntary_prepaid_share":1.44542754,
+    "avg_oop_share":30.153917315,
+    "avg_other_private_share":1.0599417686,
+    "avg_external_share":0.02340216
+  },
+  {
+    "year":2004,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":50.612945555,
+    "avg_voluntary_prepaid_share":23.2580698575,
+    "avg_oop_share":17.4682838925,
+    "avg_other_private_share":1.2266050279,
+    "avg_external_share":7.43409566
+  },
+  {
+    "year":2005,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":81.42430878,
+    "avg_voluntary_prepaid_share":null,
+    "avg_oop_share":17.86114693,
+    "avg_other_private_share":null,
+    "avg_external_share":0.71454191
+  },
+  {
+    "year":2005,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":23.2611365329,
+    "avg_voluntary_prepaid_share":1.3331170483,
+    "avg_oop_share":40.0794713143,
+    "avg_other_private_share":3.039641281,
+    "avg_external_share":32.9113137386
+  },
+  {
+    "year":2005,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_gov_share":27.013698575,
+    "avg_voluntary_prepaid_share":1.548876615,
+    "avg_oop_share":53.97112465,
+    "avg_other_private_share":1.1251927912,
+    "avg_external_share":16.34110737
+  },
+  {
+    "year":2005,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":39.070961,
+    "avg_voluntary_prepaid_share":1.31091475,
+    "avg_oop_share":54.63094711,
+    "avg_other_private_share":2.3083512783,
+    "avg_external_share":2.67882586
+  },
+  {
+    "year":2005,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":29.15954971,
+    "avg_voluntary_prepaid_share":2.279315235,
+    "avg_oop_share":10.709146025,
+    "avg_other_private_share":0.0000031,
+    "avg_external_share":57.85198593
+  },
+  {
+    "year":2005,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_gov_share":17.9180698388,
+    "avg_voluntary_prepaid_share":1.5321893471,
+    "avg_oop_share":53.5710209612,
+    "avg_other_private_share":1.811721955,
+    "avg_external_share":24.8056133375
+  },
+  {
+    "year":2005,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":27.7879321575,
+    "avg_voluntary_prepaid_share":1.628024525,
+    "avg_oop_share":47.613256455,
+    "avg_other_private_share":1.9494836574,
+    "avg_external_share":21.0213031775
+  },
+  {
+    "year":2005,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":30.3480714167,
+    "avg_voluntary_prepaid_share":0.51318658,
+    "avg_oop_share":53.23751831,
+    "avg_other_private_share":1.8991065423,
+    "avg_external_share":14.0021171567
+  },
+  {
+    "year":2005,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":33.1002044675,
+    "avg_voluntary_prepaid_share":5.0988755075,
+    "avg_oop_share":58.37230873,
+    "avg_other_private_share":1.6323602796,
+    "avg_external_share":1.79625102
+  },
+  {
+    "year":2005,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":40.5203924175,
+    "avg_voluntary_prepaid_share":4.6868684067,
+    "avg_oop_share":29.0157055875,
+    "avg_other_private_share":7.6081178983,
+    "avg_external_share":21.24266231
+  },
+  {
+    "year":2005,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_gov_share":34.8656172071,
+    "avg_voluntary_prepaid_share":3.03597557,
+    "avg_oop_share":49.5744942286,
+    "avg_other_private_share":1.1040177152,
+    "avg_external_share":11.6712624671
+  },
+  {
+    "year":2005,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":32.159128185,
+    "avg_voluntary_prepaid_share":3.819083695,
+    "avg_oop_share":59.813121795,
+    "avg_other_private_share":0.7715007067,
+    "avg_external_share":3.437165615
+  },
+  {
+    "year":2005,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":66.97207642,
+    "avg_voluntary_prepaid_share":1.3746568,
+    "avg_oop_share":31.72016525,
+    "avg_other_private_share":1.1614848375,
+    "avg_external_share":0.03968749
+  },
+  {
+    "year":2005,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":47.7722196575,
+    "avg_voluntary_prepaid_share":21.6538905175,
+    "avg_oop_share":18.7922000875,
+    "avg_other_private_share":1.1279236674,
+    "avg_external_share":10.653766065
+  },
+  {
+    "year":2006,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":79.48935699,
+    "avg_voluntary_prepaid_share":null,
+    "avg_oop_share":19.81629562,
+    "avg_other_private_share":null,
+    "avg_external_share":0.69434422
+  },
+  {
+    "year":2006,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":20.1972028857,
+    "avg_voluntary_prepaid_share":1.9317027833,
+    "avg_oop_share":40.2063898386,
+    "avg_other_private_share":2.9988815188,
+    "avg_external_share":35.3322854729
+  },
+  {
+    "year":2006,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_gov_share":24.458813665,
+    "avg_voluntary_prepaid_share":1.637846175,
+    "avg_oop_share":57.603967665,
+    "avg_other_private_share":1.3189657331,
+    "avg_external_share":14.98040676
+  },
+  {
+    "year":2006,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":36.38067627,
+    "avg_voluntary_prepaid_share":1.08288217,
+    "avg_oop_share":55.78925323,
+    "avg_other_private_share":2.207413435,
+    "avg_external_share":4.53977489
+  },
+  {
+    "year":2006,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":24.083176615,
+    "avg_voluntary_prepaid_share":2.16891837,
+    "avg_oop_share":10.83552599,
+    "avg_other_private_share":2.7789981415,
+    "avg_external_share":60.13338089
+  },
+  {
+    "year":2006,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_gov_share":17.7618728862,
+    "avg_voluntary_prepaid_share":1.4938795786,
+    "avg_oop_share":51.9929722538,
+    "avg_other_private_share":1.7688804865,
+    "avg_external_share":26.6348710075
+  },
+  {
+    "year":2006,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":26.72560215,
+    "avg_voluntary_prepaid_share":1.4032090825,
+    "avg_oop_share":43.903707025,
+    "avg_other_private_share":1.8547000661,
+    "avg_external_share":26.11278236
+  },
+  {
+    "year":2006,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":19.18425131,
+    "avg_voluntary_prepaid_share":0.5185832167,
+    "avg_oop_share":54.31480662,
+    "avg_other_private_share":2.4272525311,
+    "avg_external_share":23.55510632
+  },
+  {
+    "year":2006,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":35.45515871,
+    "avg_voluntary_prepaid_share":1.97917031,
+    "avg_oop_share":57.5001306525,
+    "avg_other_private_share":3.8954639286,
+    "avg_external_share":1.1700764525
+  },
+  {
+    "year":2006,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":44.5514621725,
+    "avg_voluntary_prepaid_share":4.7633957833,
+    "avg_oop_share":24.69725871,
+    "avg_other_private_share":7.6890881856,
+    "avg_external_share":21.41191578
+  },
+  {
+    "year":2006,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_gov_share":33.2266807543,
+    "avg_voluntary_prepaid_share":3.042615068,
+    "avg_oop_share":51.3317350671,
+    "avg_other_private_share":1.1490883917,
+    "avg_external_share":11.57348384
+  },
+  {
+    "year":2006,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":35.55817795,
+    "avg_voluntary_prepaid_share":3.73972486,
+    "avg_oop_share":56.185920715,
+    "avg_other_private_share":0.7561069727,
+    "avg_external_share":3.76006949
+  },
+  {
+    "year":2006,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":66.910640715,
+    "avg_voluntary_prepaid_share":1.24352002,
+    "avg_oop_share":31.874173165,
+    "avg_other_private_share":1.1201161146,
+    "avg_external_share":0.033367775
+  },
+  {
+    "year":2006,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":48.4314451225,
+    "avg_voluntary_prepaid_share":21.2899515025,
+    "avg_oop_share":19.3469630475,
+    "avg_other_private_share":1.0233331621,
+    "avg_external_share":9.9083071625
+  },
+  {
+    "year":2007,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":80.22377014,
+    "avg_voluntary_prepaid_share":null,
+    "avg_oop_share":19.23576736,
+    "avg_other_private_share":null,
+    "avg_external_share":0.54046214
+  },
+  {
+    "year":2007,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":23.2182269086,
+    "avg_voluntary_prepaid_share":1.8985713617,
+    "avg_oop_share":40.8149815957,
+    "avg_other_private_share":3.55368493,
+    "avg_external_share":31.29342951
+  },
+  {
+    "year":2007,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_gov_share":25.489629745,
+    "avg_voluntary_prepaid_share":1.915824085,
+    "avg_oop_share":57.313045505,
+    "avg_other_private_share":1.2485323846,
+    "avg_external_share":14.032968285
+  },
+  {
+    "year":2007,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":36.19216156,
+    "avg_voluntary_prepaid_share":0.89890951,
+    "avg_oop_share":58.00177002,
+    "avg_other_private_share":2.2251665592,
+    "avg_external_share":2.68199229
+  },
+  {
+    "year":2007,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":22.173619745,
+    "avg_voluntary_prepaid_share":1.976942715,
+    "avg_oop_share":11.86736107,
+    "avg_other_private_share":3.3330621719,
+    "avg_external_share":60.649015425
+  },
+  {
+    "year":2007,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_gov_share":17.4081670037,
+    "avg_voluntary_prepaid_share":1.6911428357,
+    "avg_oop_share":49.2226269237,
+    "avg_other_private_share":1.9948747828,
+    "avg_external_share":29.4370454537
+  },
+  {
+    "year":2007,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":26.5673000825,
+    "avg_voluntary_prepaid_share":1.72841046,
+    "avg_oop_share":44.229415895,
+    "avg_other_private_share":1.9553978643,
+    "avg_external_share":25.5194757
+  },
+  {
+    "year":2007,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":23.1942990633,
+    "avg_voluntary_prepaid_share":0.5480512533,
+    "avg_oop_share":53.3524932867,
+    "avg_other_private_share":2.645710508,
+    "avg_external_share":20.2594458267
+  },
+  {
+    "year":2007,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":36.1711125375,
+    "avg_voluntary_prepaid_share":1.7305042125,
+    "avg_oop_share":56.4193973525,
+    "avg_other_private_share":3.6520745456,
+    "avg_external_share":2.02691132
+  },
+  {
+    "year":2007,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":50.525569915,
+    "avg_voluntary_prepaid_share":5.14743288,
+    "avg_oop_share":22.350869895,
+    "avg_other_private_share":7.1422009468,
+    "avg_external_share":17.9063340425
+  },
+  {
+    "year":2007,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_gov_share":32.7626927257,
+    "avg_voluntary_prepaid_share":3.113852298,
+    "avg_oop_share":52.3736392429,
+    "avg_other_private_share":1.2686555028,
+    "avg_external_share":10.80661358
+  },
+  {
+    "year":2007,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":36.91856766,
+    "avg_voluntary_prepaid_share":3.61969605,
+    "avg_oop_share":54.404424665,
+    "avg_other_private_share":0.7679720819,
+    "avg_external_share":4.289339545
+  },
+  {
+    "year":2007,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":68.15841293,
+    "avg_voluntary_prepaid_share":1.07214952,
+    "avg_oop_share":30.76522255,
+    "avg_other_private_share":0.9853976965,
+    "avg_external_share":0.047590665
+  },
+  {
+    "year":2007,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":48.37040043,
+    "avg_voluntary_prepaid_share":21.034480975,
+    "avg_oop_share":19.43260169,
+    "avg_other_private_share":0.9278774858,
+    "avg_external_share":10.23463942
+  },
+  {
+    "year":2008,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":68.35558319,
+    "avg_voluntary_prepaid_share":null,
+    "avg_oop_share":31.15786171,
+    "avg_other_private_share":null,
+    "avg_external_share":0.48655072
+  },
+  {
+    "year":2008,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":19.8255635686,
+    "avg_voluntary_prepaid_share":1.9595445483,
+    "avg_oop_share":37.9108302257,
+    "avg_other_private_share":3.2696220676,
+    "avg_external_share":37.7814636214
+  },
+  {
+    "year":2008,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_gov_share":20.31078148,
+    "avg_voluntary_prepaid_share":2.110714285,
+    "avg_oop_share":63.39420128,
+    "avg_other_private_share":1.3883921206,
+    "avg_external_share":12.795910835
+  },
+  {
+    "year":2008,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":31.93631744,
+    "avg_voluntary_prepaid_share":0.74840117,
+    "avg_oop_share":62.40304947,
+    "avg_other_private_share":2.4357044697,
+    "avg_external_share":2.47652745
+  },
+  {
+    "year":2008,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":25.792185785,
+    "avg_voluntary_prepaid_share":2.16762477,
+    "avg_oop_share":10.78682804,
+    "avg_other_private_share":3.5317618847,
+    "avg_external_share":57.72159958
+  },
+  {
+    "year":2008,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_gov_share":17.0707559575,
+    "avg_voluntary_prepaid_share":1.78532851,
+    "avg_oop_share":48.51376438,
+    "avg_other_private_share":1.9090127448,
+    "avg_external_share":30.482310535
+  },
+  {
+    "year":2008,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":31.4931995875,
+    "avg_voluntary_prepaid_share":1.988445165,
+    "avg_oop_share":44.48965454,
+    "avg_other_private_share":2.0643469078,
+    "avg_external_share":19.9643538
+  },
+  {
+    "year":2008,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":28.2099761967,
+    "avg_voluntary_prepaid_share":0.56759006,
+    "avg_oop_share":47.44286219,
+    "avg_other_private_share":2.9569355845,
+    "avg_external_share":20.8226359667
+  },
+  {
+    "year":2008,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":37.2914433475,
+    "avg_voluntary_prepaid_share":1.5481982225,
+    "avg_oop_share":55.492549895,
+    "avg_other_private_share":3.6352863163,
+    "avg_external_share":2.032522305
+  },
+  {
+    "year":2008,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":51.72725773,
+    "avg_voluntary_prepaid_share":4.5629467167,
+    "avg_oop_share":18.6556344025,
+    "avg_other_private_share":6.2983210882,
+    "avg_external_share":21.4711571325
+  },
+  {
+    "year":2008,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_gov_share":31.8077926643,
+    "avg_voluntary_prepaid_share":3.23749975,
+    "avg_oop_share":51.48778207,
+    "avg_other_private_share":1.303664434,
+    "avg_external_share":12.5056131914
+  },
+  {
+    "year":2008,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":38.262136455,
+    "avg_voluntary_prepaid_share":3.82894802,
+    "avg_oop_share":54.32363701,
+    "avg_other_private_share":0.7465600967,
+    "avg_external_share":2.838718415
+  },
+  {
+    "year":2008,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":69.826789855,
+    "avg_voluntary_prepaid_share":0.92872608,
+    "avg_oop_share":29.206318855,
+    "avg_other_private_share":0.8922359347,
+    "avg_external_share":0.05640999
+  },
+  {
+    "year":2008,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":47.658280375,
+    "avg_voluntary_prepaid_share":20.402001935,
+    "avg_oop_share":20.727344035,
+    "avg_other_private_share":0.8079851866,
+    "avg_external_share":10.404388455
+  },
+  {
+    "year":2009,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":69.47577667,
+    "avg_voluntary_prepaid_share":null,
+    "avg_oop_share":29.79195404,
+    "avg_other_private_share":null,
+    "avg_external_share":0.42943376
+  },
+  {
+    "year":2009,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":19.5355351329,
+    "avg_voluntary_prepaid_share":1.880622705,
+    "avg_oop_share":37.1593427643,
+    "avg_other_private_share":3.7427780032,
+    "avg_external_share":38.4850643714
+  },
+  {
+    "year":2009,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_gov_share":18.24074411,
+    "avg_voluntary_prepaid_share":2.26146868,
+    "avg_oop_share":56.42847824,
+    "avg_other_private_share":1.3326713741,
+    "avg_external_share":21.73663759
+  },
+  {
+    "year":2009,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":41.11616135,
+    "avg_voluntary_prepaid_share":0.72235817,
+    "avg_oop_share":52.47582245,
+    "avg_other_private_share":2.0272634029,
+    "avg_external_share":3.65839458
+  },
+  {
+    "year":2009,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":21.60325909,
+    "avg_voluntary_prepaid_share":2.337527155,
+    "avg_oop_share":9.73668623,
+    "avg_other_private_share":2.6652609063,
+    "avg_external_share":63.657266615
+  },
+  {
+    "year":2009,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_gov_share":18.1934382913,
+    "avg_voluntary_prepaid_share":2.0949712686,
+    "avg_oop_share":48.615863085,
+    "avg_other_private_share":2.026898771,
+    "avg_external_share":28.804590345
+  },
+  {
+    "year":2009,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":29.2299938225,
+    "avg_voluntary_prepaid_share":2.104934595,
+    "avg_oop_share":44.194047925,
+    "avg_other_private_share":2.1470636809,
+    "avg_external_share":22.3239599475
+  },
+  {
+    "year":2009,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":23.0954043067,
+    "avg_voluntary_prepaid_share":0.6007460633,
+    "avg_oop_share":51.5128796933,
+    "avg_other_private_share":2.9383223653,
+    "avg_external_share":21.8526474633
+  },
+  {
+    "year":2009,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":37.74323559,
+    "avg_voluntary_prepaid_share":1.4161224825,
+    "avg_oop_share":55.0554008475,
+    "avg_other_private_share":3.404501915,
+    "avg_external_share":2.3807391225
+  },
+  {
+    "year":2009,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":51.403022765,
+    "avg_voluntary_prepaid_share":5.0096456,
+    "avg_oop_share":15.08563876,
+    "avg_other_private_share":5.4635403951,
+    "avg_external_share":25.6564484225
+  },
+  {
+    "year":2009,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_gov_share":32.6180523471,
+    "avg_voluntary_prepaid_share":3.004380154,
+    "avg_oop_share":50.2299622143,
+    "avg_other_private_share":3.1670186788,
+    "avg_external_share":11.9955241329
+  },
+  {
+    "year":2009,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":40.899206165,
+    "avg_voluntary_prepaid_share":3.63636735,
+    "avg_oop_share":51.427915575,
+    "avg_other_private_share":0.6418830454,
+    "avg_external_share":3.39462787
+  },
+  {
+    "year":2009,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":69.83843231,
+    "avg_voluntary_prepaid_share":0.90609759,
+    "avg_oop_share":29.275069235,
+    "avg_other_private_share":0.7088282704,
+    "avg_external_share":0.07903623
+  },
+  {
+    "year":2009,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":45.6675672525,
+    "avg_voluntary_prepaid_share":23.7941822825,
+    "avg_oop_share":19.9161971825,
+    "avg_other_private_share":1.8747377694,
+    "avg_external_share":8.7473155275
+  },
+  {
+    "year":2010,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":70.56751251,
+    "avg_voluntary_prepaid_share":null,
+    "avg_oop_share":22.15365982,
+    "avg_other_private_share":null,
+    "avg_external_share":2.30605984
+  },
+  {
+    "year":2010,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":21.02584076,
+    "avg_voluntary_prepaid_share":1.8680901033,
+    "avg_oop_share":34.40208721,
+    "avg_other_private_share":4.129590561,
+    "avg_external_share":39.4312031614
+  },
+  {
+    "year":2010,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_gov_share":18.574884415,
+    "avg_voluntary_prepaid_share":2.3098827,
+    "avg_oop_share":63.552404405,
+    "avg_other_private_share":1.1349186301,
+    "avg_external_share":14.42790985
+  },
+  {
+    "year":2010,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":32.54711533,
+    "avg_voluntary_prepaid_share":0.75153196,
+    "avg_oop_share":61.31344604,
+    "avg_other_private_share":2.3702168465,
+    "avg_external_share":3.01768994
+  },
+  {
+    "year":2010,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":22.754529,
+    "avg_voluntary_prepaid_share":2.84251231,
+    "avg_oop_share":9.019921065,
+    "avg_other_private_share":0.00000024,
+    "avg_external_share":65.383039475
+  },
+  {
+    "year":2010,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_gov_share":19.0967593175,
+    "avg_voluntary_prepaid_share":1.8896001243,
+    "avg_oop_share":46.2367453575,
+    "avg_other_private_share":1.9411213398,
+    "avg_external_share":30.608132185
+  },
+  {
+    "year":2010,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":29.8896801475,
+    "avg_voluntary_prepaid_share":2.2093003525,
+    "avg_oop_share":42.2488937375,
+    "avg_other_private_share":2.1797708436,
+    "avg_external_share":23.47235489
+  },
+  {
+    "year":2010,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":30.86064434,
+    "avg_voluntary_prepaid_share":0.4960415067,
+    "avg_oop_share":47.95724042,
+    "avg_other_private_share":2.5891496738,
+    "avg_external_share":18.0969241467
+  },
+  {
+    "year":2010,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":37.1409306525,
+    "avg_voluntary_prepaid_share":1.34755008,
+    "avg_oop_share":55.7456884375,
+    "avg_other_private_share":3.7131752074,
+    "avg_external_share":2.05265554
+  },
+  {
+    "year":2010,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":45.822403716,
+    "avg_voluntary_prepaid_share":6.5992616275,
+    "avg_oop_share":20.384774972,
+    "avg_other_private_share":4.5725073814,
+    "avg_external_share":24.855406474
+  },
+  {
+    "year":2010,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_gov_share":29.9317662386,
+    "avg_voluntary_prepaid_share":2.975709582,
+    "avg_oop_share":51.01459285,
+    "avg_other_private_share":3.3793941498,
+    "avg_external_share":13.9057827657
+  },
+  {
+    "year":2010,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":50.38249016,
+    "avg_voluntary_prepaid_share":4.546745765,
+    "avg_oop_share":41.78370571,
+    "avg_other_private_share":0.8563878238,
+    "avg_external_share":2.43067056
+  },
+  {
+    "year":2010,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":69.71014404,
+    "avg_voluntary_prepaid_share":0.86715692,
+    "avg_oop_share":29.42803955,
+    "avg_other_private_share":0.7400658131,
+    "avg_external_share":0.05820375
+  },
+  {
+    "year":2010,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":49.74768257,
+    "avg_voluntary_prepaid_share":22.7359889275,
+    "avg_oop_share":18.4500685925,
+    "avg_other_private_share":2.1455298513,
+    "avg_external_share":6.920730055
+  },
+  {
+    "year":2011,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":69.19358063,
+    "avg_voluntary_prepaid_share":null,
+    "avg_oop_share":23.17224884,
+    "avg_other_private_share":null,
+    "avg_external_share":7.57723045
+  },
+  {
+    "year":2011,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":21.0087217614,
+    "avg_voluntary_prepaid_share":2.0950121567,
+    "avg_oop_share":31.2986736286,
+    "avg_other_private_share":4.2527226607,
+    "avg_external_share":42.2516888214
+  },
+  {
+    "year":2011,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_gov_share":16.195836545,
+    "avg_voluntary_prepaid_share":2.335332185,
+    "avg_oop_share":59.67705727,
+    "avg_other_private_share":0.9755012691,
+    "avg_external_share":20.816272735
+  },
+  {
+    "year":2011,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":22.84302902,
+    "avg_voluntary_prepaid_share":0.66433865,
+    "avg_oop_share":65.93135071,
+    "avg_other_private_share":2.6403207779,
+    "avg_external_share":7.9209609
+  },
+  {
+    "year":2011,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":23.5803566,
+    "avg_voluntary_prepaid_share":3.297770795,
+    "avg_oop_share":7.840590955,
+    "avg_other_private_share":0.00000161,
+    "avg_external_share":65.281280515
+  },
+  {
+    "year":2011,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_gov_share":19.116728185,
+    "avg_voluntary_prepaid_share":1.8606169386,
+    "avg_oop_share":44.7946114525,
+    "avg_other_private_share":2.202022297,
+    "avg_external_share":32.0071229913
+  },
+  {
+    "year":2011,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":34.4635229125,
+    "avg_voluntary_prepaid_share":2.6460414225,
+    "avg_oop_share":36.7983384125,
+    "avg_other_private_share":1.8873150198,
+    "avg_external_share":24.2047822475
+  },
+  {
+    "year":2011,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":30.9052426,
+    "avg_voluntary_prepaid_share":0.36446745,
+    "avg_oop_share":44.8447182967,
+    "avg_other_private_share":2.1135449409,
+    "avg_external_share":21.7720266967
+  },
+  {
+    "year":2011,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":38.5631628025,
+    "avg_voluntary_prepaid_share":1.248216585,
+    "avg_oop_share":53.67355156,
+    "avg_other_private_share":4.5274507701,
+    "avg_external_share":1.987618385
+  },
+  {
+    "year":2011,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":45.643632888,
+    "avg_voluntary_prepaid_share":7.81227755,
+    "avg_oop_share":19.338648416,
+    "avg_other_private_share":4.3496252298,
+    "avg_external_share":25.288196516
+  },
+  {
+    "year":2011,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_gov_share":30.4498372771,
+    "avg_voluntary_prepaid_share":2.90497687,
+    "avg_oop_share":49.7272565,
+    "avg_other_private_share":3.3974481598,
+    "avg_external_share":14.8059997557
+  },
+  {
+    "year":2011,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":50.19101334,
+    "avg_voluntary_prepaid_share":3.59221667,
+    "avg_oop_share":42.22833538,
+    "avg_other_private_share":1.5315799117,
+    "avg_external_share":2.4568547
+  },
+  {
+    "year":2011,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":66.95567703,
+    "avg_voluntary_prepaid_share":0.76522303,
+    "avg_oop_share":32.27087593,
+    "avg_other_private_share":0.724178493,
+    "avg_external_share":0.028746275
+  },
+  {
+    "year":2011,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":50.3901729575,
+    "avg_voluntary_prepaid_share":22.0551839625,
+    "avg_oop_share":18.6808704125,
+    "avg_other_private_share":2.4419283569,
+    "avg_external_share":6.431844295
+  },
+  {
+    "year":2012,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":76.00039673,
+    "avg_voluntary_prepaid_share":null,
+    "avg_oop_share":18.86534882,
+    "avg_other_private_share":null,
+    "avg_external_share":1.77086198
+  },
+  {
+    "year":2012,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":24.3225732543,
+    "avg_voluntary_prepaid_share":1.9113835667,
+    "avg_oop_share":33.9395651129,
+    "avg_other_private_share":4.2468376954,
+    "avg_external_share":36.4593860086
+  },
+  {
+    "year":2012,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_gov_share":20.221066955,
+    "avg_voluntary_prepaid_share":2.2139771,
+    "avg_oop_share":58.754606245,
+    "avg_other_private_share":0.9023668766,
+    "avg_external_share":17.90798283
+  },
+  {
+    "year":2012,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":26.2535038,
+    "avg_voluntary_prepaid_share":0.88757396,
+    "avg_oop_share":65.45468903,
+    "avg_other_private_share":3.1142923832,
+    "avg_external_share":4.28994083
+  },
+  {
+    "year":2012,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":19.95905018,
+    "avg_voluntary_prepaid_share":2.358208415,
+    "avg_oop_share":7.898227695,
+    "avg_other_private_share":5.1970959886,
+    "avg_external_share":64.587417605
+  },
+  {
+    "year":2012,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_gov_share":18.9095232487,
+    "avg_voluntary_prepaid_share":1.9303278743,
+    "avg_oop_share":48.1066083912,
+    "avg_other_private_share":1.7377928836,
+    "avg_external_share":29.2035330525
+  },
+  {
+    "year":2012,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":32.12285614,
+    "avg_voluntary_prepaid_share":3.0531032525,
+    "avg_oop_share":36.8021292675,
+    "avg_other_private_share":1.6143283397,
+    "avg_external_share":26.407582995
+  },
+  {
+    "year":2012,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":30.5881907133,
+    "avg_voluntary_prepaid_share":2.2229265433,
+    "avg_oop_share":38.12621498,
+    "avg_other_private_share":2.0449347893,
+    "avg_external_share":27.01773294
+  },
+  {
+    "year":2012,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":38.47676897,
+    "avg_voluntary_prepaid_share":1.94645454,
+    "avg_oop_share":52.5090293875,
+    "avg_other_private_share":5.3907418549,
+    "avg_external_share":1.6770053375
+  },
+  {
+    "year":2012,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":46.449861146,
+    "avg_voluntary_prepaid_share":8.7011118825,
+    "avg_oop_share":18.523540686,
+    "avg_other_private_share":4.6677523851,
+    "avg_external_share":24.331506728
+  },
+  {
+    "year":2012,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_gov_share":30.1188248214,
+    "avg_voluntary_prepaid_share":2.9742104071,
+    "avg_oop_share":49.11320986,
+    "avg_other_private_share":2.7046470557,
+    "avg_external_share":15.0891077857
+  },
+  {
+    "year":2012,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":52.274414065,
+    "avg_voluntary_prepaid_share":4.675457925,
+    "avg_oop_share":40.67761326,
+    "avg_other_private_share":0.9570858181,
+    "avg_external_share":1.41542895
+  },
+  {
+    "year":2012,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":72.620601655,
+    "avg_voluntary_prepaid_share":0.67869407,
+    "avg_oop_share":26.660544395,
+    "avg_other_private_share":0.6172311902,
+    "avg_external_share":0.07089
+  },
+  {
+    "year":2012,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":51.9473152175,
+    "avg_voluntary_prepaid_share":21.8933618525,
+    "avg_oop_share":18.3704420325,
+    "avg_other_private_share":2.6357918978,
+    "avg_external_share":5.153088985
+  },
+  {
+    "year":2013,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":76.47386169,
+    "avg_voluntary_prepaid_share":0.09236693,
+    "avg_oop_share":19.06869125,
+    "avg_other_private_share":1.2097065449,
+    "avg_external_share":3.15537357
+  },
+  {
+    "year":2013,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":20.2742742888,
+    "avg_voluntary_prepaid_share":1.8928016529,
+    "avg_oop_share":35.0159238562,
+    "avg_other_private_share":3.8166303124,
+    "avg_external_share":39.7140488638
+  },
+  {
+    "year":2013,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_gov_share":24.44708443,
+    "avg_voluntary_prepaid_share":2.21817061,
+    "avg_oop_share":51.938146595,
+    "avg_other_private_share":0.8438833058,
+    "avg_external_share":20.552715065
+  },
+  {
+    "year":2013,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":16.53942871,
+    "avg_voluntary_prepaid_share":0.72228569,
+    "avg_oop_share":74.83428192,
+    "avg_other_private_share":2.8937177658,
+    "avg_external_share":5.01028585
+  },
+  {
+    "year":2013,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":21.406394955,
+    "avg_voluntary_prepaid_share":1.483512285,
+    "avg_oop_share":7.36150312,
+    "avg_other_private_share":6.3412487507,
+    "avg_external_share":63.407341005
+  },
+  {
+    "year":2013,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_gov_share":18.3205102675,
+    "avg_voluntary_prepaid_share":1.8825200171,
+    "avg_oop_share":46.3616247175,
+    "avg_other_private_share":2.0411597916,
+    "avg_external_share":31.414866805
+  },
+  {
+    "year":2013,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":33.5030443675,
+    "avg_voluntary_prepaid_share":3.0800520025,
+    "avg_oop_share":37.0721497525,
+    "avg_other_private_share":1.145270247,
+    "avg_external_share":25.1994836325
+  },
+  {
+    "year":2013,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":31.64576562,
+    "avg_voluntary_prepaid_share":2.43505906,
+    "avg_oop_share":38.2051531467,
+    "avg_other_private_share":2.062133491,
+    "avg_external_share":25.6518886867
+  },
+  {
+    "year":2013,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":40.22184992,
+    "avg_voluntary_prepaid_share":2.364123865,
+    "avg_oop_share":49.7187271125,
+    "avg_other_private_share":5.3166978657,
+    "avg_external_share":2.3786013275
+  },
+  {
+    "year":2013,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":43.875887682,
+    "avg_voluntary_prepaid_share":8.9330509775,
+    "avg_oop_share":17.455618476,
+    "avg_other_private_share":4.6241688728,
+    "avg_external_share":27.822717762
+  },
+  {
+    "year":2013,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_gov_share":28.5108900086,
+    "avg_voluntary_prepaid_share":2.1525629843,
+    "avg_oop_share":49.99089241,
+    "avg_other_private_share":3.6293765658,
+    "avg_external_share":15.7162780757
+  },
+  {
+    "year":2013,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":49.67689705,
+    "avg_voluntary_prepaid_share":3.212296575,
+    "avg_oop_share":45.906388285,
+    "avg_other_private_share":0.7397710681,
+    "avg_external_share":0.464647025
+  },
+  {
+    "year":2013,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":71.38064194,
+    "avg_voluntary_prepaid_share":0.72481269,
+    "avg_oop_share":27.91296387,
+    "avg_other_private_share":0.6127825379,
+    "avg_external_share":0.03759668
+  },
+  {
+    "year":2013,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":52.120991705,
+    "avg_voluntary_prepaid_share":21.130579235,
+    "avg_oop_share":18.36461657,
+    "avg_other_private_share":2.6881925464,
+    "avg_external_share":5.6956198825
+  },
+  {
+    "year":2014,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":71.77159119,
+    "avg_voluntary_prepaid_share":null,
+    "avg_oop_share":27.4764843,
+    "avg_other_private_share":null,
+    "avg_external_share":0.46772099
+  },
+  {
+    "year":2014,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":21.8986846513,
+    "avg_voluntary_prepaid_share":2.11194861,
+    "avg_oop_share":34.890129805,
+    "avg_other_private_share":5.5291769505,
+    "avg_external_share":36.525200845
+  },
+  {
+    "year":2014,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_gov_share":22.05612707,
+    "avg_voluntary_prepaid_share":2.07224062,
+    "avg_oop_share":51.09231758,
+    "avg_other_private_share":0.8236605823,
+    "avg_external_share":23.955654145
+  },
+  {
+    "year":2014,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":25.27283669,
+    "avg_voluntary_prepaid_share":0.85548669,
+    "avg_oop_share":67.03178406,
+    "avg_other_private_share":3.1461088657,
+    "avg_external_share":3.69378376
+  },
+  {
+    "year":2014,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":25.111717225,
+    "avg_voluntary_prepaid_share":1.651768745,
+    "avg_oop_share":9.303673745,
+    "avg_other_private_share":5.4303168058,
+    "avg_external_share":58.50252342
+  },
+  {
+    "year":2014,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_gov_share":20.024131535,
+    "avg_voluntary_prepaid_share":2.3009127257,
+    "avg_oop_share":42.70142293,
+    "avg_other_private_share":3.5359968969,
+    "avg_external_share":31.8481549
+  },
+  {
+    "year":2014,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":34.3394625175,
+    "avg_voluntary_prepaid_share":3.1655939975,
+    "avg_oop_share":35.8442296975,
+    "avg_other_private_share":1.3195279673,
+    "avg_external_share":25.3311858175
+  },
+  {
+    "year":2014,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":32.30339559,
+    "avg_voluntary_prepaid_share":2.0590081433,
+    "avg_oop_share":38.40426922,
+    "avg_other_private_share":2.2067627907,
+    "avg_external_share":25.0265642767
+  },
+  {
+    "year":2014,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":40.631904125,
+    "avg_voluntary_prepaid_share":3.239798085,
+    "avg_oop_share":47.4758005125,
+    "avg_other_private_share":5.467668891,
+    "avg_external_share":3.184828465
+  },
+  {
+    "year":2014,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":46.62024765,
+    "avg_voluntary_prepaid_share":9.220135435,
+    "avg_oop_share":18.053673746,
+    "avg_other_private_share":4.8565504551,
+    "avg_external_share":24.064730072
+  },
+  {
+    "year":2014,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_gov_share":26.44595078,
+    "avg_voluntary_prepaid_share":2.0682764529,
+    "avg_oop_share":49.8537415086,
+    "avg_other_private_share":4.7027145284,
+    "avg_external_share":16.9293167943
+  },
+  {
+    "year":2014,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":47.364410405,
+    "avg_voluntary_prepaid_share":5.2422546,
+    "avg_oop_share":46.02562237,
+    "avg_other_private_share":0.7583421469,
+    "avg_external_share":0.60937048
+  },
+  {
+    "year":2014,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":68.182674405,
+    "avg_voluntary_prepaid_share":0.69941652,
+    "avg_oop_share":31.094786645,
+    "avg_other_private_share":0.564827919,
+    "avg_external_share":0.090414955
+  },
+  {
+    "year":2014,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":56.9923563,
+    "avg_voluntary_prepaid_share":19.52040404,
+    "avg_oop_share":17.14955211,
+    "avg_other_private_share":2.2965280861,
+    "avg_external_share":4.04115946
+  },
+  {
+    "year":2015,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":73.53218079,
+    "avg_voluntary_prepaid_share":null,
+    "avg_oop_share":26.07247543,
+    "avg_other_private_share":null,
+    "avg_external_share":0.35210055
+  },
+  {
+    "year":2015,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":23.3346162437,
+    "avg_voluntary_prepaid_share":1.6734975329,
+    "avg_oop_share":32.8288247588,
+    "avg_other_private_share":5.7874589395,
+    "avg_external_share":37.3082222925
+  },
+  {
+    "year":2015,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_gov_share":15.15954256,
+    "avg_voluntary_prepaid_share":2.04524766,
+    "avg_oop_share":52.75046158,
+    "avg_other_private_share":0.8115738779,
+    "avg_external_share":29.233174325
+  },
+  {
+    "year":2015,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":14.19444275,
+    "avg_voluntary_prepaid_share":1.04808891,
+    "avg_oop_share":79.40106964,
+    "avg_other_private_share":3.3359308243,
+    "avg_external_share":2.02046776
+  },
+  {
+    "year":2015,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":27.840067865,
+    "avg_voluntary_prepaid_share":1.822447315,
+    "avg_oop_share":11.121691225,
+    "avg_other_private_share":5.1234073639,
+    "avg_external_share":54.092386245
+  },
+  {
+    "year":2015,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_gov_share":17.813485325,
+    "avg_voluntary_prepaid_share":2.61984307,
+    "avg_oop_share":45.0108144275,
+    "avg_other_private_share":3.9304129226,
+    "avg_external_share":31.069052935
+  },
+  {
+    "year":2015,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":33.9932458375,
+    "avg_voluntary_prepaid_share":3.79325074,
+    "avg_oop_share":36.6881093975,
+    "avg_other_private_share":1.6825395259,
+    "avg_external_share":23.8428544975
+  },
+  {
+    "year":2015,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":28.59688123,
+    "avg_voluntary_prepaid_share":2.21608038,
+    "avg_oop_share":40.77040418,
+    "avg_other_private_share":2.1237347523,
+    "avg_external_share":26.29289945
+  },
+  {
+    "year":2015,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":40.6235389725,
+    "avg_voluntary_prepaid_share":3.6651981025,
+    "avg_oop_share":48.799544335,
+    "avg_other_private_share":4.4212918878,
+    "avg_external_share":2.4904267425
+  },
+  {
+    "year":2015,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":43.57463646,
+    "avg_voluntary_prepaid_share":11.5221612,
+    "avg_oop_share":19.548521806,
+    "avg_other_private_share":4.6614746451,
+    "avg_external_share":23.929933168
+  },
+  {
+    "year":2015,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_gov_share":28.00131396,
+    "avg_voluntary_prepaid_share":2.7472070957,
+    "avg_oop_share":47.08771842,
+    "avg_other_private_share":5.9751415934,
+    "avg_external_share":16.1886190014
+  },
+  {
+    "year":2015,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":44.581140515,
+    "avg_voluntary_prepaid_share":6.73725575,
+    "avg_oop_share":47.026079175,
+    "avg_other_private_share":0.9081476033,
+    "avg_external_share":0.74737695
+  },
+  {
+    "year":2015,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":68.884967805,
+    "avg_voluntary_prepaid_share":0.7393117,
+    "avg_oop_share":30.45545006,
+    "avg_other_private_share":0.5379710793,
+    "avg_external_share":0.0209416
+  },
+  {
+    "year":2015,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":55.1378269175,
+    "avg_voluntary_prepaid_share":21.8919765925,
+    "avg_oop_share":16.555022,
+    "avg_other_private_share":2.1617500186,
+    "avg_external_share":4.253424465
+  },
+  {
+    "year":2016,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":69.14846802,
+    "avg_voluntary_prepaid_share":0.74439502,
+    "avg_oop_share":25.30701828,
+    "avg_other_private_share":0.8829205036,
+    "avg_external_share":3.91719818
+  },
+  {
+    "year":2016,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":22.5006740688,
+    "avg_voluntary_prepaid_share":1.7553663029,
+    "avg_oop_share":35.2486608025,
+    "avg_other_private_share":5.0374751432,
+    "avg_external_share":36.306928875
+  },
+  {
+    "year":2016,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_gov_share":14.19311571,
+    "avg_voluntary_prepaid_share":2.119250385,
+    "avg_oop_share":55.177812575,
+    "avg_other_private_share":0.7633880675,
+    "avg_external_share":27.746433255
+  },
+  {
+    "year":2016,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":22.69012833,
+    "avg_voluntary_prepaid_share":0.93964905,
+    "avg_oop_share":71.1858902,
+    "avg_other_private_share":3.2227151394,
+    "avg_external_share":1.96161723
+  },
+  {
+    "year":2016,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":24.307068825,
+    "avg_voluntary_prepaid_share":1.97427039,
+    "avg_oop_share":11.477025505,
+    "avg_other_private_share":5.8132581711,
+    "avg_external_share":56.42837715
+  },
+  {
+    "year":2016,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_gov_share":22.2635736475,
+    "avg_voluntary_prepaid_share":1.999617605,
+    "avg_oop_share":46.8250458238,
+    "avg_other_private_share":2.5691190213,
+    "avg_external_share":26.3426438575
+  },
+  {
+    "year":2016,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":36.06305027,
+    "avg_voluntary_prepaid_share":3.7436455175,
+    "avg_oop_share":35.334612845,
+    "avg_other_private_share":1.7958880961,
+    "avg_external_share":23.0628032675
+  },
+  {
+    "year":2016,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":30.8558133467,
+    "avg_voluntary_prepaid_share":4.07574939,
+    "avg_oop_share":43.8526433333,
+    "avg_other_private_share":1.9556616147,
+    "avg_external_share":19.26013231
+  },
+  {
+    "year":2016,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":40.5975766175,
+    "avg_voluntary_prepaid_share":3.7170559475,
+    "avg_oop_share":50.836030005,
+    "avg_other_private_share":3.7865177095,
+    "avg_external_share":1.062819735
+  },
+  {
+    "year":2016,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":40.788641356,
+    "avg_voluntary_prepaid_share":11.0744577475,
+    "avg_oop_share":19.684128952,
+    "avg_other_private_share":5.4045398235,
+    "avg_external_share":26.34403119
+  },
+  {
+    "year":2016,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_gov_share":28.2386672157,
+    "avg_voluntary_prepaid_share":2.7556153286,
+    "avg_oop_share":47.4497386371,
+    "avg_other_private_share":5.2507183978,
+    "avg_external_share":16.3052603871
+  },
+  {
+    "year":2016,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":46.90663624,
+    "avg_voluntary_prepaid_share":5.50928466,
+    "avg_oop_share":45.820620535,
+    "avg_other_private_share":0.9576205462,
+    "avg_external_share":0.80583805
+  },
+  {
+    "year":2016,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":66.59738159,
+    "avg_voluntary_prepaid_share":0.80547488,
+    "avg_oop_share":32.694814685,
+    "avg_other_private_share":0.5684154034,
+    "avg_external_share":0.02086068
+  },
+  {
+    "year":2016,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":57.266798975,
+    "avg_voluntary_prepaid_share":20.906862855,
+    "avg_oop_share":16.24146807,
+    "avg_other_private_share":1.8583012819,
+    "avg_external_share":3.7265688075
+  },
+  {
+    "year":2017,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":73.04444122,
+    "avg_voluntary_prepaid_share":0.70098597,
+    "avg_oop_share":24.59942627,
+    "avg_other_private_share":1.0670360327,
+    "avg_external_share":0.58811045
+  },
+  {
+    "year":2017,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":21.5523234478,
+    "avg_voluntary_prepaid_share":2.0250241525,
+    "avg_oop_share":31.90546682,
+    "avg_other_private_share":2.665289319,
+    "avg_external_share":42.3730420033
+  },
+  {
+    "year":2017,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_gov_share":12.95682907,
+    "avg_voluntary_prepaid_share":2.381191015,
+    "avg_oop_share":58.14757919,
+    "avg_other_private_share":0.827288866,
+    "avg_external_share":25.687111855
+  },
+  {
+    "year":2017,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":18.02452278,
+    "avg_voluntary_prepaid_share":0.98805088,
+    "avg_oop_share":72.54642487,
+    "avg_other_private_share":3.0609307289,
+    "avg_external_share":5.38007069
+  },
+  {
+    "year":2017,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":22.45938873,
+    "avg_voluntary_prepaid_share":2.212569725,
+    "avg_oop_share":11.190669535,
+    "avg_other_private_share":3.1526689529,
+    "avg_external_share":60.984703065
+  },
+  {
+    "year":2017,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_gov_share":23.4641539463,
+    "avg_voluntary_prepaid_share":2.3125931787,
+    "avg_oop_share":46.5426337725,
+    "avg_other_private_share":2.3958242834,
+    "avg_external_share":25.2847948075
+  },
+  {
+    "year":2017,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":35.1720006475,
+    "avg_voluntary_prepaid_share":4.093975885,
+    "avg_oop_share":33.607363225,
+    "avg_other_private_share":0.5427211663,
+    "avg_external_share":26.5839390775
+  },
+  {
+    "year":2017,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":29.37333282,
+    "avg_voluntary_prepaid_share":4.3751447867,
+    "avg_oop_share":46.2698125867,
+    "avg_other_private_share":2.0988097191,
+    "avg_external_share":17.8829000767
+  },
+  {
+    "year":2017,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":40.0941243175,
+    "avg_voluntary_prepaid_share":3.7318744375,
+    "avg_oop_share":49.73673248,
+    "avg_other_private_share":4.5502119437,
+    "avg_external_share":1.8870569375
+  },
+  {
+    "year":2017,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":46.399936676,
+    "avg_voluntary_prepaid_share":11.056963415,
+    "avg_oop_share":16.31947975,
+    "avg_other_private_share":4.9292685986,
+    "avg_external_share":24.49159832
+  },
+  {
+    "year":2017,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_gov_share":31.3464889529,
+    "avg_voluntary_prepaid_share":3.3119988529,
+    "avg_oop_share":47.8352797371,
+    "avg_other_private_share":4.0648043071,
+    "avg_external_share":13.44142815
+  },
+  {
+    "year":2017,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":45.447868345,
+    "avg_voluntary_prepaid_share":4.927265075,
+    "avg_oop_share":47.87683296,
+    "avg_other_private_share":0.9940709174,
+    "avg_external_share":0.753962695
+  },
+  {
+    "year":2017,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":65.40745163,
+    "avg_voluntary_prepaid_share":0.83099163,
+    "avg_oop_share":33.85920906,
+    "avg_other_private_share":0.5738204122,
+    "avg_external_share":0.03093502
+  },
+  {
+    "year":2017,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":59.5983076075,
+    "avg_voluntary_prepaid_share":18.5617244225,
+    "avg_oop_share":16.007604715,
+    "avg_other_private_share":1.3713065088,
+    "avg_external_share":4.461056755
+  },
+  {
+    "year":2018,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":71.64505005,
+    "avg_voluntary_prepaid_share":0.74679101,
+    "avg_oop_share":26.20684624,
+    "avg_other_private_share":0.9895125628,
+    "avg_external_share":0.41180012
+  },
+  {
+    "year":2018,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":19.9162253811,
+    "avg_voluntary_prepaid_share":2.3271140687,
+    "avg_oop_share":33.3732331589,
+    "avg_other_private_share":2.8518678546,
+    "avg_external_share":42.1070022578
+  },
+  {
+    "year":2018,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_gov_share":10.24722028,
+    "avg_voluntary_prepaid_share":0.50621897,
+    "avg_oop_share":53.024410245,
+    "avg_other_private_share":0.8644406497,
+    "avg_external_share":35.357709885
+  },
+  {
+    "year":2018,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":23.28133202,
+    "avg_voluntary_prepaid_share":2.15964222,
+    "avg_oop_share":66.95339966,
+    "avg_other_private_share":1.1997246742,
+    "avg_external_share":6.40590143
+  },
+  {
+    "year":2018,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":23.462514875,
+    "avg_voluntary_prepaid_share":2.513549935,
+    "avg_oop_share":11.063715455,
+    "avg_other_private_share":3.0449078083,
+    "avg_external_share":59.915311815
+  },
+  {
+    "year":2018,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_gov_share":23.646000265,
+    "avg_voluntary_prepaid_share":2.3090444037,
+    "avg_oop_share":46.6173825262,
+    "avg_other_private_share":2.9923780933,
+    "avg_external_share":24.4351947313
+  },
+  {
+    "year":2018,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":37.3130617125,
+    "avg_voluntary_prepaid_share":3.370295105,
+    "avg_oop_share":34.577501775,
+    "avg_other_private_share":1.0617954144,
+    "avg_external_share":23.6773459925
+  },
+  {
+    "year":2018,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":29.78781446,
+    "avg_voluntary_prepaid_share":3.3957973133,
+    "avg_oop_share":46.11204465,
+    "avg_other_private_share":1.7118243376,
+    "avg_external_share":18.9925192167
+  },
+  {
+    "year":2018,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":38.086082935,
+    "avg_voluntary_prepaid_share":3.3027732325,
+    "avg_oop_share":54.11521244,
+    "avg_other_private_share":3.6007620096,
+    "avg_external_share":0.89516946
+  },
+  {
+    "year":2018,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":43.450363922,
+    "avg_voluntary_prepaid_share":11.5694449175,
+    "avg_oop_share":15.99322014,
+    "avg_other_private_share":4.0142693222,
+    "avg_external_share":28.089444734
+  },
+  {
+    "year":2018,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_gov_share":32.5100555429,
+    "avg_voluntary_prepaid_share":3.1062760329,
+    "avg_oop_share":48.6359789714,
+    "avg_other_private_share":3.2393599919,
+    "avg_external_share":12.5083294929
+  },
+  {
+    "year":2018,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":43.244877815,
+    "avg_voluntary_prepaid_share":6.3644637,
+    "avg_oop_share":46.606637,
+    "avg_other_private_share":2.6087339371,
+    "avg_external_share":1.175287605
+  },
+  {
+    "year":2018,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":68.17493057,
+    "avg_voluntary_prepaid_share":0.82675421,
+    "avg_oop_share":31.002511025,
+    "avg_other_private_share":0.5752323866,
+    "avg_external_share":0.121564725
+  },
+  {
+    "year":2018,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":57.4489479075,
+    "avg_voluntary_prepaid_share":21.0421217675,
+    "avg_oop_share":16.4139057425,
+    "avg_other_private_share":0.5661876788,
+    "avg_external_share":4.5288369075
+  },
+  {
+    "year":2019,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":71.5357132,
+    "avg_voluntary_prepaid_share":0.74873102,
+    "avg_oop_share":26.27492523,
+    "avg_other_private_share":1.4406305552,
+    "avg_external_share":0.0
+  },
+  {
+    "year":2019,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":18.8645821156,
+    "avg_voluntary_prepaid_share":2.41023864,
+    "avg_oop_share":34.9691031756,
+    "avg_other_private_share":3.1797814593,
+    "avg_external_share":41.19740804
+  },
+  {
+    "year":2019,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_gov_share":12.86136007,
+    "avg_voluntary_prepaid_share":0.608417335,
+    "avg_oop_share":62.130823135,
+    "avg_other_private_share":0.8998905718,
+    "avg_external_share":23.49950886
+  },
+  {
+    "year":2019,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":22.55283356,
+    "avg_voluntary_prepaid_share":2.17739272,
+    "avg_oop_share":67.50370789,
+    "avg_other_private_share":1.2095825672,
+    "avg_external_share":6.55648327
+  },
+  {
+    "year":2019,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":23.58915043,
+    "avg_voluntary_prepaid_share":4.744820225,
+    "avg_oop_share":10.78211212,
+    "avg_other_private_share":2.97438097,
+    "avg_external_share":57.90953636
+  },
+  {
+    "year":2019,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_gov_share":24.8667950025,
+    "avg_voluntary_prepaid_share":2.0901910962,
+    "avg_oop_share":46.94348979,
+    "avg_other_private_share":5.997053571,
+    "avg_external_share":20.1024706375
+  },
+  {
+    "year":2019,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":38.9658465375,
+    "avg_voluntary_prepaid_share":3.58171174,
+    "avg_oop_share":34.0276546475,
+    "avg_other_private_share":0.923288852,
+    "avg_external_share":22.5014982225
+  },
+  {
+    "year":2019,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":31.90467326,
+    "avg_voluntary_prepaid_share":2.9860521,
+    "avg_oop_share":43.7840220133,
+    "avg_other_private_share":1.1919957002,
+    "avg_external_share":20.1332569133
+  },
+  {
+    "year":2019,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":40.8339180925,
+    "avg_voluntary_prepaid_share":3.170279925,
+    "avg_oop_share":51.2334890375,
+    "avg_other_private_share":3.5186641663,
+    "avg_external_share":1.2436487375
+  },
+  {
+    "year":2019,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":35.300405694,
+    "avg_voluntary_prepaid_share":8.167307105,
+    "avg_oop_share":13.197864724,
+    "avg_other_private_share":3.9503648579,
+    "avg_external_share":41.807591964
+  },
+  {
+    "year":2019,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_gov_share":33.5648434514,
+    "avg_voluntary_prepaid_share":3.1909106957,
+    "avg_oop_share":46.47693852,
+    "avg_other_private_share":3.8234162416,
+    "avg_external_share":12.9438911157
+  },
+  {
+    "year":2019,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":42.42969799,
+    "avg_voluntary_prepaid_share":5.758506685,
+    "avg_oop_share":48.430764195,
+    "avg_other_private_share":2.6961555779,
+    "avg_external_share":0.684875605
+  },
+  {
+    "year":2019,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":65.88441086,
+    "avg_voluntary_prepaid_share":0.92859691,
+    "avg_oop_share":32.970144275,
+    "avg_other_private_share":0.6304343343,
+    "avg_external_share":0.365930685
+  },
+  {
+    "year":2019,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":58.2734680175,
+    "avg_voluntary_prepaid_share":19.91660142,
+    "avg_oop_share":16.2225649375,
+    "avg_other_private_share":0.5541537702,
+    "avg_external_share":5.033211845
+  },
+  {
+    "year":2020,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":76.69721222,
+    "avg_voluntary_prepaid_share":0.61548889,
+    "avg_oop_share":21.59911156,
+    "avg_other_private_share":0.7487906218,
+    "avg_external_share":0.33939669
+  },
+  {
+    "year":2020,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":19.8873931044,
+    "avg_voluntary_prepaid_share":2.2161911288,
+    "avg_oop_share":32.9381460611,
+    "avg_other_private_share":2.7168665668,
+    "avg_external_share":42.7895208989
+  },
+  {
+    "year":2020,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_gov_share":13.13508129,
+    "avg_voluntary_prepaid_share":0.708528515,
+    "avg_oop_share":59.71839142,
+    "avg_other_private_share":0.4485082626,
+    "avg_external_share":25.98949051
+  },
+  {
+    "year":2020,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":34.17627716,
+    "avg_voluntary_prepaid_share":2.41586494,
+    "avg_oop_share":52.96360779,
+    "avg_other_private_share":3.5470881462,
+    "avg_external_share":6.89716196
+  },
+  {
+    "year":2020,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":26.93330574,
+    "avg_voluntary_prepaid_share":5.004731075,
+    "avg_oop_share":11.407111645,
+    "avg_other_private_share":3.0970702171,
+    "avg_external_share":53.55778122
+  },
+  {
+    "year":2020,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_gov_share":27.5444755562,
+    "avg_voluntary_prepaid_share":1.4570131412,
+    "avg_oop_share":48.5281033537,
+    "avg_other_private_share":3.1258762479,
+    "avg_external_share":19.344531655
+  },
+  {
+    "year":2020,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":36.305930135,
+    "avg_voluntary_prepaid_share":3.4328311975,
+    "avg_oop_share":36.5512442575,
+    "avg_other_private_share":0.7856880128,
+    "avg_external_share":22.924306395
+  },
+  {
+    "year":2020,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":32.6631895667,
+    "avg_voluntary_prepaid_share":2.14883494,
+    "avg_oop_share":36.3048865,
+    "avg_other_private_share":6.3916467826,
+    "avg_external_share":22.49144204
+  },
+  {
+    "year":2020,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":42.26704502,
+    "avg_voluntary_prepaid_share":2.3189672425,
+    "avg_oop_share":49.418956755,
+    "avg_other_private_share":4.0488570333,
+    "avg_external_share":1.9461739225
+  },
+  {
+    "year":2020,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":45.511725998,
+    "avg_voluntary_prepaid_share":7.037869175,
+    "avg_oop_share":14.891189194,
+    "avg_other_private_share":4.5014766753,
+    "avg_external_share":30.365608408
+  },
+  {
+    "year":2020,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_gov_share":34.9779096314,
+    "avg_voluntary_prepaid_share":3.0315305671,
+    "avg_oop_share":43.8284705043,
+    "avg_other_private_share":3.8003740662,
+    "avg_external_share":14.3617153171
+  },
+  {
+    "year":2020,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":41.518408775,
+    "avg_voluntary_prepaid_share":5.10036525,
+    "avg_oop_share":45.47002697,
+    "avg_other_private_share":2.1936855018,
+    "avg_external_share":5.7175135
+  },
+  {
+    "year":2020,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":68.67708015,
+    "avg_voluntary_prepaid_share":0.97071618,
+    "avg_oop_share":30.3922987,
+    "avg_other_private_share":0.6074308753,
+    "avg_external_share":0.1415487
+  },
+  {
+    "year":2020,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":63.59687519,
+    "avg_voluntary_prepaid_share":17.8791097425,
+    "avg_oop_share":15.483551265,
+    "avg_other_private_share":0.3882330045,
+    "avg_external_share":2.6522308075
+  },
+  {
+    "year":2021,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":71.44548035,
+    "avg_voluntary_prepaid_share":0.76789725,
+    "avg_oop_share":26.9475193,
+    "avg_other_private_share":0.8391031027,
+    "avg_external_share":0.0
+  },
+  {
+    "year":2021,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":22.7860924411,
+    "avg_voluntary_prepaid_share":3.1264351237,
+    "avg_oop_share":31.94782702,
+    "avg_other_private_share":2.2783666031,
+    "avg_external_share":40.4618125478
+  },
+  {
+    "year":2021,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_gov_share":16.17639971,
+    "avg_voluntary_prepaid_share":0.46573256,
+    "avg_oop_share":59.52764511,
+    "avg_other_private_share":0.339398399,
+    "avg_external_share":23.490824225
+  },
+  {
+    "year":2021,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":26.06090164,
+    "avg_voluntary_prepaid_share":2.49878836,
+    "avg_oop_share":58.2450676,
+    "avg_other_private_share":3.1660933495,
+    "avg_external_share":10.02914906
+  },
+  {
+    "year":2021,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":22.26553059,
+    "avg_voluntary_prepaid_share":4.60689412,
+    "avg_oop_share":10.491547585,
+    "avg_other_private_share":2.7164263725,
+    "avg_external_share":59.91960144
+  },
+  {
+    "year":2021,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_gov_share":25.2676488163,
+    "avg_voluntary_prepaid_share":1.8500939175,
+    "avg_oop_share":49.815384865,
+    "avg_other_private_share":3.0676207305,
+    "avg_external_share":19.9992517213
+  },
+  {
+    "year":2021,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":29.335071325,
+    "avg_voluntary_prepaid_share":3.3408278675,
+    "avg_oop_share":32.74699831,
+    "avg_other_private_share":0.7189372312,
+    "avg_external_share":33.858165265
+  },
+  {
+    "year":2021,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":34.6094652833,
+    "avg_voluntary_prepaid_share":2.05347764,
+    "avg_oop_share":35.2912594467,
+    "avg_other_private_share":6.180445234,
+    "avg_external_share":21.8653524733
+  },
+  {
+    "year":2021,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":43.6653671275,
+    "avg_voluntary_prepaid_share":2.621197375,
+    "avg_oop_share":45.5262527475,
+    "avg_other_private_share":4.2602001727,
+    "avg_external_share":3.9269825675
+  },
+  {
+    "year":2021,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":44.24527664,
+    "avg_voluntary_prepaid_share":6.45200549,
+    "avg_oop_share":13.503555012,
+    "avg_other_private_share":4.4315291792,
+    "avg_external_share":33.544341278
+  },
+  {
+    "year":2021,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_gov_share":33.73003837,
+    "avg_voluntary_prepaid_share":3.2509935314,
+    "avg_oop_share":44.2611637114,
+    "avg_other_private_share":3.3024771724,
+    "avg_external_share":15.4553272043
+  },
+  {
+    "year":2021,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":45.926038745,
+    "avg_voluntary_prepaid_share":5.36472319,
+    "avg_oop_share":43.22991943,
+    "avg_other_private_share":2.6360013634,
+    "avg_external_share":2.84331727
+  },
+  {
+    "year":2021,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":65.540237425,
+    "avg_voluntary_prepaid_share":0.9917351,
+    "avg_oop_share":32.446391105,
+    "avg_other_private_share":0.6798575521,
+    "avg_external_share":1.17757621
+  },
+  {
+    "year":2021,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":63.676060675,
+    "avg_voluntary_prepaid_share":17.4512860775,
+    "avg_oop_share":14.643230675,
+    "avg_other_private_share":0.3597575465,
+    "avg_external_share":3.8696650275
+  },
+  {
+    "year":2022,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":68.18779755,
+    "avg_voluntary_prepaid_share":0.85387695,
+    "avg_oop_share":29.96477127,
+    "avg_other_private_share":0.9935542345,
+    "avg_external_share":0.0
+  },
+  {
+    "year":2022,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":21.91254425,
+    "avg_voluntary_prepaid_share":3.0934965825,
+    "avg_oop_share":33.5689552089,
+    "avg_other_private_share":2.3032406191,
+    "avg_external_share":39.7214007911
+  },
+  {
+    "year":2022,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_gov_share":18.645791055,
+    "avg_voluntary_prepaid_share":0.43968321,
+    "avg_oop_share":52.91058159,
+    "avg_other_private_share":0.3701226562,
+    "avg_external_share":27.633821485
+  },
+  {
+    "year":2022,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":21.76585197,
+    "avg_voluntary_prepaid_share":1.82371807,
+    "avg_oop_share":42.50963211,
+    "avg_other_private_share":2.3107442856,
+    "avg_external_share":31.59005356
+  },
+  {
+    "year":2022,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":20.492272855,
+    "avg_voluntary_prepaid_share":5.01827395,
+    "avg_oop_share":11.494118215,
+    "avg_other_private_share":2.8607618809,
+    "avg_external_share":60.134572985
+  },
+  {
+    "year":2022,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_gov_share":25.2220422025,
+    "avg_voluntary_prepaid_share":1.8618270212,
+    "avg_oop_share":51.3210971363,
+    "avg_other_private_share":2.9556833357,
+    "avg_external_share":18.639350265
+  },
+  {
+    "year":2022,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":32.570061445,
+    "avg_voluntary_prepaid_share":3.32791102,
+    "avg_oop_share":31.13492155,
+    "avg_other_private_share":0.6762229213,
+    "avg_external_share":32.290883065
+  },
+  {
+    "year":2022,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":29.97175153,
+    "avg_voluntary_prepaid_share":2.1810971133,
+    "avg_oop_share":36.63031451,
+    "avg_other_private_share":7.4840062459,
+    "avg_external_share":23.7328306833
+  },
+  {
+    "year":2022,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":43.8474531175,
+    "avg_voluntary_prepaid_share":2.6080933225,
+    "avg_oop_share":43.0693206775,
+    "avg_other_private_share":3.2703633904,
+    "avg_external_share":7.2047694675
+  },
+  {
+    "year":2022,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":44.788772964,
+    "avg_voluntary_prepaid_share":6.4601639075,
+    "avg_oop_share":14.153672408,
+    "avg_other_private_share":4.364223659,
+    "avg_external_share":32.398044488
+  },
+  {
+    "year":2022,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_gov_share":33.7440083371,
+    "avg_voluntary_prepaid_share":3.3061146471,
+    "avg_oop_share":43.6876059943,
+    "avg_other_private_share":3.5423443828,
+    "avg_external_share":15.7199266971
+  },
+  {
+    "year":2022,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":47.89299202,
+    "avg_voluntary_prepaid_share":4.47441256,
+    "avg_oop_share":42.3174839,
+    "avg_other_private_share":2.5577288866,
+    "avg_external_share":2.757382635
+  },
+  {
+    "year":2022,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":56.796094895,
+    "avg_voluntary_prepaid_share":1.22750187,
+    "avg_oop_share":40.989826205,
+    "avg_other_private_share":0.9362390637,
+    "avg_external_share":1.132209555
+  },
+  {
+    "year":2022,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":60.048773765,
+    "avg_voluntary_prepaid_share":18.26822245,
+    "avg_oop_share":15.668009995,
+    "avg_other_private_share":0.4002426281,
+    "avg_external_share":5.61475116
+  },
+  {
+    "year":2023,
+    "income":"High",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":70.26874542,
+    "avg_voluntary_prepaid_share":0.7967326,
+    "avg_oop_share":27.95942497,
+    "avg_other_private_share":0.9750970006,
+    "avg_external_share":0.0
+  },
+  {
+    "year":2023,
+    "income":"Low",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":21.6177780356,
+    "avg_voluntary_prepaid_share":3.0088120238,
+    "avg_oop_share":30.98064057,
+    "avg_other_private_share":2.1047122483,
+    "avg_external_share":42.8562266033
+  },
+  {
+    "year":2023,
+    "income":"Low",
+    "Subregion":"Central Africa",
+    "avg_gov_share":19.80545282,
+    "avg_voluntary_prepaid_share":0.405593695,
+    "avg_oop_share":48.3510952,
+    "avg_other_private_share":0.320985496,
+    "avg_external_share":31.116872785
+  },
+  {
+    "year":2023,
+    "income":"Low",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":20.74396706,
+    "avg_voluntary_prepaid_share":2.4610889,
+    "avg_oop_share":57.36631393,
+    "avg_other_private_share":3.1183235645,
+    "avg_external_share":16.31030655
+  },
+  {
+    "year":2023,
+    "income":"Low",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":19.637732025,
+    "avg_voluntary_prepaid_share":4.78909485,
+    "avg_oop_share":11.1867671,
+    "avg_other_private_share":2.7786979675,
+    "avg_external_share":61.60770798
+  },
+  {
+    "year":2023,
+    "income":"Low",
+    "Subregion":"Western Africa",
+    "avg_gov_share":23.0330996513,
+    "avg_voluntary_prepaid_share":2.1515432938,
+    "avg_oop_share":52.490366935,
+    "avg_other_private_share":3.4695996703,
+    "avg_external_share":18.8553904887
+  },
+  {
+    "year":2023,
+    "income":"Lower-middle",
+    "Subregion":"Eastern Africa",
+    "avg_gov_share":33.8973879775,
+    "avg_voluntary_prepaid_share":3.497690215,
+    "avg_oop_share":34.39627552,
+    "avg_other_private_share":0.7414564919,
+    "avg_external_share":27.4671897875
+  },
+  {
+    "year":2023,
+    "income":"Lower-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":28.5510339733,
+    "avg_voluntary_prepaid_share":2.2316427933,
+    "avg_oop_share":37.4283434533,
+    "avg_other_private_share":7.2922332287,
+    "avg_external_share":24.4967463833
+  },
+  {
+    "year":2023,
+    "income":"Lower-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":44.256711005,
+    "avg_voluntary_prepaid_share":2.637143225,
+    "avg_oop_share":44.0407266625,
+    "avg_other_private_share":2.389790833,
+    "avg_external_share":6.675628305
+  },
+  {
+    "year":2023,
+    "income":"Lower-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":41.332622528,
+    "avg_voluntary_prepaid_share":7.149038715,
+    "avg_oop_share":15.5367548,
+    "avg_other_private_share":4.5231478959,
+    "avg_external_share":33.792873094
+  },
+  {
+    "year":2023,
+    "income":"Lower-middle",
+    "Subregion":"Western Africa",
+    "avg_gov_share":34.4345094129,
+    "avg_voluntary_prepaid_share":3.0508360029,
+    "avg_oop_share":42.4945278157,
+    "avg_other_private_share":3.4492971046,
+    "avg_external_share":16.5708296657
+  },
+  {
+    "year":2023,
+    "income":"Upper-middle",
+    "Subregion":"Central Africa",
+    "avg_gov_share":48.96826744,
+    "avg_voluntary_prepaid_share":4.29671505,
+    "avg_oop_share":41.62735844,
+    "avg_other_private_share":2.363463372,
+    "avg_external_share":2.7441957
+  },
+  {
+    "year":2023,
+    "income":"Upper-middle",
+    "Subregion":"Northern Africa",
+    "avg_gov_share":66.611877445,
+    "avg_voluntary_prepaid_share":1.10193622,
+    "avg_oop_share":32.089372635,
+    "avg_other_private_share":0.7837865949,
+    "avg_external_share":0.35588802
+  },
+  {
+    "year":2023,
+    "income":"Upper-middle",
+    "Subregion":"Southern Africa",
+    "avg_gov_share":59.9782619475,
+    "avg_voluntary_prepaid_share":18.200569035,
+    "avg_oop_share":15.92142749,
+    "avg_other_private_share":0.4143583185,
+    "avg_external_share":5.4853832125
+  }
+]

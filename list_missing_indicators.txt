@@ -1,0 +1,27 @@
+Currently in Data Explorer (25):
+- Gov exp Health per capita
+- Gap for Gov exp Health per capita
+- Gov exp Health on budget
+- Out-of-pocket on health exp
+- Govern on health exp
+- External on health exp
+- Universal health coverage
+- Neonatal mortality rate
+- Maternal mortality ratio
+- financial hardship
+- nmr_on_course
+- mmr_on_course
+- Voluntary Prepayments on health exp
+- Other Private on health exp
+- imr_category
+- mmr_category
+- Expenditure per capita current
+- Expenditure on GDP
+- GDP per capita Current
+- GDP per capita Constant 2023
+- Tax Revenue per GDP
+- Total Revenue per GDP
+- health_elasticity
+
+Missing from master dataset (66 fields):
+ALL THE REST

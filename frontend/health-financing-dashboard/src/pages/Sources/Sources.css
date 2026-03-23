@@ -1,0 +1,180 @@
+.sources-page {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: var(--spacing-xl);
+}
+
+.sources-page h1 {
+  font-size: var(--font-h1);
+  color: var(--charcoal);
+  margin: 0 0 var(--spacing-xl) 0;
+  font-weight: var(--font-weight-bold);
+}
+
+.source-section {
+  margin-bottom: var(--spacing-2xl);
+}
+
+.source-section h2 {
+  font-size: var(--font-h2);
+  color: var(--charcoal);
+  margin: 0 0 var(--spacing-lg) 0;
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: var(--spacing-sm);
+  font-weight: var(--font-weight-bold);
+}
+
+.source-section h3 {
+  font-size: var(--font-h3);
+  color: var(--charcoal);
+  margin: var(--spacing-lg) 0 var(--spacing-md) 0;
+  font-weight: var(--font-weight-semibold);
+}
+
+.source-section p {
+  color: var(--dark-gray);
+  line-height: var(--line-height-relaxed);
+  margin: 0 0 var(--spacing-md) 0;
+}
+
+.source-section ul,
+.source-section ol {
+  color: var(--dark-gray);
+  line-height: var(--line-height-relaxed);
+  margin: var(--spacing-md) 0;
+  padding-left: var(--spacing-xl);
+}
+
+.source-section li {
+  margin-bottom: var(--spacing-sm);
+}
+
+.source-section a {
+  color: var(--primary-blue);
+  text-decoration: none;
+  font-weight: var(--font-weight-medium);
+  transition: color var(--transition-normal);
+}
+
+.source-section a:hover {
+  color: var(--dark-blue);
+  text-decoration: underline;
+}
+
+.source-item {
+  background: var(--bg-light);
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-lg);
+  margin-bottom: var(--spacing-lg);
+  border-left: 4px solid var(--primary-blue);
+  box-shadow: var(--shadow-xs);
+  transition: box-shadow var(--transition-normal);
+}
+
+.source-item:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.source-item h3 {
+  font-size: var(--font-h4);
+  color: var(--charcoal);
+  margin: 0 0 var(--spacing-sm) 0;
+  font-weight: var(--font-weight-semibold);
+}
+
+.source-item p {
+  color: var(--dark-gray);
+  line-height: var(--line-height-relaxed);
+  margin: 0 0 var(--spacing-md) 0;
+}
+
+.source-item p:last-child {
+  margin-bottom: 0;
+}
+
+.source-item a {
+  color: var(--primary-blue);
+  text-decoration: none;
+  font-weight: var(--font-weight-semibold);
+  transition: color var(--transition-normal);
+}
+
+.source-item a:hover {
+  color: var(--dark-blue);
+  text-decoration: underline;
+}
+
+/* Data Access Info Section */
+.data-access-info {
+  background: var(--bg-white);
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-color);
+  margin-top: var(--spacing-lg);
+}
+
+.data-access-info h3 {
+  margin-top: 0;
+}
+
+/* Methodology Info Section */
+.methodology-info {
+  background: var(--bg-white);
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-color);
+}
+
+.methodology-info h3 {
+  margin-top: var(--spacing-xl);
+}
+
+.methodology-info h3:first-child {
+  margin-top: 0;
+}
+
+/* Citation Box */
+.citation-box {
+  background: var(--blue-tint);
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--light-blue);
+}
+
+.citation-box h3 {
+  color: var(--navy-blue);
+  margin-top: var(--spacing-lg);
+}
+
+.citation-box h3:first-child {
+  margin-top: 0;
+}
+
+.citation-box p {
+  margin-bottom: var(--spacing-md);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .sources-page {
+    padding: var(--spacing-md);
+  }
+
+  .sources-page h1 {
+    font-size: 2rem;
+  }
+
+  .source-section h2 {
+    font-size: var(--font-h3);
+  }
+
+  .source-item {
+    padding: var(--spacing-md);
+  }
+
+  .data-access-info,
+  .methodology-info,
+  .citation-box {
+    padding: var(--spacing-md);
+  }
+}

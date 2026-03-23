@@ -1,0 +1,170 @@
+/**
+ * Unified Theme Variables for Africa Health Financing Platform
+ * UN-ECA Branding Compliant
+ */
+
+:root {
+  /* ============================================
+     COLOR PALETTE - UN-ECA Theme
+     ============================================ */
+
+  /* Primary Blues */
+  --primary-blue: #3b82f6;
+  --dark-blue: #2563eb;
+  --navy-blue: #1e3a8a;
+  --light-blue: #dbeafe;
+  --blue-tint: #eff6ff;
+
+  /* Grays - Unified Scale */
+  --charcoal: #1e293b;
+  --dark-gray: #475569;
+  --medium-gray: #64748b;
+  --light-gray: #94a3b8;
+  --lighter-gray: #cbd5e1;
+
+  /* Backgrounds */
+  --bg-white: #ffffff;
+  --bg-light: #f8fafc;
+  --bg-section: #f1f5f9;
+  --bg-gray: #e2e8f0;
+
+  /* Borders */
+  --border-color: #e2e8f0;
+  --border-light: #f1f5f9;
+
+  /* Semantic Colors */
+  --success: #10b981;
+  --warning: #f59e0b;
+  --error: #ef4444;
+  --info: #3b82f6;
+
+  /* ============================================
+     TYPOGRAPHY
+     ============================================ */
+
+  /* Font Families */
+  --font-primary: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  --font-mono: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+
+  /* Font Sizes */
+  --font-h1: 2.5rem;      /* 40px - Page titles */
+  --font-h2: 1.75rem;     /* 28px - Section headers */
+  --font-h3: 1.25rem;     /* 20px - Subsections */
+  --font-h4: 1.125rem;    /* 18px - Card headers */
+  --font-body: 1rem;      /* 16px - Body text */
+  --font-small: 0.875rem; /* 14px - Small text */
+  --font-tiny: 0.8125rem; /* 13px - Footer, labels */
+
+  /* Font Weights */
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Line Heights */
+  --line-height-tight: 1.2;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.7;
+
+  /* ============================================
+     SPACING
+     ============================================ */
+
+  --container-max: 1200px;
+
+  --spacing-xs: 0.25rem;  /* 4px */
+  --spacing-sm: 0.5rem;   /* 8px */
+  --spacing-md: 1rem;     /* 16px */
+  --spacing-lg: 1.5rem;   /* 24px */
+  --spacing-xl: 2rem;     /* 32px */
+  --spacing-2xl: 3rem;    /* 48px */
+  --spacing-3xl: 4rem;    /* 64px */
+
+  /* ============================================
+     BORDER RADIUS
+     ============================================ */
+
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-xl: 10px;
+  --radius-2xl: 12px;
+
+  /* ============================================
+     SHADOWS
+     ============================================ */
+
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0 2px 8px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0 8px 24px rgba(0, 0, 0, 0.15);
+
+  /* ============================================
+     TRANSITIONS
+     ============================================ */
+
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.2s ease;
+  --transition-slow: 0.3s ease;
+
+  /* ============================================
+     Z-INDEX SCALE
+     ============================================ */
+
+  --z-base: 1;
+  --z-dropdown: 10;
+  --z-sticky: 100;
+  --z-modal: 1000;
+  --z-tooltip: 2000;
+}
+
+/* ============================================
+   GLOBAL RESETS & BASE STYLES
+   ============================================ */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-primary);
+  font-size: var(--font-body);
+  line-height: var(--line-height-normal);
+  color: var(--dark-gray);
+  background-color: var(--bg-white);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ============================================
+   UTILITY CLASSES
+   ============================================ */
+
+.container {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 var(--spacing-xl);
+}
+
+.text-primary { color: var(--primary-blue); }
+.text-dark { color: var(--charcoal); }
+.text-gray { color: var(--medium-gray); }
+.text-light-gray { color: var(--light-gray); }
+
+.bg-white { background-color: var(--bg-white); }
+.bg-light { background-color: var(--bg-light); }
+.bg-section { background-color: var(--bg-section); }
+
+.shadow-sm { box-shadow: var(--shadow-sm); }
+.shadow-md { box-shadow: var(--shadow-md); }
+.shadow-lg { box-shadow: var(--shadow-lg); }
+
+/* Focus outline for accessibility */
+:focus-visible {
+  outline: 2px solid var(--primary-blue);
+  outline-offset: 2px;
+}

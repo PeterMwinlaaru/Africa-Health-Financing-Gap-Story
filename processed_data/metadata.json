@@ -1,0 +1,138 @@
+{
+  "generated_date": "2026-03-23T16:07:44.124178",
+  "total_records": 1350,
+  "countries": [
+    "Algeria",
+    "Angola",
+    "Benin",
+    "Botswana",
+    "Burkina Faso",
+    "Burundi",
+    "Cabo Verde",
+    "Cameroon",
+    "Central African Republic",
+    "Chad",
+    "Comoros",
+    "Congo",
+    "C\u00f4te d'Ivoire",
+    "Democratic Republic of the Congo",
+    "Djibouti",
+    "Egypt",
+    "Equatorial Guinea",
+    "Eritrea",
+    "Eswatini",
+    "Ethiopia",
+    "Gabon",
+    "Gambia",
+    "Ghana",
+    "Guinea",
+    "Guinea-Bissau",
+    "Kenya",
+    "Lesotho",
+    "Liberia",
+    "Libya",
+    "Madagascar",
+    "Malawi",
+    "Mali",
+    "Mauritania",
+    "Mauritius",
+    "Morocco",
+    "Mozambique",
+    "Namibia",
+    "Niger",
+    "Nigeria",
+    "Rwanda",
+    "Sao Tome and Principe",
+    "Senegal",
+    "Seychelles",
+    "Sierra Leone",
+    "Somalia",
+    "South Africa",
+    "South Sudan",
+    "Sudan",
+    "Togo",
+    "Tunisia",
+    "Uganda",
+    "United Republic of Tanzania",
+    "Zambia",
+    "Zimbabwe"
+  ],
+  "year_range": [
+    2000,
+    2024
+  ],
+  "income_categories": {
+    "Lower-middle": 542,
+    "Low": 498,
+    "Upper-middle": 192,
+    "High": 24
+  },
+  "subregions": {
+    "Western Africa": 375,
+    "Eastern Africa": 350,
+    "Southern Africa": 275,
+    "Central Africa": 175,
+    "Northern Africa": 175
+  },
+  "thresholds": {
+    "gov_exp_health_per_capita": {
+      "Low": 112,
+      "Lower-middle": 146,
+      "Upper-middle": 477,
+      "High": 477
+    },
+    "abuja_target": 15,
+    "oop_benchmark": 20,
+    "uhc_percentiles": [
+      50,
+      75
+    ],
+    "gov_share_dominant": 50
+  },
+  "indicators": {
+    "public_health_financing": [
+      "countries_below_threshold",
+      "avg_gap",
+      "gini",
+      "range"
+    ],
+    "budget_priority": [
+      "countries_below_abuja",
+      "avg_gap",
+      "gini",
+      "range"
+    ],
+    "financial_protection": [
+      "countries_above_oop_benchmark",
+      "avg_gap",
+      "gini",
+      "financial_hardship"
+    ],
+    "financing_structure": [
+      "countries_gov_dominant",
+      "avg_shares"
+    ],
+    "uhc": [
+      "avg_uhc",
+      "countries_low_uhc",
+      "gini"
+    ],
+    "health_outcomes": [
+      "avg_nmr",
+      "avg_mmr",
+      "countries_nmr_track",
+      "countries_mmr_track"
+    ],
+    "cross_dimensional": [
+      "uhc_correlations",
+      "outcome_correlations",
+      "structure_uhc",
+      "structure_outcomes"
+    ],
+    "fiscal_space": [
+      "fiscal_indicators",
+      "percentile_indicators",
+      "investment_indicators"
+    ]
+  }
+}

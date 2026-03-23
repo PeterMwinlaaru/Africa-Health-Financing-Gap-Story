@@ -1,0 +1,5 @@
+/* Body styles are defined in theme.css */
+
+code {
+  font-family: var(--font-mono);
+}
