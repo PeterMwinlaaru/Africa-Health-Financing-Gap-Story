@@ -609,10 +609,17 @@ const DataExplorer: React.FC = () => {
                       strokeWidth={2}
                       label={{
                         value: labels[idx],
-                        position: 'right',
+                        position: 'insideTopRight',
                         fill: threshold.stroke || '#ef4444',
                         fontSize: 12,
-                        fontWeight: 'bold'
+                        fontWeight: 700,
+                        offset: 10,
+                        style: {
+                          textShadow: '0 0 3px white, 0 0 3px white, 0 0 3px white',
+                          backgroundColor: 'rgba(255, 255, 255, 0.9)',
+                          padding: '2px 6px',
+                          borderRadius: '3px'
+                        }
                       }}
                     />
                   ));
