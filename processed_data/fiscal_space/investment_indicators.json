@@ -1,13 +1,6 @@
 [
   {
     "year":2000,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "avg_gross_fixed_capital_pct_gdp":null,
-    "avg_foreign_transfers_pct_gdp":0.0
-  },
-  {
-    "year":2000,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
@@ -16,7 +9,7 @@
   {
     "year":2000,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
     "avg_foreign_transfers_pct_gdp":0.2288267128
   },
@@ -51,7 +44,7 @@
   {
     "year":2000,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
     "avg_foreign_transfers_pct_gdp":0.4952858976
   },
@@ -79,7 +72,14 @@
   {
     "year":2000,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "avg_gross_fixed_capital_pct_gdp":null,
+    "avg_foreign_transfers_pct_gdp":0.0
+  },
+  {
+    "year":2000,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
     "avg_foreign_transfers_pct_gdp":0.0448207341
   },
@@ -99,13 +99,6 @@
   },
   {
     "year":2001,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "avg_gross_fixed_capital_pct_gdp":null,
-    "avg_foreign_transfers_pct_gdp":0.0116159309
-  },
-  {
-    "year":2001,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
@@ -114,7 +107,7 @@
   {
     "year":2001,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
     "avg_foreign_transfers_pct_gdp":0.0976268609
   },
@@ -149,7 +142,7 @@
   {
     "year":2001,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
     "avg_foreign_transfers_pct_gdp":0.4890666057
   },
@@ -177,7 +170,14 @@
   {
     "year":2001,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "avg_gross_fixed_capital_pct_gdp":null,
+    "avg_foreign_transfers_pct_gdp":0.0116159309
+  },
+  {
+    "year":2001,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
     "avg_foreign_transfers_pct_gdp":0.1087973828
   },
@@ -197,13 +197,6 @@
   },
   {
     "year":2002,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "avg_gross_fixed_capital_pct_gdp":null,
-    "avg_foreign_transfers_pct_gdp":0.0350815317
-  },
-  {
-    "year":2002,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
@@ -212,7 +205,7 @@
   {
     "year":2002,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
     "avg_foreign_transfers_pct_gdp":0.1899493199
   },
@@ -247,7 +240,7 @@
   {
     "year":2002,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
     "avg_foreign_transfers_pct_gdp":0.7649692414
   },
@@ -275,7 +268,14 @@
   {
     "year":2002,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "avg_gross_fixed_capital_pct_gdp":null,
+    "avg_foreign_transfers_pct_gdp":0.0350815317
+  },
+  {
+    "year":2002,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
     "avg_foreign_transfers_pct_gdp":0.0763743816
   },
@@ -295,13 +295,6 @@
   },
   {
     "year":2003,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "avg_gross_fixed_capital_pct_gdp":null,
-    "avg_foreign_transfers_pct_gdp":0.04924147
-  },
-  {
-    "year":2003,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
@@ -310,7 +303,7 @@
   {
     "year":2003,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
     "avg_foreign_transfers_pct_gdp":0.554728116
   },
@@ -345,7 +338,7 @@
   {
     "year":2003,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
     "avg_foreign_transfers_pct_gdp":0.7338925724
   },
@@ -373,7 +366,14 @@
   {
     "year":2003,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "avg_gross_fixed_capital_pct_gdp":null,
+    "avg_foreign_transfers_pct_gdp":0.04924147
+  },
+  {
+    "year":2003,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
     "avg_foreign_transfers_pct_gdp":0.0399032071
   },
@@ -393,13 +393,6 @@
   },
   {
     "year":2004,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "avg_gross_fixed_capital_pct_gdp":null,
-    "avg_foreign_transfers_pct_gdp":0.1235836642
-  },
-  {
-    "year":2004,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
@@ -408,7 +401,7 @@
   {
     "year":2004,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
     "avg_foreign_transfers_pct_gdp":0.4150585678
   },
@@ -443,7 +436,7 @@
   {
     "year":2004,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
     "avg_foreign_transfers_pct_gdp":0.7543388432
   },
@@ -471,7 +464,14 @@
   {
     "year":2004,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "avg_gross_fixed_capital_pct_gdp":null,
+    "avg_foreign_transfers_pct_gdp":0.1235836642
+  },
+  {
+    "year":2004,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
     "avg_foreign_transfers_pct_gdp":0.0450157801
   },
@@ -491,13 +491,6 @@
   },
   {
     "year":2005,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "avg_gross_fixed_capital_pct_gdp":null,
-    "avg_foreign_transfers_pct_gdp":0.031769001
-  },
-  {
-    "year":2005,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
@@ -506,7 +499,7 @@
   {
     "year":2005,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
     "avg_foreign_transfers_pct_gdp":0.5312177742
   },
@@ -541,7 +534,7 @@
   {
     "year":2005,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
     "avg_foreign_transfers_pct_gdp":0.7594508007
   },
@@ -569,7 +562,14 @@
   {
     "year":2005,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "avg_gross_fixed_capital_pct_gdp":null,
+    "avg_foreign_transfers_pct_gdp":0.031769001
+  },
+  {
+    "year":2005,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
     "avg_foreign_transfers_pct_gdp":0.0502038085
   },
@@ -589,13 +589,6 @@
   },
   {
     "year":2006,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "avg_gross_fixed_capital_pct_gdp":null,
-    "avg_foreign_transfers_pct_gdp":0.01537731
-  },
-  {
-    "year":2006,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
@@ -604,7 +597,7 @@
   {
     "year":2006,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
     "avg_foreign_transfers_pct_gdp":0.5353475019
   },
@@ -639,7 +632,7 @@
   {
     "year":2006,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
     "avg_foreign_transfers_pct_gdp":0.7558777015
   },
@@ -667,7 +660,14 @@
   {
     "year":2006,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "avg_gross_fixed_capital_pct_gdp":null,
+    "avg_foreign_transfers_pct_gdp":0.01537731
+  },
+  {
+    "year":2006,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
     "avg_foreign_transfers_pct_gdp":0.0684300563
   },
@@ -687,13 +687,6 @@
   },
   {
     "year":2007,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "avg_gross_fixed_capital_pct_gdp":null,
-    "avg_foreign_transfers_pct_gdp":0.002578834
-  },
-  {
-    "year":2007,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
@@ -702,7 +695,7 @@
   {
     "year":2007,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
     "avg_foreign_transfers_pct_gdp":0.5023787376
   },
@@ -737,7 +730,7 @@
   {
     "year":2007,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
     "avg_foreign_transfers_pct_gdp":0.7261516062
   },
@@ -765,7 +758,14 @@
   {
     "year":2007,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "avg_gross_fixed_capital_pct_gdp":null,
+    "avg_foreign_transfers_pct_gdp":0.002578834
+  },
+  {
+    "year":2007,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
     "avg_foreign_transfers_pct_gdp":0.0679072835
   },
@@ -785,13 +785,6 @@
   },
   {
     "year":2008,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "avg_gross_fixed_capital_pct_gdp":null,
-    "avg_foreign_transfers_pct_gdp":0.0147695113
-  },
-  {
-    "year":2008,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
@@ -800,7 +793,7 @@
   {
     "year":2008,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
     "avg_foreign_transfers_pct_gdp":0.2382783521
   },
@@ -835,7 +828,7 @@
   {
     "year":2008,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
     "avg_foreign_transfers_pct_gdp":0.7211543344
   },
@@ -863,7 +856,14 @@
   {
     "year":2008,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "avg_gross_fixed_capital_pct_gdp":null,
+    "avg_foreign_transfers_pct_gdp":0.0147695113
+  },
+  {
+    "year":2008,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
     "avg_foreign_transfers_pct_gdp":0.0445265783
   },
@@ -883,13 +883,6 @@
   },
   {
     "year":2009,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "avg_gross_fixed_capital_pct_gdp":null,
-    "avg_foreign_transfers_pct_gdp":0.0000031862
-  },
-  {
-    "year":2009,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
@@ -898,7 +891,7 @@
   {
     "year":2009,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
     "avg_foreign_transfers_pct_gdp":0.6832939792
   },
@@ -933,7 +926,7 @@
   {
     "year":2009,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
     "avg_foreign_transfers_pct_gdp":0.4907196145
   },
@@ -961,7 +954,14 @@
   {
     "year":2009,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "avg_gross_fixed_capital_pct_gdp":null,
+    "avg_foreign_transfers_pct_gdp":0.0000031862
+  },
+  {
+    "year":2009,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
     "avg_foreign_transfers_pct_gdp":0.0745532583
   },
@@ -981,13 +981,6 @@
   },
   {
     "year":2010,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "avg_gross_fixed_capital_pct_gdp":null,
-    "avg_foreign_transfers_pct_gdp":0.0167201062
-  },
-  {
-    "year":2010,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "avg_gross_fixed_capital_pct_gdp":0.3441977532,
@@ -996,7 +989,7 @@
   {
     "year":2010,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
     "avg_foreign_transfers_pct_gdp":0.2136923724
   },
@@ -1031,7 +1024,7 @@
   {
     "year":2010,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
     "avg_foreign_transfers_pct_gdp":0.4983906152
   },
@@ -1059,7 +1052,14 @@
   {
     "year":2010,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "avg_gross_fixed_capital_pct_gdp":null,
+    "avg_foreign_transfers_pct_gdp":0.0167201062
+  },
+  {
+    "year":2010,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":0.7821711797,
     "avg_foreign_transfers_pct_gdp":0.0463688972
   },
@@ -1079,13 +1079,6 @@
   },
   {
     "year":2011,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "avg_gross_fixed_capital_pct_gdp":null,
-    "avg_foreign_transfers_pct_gdp":0.0002611907
-  },
-  {
-    "year":2011,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "avg_gross_fixed_capital_pct_gdp":0.0901479143,
@@ -1094,7 +1087,7 @@
   {
     "year":2011,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":0.5608489972,
     "avg_foreign_transfers_pct_gdp":0.3992192913
   },
@@ -1129,7 +1122,7 @@
   {
     "year":2011,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":0.1836280555,
     "avg_foreign_transfers_pct_gdp":0.6094947364
   },
@@ -1157,7 +1150,14 @@
   {
     "year":2011,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "avg_gross_fixed_capital_pct_gdp":null,
+    "avg_foreign_transfers_pct_gdp":0.0002611907
+  },
+  {
+    "year":2011,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":0.4271788198,
     "avg_foreign_transfers_pct_gdp":0.043430209
   },
@@ -1177,13 +1177,6 @@
   },
   {
     "year":2012,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "avg_gross_fixed_capital_pct_gdp":null,
-    "avg_foreign_transfers_pct_gdp":0.0520837191
-  },
-  {
-    "year":2012,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "avg_gross_fixed_capital_pct_gdp":0.3305093932,
@@ -1192,7 +1185,7 @@
   {
     "year":2012,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
     "avg_foreign_transfers_pct_gdp":0.4741702352
   },
@@ -1227,7 +1220,7 @@
   {
     "year":2012,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":0.2287756412,
     "avg_foreign_transfers_pct_gdp":0.5915821202
   },
@@ -1255,7 +1248,14 @@
   {
     "year":2012,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "avg_gross_fixed_capital_pct_gdp":null,
+    "avg_foreign_transfers_pct_gdp":0.0520837191
+  },
+  {
+    "year":2012,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":0.7243540286,
     "avg_foreign_transfers_pct_gdp":0.0236033804
   },
@@ -1275,13 +1275,6 @@
   },
   {
     "year":2013,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "avg_gross_fixed_capital_pct_gdp":null,
-    "avg_foreign_transfers_pct_gdp":0.1318763659
-  },
-  {
-    "year":2013,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "avg_gross_fixed_capital_pct_gdp":0.4007208223,
@@ -1290,7 +1283,7 @@
   {
     "year":2013,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
     "avg_foreign_transfers_pct_gdp":0.6905106789
   },
@@ -1325,7 +1318,7 @@
   {
     "year":2013,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":0.3111096964,
     "avg_foreign_transfers_pct_gdp":0.4565403516
   },
@@ -1353,7 +1346,14 @@
   {
     "year":2013,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "avg_gross_fixed_capital_pct_gdp":null,
+    "avg_foreign_transfers_pct_gdp":0.1318763659
+  },
+  {
+    "year":2013,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":0.9979633721,
     "avg_foreign_transfers_pct_gdp":0.0084491321
   },
@@ -1373,13 +1373,6 @@
   },
   {
     "year":2014,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "avg_gross_fixed_capital_pct_gdp":null,
-    "avg_foreign_transfers_pct_gdp":0.0207485301
-  },
-  {
-    "year":2014,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "avg_gross_fixed_capital_pct_gdp":0.2226580728,
@@ -1388,7 +1381,7 @@
   {
     "year":2014,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
     "avg_foreign_transfers_pct_gdp":0.7250666641
   },
@@ -1423,7 +1416,7 @@
   {
     "year":2014,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":1.7249637205,
     "avg_foreign_transfers_pct_gdp":0.1151263141
   },
@@ -1451,7 +1444,14 @@
   {
     "year":2014,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "avg_gross_fixed_capital_pct_gdp":null,
+    "avg_foreign_transfers_pct_gdp":0.0207485301
+  },
+  {
+    "year":2014,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":0.6315145483,
     "avg_foreign_transfers_pct_gdp":0.0147058086
   },
@@ -1471,13 +1471,6 @@
   },
   {
     "year":2015,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "avg_gross_fixed_capital_pct_gdp":null,
-    "avg_foreign_transfers_pct_gdp":0.014944156
-  },
-  {
-    "year":2015,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "avg_gross_fixed_capital_pct_gdp":0.1447957293,
@@ -1486,7 +1479,7 @@
   {
     "year":2015,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
     "avg_foreign_transfers_pct_gdp":0.8792638082
   },
@@ -1521,7 +1514,7 @@
   {
     "year":2015,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":0.2411045285,
     "avg_foreign_transfers_pct_gdp":0.0804366012
   },
@@ -1549,7 +1542,14 @@
   {
     "year":2015,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "avg_gross_fixed_capital_pct_gdp":null,
+    "avg_foreign_transfers_pct_gdp":0.014944156
+  },
+  {
+    "year":2015,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":0.4645438566,
     "avg_foreign_transfers_pct_gdp":0.0166624015
   },
@@ -1569,13 +1569,6 @@
   },
   {
     "year":2016,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "avg_gross_fixed_capital_pct_gdp":null,
-    "avg_foreign_transfers_pct_gdp":0.0383553188
-  },
-  {
-    "year":2016,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "avg_gross_fixed_capital_pct_gdp":0.2320386023,
@@ -1584,7 +1577,7 @@
   {
     "year":2016,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":0.0168735994,
     "avg_foreign_transfers_pct_gdp":0.6653234923
   },
@@ -1619,7 +1612,7 @@
   {
     "year":2016,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":0.3127823954,
     "avg_foreign_transfers_pct_gdp":0.1937192922
   },
@@ -1647,7 +1640,14 @@
   {
     "year":2016,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "avg_gross_fixed_capital_pct_gdp":null,
+    "avg_foreign_transfers_pct_gdp":0.0383553188
+  },
+  {
+    "year":2016,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":0.1009201627,
     "avg_foreign_transfers_pct_gdp":0.0224593112
   },
@@ -1667,13 +1667,6 @@
   },
   {
     "year":2017,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "avg_gross_fixed_capital_pct_gdp":null,
-    "avg_foreign_transfers_pct_gdp":0.0241586754
-  },
-  {
-    "year":2017,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "avg_gross_fixed_capital_pct_gdp":0.4106562828,
@@ -1682,7 +1675,7 @@
   {
     "year":2017,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":0.0322579494,
     "avg_foreign_transfers_pct_gdp":1.1534658629
   },
@@ -1717,7 +1710,7 @@
   {
     "year":2017,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":0.3491704102,
     "avg_foreign_transfers_pct_gdp":0.1556007745
   },
@@ -1745,7 +1738,14 @@
   {
     "year":2017,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "avg_gross_fixed_capital_pct_gdp":null,
+    "avg_foreign_transfers_pct_gdp":0.0241586754
+  },
+  {
+    "year":2017,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":0.0692300815,
     "avg_foreign_transfers_pct_gdp":0.0197060935
   },
@@ -1765,13 +1765,6 @@
   },
   {
     "year":2018,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "avg_gross_fixed_capital_pct_gdp":null,
-    "avg_foreign_transfers_pct_gdp":0.0181894596
-  },
-  {
-    "year":2018,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "avg_gross_fixed_capital_pct_gdp":0.1272618559,
@@ -1780,7 +1773,7 @@
   {
     "year":2018,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":0.2012982248,
     "avg_foreign_transfers_pct_gdp":2.4888168947
   },
@@ -1815,7 +1808,7 @@
   {
     "year":2018,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":0.059520119,
     "avg_foreign_transfers_pct_gdp":0.2828892313
   },
@@ -1843,7 +1836,14 @@
   {
     "year":2018,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "avg_gross_fixed_capital_pct_gdp":null,
+    "avg_foreign_transfers_pct_gdp":0.0181894596
+  },
+  {
+    "year":2018,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":0.1473403527,
     "avg_foreign_transfers_pct_gdp":0.0317723193
   },
@@ -1863,13 +1863,6 @@
   },
   {
     "year":2019,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "avg_gross_fixed_capital_pct_gdp":null,
-    "avg_foreign_transfers_pct_gdp":0.0
-  },
-  {
-    "year":2019,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "avg_gross_fixed_capital_pct_gdp":0.1133177947,
@@ -1878,7 +1871,7 @@
   {
     "year":2019,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
     "avg_foreign_transfers_pct_gdp":0.9770744681
   },
@@ -1913,7 +1906,7 @@
   {
     "year":2019,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":0.0383179487,
     "avg_foreign_transfers_pct_gdp":0.3115009478
   },
@@ -1941,7 +1934,14 @@
   {
     "year":2019,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "avg_gross_fixed_capital_pct_gdp":null,
+    "avg_foreign_transfers_pct_gdp":0.0
+  },
+  {
+    "year":2019,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":0.0711786197,
     "avg_foreign_transfers_pct_gdp":0.0210084142
   },
@@ -1961,13 +1961,6 @@
   },
   {
     "year":2020,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "avg_gross_fixed_capital_pct_gdp":null,
-    "avg_foreign_transfers_pct_gdp":0.0198108973
-  },
-  {
-    "year":2020,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "avg_gross_fixed_capital_pct_gdp":0.4100361317,
@@ -1976,7 +1969,7 @@
   {
     "year":2020,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":0.1462493752,
     "avg_foreign_transfers_pct_gdp":1.2154061336
   },
@@ -2011,7 +2004,7 @@
   {
     "year":2020,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":0.1933118295,
     "avg_foreign_transfers_pct_gdp":0.1192037396
   },
@@ -2039,7 +2032,14 @@
   {
     "year":2020,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "avg_gross_fixed_capital_pct_gdp":null,
+    "avg_foreign_transfers_pct_gdp":0.0198108973
+  },
+  {
+    "year":2020,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
     "avg_foreign_transfers_pct_gdp":0.0219633681
   },
@@ -2059,13 +2059,6 @@
   },
   {
     "year":2021,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "avg_gross_fixed_capital_pct_gdp":null,
-    "avg_foreign_transfers_pct_gdp":0.0
-  },
-  {
-    "year":2021,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "avg_gross_fixed_capital_pct_gdp":0.3119824524,
@@ -2074,7 +2067,7 @@
   {
     "year":2021,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":0.0325212911,
     "avg_foreign_transfers_pct_gdp":1.1404426782
   },
@@ -2109,7 +2102,7 @@
   {
     "year":2021,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":0.2072890924,
     "avg_foreign_transfers_pct_gdp":0.2511202166
   },
@@ -2137,7 +2130,14 @@
   {
     "year":2021,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "avg_gross_fixed_capital_pct_gdp":null,
+    "avg_foreign_transfers_pct_gdp":0.0
+  },
+  {
+    "year":2021,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":0.1294781245,
     "avg_foreign_transfers_pct_gdp":0.0408030497
   },
@@ -2157,13 +2157,6 @@
   },
   {
     "year":2022,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "avg_gross_fixed_capital_pct_gdp":null,
-    "avg_foreign_transfers_pct_gdp":0.0
-  },
-  {
-    "year":2022,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "avg_gross_fixed_capital_pct_gdp":0.0368011027,
@@ -2172,7 +2165,7 @@
   {
     "year":2022,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":0.0674746251,
     "avg_foreign_transfers_pct_gdp":1.4528612184
   },
@@ -2207,7 +2200,7 @@
   {
     "year":2022,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
     "avg_foreign_transfers_pct_gdp":0.4390370203
   },
@@ -2235,7 +2228,14 @@
   {
     "year":2022,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "avg_gross_fixed_capital_pct_gdp":null,
+    "avg_foreign_transfers_pct_gdp":0.0
+  },
+  {
+    "year":2022,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":0.1635516567,
     "avg_foreign_transfers_pct_gdp":0.0396697885
   },
@@ -2255,13 +2255,6 @@
   },
   {
     "year":2023,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "avg_gross_fixed_capital_pct_gdp":null,
-    "avg_foreign_transfers_pct_gdp":0.0
-  },
-  {
-    "year":2023,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "avg_gross_fixed_capital_pct_gdp":0.1257742832,
@@ -2270,7 +2263,7 @@
   {
     "year":2023,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
     "avg_foreign_transfers_pct_gdp":1.9094747268
   },
@@ -2305,7 +2298,7 @@
   {
     "year":2023,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":null,
     "avg_foreign_transfers_pct_gdp":0.4176619813
   },
@@ -2333,7 +2326,14 @@
   {
     "year":2023,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "avg_gross_fixed_capital_pct_gdp":null,
+    "avg_foreign_transfers_pct_gdp":0.0
+  },
+  {
+    "year":2023,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "avg_gross_fixed_capital_pct_gdp":0.1664994411,
     "avg_foreign_transfers_pct_gdp":0.0313502194
   },

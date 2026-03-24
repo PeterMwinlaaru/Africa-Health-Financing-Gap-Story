@@ -1,6 +1,6 @@
 {
-  "generated_date": "2026-03-23T16:07:44.124178",
-  "total_records": 1350,
+  "generated_date": "2026-03-24T06:45:33.689591",
+  "total_records": 1256,
   "countries": [
     "Algeria",
     "Angola",
@@ -14,7 +14,7 @@
     "Chad",
     "Comoros",
     "Congo",
-    "C\u00f4te d'Ivoire",
+    "C\u00c3\u00b4te d'Ivoire",
     "Democratic Republic of the Congo",
     "Djibouti",
     "Egypt",
@@ -59,20 +59,19 @@
   ],
   "year_range": [
     2000,
-    2024
+    2023
   ],
   "income_categories": {
     "Lower-middle": 542,
     "Low": 498,
-    "Upper-middle": 192,
-    "High": 24
+    "Upper-middle": 216
   },
   "subregions": {
-    "Western Africa": 375,
-    "Eastern Africa": 350,
-    "Southern Africa": 275,
-    "Central Africa": 175,
-    "Northern Africa": 175
+    "Western Africa": 360,
+    "Eastern Africa": 306,
+    "Southern Africa": 254,
+    "Northern Africa": 168,
+    "Middle Africa": 168
   },
   "thresholds": {
     "gov_exp_health_per_capita": {

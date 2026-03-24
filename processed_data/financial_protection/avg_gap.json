@@ -8,7 +8,7 @@
   {
     "year":2000,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":32.247198105
   },
   {
@@ -38,7 +38,7 @@
   {
     "year":2000,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":38.3382568333
   },
   {
@@ -62,7 +62,7 @@
   {
     "year":2000,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":32.663900375
   },
   {
@@ -86,7 +86,7 @@
   {
     "year":2001,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":36.18190575
   },
   {
@@ -116,7 +116,7 @@
   {
     "year":2001,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":34.83686447
   },
   {
@@ -140,7 +140,7 @@
   {
     "year":2001,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":32.574245455
   },
   {
@@ -164,7 +164,7 @@
   {
     "year":2002,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":37.16660881
   },
   {
@@ -194,7 +194,7 @@
   {
     "year":2002,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":37.8383611033
   },
   {
@@ -218,7 +218,7 @@
   {
     "year":2002,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":48.25829697
   },
   {
@@ -242,7 +242,7 @@
   {
     "year":2003,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":28.240680695
   },
   {
@@ -272,7 +272,7 @@
   {
     "year":2003,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":34.9576988233
   },
   {
@@ -296,7 +296,7 @@
   {
     "year":2003,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":42.994615555
   },
   {
@@ -320,7 +320,7 @@
   {
     "year":2004,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":32.072423935
   },
   {
@@ -344,7 +344,7 @@
   {
     "year":2004,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":34.9264971433
   },
   {
@@ -368,7 +368,7 @@
   {
     "year":2004,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":41.791578295
   },
   {
@@ -392,7 +392,7 @@
   {
     "year":2005,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":33.97112465
   },
   {
@@ -416,7 +416,7 @@
   {
     "year":2005,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":33.23751831
   },
   {
@@ -440,7 +440,7 @@
   {
     "year":2005,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":39.813121795
   },
   {
@@ -464,7 +464,7 @@
   {
     "year":2006,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":37.603967665
   },
   {
@@ -488,7 +488,7 @@
   {
     "year":2006,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":34.31480662
   },
   {
@@ -512,7 +512,7 @@
   {
     "year":2006,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":36.185920715
   },
   {
@@ -536,7 +536,7 @@
   {
     "year":2007,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":37.313045505
   },
   {
@@ -560,7 +560,7 @@
   {
     "year":2007,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":33.3524932867
   },
   {
@@ -584,7 +584,7 @@
   {
     "year":2007,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":34.404424665
   },
   {
@@ -601,12 +601,6 @@
   },
   {
     "year":2008,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "avg_financial_protection_gap":11.15786171
-  },
-  {
-    "year":2008,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "avg_financial_protection_gap":22.2648213717
@@ -614,7 +608,7 @@
   {
     "year":2008,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":43.39420128
   },
   {
@@ -638,7 +632,7 @@
   {
     "year":2008,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":27.44286219
   },
   {
@@ -662,7 +656,13 @@
   {
     "year":2008,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "avg_financial_protection_gap":11.15786171
+  },
+  {
+    "year":2008,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":34.32363701
   },
   {
@@ -679,12 +679,6 @@
   },
   {
     "year":2009,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "avg_financial_protection_gap":9.79195404
-  },
-  {
-    "year":2009,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "avg_financial_protection_gap":21.4557603183
@@ -692,7 +686,7 @@
   {
     "year":2009,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":36.42847824
   },
   {
@@ -716,7 +710,7 @@
   {
     "year":2009,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":31.5128796933
   },
   {
@@ -734,7 +728,13 @@
   {
     "year":2009,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "avg_financial_protection_gap":9.79195404
+  },
+  {
+    "year":2009,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":31.427915575
   },
   {
@@ -751,12 +751,6 @@
   },
   {
     "year":2010,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "avg_financial_protection_gap":2.15365982
-  },
-  {
-    "year":2010,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "avg_financial_protection_gap":18.28721841
@@ -764,7 +758,7 @@
   {
     "year":2010,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":43.552404405
   },
   {
@@ -788,7 +782,7 @@
   {
     "year":2010,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":27.95724042
   },
   {
@@ -812,7 +806,13 @@
   {
     "year":2010,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "avg_financial_protection_gap":2.15365982
+  },
+  {
+    "year":2010,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":21.78370571
   },
   {
@@ -829,12 +829,6 @@
   },
   {
     "year":2011,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "avg_financial_protection_gap":3.17224884
-  },
-  {
-    "year":2011,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "avg_financial_protection_gap":14.7158387483
@@ -842,7 +836,7 @@
   {
     "year":2011,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":39.67705727
   },
   {
@@ -866,7 +860,7 @@
   {
     "year":2011,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":24.8447182967
   },
   {
@@ -890,7 +884,13 @@
   {
     "year":2011,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "avg_financial_protection_gap":3.17224884
+  },
+  {
+    "year":2011,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":22.22833538
   },
   {
@@ -914,7 +914,7 @@
   {
     "year":2012,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":38.754606245
   },
   {
@@ -938,7 +938,7 @@
   {
     "year":2012,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":28.29141235
   },
   {
@@ -962,7 +962,7 @@
   {
     "year":2012,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":20.67761326
   },
   {
@@ -986,7 +986,7 @@
   {
     "year":2013,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":31.938146595
   },
   {
@@ -1010,7 +1010,7 @@
   {
     "year":2013,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":30.186003685
   },
   {
@@ -1034,7 +1034,7 @@
   {
     "year":2013,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":25.906388285
   },
   {
@@ -1051,12 +1051,6 @@
   },
   {
     "year":2014,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "avg_financial_protection_gap":7.4764843
-  },
-  {
-    "year":2014,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "avg_financial_protection_gap":18.15225465
@@ -1064,7 +1058,7 @@
   {
     "year":2014,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":31.09231758
   },
   {
@@ -1088,7 +1082,7 @@
   {
     "year":2014,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":30.085528375
   },
   {
@@ -1112,7 +1106,13 @@
   {
     "year":2014,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "avg_financial_protection_gap":7.4764843
+  },
+  {
+    "year":2014,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":26.02562237
   },
   {
@@ -1129,12 +1129,6 @@
   },
   {
     "year":2015,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "avg_financial_protection_gap":6.07247543
-  },
-  {
-    "year":2015,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "avg_financial_protection_gap":15.7783641814
@@ -1142,7 +1136,7 @@
   {
     "year":2015,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":32.75046158
   },
   {
@@ -1166,7 +1160,7 @@
   {
     "year":2015,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":33.146562575
   },
   {
@@ -1190,7 +1184,13 @@
   {
     "year":2015,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "avg_financial_protection_gap":6.07247543
+  },
+  {
+    "year":2015,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":27.026079175
   },
   {
@@ -1207,12 +1207,6 @@
   },
   {
     "year":2016,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "avg_financial_protection_gap":5.30701828
-  },
-  {
-    "year":2016,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "avg_financial_protection_gap":18.3922342571
@@ -1220,7 +1214,7 @@
   {
     "year":2016,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":35.177812575
   },
   {
@@ -1233,7 +1227,7 @@
     "year":2016,
     "income":"Low",
     "Subregion":"Western Africa",
-    "avg_financial_protection_gap":26.8250458238
+    "avg_financial_protection_gap":26.8250458237
   },
   {
     "year":2016,
@@ -1244,7 +1238,7 @@
   {
     "year":2016,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":38.822155
   },
   {
@@ -1268,7 +1262,13 @@
   {
     "year":2016,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "avg_financial_protection_gap":5.30701828
+  },
+  {
+    "year":2016,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":25.820620535
   },
   {
@@ -1285,12 +1285,6 @@
   },
   {
     "year":2017,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "avg_financial_protection_gap":4.59942627
-  },
-  {
-    "year":2017,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "avg_financial_protection_gap":16.2725233343
@@ -1298,7 +1292,7 @@
   {
     "year":2017,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":38.14757919
   },
   {
@@ -1322,7 +1316,7 @@
   {
     "year":2017,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":42.026062015
   },
   {
@@ -1346,7 +1340,13 @@
   {
     "year":2017,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "avg_financial_protection_gap":4.59942627
+  },
+  {
+    "year":2017,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":27.87683296
   },
   {
@@ -1363,20 +1363,14 @@
   },
   {
     "year":2018,
-    "income":"High",
+    "income":"Low",
     "Subregion":"Eastern Africa",
-    "avg_financial_protection_gap":6.20684624
+    "avg_financial_protection_gap":16.1066949362
   },
   {
     "year":2018,
     "income":"Low",
-    "Subregion":"Eastern Africa",
-    "avg_financial_protection_gap":16.1066949363
-  },
-  {
-    "year":2018,
-    "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":33.024410245
   },
   {
@@ -1400,7 +1394,7 @@
   {
     "year":2018,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":41.25959587
   },
   {
@@ -1424,7 +1418,13 @@
   {
     "year":2018,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "avg_financial_protection_gap":6.20684624
+  },
+  {
+    "year":2018,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":26.606637
   },
   {
@@ -1441,20 +1441,14 @@
   },
   {
     "year":2019,
-    "income":"High",
+    "income":"Low",
     "Subregion":"Eastern Africa",
-    "avg_financial_protection_gap":6.27492523
+    "avg_financial_protection_gap":18.0804669837
   },
   {
     "year":2019,
     "income":"Low",
-    "Subregion":"Eastern Africa",
-    "avg_financial_protection_gap":18.0804669838
-  },
-  {
-    "year":2019,
-    "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":42.130823135
   },
   {
@@ -1478,7 +1472,7 @@
   {
     "year":2019,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":37.180410385
   },
   {
@@ -1502,7 +1496,13 @@
   {
     "year":2019,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "avg_financial_protection_gap":6.27492523
+  },
+  {
+    "year":2019,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":28.430764195
   },
   {
@@ -1519,12 +1519,6 @@
   },
   {
     "year":2020,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "avg_financial_protection_gap":1.59911156
-  },
-  {
-    "year":2020,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "avg_financial_protection_gap":16.15469265
@@ -1532,7 +1526,7 @@
   {
     "year":2020,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":39.71839142
   },
   {
@@ -1545,7 +1539,7 @@
     "year":2020,
     "income":"Low",
     "Subregion":"Western Africa",
-    "avg_financial_protection_gap":28.5281033538
+    "avg_financial_protection_gap":28.5281033537
   },
   {
     "year":2020,
@@ -1556,7 +1550,7 @@
   {
     "year":2020,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":28.533509255
   },
   {
@@ -1580,7 +1574,13 @@
   {
     "year":2020,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "avg_financial_protection_gap":1.59911156
+  },
+  {
+    "year":2020,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":25.47002697
   },
   {
@@ -1597,12 +1597,6 @@
   },
   {
     "year":2021,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "avg_financial_protection_gap":6.9475193
-  },
-  {
-    "year":2021,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "avg_financial_protection_gap":15.3163053975
@@ -1610,7 +1604,7 @@
   {
     "year":2021,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":39.52764511
   },
   {
@@ -1634,7 +1628,7 @@
   {
     "year":2021,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":27.109025
   },
   {
@@ -1658,7 +1652,13 @@
   {
     "year":2021,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "avg_financial_protection_gap":6.9475193
+  },
+  {
+    "year":2021,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":23.22991943
   },
   {
@@ -1675,12 +1675,6 @@
   },
   {
     "year":2022,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "avg_financial_protection_gap":9.96477127
-  },
-  {
-    "year":2022,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "avg_financial_protection_gap":17.2400746337
@@ -1688,7 +1682,7 @@
   {
     "year":2022,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":32.91058159
   },
   {
@@ -1701,7 +1695,7 @@
     "year":2022,
     "income":"Low",
     "Subregion":"Western Africa",
-    "avg_financial_protection_gap":31.3210971363
+    "avg_financial_protection_gap":31.3210971362
   },
   {
     "year":2022,
@@ -1712,7 +1706,7 @@
   {
     "year":2022,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":27.341547965
   },
   {
@@ -1736,7 +1730,13 @@
   {
     "year":2022,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "avg_financial_protection_gap":9.96477127
+  },
+  {
+    "year":2022,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":46.71870422
   },
   {
@@ -1753,20 +1753,14 @@
   },
   {
     "year":2023,
-    "income":"High",
+    "income":"Low",
     "Subregion":"Eastern Africa",
-    "avg_financial_protection_gap":7.95942497
+    "avg_financial_protection_gap":14.3407206537
   },
   {
     "year":2023,
     "income":"Low",
-    "Subregion":"Eastern Africa",
-    "avg_financial_protection_gap":14.3407206538
-  },
-  {
-    "year":2023,
-    "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":28.3510952
   },
   {
@@ -1790,7 +1784,7 @@
   {
     "year":2023,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":27.81094074
   },
   {
@@ -1814,7 +1808,13 @@
   {
     "year":2023,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "avg_financial_protection_gap":7.95942497
+  },
+  {
+    "year":2023,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "avg_financial_protection_gap":45.98317719
   },
   {

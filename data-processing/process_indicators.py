@@ -259,7 +259,7 @@ class HealthFinancingProcessor:
 
         # 6.1 Average NMR
         avg_nmr = df.groupby(['year', 'income', 'Subregion']).agg({
-            'Infant Mortality Rate': 'mean'
+            'Neonatal mortality rate': 'mean'
         }).reset_index()
         avg_nmr.columns = ['year', 'income', 'Subregion', 'avg_nmr']
 
@@ -272,7 +272,7 @@ class HealthFinancingProcessor:
         # 6.3 Countries on track for NMR target (<12 per 1,000)
         # Note: This requires trend analysis - simplified version checks current status
         countries_nmr_track = df.groupby(['year']).apply(
-            lambda x: (x['Infant Mortality Rate'] < 12).sum()
+            lambda x: (x['Neonatal mortality rate'] < 12).sum()
         ).reset_index(name='countries_nmr_on_track')
 
         # 6.4 Countries on track for MMR target (<70 per 100,000)
@@ -314,7 +314,7 @@ class HealthFinancingProcessor:
         )
 
         # Health outcome targets
-        df['nmr_on_track'] = df['Infant Mortality Rate'] < 12
+        df['nmr_on_track'] = df['Neonatal mortality rate'] < 12
         df['mmr_on_track'] = df['Maternal mortality ratio'] < 70
 
         # 7.1 Financing dimensions vs UHC

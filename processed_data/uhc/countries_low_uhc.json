@@ -1,71 +1,71 @@
 [
   {
     "year":2000,
-    "countries_uhc_below_50":45
+    "countries_uhc_below_50":42
   },
   {
     "year":2001,
-    "countries_uhc_below_50":43
+    "countries_uhc_below_50":40
   },
   {
     "year":2002,
-    "countries_uhc_below_50":43
+    "countries_uhc_below_50":40
   },
   {
     "year":2003,
-    "countries_uhc_below_50":44
+    "countries_uhc_below_50":41
   },
   {
     "year":2004,
-    "countries_uhc_below_50":42
-  },
-  {
-    "year":2005,
-    "countries_uhc_below_50":42
-  },
-  {
-    "year":2006,
-    "countries_uhc_below_50":41
-  },
-  {
-    "year":2007,
-    "countries_uhc_below_50":41
-  },
-  {
-    "year":2008,
-    "countries_uhc_below_50":40
-  },
-  {
-    "year":2009,
     "countries_uhc_below_50":39
   },
   {
-    "year":2010,
-    "countries_uhc_below_50":40
+    "year":2005,
+    "countries_uhc_below_50":39
   },
   {
-    "year":2011,
+    "year":2006,
     "countries_uhc_below_50":38
   },
   {
-    "year":2012,
+    "year":2007,
+    "countries_uhc_below_50":38
+  },
+  {
+    "year":2008,
     "countries_uhc_below_50":37
   },
   {
-    "year":2013,
+    "year":2009,
+    "countries_uhc_below_50":36
+  },
+  {
+    "year":2010,
+    "countries_uhc_below_50":38
+  },
+  {
+    "year":2011,
+    "countries_uhc_below_50":36
+  },
+  {
+    "year":2012,
     "countries_uhc_below_50":35
+  },
+  {
+    "year":2013,
+    "countries_uhc_below_50":34
   },
   {
     "year":2014,
-    "countries_uhc_below_50":33
+    "countries_uhc_below_50":32
   },
   {
     "year":2015,
-    "countries_uhc_below_50":35
+    "countries_uhc_below_50":34
   },
   {
     "year":2016,
-    "countries_uhc_below_50":32
+    "countries_uhc_below_50":31
   },
   {
     "year":2017,
@@ -94,9 +94,5 @@
   {
     "year":2023,
     "countries_uhc_below_50":30
-  },
-  {
-    "year":2024,
-    "countries_uhc_below_50":0
   }
 ]
