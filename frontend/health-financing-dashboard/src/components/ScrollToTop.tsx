@@ -13,12 +13,19 @@ function ScrollToTop() {
   useEffect(() => {
     // Scroll to top using multiple methods for maximum compatibility
     const scrollToTop = () => {
+      window.scrollTo(0, 0);
       window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
       document.documentElement.scrollTop = 0;
       document.body.scrollTop = 0;
+
+      // Force scroll for main-content if it exists
+      const mainContent = document.querySelector('.main-content');
+      if (mainContent) {
+        mainContent.scrollTop = 0;
+      }
     };
 
-    // Execute immediately
+    // Execute immediately and synchronously
     scrollToTop();
 
     // Execute after browser paint
@@ -26,10 +33,16 @@ function ScrollToTop() {
       scrollToTop();
     });
 
-    // Execute after a small delay to catch any late-rendering content
-    const timer = setTimeout(scrollToTop, 100);
+    // Execute after DOM updates
+    const timer1 = setTimeout(scrollToTop, 0);
+    const timer2 = setTimeout(scrollToTop, 50);
+    const timer3 = setTimeout(scrollToTop, 150);
 
-    return () => clearTimeout(timer);
+    return () => {
+      clearTimeout(timer1);
+      clearTimeout(timer2);
+      clearTimeout(timer3);
+    };
   }, [pathname]);
 
   return null;
