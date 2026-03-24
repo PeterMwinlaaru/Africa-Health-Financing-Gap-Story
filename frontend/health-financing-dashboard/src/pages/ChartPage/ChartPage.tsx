@@ -490,7 +490,7 @@ const ChartPage: React.FC = () => {
     return FIELD_LABELS[key] || GROUP_LABELS[key] || key.replace(/_/g, ' ');
   };
 
-  const getThresholds = (yField: string, disaggregation: DisaggregationType): Array<{
+  const getThresholds = (yField: string, disaggregation: DisaggregationType, isBarChart: boolean = false): Array<{
     value: number;
     label: string;
     color: string;
@@ -501,7 +501,30 @@ const ChartPage: React.FC = () => {
 
     // Check if it's income-specific thresholds (has nested structure)
     if (typeof threshold === 'object' && 'Low' in threshold) {
-      // Only show threshold lines when a specific income group is selected (not "All")
+      // For bar chart (country comparison), show all thresholds when "All" is selected
+      if (isBarChart && selectedIncomeGroup === 'all') {
+        return [
+          {
+            value: threshold['Low'].value,
+            label: threshold['Low'].label,
+            color: INCOME_COLORS['Low'],
+            strokeDasharray: '5 5'
+          },
+          {
+            value: threshold['Lower-middle'].value,
+            label: threshold['Lower-middle'].label,
+            color: INCOME_COLORS['Lower-middle'],
+            strokeDasharray: '5 5'
+          },
+          {
+            value: threshold['Upper-middle'].value,
+            label: threshold['Upper-middle'].label,
+            color: INCOME_COLORS['Upper-middle'],
+            strokeDasharray: '5 5'
+          }
+        ];
+      }
+      // For line charts, only show threshold lines when a specific income group is selected (not "All")
       if (selectedIncomeGroup !== 'all') {
         const incomeKey = selectedIncomeGroup as 'Low' | 'Lower-middle' | 'Upper-middle';
         if (threshold[incomeKey]) {
@@ -513,7 +536,7 @@ const ChartPage: React.FC = () => {
           }];
         }
       }
-      // When "All" is selected, don't show any threshold lines
+      // When "All" is selected on line chart, don't show any threshold lines
       return [];
     } else {
       // Single threshold for all (non-income-specific indicators)
@@ -1275,7 +1298,7 @@ const ChartPage: React.FC = () => {
             {chartConfig && (() => {
               // For multi-line charts, use selectedFinancingSource; otherwise use first yField
               const fieldForThreshold = isMultiLine ? selectedFinancingSource : (Array.isArray(chartConfig.yField) ? chartConfig.yField[0] : chartConfig.yField);
-              const thresholds = getThresholds(fieldForThreshold, 'income');
+              const thresholds = getThresholds(fieldForThreshold, 'income', true);
               // Adjust positioning based on number of thresholds
               const xOffsets = thresholds.length === 3
                 ? [-50, 35, 0]  // Income-specific: Low far left, Lower-Middle to right, Upper-Middle centered
