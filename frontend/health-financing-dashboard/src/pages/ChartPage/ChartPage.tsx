@@ -501,23 +501,22 @@ const ChartPage: React.FC = () => {
 
     // Check if it's income-specific thresholds (has nested structure)
     if (typeof threshold === 'object' && 'Low' in threshold) {
-      if (disaggregation === 'income') {
-        // For income disaggregation, return thresholds for each income group
-        return [
-          { value: threshold['Low'].value, label: threshold['Low'].label, color: INCOME_COLORS['Low'], strokeDasharray: '5 5' },
-          { value: threshold['Lower-middle'].value, label: threshold['Lower-middle'].label, color: INCOME_COLORS['Lower-middle'], strokeDasharray: '5 5' },
-          { value: threshold['Upper-middle'].value, label: threshold['Upper-middle'].label, color: INCOME_COLORS['Upper-middle'], strokeDasharray: '5 5' }
-        ];
-      } else {
-        // For overall/subregion, show all thresholds
-        return [
-          { value: (threshold['Low'] as any).value, label: (threshold['Low'] as any).label, color: '#94a3b8', strokeDasharray: '5 5' },
-          { value: (threshold['Lower-middle'] as any).value, label: (threshold['Lower-middle'] as any).label, color: '#94a3b8', strokeDasharray: '5 5' },
-          { value: (threshold['Upper-middle'] as any).value, label: (threshold['Upper-middle'] as any).label, color: '#94a3b8', strokeDasharray: '5 5' }
-        ];
+      // Only show threshold lines when a specific income group is selected (not "All")
+      if (selectedIncomeGroup !== 'all') {
+        const incomeKey = selectedIncomeGroup as 'Low' | 'Lower-middle' | 'Upper-middle';
+        if (threshold[incomeKey]) {
+          return [{
+            value: threshold[incomeKey].value,
+            label: threshold[incomeKey].label,
+            color: INCOME_COLORS[incomeKey] || '#ef4444',
+            strokeDasharray: '5 5'
+          }];
+        }
       }
+      // When "All" is selected, don't show any threshold lines
+      return [];
     } else {
-      // Single threshold for all
+      // Single threshold for all (non-income-specific indicators)
       const singleThreshold = threshold as { value: number; label: string };
       return [{ value: singleThreshold.value, label: singleThreshold.label, color: '#ef4444', strokeDasharray: '5 5' }];
     }
@@ -812,10 +811,8 @@ const ChartPage: React.FC = () => {
           );
           console.log('Group keys detected:', groupKeys);
 
-          // Get thresholds for reference lines (exclude gov health exp per capita)
-          const thresholds = chartConfig?.slug !== 'government-health-expenditure-per-capita'
-            ? getThresholds(yFields[0], disaggregation)
-            : [];
+          // Get thresholds for reference lines
+          const thresholds = getThresholds(yFields[0], disaggregation);
 
           // Calculate Y-axis domain to include thresholds
           const calculateDomain = () => {
@@ -919,10 +916,8 @@ const ChartPage: React.FC = () => {
           );
         } else if (yFields.length > 1) {
           // Multiple y-fields (multi-line chart)
-          // Get thresholds for reference lines (exclude gov health exp per capita)
-          const thresholds = chartConfig?.slug !== 'government-health-expenditure-per-capita'
-            ? getThresholds(yFields[0], disaggregation)
-            : [];
+          // Get thresholds for reference lines
+          const thresholds = getThresholds(yFields[0], disaggregation);
 
           // Calculate Y-axis domain to include thresholds
           const calculateDomain = () => {
@@ -1028,10 +1023,8 @@ const ChartPage: React.FC = () => {
           // Single y-field - check if data uses "value" or the field name
           const dataKey = firstDataPoint.value !== undefined ? 'value' : yFields[0];
 
-          // Get thresholds for reference lines (exclude gov health exp per capita)
-          const thresholds = chartConfig?.slug !== 'government-health-expenditure-per-capita'
-            ? getThresholds(yFields[0], disaggregation)
-            : [];
+          // Get thresholds for reference lines
+          const thresholds = getThresholds(yFields[0], disaggregation);
 
           // Calculate Y-axis domain to include thresholds
           const calculateDomain = () => {
