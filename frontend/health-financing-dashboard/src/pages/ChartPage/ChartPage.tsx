@@ -501,8 +501,8 @@ const ChartPage: React.FC = () => {
 
     // Check if it's income-specific thresholds (has nested structure)
     if (typeof threshold === 'object' && 'Low' in threshold) {
-      // For bar chart (country comparison), show all thresholds when "All" is selected
-      if (isBarChart && selectedIncomeGroup === 'all') {
+      // For bar chart (country comparison), ALWAYS show all three thresholds regardless of filter
+      if (isBarChart) {
         return [
           {
             value: threshold['Low'].value,
