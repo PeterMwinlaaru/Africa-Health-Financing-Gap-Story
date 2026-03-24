@@ -22,7 +22,7 @@ const THRESHOLDS: Record<string, { value: number; label: string }> = {
   'Gov exp Health on budget': { value: 15, label: 'Abuja Target (15%)' },
   'Out-of-pocket on health exp': { value: 20, label: 'Benchmark (20%)' },
   'Govern on health exp': { value: 50, label: 'Dominant Share (50%)' },
-  'Infant Mortality Rate': { value: 12, label: 'Target (<12 per 1,000)' },
+  'Neonatal mortality rate': { value: 12, label: 'Target (<12 per 1,000)' },
   'Maternal mortality ratio': { value: 70, label: 'Target (<70 per 100,000)' },
   // Note: UHC uses 50th/75th percentiles from data, not fixed threshold
   // Note: GDP share threshold not specified in source document
@@ -63,7 +63,7 @@ const FIELD_LABELS: Record<string, string> = {
   'External on health exp': 'External Financing (%)',
   'Govern on health exp': 'Government Share (%)',
   'Universal health coverage': 'UHC Index',
-  'Infant Mortality Rate': 'Infant Mortality (per 1000)',
+  'Neonatal mortality rate': 'Neonatal Mortality (per 1000)',
   'Maternal mortality ratio': 'Maternal Mortality (per 100k)',
 };
 

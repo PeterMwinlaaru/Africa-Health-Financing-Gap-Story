@@ -364,7 +364,7 @@ def uhc_progress():
 @app.route('/api/indicators/computed/mortality-trends', methods=['GET'])
 def mortality_trends():
     """
-    3.9 & 3.10: Infant and maternal mortality trends.
+    3.9 & 3.10: Neonatal and maternal mortality trends.
     """
     data = get_master_data()
 
@@ -375,7 +375,7 @@ def mortality_trends():
 
     for d in data:
         year = d.get('year')
-        imr = d.get('Infant Mortality Rate')
+        imr = d.get('Neonatal mortality rate')
         mmr = d.get('Maternal mortality ratio')
 
         if year:

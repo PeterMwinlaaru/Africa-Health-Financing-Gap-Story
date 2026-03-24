@@ -73,9 +73,9 @@ print(f'   Countries above 20% benchmark: {above_20}/{len(oop_2023)} ({above_20/
 
 # 5. Health Outcomes
 print('\n5. HEALTH OUTCOMES')
-nmr_2000 = df[df['year']==2000]['Infant Mortality Rate'].mean()
-nmr_2023 = df[df['year']==2023]['Infant Mortality Rate'].mean()
-print(f'   Infant Mortality Rate:')
+nmr_2000 = df[df['year']==2000]['Neonatal mortality rate'].mean()
+nmr_2023 = df[df['year']==2023]['Neonatal mortality rate'].mean()
+print(f'   Neonatal Mortality Rate:')
 print(f'   - 2000: {nmr_2000:.1f} per 1,000')
 print(f'   - 2023: {nmr_2023:.1f} per 1,000')
 print(f'   - Reduction: {nmr_2000-nmr_2023:.1f} per 1,000 ({(nmr_2000-nmr_2023)/nmr_2000*100:.1f}%)')

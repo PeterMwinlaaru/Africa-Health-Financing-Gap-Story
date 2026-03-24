@@ -58,7 +58,6 @@ const THRESHOLDS: Record<string, { value: number; label: string } | { [key: stri
   'External on health exp': { value: 22.5, label: 'Target (≤22.5%)' },
   'Universal health coverage': { value: 75, label: 'Threshold (75)' },
   'Govern on health exp': { value: 50, label: 'Dominant Share (50%)' },
-  'Infant Mortality Rate': { value: 12, label: 'Target (<12 per 1,000)' },
   'Neonatal mortality rate': { value: 12, label: 'Target (<12 per 1,000)' },
   'Maternal mortality ratio': { value: 70, label: 'Target (<70 per 100,000)' }
 };
