@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { getChartsByTopic } from '../../config/charts';
 import { getAllTopics, TopicConfig } from '../../config/topics';
@@ -6,6 +6,13 @@ import './Indicators.css';
 
 const Indicators: React.FC = () => {
   const topics = getAllTopics();
+
+  // Force scroll to top when component mounts
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+  }, []);
 
   return (
     <div className="indicators-page">

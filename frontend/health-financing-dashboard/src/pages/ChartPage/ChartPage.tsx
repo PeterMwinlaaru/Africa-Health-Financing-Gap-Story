@@ -102,6 +102,13 @@ const ChartPage: React.FC = () => {
   const [selectedSubregion, setSelectedSubregion] = useState<string>('all');
   const [masterData, setMasterData] = useState<any[]>([]); // Store raw data for dynamic highlights
 
+  // Force scroll to top when component mounts or slug changes
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+  }, [slug]);
+
   useEffect(() => {
     loadChartData();
   }, [slug, disaggregation, selectedIncomeGroup, selectedSubregion]);

@@ -83,6 +83,13 @@ const CrossDimensionalExplorer: React.FC = () => {
   const [selectedCountry, setSelectedCountry] = useState<string>('all');
   const [showMethodology, setShowMethodology] = useState(false);
 
+  // Force scroll to top when component mounts
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+  }, []);
+
   // Get all indicators as flat list
   const getAllIndicators = () => {
     const all: Array<{ value: string; label: string; unit: string; category: string }> = [];
