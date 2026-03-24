@@ -166,6 +166,13 @@ const DataExplorer: React.FC = () => {
   const [masterData, setMasterData] = useState<any[]>([]);
   const [dataLoaded, setDataLoaded] = useState<boolean>(false);
 
+  // Force scroll to top when component mounts
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+  }, []);
+
   // Load countries and master data once on mount
   useEffect(() => {
     const loadInitialData = async () => {

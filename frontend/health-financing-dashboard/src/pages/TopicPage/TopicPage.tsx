@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { getTopicBySlug, TopicConfig } from '../../config/topics';
 import { getChartsByTopic, ChartConfig } from '../../config/charts';
@@ -10,6 +10,13 @@ const TopicPage: React.FC = () => {
   const topicSlug = decodeURIComponent(category || '');
   const topic: TopicConfig | undefined = getTopicBySlug(topicSlug);
   const charts: ChartConfig[] = topic ? getChartsByTopic(topic.id) : [];
+
+  // Force scroll to top when component mounts
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+  }, []);
 
   // Sort charts by indicator number
   const sortedCharts = [...charts].sort((a, b) =>

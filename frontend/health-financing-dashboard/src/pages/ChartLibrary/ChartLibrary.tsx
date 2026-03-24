@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { CHART_CONFIGS, getChartsByTopic } from '../../config/charts';
 import { getAllTopics, getTopicById } from '../../config/topics';
@@ -7,6 +7,13 @@ import './ChartLibrary.css';
 const ChartLibrary: React.FC = () => {
   const [selectedTopic, setSelectedTopic] = useState<string>('all');
   const topics = getAllTopics();
+
+  // Force scroll to top when component mounts
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+  }, []);
 
   const filteredCharts = selectedTopic === 'all'
     ? CHART_CONFIGS

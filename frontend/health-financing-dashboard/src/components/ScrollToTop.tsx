@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useLayoutEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
 /**
@@ -10,26 +10,66 @@ import { useLocation } from 'react-router-dom';
 function ScrollToTop() {
   const { pathname } = useLocation();
 
+  // Run before paint
+  useLayoutEffect(() => {
+    // Disable browser's automatic scroll restoration
+    if ('scrollRestoration' in window.history) {
+      window.history.scrollRestoration = 'manual';
+    }
+
+    // Immediate, synchronous scroll to top
+    window.scrollTo(0, 0);
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+  }, [pathname]);
+
+  // Run after render to catch any layout shifts
   useEffect(() => {
-    // Scroll to top using multiple methods for maximum compatibility
-    const scrollToTop = () => {
-      window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
+    // Immediate scroll
+    window.scrollTo(0, 0);
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+
+    // After animation frame
+    const frame = requestAnimationFrame(() => {
+      window.scrollTo(0, 0);
       document.documentElement.scrollTop = 0;
       document.body.scrollTop = 0;
-    };
-
-    // Execute immediately
-    scrollToTop();
-
-    // Execute after browser paint
-    requestAnimationFrame(() => {
-      scrollToTop();
     });
 
-    // Execute after a small delay to catch any late-rendering content
-    const timer = setTimeout(scrollToTop, 100);
+    // Multiple delayed scrolls to catch any late content/layout shifts
+    const timers = [
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        document.documentElement.scrollTop = 0;
+        document.body.scrollTop = 0;
+      }, 0),
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        document.documentElement.scrollTop = 0;
+        document.body.scrollTop = 0;
+      }, 50),
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        document.documentElement.scrollTop = 0;
+        document.body.scrollTop = 0;
+      }, 100),
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        document.documentElement.scrollTop = 0;
+        document.body.scrollTop = 0;
+      }, 200),
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        document.documentElement.scrollTop = 0;
+        document.body.scrollTop = 0;
+      }, 500)
+    ];
 
-    return () => clearTimeout(timer);
+    return () => {
+      cancelAnimationFrame(frame);
+      timers.forEach(timer => clearTimeout(timer));
+    };
   }, [pathname]);
 
   return null;
