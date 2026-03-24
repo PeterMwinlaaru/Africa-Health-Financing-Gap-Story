@@ -1,12 +1,6 @@
 [
   {
     "year":2000,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "gini_uhc":0.0
-  },
-  {
-    "year":2000,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "gini_uhc":0.1198801199
@@ -14,7 +8,7 @@
   {
     "year":2000,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.0609756098
   },
   {
@@ -44,7 +38,7 @@
   {
     "year":2000,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.1088435374
   },
   {
@@ -68,7 +62,13 @@
   {
     "year":2000,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "gini_uhc":0.0
+  },
+  {
+    "year":2000,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.1129032258
   },
   {
@@ -85,12 +85,6 @@
   },
   {
     "year":2001,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "gini_uhc":0.0
-  },
-  {
-    "year":2001,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "gini_uhc":0.1135029354
@@ -98,7 +92,7 @@
   {
     "year":2001,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.075
   },
   {
@@ -128,7 +122,7 @@
   {
     "year":2001,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.1156462585
   },
   {
@@ -152,7 +146,13 @@
   {
     "year":2001,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "gini_uhc":0.0
+  },
+  {
+    "year":2001,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.106557377
   },
   {
@@ -169,12 +169,6 @@
   },
   {
     "year":2002,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "gini_uhc":0.0
-  },
-  {
-    "year":2002,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "gini_uhc":0.1146616541
@@ -182,7 +176,7 @@
   {
     "year":2002,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.075
   },
   {
@@ -212,7 +206,7 @@
   {
     "year":2002,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.1144781145
   },
   {
@@ -236,7 +230,13 @@
   {
     "year":2002,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "gini_uhc":0.0
+  },
+  {
+    "year":2002,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.1166666667
   },
   {
@@ -253,12 +253,6 @@
   },
   {
     "year":2003,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "gini_uhc":0.0
-  },
-  {
-    "year":2003,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "gini_uhc":0.1198156682
@@ -266,7 +260,7 @@
   {
     "year":2003,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.075
   },
   {
@@ -296,7 +290,7 @@
   {
     "year":2003,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.1212121212
   },
   {
@@ -320,7 +314,13 @@
   {
     "year":2003,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "gini_uhc":0.0
+  },
+  {
+    "year":2003,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.1229508197
   },
   {
@@ -337,12 +337,6 @@
   },
   {
     "year":2004,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "gini_uhc":0.0
-  },
-  {
-    "year":2004,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "gini_uhc":0.1310282075
@@ -350,7 +344,7 @@
   {
     "year":2004,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.0897435897
   },
   {
@@ -380,7 +374,7 @@
   {
     "year":2004,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.1188118812
   },
   {
@@ -404,7 +398,13 @@
   {
     "year":2004,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "gini_uhc":0.0
+  },
+  {
+    "year":2004,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.119047619
   },
   {
@@ -421,12 +421,6 @@
   },
   {
     "year":2005,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "gini_uhc":0.0
-  },
-  {
-    "year":2005,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "gini_uhc":0.1264069264
@@ -434,7 +428,7 @@
   {
     "year":2005,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.075
   },
   {
@@ -464,7 +458,7 @@
   {
     "year":2005,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.1229773463
   },
   {
@@ -488,7 +482,13 @@
   {
     "year":2005,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "gini_uhc":0.0
+  },
+  {
+    "year":2005,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.1428571429
   },
   {
@@ -505,12 +505,6 @@
   },
   {
     "year":2006,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "gini_uhc":0.0
-  },
-  {
-    "year":2006,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "gini_uhc":0.1082706767
@@ -518,7 +512,7 @@
   {
     "year":2006,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.0714285714
   },
   {
@@ -548,7 +542,7 @@
   {
     "year":2006,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.1081081081
   },
   {
@@ -572,7 +566,13 @@
   {
     "year":2006,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "gini_uhc":0.0
+  },
+  {
+    "year":2006,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.1538461538
   },
   {
@@ -589,12 +589,6 @@
   },
   {
     "year":2007,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "gini_uhc":0.0
-  },
-  {
-    "year":2007,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "gini_uhc":0.1178063643
@@ -602,7 +596,7 @@
   {
     "year":2007,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.0869565217
   },
   {
@@ -632,7 +626,7 @@
   {
     "year":2007,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.1002949853
   },
   {
@@ -656,7 +650,13 @@
   {
     "year":2007,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "gini_uhc":0.0
+  },
+  {
+    "year":2007,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.125
   },
   {
@@ -673,12 +673,6 @@
   },
   {
     "year":2008,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "gini_uhc":0.0
-  },
-  {
-    "year":2008,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "gini_uhc":0.1103896104
@@ -686,7 +680,7 @@
   {
     "year":2008,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.112244898
   },
   {
@@ -716,7 +710,7 @@
   {
     "year":2008,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.0985507246
   },
   {
@@ -740,7 +734,13 @@
   {
     "year":2008,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "gini_uhc":0.0
+  },
+  {
+    "year":2008,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.106741573
   },
   {
@@ -757,12 +757,6 @@
   },
   {
     "year":2009,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "gini_uhc":0.0
-  },
-  {
-    "year":2009,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "gini_uhc":0.1102756892
@@ -770,7 +764,7 @@
   {
     "year":2009,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.1078431373
   },
   {
@@ -800,7 +794,7 @@
   {
     "year":2009,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.1091954023
   },
   {
@@ -824,7 +818,13 @@
   {
     "year":2009,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "gini_uhc":0.0
+  },
+  {
+    "year":2009,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.0977011494
   },
   {
@@ -841,12 +841,6 @@
   },
   {
     "year":2010,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "gini_uhc":0.0
-  },
-  {
-    "year":2010,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "gini_uhc":0.1164021164
@@ -854,7 +848,7 @@
   {
     "year":2010,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.0769230769
   },
   {
@@ -884,7 +878,7 @@
   {
     "year":2010,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.113960114
   },
   {
@@ -908,7 +902,13 @@
   {
     "year":2010,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "gini_uhc":0.0
+  },
+  {
+    "year":2010,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.0977011494
   },
   {
@@ -925,12 +925,6 @@
   },
   {
     "year":2011,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "gini_uhc":0.0
-  },
-  {
-    "year":2011,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "gini_uhc":0.1072840203
@@ -938,7 +932,7 @@
   {
     "year":2011,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.0272727273
   },
   {
@@ -968,7 +962,7 @@
   {
     "year":2011,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.0437956204
   },
   {
@@ -992,7 +986,13 @@
   {
     "year":2011,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "gini_uhc":0.0
+  },
+  {
+    "year":2011,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.1091954023
   },
   {
@@ -1009,12 +1009,6 @@
   },
   {
     "year":2012,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "gini_uhc":0.0
-  },
-  {
-    "year":2012,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "gini_uhc":0.1204159825
@@ -1022,7 +1016,7 @@
   {
     "year":2012,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.0283018868
   },
   {
@@ -1052,7 +1046,7 @@
   {
     "year":2012,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.0231481481
   },
   {
@@ -1076,7 +1070,13 @@
   {
     "year":2012,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "gini_uhc":0.0
+  },
+  {
+    "year":2012,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.0684210526
   },
   {
@@ -1093,12 +1093,6 @@
   },
   {
     "year":2013,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "gini_uhc":0.0
-  },
-  {
-    "year":2013,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "gini_uhc":0.1400501672
@@ -1106,7 +1100,7 @@
   {
     "year":2013,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.0384615385
   },
   {
@@ -1136,7 +1130,7 @@
   {
     "year":2013,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.0380952381
   },
   {
@@ -1160,7 +1154,13 @@
   {
     "year":2013,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "gini_uhc":0.0
+  },
+  {
+    "year":2013,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.0625
   },
   {
@@ -1177,12 +1177,6 @@
   },
   {
     "year":2014,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "gini_uhc":0.0
-  },
-  {
-    "year":2014,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "gini_uhc":0.1517857143
@@ -1190,7 +1184,7 @@
   {
     "year":2014,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.0254237288
   },
   {
@@ -1220,7 +1214,7 @@
   {
     "year":2014,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.0428571429
   },
   {
@@ -1244,7 +1238,13 @@
   {
     "year":2014,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "gini_uhc":0.0
+  },
+  {
+    "year":2014,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.0578947368
   },
   {
@@ -1261,12 +1261,6 @@
   },
   {
     "year":2015,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "gini_uhc":0.0
-  },
-  {
-    "year":2015,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "gini_uhc":0.1338141026
@@ -1274,7 +1268,7 @@
   {
     "year":2015,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.0614035088
   },
   {
@@ -1304,7 +1298,7 @@
   {
     "year":2015,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.0523809524
   },
   {
@@ -1328,7 +1322,13 @@
   {
     "year":2015,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "gini_uhc":0.0
+  },
+  {
+    "year":2015,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.0416666667
   },
   {
@@ -1345,12 +1345,6 @@
   },
   {
     "year":2016,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "gini_uhc":0.0
-  },
-  {
-    "year":2016,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "gini_uhc":0.1289808917
@@ -1358,7 +1352,7 @@
   {
     "year":2016,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.0818181818
   },
   {
@@ -1388,7 +1382,7 @@
   {
     "year":2016,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.0567375887
   },
   {
@@ -1412,7 +1406,13 @@
   {
     "year":2016,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "gini_uhc":0.0
+  },
+  {
+    "year":2016,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.0306122449
   },
   {
@@ -1429,12 +1429,6 @@
   },
   {
     "year":2017,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "gini_uhc":0.0
-  },
-  {
-    "year":2017,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "gini_uhc":0.1332088391
@@ -1442,7 +1436,7 @@
   {
     "year":2017,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.0333333333
   },
   {
@@ -1472,7 +1466,7 @@
   {
     "year":2017,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.0724637681
   },
   {
@@ -1496,7 +1490,13 @@
   {
     "year":2017,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "gini_uhc":0.0
+  },
+  {
+    "year":2017,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.0353535354
   },
   {
@@ -1513,12 +1513,6 @@
   },
   {
     "year":2018,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "gini_uhc":0.0
-  },
-  {
-    "year":2018,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "gini_uhc":0.1283255086
@@ -1526,7 +1520,7 @@
   {
     "year":2018,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.0344827586
   },
   {
@@ -1556,7 +1550,7 @@
   {
     "year":2018,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.0839160839
   },
   {
@@ -1580,7 +1574,13 @@
   {
     "year":2018,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "gini_uhc":0.0
+  },
+  {
+    "year":2018,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.0204081633
   },
   {
@@ -1597,12 +1597,6 @@
   },
   {
     "year":2019,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "gini_uhc":0.0
-  },
-  {
-    "year":2019,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "gini_uhc":0.124691358
@@ -1610,7 +1604,7 @@
   {
     "year":2019,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.0636363636
   },
   {
@@ -1640,7 +1634,7 @@
   {
     "year":2019,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.0680272109
   },
   {
@@ -1664,7 +1658,13 @@
   {
     "year":2019,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "gini_uhc":0.0
+  },
+  {
+    "year":2019,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.0051546392
   },
   {
@@ -1681,12 +1681,6 @@
   },
   {
     "year":2020,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "gini_uhc":0.0
-  },
-  {
-    "year":2020,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "gini_uhc":0.1231231231
@@ -1694,7 +1688,7 @@
   {
     "year":2020,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.0666666667
   },
   {
@@ -1724,7 +1718,7 @@
   {
     "year":2020,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.062639821
   },
   {
@@ -1748,7 +1742,13 @@
   {
     "year":2020,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "gini_uhc":0.0
+  },
+  {
+    "year":2020,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.0
   },
   {
@@ -1765,12 +1765,6 @@
   },
   {
     "year":2021,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "gini_uhc":0.0
-  },
-  {
-    "year":2021,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "gini_uhc":0.1217656012
@@ -1778,7 +1772,7 @@
   {
     "year":2021,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.0689655172
   },
   {
@@ -1808,7 +1802,7 @@
   {
     "year":2021,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.0725623583
   },
   {
@@ -1832,7 +1826,13 @@
   {
     "year":2021,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "gini_uhc":0.0
+  },
+  {
+    "year":2021,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.0102040816
   },
   {
@@ -1849,12 +1849,6 @@
   },
   {
     "year":2022,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "gini_uhc":0.0
-  },
-  {
-    "year":2022,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "gini_uhc":0.1224004753
@@ -1862,7 +1856,7 @@
   {
     "year":2022,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.1
   },
   {
@@ -1892,7 +1886,7 @@
   {
     "year":2022,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.0610021786
   },
   {
@@ -1916,7 +1910,13 @@
   {
     "year":2022,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "gini_uhc":0.0
+  },
+  {
+    "year":2022,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.0051546392
   },
   {
@@ -1933,12 +1933,6 @@
   },
   {
     "year":2023,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "gini_uhc":0.0
-  },
-  {
-    "year":2023,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "gini_uhc":0.1231310466
@@ -1946,7 +1940,7 @@
   {
     "year":2023,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.1
   },
   {
@@ -1976,7 +1970,7 @@
   {
     "year":2023,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.0653594771
   },
   {
@@ -2000,7 +1994,13 @@
   {
     "year":2023,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "gini_uhc":0.0
+  },
+  {
+    "year":2023,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "gini_uhc":0.0051546392
   },
   {

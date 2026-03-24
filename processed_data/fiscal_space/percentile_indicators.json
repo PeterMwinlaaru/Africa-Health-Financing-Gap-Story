@@ -1,15 +1,6 @@
 [
   {
     "year":2000,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "pct_tax_above_50th":100.0,
-    "pct_tax_above_75th":100.0,
-    "pct_health_gdp_above_50th":100.0,
-    "pct_health_gdp_above_75th":0.0
-  },
-  {
-    "year":2000,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "pct_tax_above_50th":28.5714285714,
@@ -20,7 +11,7 @@
   {
     "year":2000,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":0.0,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":100.0,
@@ -65,7 +56,7 @@
   {
     "year":2000,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":66.6666666667,
     "pct_tax_above_75th":33.3333333333,
     "pct_health_gdp_above_50th":66.6666666667,
@@ -101,7 +92,16 @@
   {
     "year":2000,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "pct_tax_above_50th":100.0,
+    "pct_tax_above_75th":100.0,
+    "pct_health_gdp_above_50th":100.0,
+    "pct_health_gdp_above_75th":0.0
+  },
+  {
+    "year":2000,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":50.0,
     "pct_tax_above_75th":50.0,
     "pct_health_gdp_above_50th":0.0,
@@ -127,15 +127,6 @@
   },
   {
     "year":2001,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "pct_tax_above_50th":100.0,
-    "pct_tax_above_75th":100.0,
-    "pct_health_gdp_above_50th":100.0,
-    "pct_health_gdp_above_75th":0.0
-  },
-  {
-    "year":2001,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "pct_tax_above_50th":42.8571428571,
@@ -146,7 +137,7 @@
   {
     "year":2001,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":0.0,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":100.0,
@@ -191,7 +182,7 @@
   {
     "year":2001,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":66.6666666667,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":66.6666666667,
@@ -227,7 +218,16 @@
   {
     "year":2001,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "pct_tax_above_50th":100.0,
+    "pct_tax_above_75th":100.0,
+    "pct_health_gdp_above_50th":100.0,
+    "pct_health_gdp_above_75th":0.0
+  },
+  {
+    "year":2001,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":50.0,
     "pct_tax_above_75th":50.0,
     "pct_health_gdp_above_50th":0.0,
@@ -250,15 +250,6 @@
     "pct_tax_above_75th":100.0,
     "pct_health_gdp_above_50th":75.0,
     "pct_health_gdp_above_75th":75.0
-  },
-  {
-    "year":2002,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "pct_tax_above_50th":100.0,
-    "pct_tax_above_75th":100.0,
-    "pct_health_gdp_above_50th":100.0,
-    "pct_health_gdp_above_75th":0.0
   },
   {
     "year":2002,
@@ -272,7 +263,7 @@
   {
     "year":2002,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":0.0,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":100.0,
@@ -317,7 +308,7 @@
   {
     "year":2002,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":66.6666666667,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":33.3333333333,
@@ -353,7 +344,16 @@
   {
     "year":2002,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "pct_tax_above_50th":100.0,
+    "pct_tax_above_75th":100.0,
+    "pct_health_gdp_above_50th":100.0,
+    "pct_health_gdp_above_75th":0.0
+  },
+  {
+    "year":2002,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":100.0,
     "pct_tax_above_75th":50.0,
     "pct_health_gdp_above_50th":0.0,
@@ -379,15 +379,6 @@
   },
   {
     "year":2003,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "pct_tax_above_50th":100.0,
-    "pct_tax_above_75th":100.0,
-    "pct_health_gdp_above_50th":100.0,
-    "pct_health_gdp_above_75th":0.0
-  },
-  {
-    "year":2003,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "pct_tax_above_50th":57.1428571429,
@@ -398,7 +389,7 @@
   {
     "year":2003,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":0.0,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":0.0,
@@ -443,7 +434,7 @@
   {
     "year":2003,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":66.6666666667,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":33.3333333333,
@@ -479,7 +470,16 @@
   {
     "year":2003,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "pct_tax_above_50th":100.0,
+    "pct_tax_above_75th":100.0,
+    "pct_health_gdp_above_50th":100.0,
+    "pct_health_gdp_above_75th":0.0
+  },
+  {
+    "year":2003,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":50.0,
     "pct_tax_above_75th":50.0,
     "pct_health_gdp_above_50th":0.0,
@@ -505,15 +505,6 @@
   },
   {
     "year":2004,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "pct_tax_above_50th":100.0,
-    "pct_tax_above_75th":100.0,
-    "pct_health_gdp_above_50th":100.0,
-    "pct_health_gdp_above_75th":0.0
-  },
-  {
-    "year":2004,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "pct_tax_above_50th":57.1428571429,
@@ -524,7 +515,7 @@
   {
     "year":2004,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":0.0,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":0.0,
@@ -569,7 +560,7 @@
   {
     "year":2004,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":33.3333333333,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":33.3333333333,
@@ -605,7 +596,16 @@
   {
     "year":2004,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "pct_tax_above_50th":100.0,
+    "pct_tax_above_75th":100.0,
+    "pct_health_gdp_above_50th":100.0,
+    "pct_health_gdp_above_75th":0.0
+  },
+  {
+    "year":2004,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":50.0,
     "pct_tax_above_75th":50.0,
     "pct_health_gdp_above_50th":0.0,
@@ -631,18 +631,9 @@
   },
   {
     "year":2005,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "pct_tax_above_50th":100.0,
-    "pct_tax_above_75th":100.0,
-    "pct_health_gdp_above_50th":100.0,
-    "pct_health_gdp_above_75th":0.0
-  },
-  {
-    "year":2005,
     "income":"Low",
     "Subregion":"Eastern Africa",
-    "pct_tax_above_50th":57.1428571429,
+    "pct_tax_above_50th":42.8571428571,
     "pct_tax_above_75th":14.2857142857,
     "pct_health_gdp_above_50th":71.4285714286,
     "pct_health_gdp_above_75th":57.1428571429
@@ -650,7 +641,7 @@
   {
     "year":2005,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":0.0,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":0.0,
@@ -695,7 +686,7 @@
   {
     "year":2005,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":66.6666666667,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":33.3333333333,
@@ -731,7 +722,16 @@
   {
     "year":2005,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "pct_tax_above_50th":100.0,
+    "pct_tax_above_75th":100.0,
+    "pct_health_gdp_above_50th":100.0,
+    "pct_health_gdp_above_75th":0.0
+  },
+  {
+    "year":2005,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":50.0,
     "pct_tax_above_75th":50.0,
     "pct_health_gdp_above_50th":0.0,
@@ -757,15 +757,6 @@
   },
   {
     "year":2006,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "pct_tax_above_50th":100.0,
-    "pct_tax_above_75th":100.0,
-    "pct_health_gdp_above_50th":0.0,
-    "pct_health_gdp_above_75th":0.0
-  },
-  {
-    "year":2006,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "pct_tax_above_50th":42.8571428571,
@@ -776,7 +767,7 @@
   {
     "year":2006,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":0.0,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":0.0,
@@ -804,7 +795,7 @@
     "year":2006,
     "income":"Low",
     "Subregion":"Western Africa",
-    "pct_tax_above_50th":50.0,
+    "pct_tax_above_50th":37.5,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":87.5,
     "pct_health_gdp_above_75th":25.0
@@ -821,7 +812,7 @@
   {
     "year":2006,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":66.6666666667,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":33.3333333333,
@@ -857,7 +848,16 @@
   {
     "year":2006,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "pct_tax_above_50th":100.0,
+    "pct_tax_above_75th":100.0,
+    "pct_health_gdp_above_50th":0.0,
+    "pct_health_gdp_above_75th":0.0
+  },
+  {
+    "year":2006,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":50.0,
     "pct_tax_above_75th":50.0,
     "pct_health_gdp_above_50th":0.0,
@@ -883,15 +883,6 @@
   },
   {
     "year":2007,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "pct_tax_above_50th":100.0,
-    "pct_tax_above_75th":100.0,
-    "pct_health_gdp_above_50th":0.0,
-    "pct_health_gdp_above_75th":0.0
-  },
-  {
-    "year":2007,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "pct_tax_above_50th":28.5714285714,
@@ -902,7 +893,7 @@
   {
     "year":2007,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":50.0,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":50.0,
@@ -947,7 +938,7 @@
   {
     "year":2007,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":66.6666666667,
     "pct_tax_above_75th":33.3333333333,
     "pct_health_gdp_above_50th":33.3333333333,
@@ -975,7 +966,7 @@
     "year":2007,
     "income":"Lower-middle",
     "Subregion":"Western Africa",
-    "pct_tax_above_50th":57.1428571429,
+    "pct_tax_above_50th":42.8571428571,
     "pct_tax_above_75th":28.5714285714,
     "pct_health_gdp_above_50th":0.0,
     "pct_health_gdp_above_75th":0.0
@@ -983,7 +974,16 @@
   {
     "year":2007,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "pct_tax_above_50th":100.0,
+    "pct_tax_above_75th":100.0,
+    "pct_health_gdp_above_50th":0.0,
+    "pct_health_gdp_above_75th":0.0
+  },
+  {
+    "year":2007,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":50.0,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":0.0,
@@ -1009,15 +1009,6 @@
   },
   {
     "year":2008,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "pct_tax_above_50th":100.0,
-    "pct_tax_above_75th":100.0,
-    "pct_health_gdp_above_50th":0.0,
-    "pct_health_gdp_above_75th":0.0
-  },
-  {
-    "year":2008,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "pct_tax_above_50th":28.5714285714,
@@ -1028,7 +1019,7 @@
   {
     "year":2008,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":50.0,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":0.0,
@@ -1047,7 +1038,7 @@
     "year":2008,
     "income":"Low",
     "Subregion":"Southern Africa",
-    "pct_tax_above_50th":50.0,
+    "pct_tax_above_50th":0.0,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":50.0,
     "pct_health_gdp_above_75th":50.0
@@ -1073,7 +1064,7 @@
   {
     "year":2008,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":66.6666666667,
     "pct_tax_above_75th":33.3333333333,
     "pct_health_gdp_above_50th":33.3333333333,
@@ -1109,7 +1100,16 @@
   {
     "year":2008,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "pct_tax_above_50th":100.0,
+    "pct_tax_above_75th":100.0,
+    "pct_health_gdp_above_50th":0.0,
+    "pct_health_gdp_above_75th":0.0
+  },
+  {
+    "year":2008,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":50.0,
     "pct_tax_above_75th":50.0,
     "pct_health_gdp_above_50th":0.0,
@@ -1135,15 +1135,6 @@
   },
   {
     "year":2009,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "pct_tax_above_50th":100.0,
-    "pct_tax_above_75th":100.0,
-    "pct_health_gdp_above_50th":0.0,
-    "pct_health_gdp_above_75th":0.0
-  },
-  {
-    "year":2009,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "pct_tax_above_50th":42.8571428571,
@@ -1154,7 +1145,7 @@
   {
     "year":2009,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":0.0,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":50.0,
@@ -1182,7 +1173,7 @@
     "year":2009,
     "income":"Low",
     "Subregion":"Western Africa",
-    "pct_tax_above_50th":37.5,
+    "pct_tax_above_50th":25.0,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":62.5,
     "pct_health_gdp_above_75th":25.0
@@ -1199,7 +1190,7 @@
   {
     "year":2009,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":33.3333333333,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":33.3333333333,
@@ -1235,7 +1226,16 @@
   {
     "year":2009,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "pct_tax_above_50th":100.0,
+    "pct_tax_above_75th":100.0,
+    "pct_health_gdp_above_50th":0.0,
+    "pct_health_gdp_above_75th":0.0
+  },
+  {
+    "year":2009,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":100.0,
     "pct_tax_above_75th":50.0,
     "pct_health_gdp_above_50th":0.0,
@@ -1261,15 +1261,6 @@
   },
   {
     "year":2010,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "pct_tax_above_50th":100.0,
-    "pct_tax_above_75th":100.0,
-    "pct_health_gdp_above_50th":0.0,
-    "pct_health_gdp_above_75th":0.0
-  },
-  {
-    "year":2010,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "pct_tax_above_50th":28.5714285714,
@@ -1280,7 +1271,7 @@
   {
     "year":2010,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":50.0,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":0.0,
@@ -1325,7 +1316,7 @@
   {
     "year":2010,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":33.3333333333,
     "pct_tax_above_75th":33.3333333333,
     "pct_health_gdp_above_50th":33.3333333333,
@@ -1361,7 +1352,16 @@
   {
     "year":2010,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "pct_tax_above_50th":100.0,
+    "pct_tax_above_75th":100.0,
+    "pct_health_gdp_above_50th":0.0,
+    "pct_health_gdp_above_75th":0.0
+  },
+  {
+    "year":2010,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":50.0,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":0.0,
@@ -1387,26 +1387,17 @@
   },
   {
     "year":2011,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "pct_tax_above_50th":100.0,
-    "pct_tax_above_75th":100.0,
-    "pct_health_gdp_above_50th":0.0,
-    "pct_health_gdp_above_75th":0.0
-  },
-  {
-    "year":2011,
     "income":"Low",
     "Subregion":"Eastern Africa",
-    "pct_tax_above_50th":42.8571428571,
-    "pct_tax_above_75th":28.5714285714,
+    "pct_tax_above_50th":28.5714285714,
+    "pct_tax_above_75th":14.2857142857,
     "pct_health_gdp_above_50th":71.4285714286,
     "pct_health_gdp_above_75th":42.8571428571
   },
   {
     "year":2011,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":50.0,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":0.0,
@@ -1451,7 +1442,7 @@
   {
     "year":2011,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":33.3333333333,
     "pct_tax_above_75th":33.3333333333,
     "pct_health_gdp_above_50th":33.3333333333,
@@ -1487,7 +1478,16 @@
   {
     "year":2011,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "pct_tax_above_50th":100.0,
+    "pct_tax_above_75th":100.0,
+    "pct_health_gdp_above_50th":0.0,
+    "pct_health_gdp_above_75th":0.0
+  },
+  {
+    "year":2011,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":50.0,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":0.0,
@@ -1513,15 +1513,6 @@
   },
   {
     "year":2012,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "pct_tax_above_50th":100.0,
-    "pct_tax_above_75th":100.0,
-    "pct_health_gdp_above_50th":100.0,
-    "pct_health_gdp_above_75th":0.0
-  },
-  {
-    "year":2012,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "pct_tax_above_50th":42.8571428571,
@@ -1532,7 +1523,7 @@
   {
     "year":2012,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":0.0,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":0.0,
@@ -1577,7 +1568,7 @@
   {
     "year":2012,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":33.3333333333,
     "pct_tax_above_75th":33.3333333333,
     "pct_health_gdp_above_50th":33.3333333333,
@@ -1587,7 +1578,7 @@
     "year":2012,
     "income":"Lower-middle",
     "Subregion":"Northern Africa",
-    "pct_tax_above_50th":100.0,
+    "pct_tax_above_50th":75.0,
     "pct_tax_above_75th":50.0,
     "pct_health_gdp_above_50th":50.0,
     "pct_health_gdp_above_75th":25.0
@@ -1606,14 +1597,23 @@
     "income":"Lower-middle",
     "Subregion":"Western Africa",
     "pct_tax_above_50th":42.8571428571,
-    "pct_tax_above_75th":28.5714285714,
+    "pct_tax_above_75th":14.2857142857,
     "pct_health_gdp_above_50th":14.2857142857,
     "pct_health_gdp_above_75th":0.0
   },
   {
     "year":2012,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "pct_tax_above_50th":100.0,
+    "pct_tax_above_75th":100.0,
+    "pct_health_gdp_above_50th":100.0,
+    "pct_health_gdp_above_75th":0.0
+  },
+  {
+    "year":2012,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":50.0,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":0.0,
@@ -1639,15 +1639,6 @@
   },
   {
     "year":2013,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "pct_tax_above_50th":100.0,
-    "pct_tax_above_75th":100.0,
-    "pct_health_gdp_above_50th":0.0,
-    "pct_health_gdp_above_75th":0.0
-  },
-  {
-    "year":2013,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "pct_tax_above_50th":50.0,
@@ -1658,7 +1649,7 @@
   {
     "year":2013,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":0.0,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":50.0,
@@ -1703,7 +1694,7 @@
   {
     "year":2013,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":33.3333333333,
     "pct_tax_above_75th":33.3333333333,
     "pct_health_gdp_above_50th":33.3333333333,
@@ -1739,7 +1730,16 @@
   {
     "year":2013,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "pct_tax_above_50th":100.0,
+    "pct_tax_above_75th":100.0,
+    "pct_health_gdp_above_50th":0.0,
+    "pct_health_gdp_above_75th":0.0
+  },
+  {
+    "year":2013,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":50.0,
     "pct_tax_above_75th":50.0,
     "pct_health_gdp_above_50th":0.0,
@@ -1765,15 +1765,6 @@
   },
   {
     "year":2014,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "pct_tax_above_50th":100.0,
-    "pct_tax_above_75th":100.0,
-    "pct_health_gdp_above_50th":0.0,
-    "pct_health_gdp_above_75th":0.0
-  },
-  {
-    "year":2014,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "pct_tax_above_50th":50.0,
@@ -1784,7 +1775,7 @@
   {
     "year":2014,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":0.0,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":0.0,
@@ -1829,7 +1820,7 @@
   {
     "year":2014,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":33.3333333333,
     "pct_tax_above_75th":33.3333333333,
     "pct_health_gdp_above_50th":33.3333333333,
@@ -1865,7 +1856,16 @@
   {
     "year":2014,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "pct_tax_above_50th":100.0,
+    "pct_tax_above_75th":100.0,
+    "pct_health_gdp_above_50th":0.0,
+    "pct_health_gdp_above_75th":0.0
+  },
+  {
+    "year":2014,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":50.0,
     "pct_tax_above_75th":50.0,
     "pct_health_gdp_above_50th":0.0,
@@ -1891,15 +1891,6 @@
   },
   {
     "year":2015,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "pct_tax_above_50th":100.0,
-    "pct_tax_above_75th":100.0,
-    "pct_health_gdp_above_50th":0.0,
-    "pct_health_gdp_above_75th":0.0
-  },
-  {
-    "year":2015,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "pct_tax_above_50th":37.5,
@@ -1910,7 +1901,7 @@
   {
     "year":2015,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":0.0,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":50.0,
@@ -1955,7 +1946,7 @@
   {
     "year":2015,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":66.6666666667,
     "pct_tax_above_75th":33.3333333333,
     "pct_health_gdp_above_50th":33.3333333333,
@@ -1991,7 +1982,16 @@
   {
     "year":2015,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "pct_tax_above_50th":100.0,
+    "pct_tax_above_75th":100.0,
+    "pct_health_gdp_above_50th":0.0,
+    "pct_health_gdp_above_75th":0.0
+  },
+  {
+    "year":2015,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":50.0,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":0.0,
@@ -2017,15 +2017,6 @@
   },
   {
     "year":2016,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "pct_tax_above_50th":100.0,
-    "pct_tax_above_75th":100.0,
-    "pct_health_gdp_above_50th":0.0,
-    "pct_health_gdp_above_75th":0.0
-  },
-  {
-    "year":2016,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "pct_tax_above_50th":25.0,
@@ -2036,7 +2027,7 @@
   {
     "year":2016,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":0.0,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":50.0,
@@ -2081,7 +2072,7 @@
   {
     "year":2016,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":66.6666666667,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":33.3333333333,
@@ -2117,7 +2108,16 @@
   {
     "year":2016,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "pct_tax_above_50th":100.0,
+    "pct_tax_above_75th":100.0,
+    "pct_health_gdp_above_50th":0.0,
+    "pct_health_gdp_above_75th":0.0
+  },
+  {
+    "year":2016,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":0.0,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":0.0,
@@ -2143,15 +2143,6 @@
   },
   {
     "year":2017,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "pct_tax_above_50th":100.0,
-    "pct_tax_above_75th":100.0,
-    "pct_health_gdp_above_50th":0.0,
-    "pct_health_gdp_above_75th":0.0
-  },
-  {
-    "year":2017,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "pct_tax_above_50th":33.3333333333,
@@ -2162,7 +2153,7 @@
   {
     "year":2017,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":0.0,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":50.0,
@@ -2207,7 +2198,7 @@
   {
     "year":2017,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":33.3333333333,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":33.3333333333,
@@ -2243,7 +2234,16 @@
   {
     "year":2017,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "pct_tax_above_50th":100.0,
+    "pct_tax_above_75th":100.0,
+    "pct_health_gdp_above_50th":0.0,
+    "pct_health_gdp_above_75th":0.0
+  },
+  {
+    "year":2017,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":0.0,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":0.0,
@@ -2269,15 +2269,6 @@
   },
   {
     "year":2018,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "pct_tax_above_50th":100.0,
-    "pct_tax_above_75th":100.0,
-    "pct_health_gdp_above_50th":0.0,
-    "pct_health_gdp_above_75th":0.0
-  },
-  {
-    "year":2018,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "pct_tax_above_50th":33.3333333333,
@@ -2288,7 +2279,7 @@
   {
     "year":2018,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":0.0,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":50.0,
@@ -2333,7 +2324,7 @@
   {
     "year":2018,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":66.6666666667,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":33.3333333333,
@@ -2369,7 +2360,16 @@
   {
     "year":2018,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "pct_tax_above_50th":100.0,
+    "pct_tax_above_75th":100.0,
+    "pct_health_gdp_above_50th":0.0,
+    "pct_health_gdp_above_75th":0.0
+  },
+  {
+    "year":2018,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":0.0,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":0.0,
@@ -2395,15 +2395,6 @@
   },
   {
     "year":2019,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "pct_tax_above_50th":100.0,
-    "pct_tax_above_75th":100.0,
-    "pct_health_gdp_above_50th":0.0,
-    "pct_health_gdp_above_75th":0.0
-  },
-  {
-    "year":2019,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "pct_tax_above_50th":33.3333333333,
@@ -2414,7 +2405,7 @@
   {
     "year":2019,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":0.0,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":50.0,
@@ -2459,7 +2450,7 @@
   {
     "year":2019,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":33.3333333333,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":33.3333333333,
@@ -2495,7 +2486,16 @@
   {
     "year":2019,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "pct_tax_above_50th":100.0,
+    "pct_tax_above_75th":100.0,
+    "pct_health_gdp_above_50th":0.0,
+    "pct_health_gdp_above_75th":0.0
+  },
+  {
+    "year":2019,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":0.0,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":0.0,
@@ -2521,15 +2521,6 @@
   },
   {
     "year":2020,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "pct_tax_above_50th":100.0,
-    "pct_tax_above_75th":100.0,
-    "pct_health_gdp_above_50th":100.0,
-    "pct_health_gdp_above_75th":0.0
-  },
-  {
-    "year":2020,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "pct_tax_above_50th":22.2222222222,
@@ -2540,7 +2531,7 @@
   {
     "year":2020,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":0.0,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":50.0,
@@ -2585,7 +2576,7 @@
   {
     "year":2020,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":33.3333333333,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":33.3333333333,
@@ -2621,7 +2612,16 @@
   {
     "year":2020,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "pct_tax_above_50th":100.0,
+    "pct_tax_above_75th":100.0,
+    "pct_health_gdp_above_50th":100.0,
+    "pct_health_gdp_above_75th":0.0
+  },
+  {
+    "year":2020,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":50.0,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":0.0,
@@ -2647,15 +2647,6 @@
   },
   {
     "year":2021,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "pct_tax_above_50th":100.0,
-    "pct_tax_above_75th":100.0,
-    "pct_health_gdp_above_50th":100.0,
-    "pct_health_gdp_above_75th":0.0
-  },
-  {
-    "year":2021,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "pct_tax_above_50th":33.3333333333,
@@ -2666,7 +2657,7 @@
   {
     "year":2021,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":0.0,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":50.0,
@@ -2711,7 +2702,7 @@
   {
     "year":2021,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":33.3333333333,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":33.3333333333,
@@ -2747,7 +2738,16 @@
   {
     "year":2021,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "pct_tax_above_50th":100.0,
+    "pct_tax_above_75th":100.0,
+    "pct_health_gdp_above_50th":100.0,
+    "pct_health_gdp_above_75th":0.0
+  },
+  {
+    "year":2021,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":0.0,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":0.0,
@@ -2773,15 +2773,6 @@
   },
   {
     "year":2022,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "pct_tax_above_50th":100.0,
-    "pct_tax_above_75th":100.0,
-    "pct_health_gdp_above_50th":0.0,
-    "pct_health_gdp_above_75th":0.0
-  },
-  {
-    "year":2022,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "pct_tax_above_50th":22.2222222222,
@@ -2792,7 +2783,7 @@
   {
     "year":2022,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":0.0,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":50.0,
@@ -2837,7 +2828,7 @@
   {
     "year":2022,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":0.0,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":66.6666666667,
@@ -2873,7 +2864,16 @@
   {
     "year":2022,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "pct_tax_above_50th":100.0,
+    "pct_tax_above_75th":100.0,
+    "pct_health_gdp_above_50th":0.0,
+    "pct_health_gdp_above_75th":0.0
+  },
+  {
+    "year":2022,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":0.0,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":0.0,
@@ -2899,15 +2899,6 @@
   },
   {
     "year":2023,
-    "income":"High",
-    "Subregion":"Eastern Africa",
-    "pct_tax_above_50th":100.0,
-    "pct_tax_above_75th":100.0,
-    "pct_health_gdp_above_50th":0.0,
-    "pct_health_gdp_above_75th":0.0
-  },
-  {
-    "year":2023,
     "income":"Low",
     "Subregion":"Eastern Africa",
     "pct_tax_above_50th":33.3333333333,
@@ -2918,7 +2909,7 @@
   {
     "year":2023,
     "income":"Low",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":0.0,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":100.0,
@@ -2963,7 +2954,7 @@
   {
     "year":2023,
     "income":"Lower-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":33.3333333333,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":66.6666666667,
@@ -2999,7 +2990,16 @@
   {
     "year":2023,
     "income":"Upper-middle",
-    "Subregion":"Central Africa",
+    "Subregion":"Eastern Africa",
+    "pct_tax_above_50th":100.0,
+    "pct_tax_above_75th":100.0,
+    "pct_health_gdp_above_50th":0.0,
+    "pct_health_gdp_above_75th":0.0
+  },
+  {
+    "year":2023,
+    "income":"Upper-middle",
+    "Subregion":"Middle Africa",
     "pct_tax_above_50th":50.0,
     "pct_tax_above_75th":0.0,
     "pct_health_gdp_above_50th":0.0,

@@ -22,9 +22,14 @@ const Footer: React.FC = () => {
           <p style={{ fontSize: '0.875rem', marginBottom: '0.5rem' }}>
             Part of UN-ECA's official statistics platform
           </p>
-          <p style={{ fontSize: '0.8125rem', color: '#9ca3af' }}>
-            Health Financing Dashboard + Gap Analysis
-          </p>
+          <a
+            href="https://ecastats.uneca.org/healthfinancing/dashboard"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ fontSize: '0.875rem' }}
+          >
+            Health Financing Dashboard →
+          </a>
         </div>
         <div className="footer-section">
           <h4>About UN-ECA</h4>

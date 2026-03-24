@@ -1,12 +1,6 @@
 [
   {
     "year":2000,
-    "income":"High",
-    "pct_gov_dominant_uhc50":100.0,
-    "pct_gov_dominant_uhc75":100.0
-  },
-  {
-    "year":2000,
     "income":"Low",
     "pct_gov_dominant_uhc50":0.0,
     "pct_gov_dominant_uhc75":0.0
@@ -20,14 +14,8 @@
   {
     "year":2000,
     "income":"Upper-middle",
-    "pct_gov_dominant_uhc50":50.0,
-    "pct_gov_dominant_uhc75":50.0
-  },
-  {
-    "year":2001,
-    "income":"High",
-    "pct_gov_dominant_uhc50":100.0,
-    "pct_gov_dominant_uhc75":100.0
+    "pct_gov_dominant_uhc50":55.5555555556,
+    "pct_gov_dominant_uhc75":55.5555555556
   },
   {
     "year":2001,
@@ -44,14 +32,8 @@
   {
     "year":2001,
     "income":"Upper-middle",
-    "pct_gov_dominant_uhc50":62.5,
-    "pct_gov_dominant_uhc75":62.5
-  },
-  {
-    "year":2002,
-    "income":"High",
-    "pct_gov_dominant_uhc50":100.0,
-    "pct_gov_dominant_uhc75":100.0
+    "pct_gov_dominant_uhc50":66.6666666667,
+    "pct_gov_dominant_uhc75":66.6666666667
   },
   {
     "year":2002,
@@ -68,14 +50,8 @@
   {
     "year":2002,
     "income":"Upper-middle",
-    "pct_gov_dominant_uhc50":62.5,
-    "pct_gov_dominant_uhc75":62.5
-  },
-  {
-    "year":2003,
-    "income":"High",
-    "pct_gov_dominant_uhc50":100.0,
-    "pct_gov_dominant_uhc75":100.0
+    "pct_gov_dominant_uhc50":66.6666666667,
+    "pct_gov_dominant_uhc75":66.6666666667
   },
   {
     "year":2003,
@@ -92,14 +68,8 @@
   {
     "year":2003,
     "income":"Upper-middle",
-    "pct_gov_dominant_uhc50":62.5,
-    "pct_gov_dominant_uhc75":62.5
-  },
-  {
-    "year":2004,
-    "income":"High",
-    "pct_gov_dominant_uhc50":100.0,
-    "pct_gov_dominant_uhc75":100.0
+    "pct_gov_dominant_uhc50":66.6666666667,
+    "pct_gov_dominant_uhc75":66.6666666667
   },
   {
     "year":2004,
@@ -116,14 +86,8 @@
   {
     "year":2004,
     "income":"Upper-middle",
-    "pct_gov_dominant_uhc50":62.5,
-    "pct_gov_dominant_uhc75":62.5
-  },
-  {
-    "year":2005,
-    "income":"High",
-    "pct_gov_dominant_uhc50":100.0,
-    "pct_gov_dominant_uhc75":100.0
+    "pct_gov_dominant_uhc50":66.6666666667,
+    "pct_gov_dominant_uhc75":66.6666666667
   },
   {
     "year":2005,
@@ -140,14 +104,8 @@
   {
     "year":2005,
     "income":"Upper-middle",
-    "pct_gov_dominant_uhc50":37.5,
-    "pct_gov_dominant_uhc75":37.5
-  },
-  {
-    "year":2006,
-    "income":"High",
-    "pct_gov_dominant_uhc50":100.0,
-    "pct_gov_dominant_uhc75":100.0
+    "pct_gov_dominant_uhc50":44.4444444444,
+    "pct_gov_dominant_uhc75":44.4444444444
   },
   {
     "year":2006,
@@ -164,14 +122,8 @@
   {
     "year":2006,
     "income":"Upper-middle",
-    "pct_gov_dominant_uhc50":37.5,
-    "pct_gov_dominant_uhc75":37.5
-  },
-  {
-    "year":2007,
-    "income":"High",
-    "pct_gov_dominant_uhc50":100.0,
-    "pct_gov_dominant_uhc75":100.0
+    "pct_gov_dominant_uhc50":44.4444444444,
+    "pct_gov_dominant_uhc75":44.4444444444
   },
   {
     "year":2007,
@@ -188,14 +140,8 @@
   {
     "year":2007,
     "income":"Upper-middle",
-    "pct_gov_dominant_uhc50":37.5,
-    "pct_gov_dominant_uhc75":37.5
-  },
-  {
-    "year":2008,
-    "income":"High",
-    "pct_gov_dominant_uhc50":100.0,
-    "pct_gov_dominant_uhc75":100.0
+    "pct_gov_dominant_uhc50":44.4444444444,
+    "pct_gov_dominant_uhc75":44.4444444444
   },
   {
     "year":2008,
@@ -212,14 +158,8 @@
   {
     "year":2008,
     "income":"Upper-middle",
-    "pct_gov_dominant_uhc50":37.5,
-    "pct_gov_dominant_uhc75":37.5
-  },
-  {
-    "year":2009,
-    "income":"High",
-    "pct_gov_dominant_uhc50":100.0,
-    "pct_gov_dominant_uhc75":100.0
+    "pct_gov_dominant_uhc50":44.4444444444,
+    "pct_gov_dominant_uhc75":44.4444444444
   },
   {
     "year":2009,
@@ -236,14 +176,8 @@
   {
     "year":2009,
     "income":"Upper-middle",
-    "pct_gov_dominant_uhc50":37.5,
-    "pct_gov_dominant_uhc75":37.5
-  },
-  {
-    "year":2010,
-    "income":"High",
-    "pct_gov_dominant_uhc50":100.0,
-    "pct_gov_dominant_uhc75":100.0
+    "pct_gov_dominant_uhc50":44.4444444444,
+    "pct_gov_dominant_uhc75":44.4444444444
   },
   {
     "year":2010,
@@ -260,14 +194,8 @@
   {
     "year":2010,
     "income":"Upper-middle",
-    "pct_gov_dominant_uhc50":62.5,
-    "pct_gov_dominant_uhc75":62.5
-  },
-  {
-    "year":2011,
-    "income":"High",
-    "pct_gov_dominant_uhc50":100.0,
-    "pct_gov_dominant_uhc75":100.0
+    "pct_gov_dominant_uhc50":66.6666666667,
+    "pct_gov_dominant_uhc75":66.6666666667
   },
   {
     "year":2011,
@@ -278,20 +206,14 @@
   {
     "year":2011,
     "income":"Lower-middle",
-    "pct_gov_dominant_uhc50":17.3913043478,
+    "pct_gov_dominant_uhc50":13.0434782609,
     "pct_gov_dominant_uhc75":8.6956521739
   },
   {
     "year":2011,
     "income":"Upper-middle",
-    "pct_gov_dominant_uhc50":62.5,
-    "pct_gov_dominant_uhc75":62.5
-  },
-  {
-    "year":2012,
-    "income":"High",
-    "pct_gov_dominant_uhc50":100.0,
-    "pct_gov_dominant_uhc75":100.0
+    "pct_gov_dominant_uhc50":66.6666666667,
+    "pct_gov_dominant_uhc75":66.6666666667
   },
   {
     "year":2012,
@@ -308,14 +230,8 @@
   {
     "year":2012,
     "income":"Upper-middle",
-    "pct_gov_dominant_uhc50":62.5,
-    "pct_gov_dominant_uhc75":62.5
-  },
-  {
-    "year":2013,
-    "income":"High",
-    "pct_gov_dominant_uhc50":100.0,
-    "pct_gov_dominant_uhc75":100.0
+    "pct_gov_dominant_uhc50":66.6666666667,
+    "pct_gov_dominant_uhc75":66.6666666667
   },
   {
     "year":2013,
@@ -332,14 +248,8 @@
   {
     "year":2013,
     "income":"Upper-middle",
-    "pct_gov_dominant_uhc50":75.0,
-    "pct_gov_dominant_uhc75":75.0
-  },
-  {
-    "year":2014,
-    "income":"High",
-    "pct_gov_dominant_uhc50":100.0,
-    "pct_gov_dominant_uhc75":100.0
+    "pct_gov_dominant_uhc50":77.7777777778,
+    "pct_gov_dominant_uhc75":77.7777777778
   },
   {
     "year":2014,
@@ -356,14 +266,8 @@
   {
     "year":2014,
     "income":"Upper-middle",
-    "pct_gov_dominant_uhc50":75.0,
-    "pct_gov_dominant_uhc75":75.0
-  },
-  {
-    "year":2015,
-    "income":"High",
-    "pct_gov_dominant_uhc50":100.0,
-    "pct_gov_dominant_uhc75":100.0
+    "pct_gov_dominant_uhc50":77.7777777778,
+    "pct_gov_dominant_uhc75":77.7777777778
   },
   {
     "year":2015,
@@ -380,14 +284,8 @@
   {
     "year":2015,
     "income":"Upper-middle",
-    "pct_gov_dominant_uhc50":75.0,
-    "pct_gov_dominant_uhc75":62.5
-  },
-  {
-    "year":2016,
-    "income":"High",
-    "pct_gov_dominant_uhc50":100.0,
-    "pct_gov_dominant_uhc75":100.0
+    "pct_gov_dominant_uhc50":77.7777777778,
+    "pct_gov_dominant_uhc75":66.6666666667
   },
   {
     "year":2016,
@@ -404,14 +302,8 @@
   {
     "year":2016,
     "income":"Upper-middle",
-    "pct_gov_dominant_uhc50":75.0,
-    "pct_gov_dominant_uhc75":62.5
-  },
-  {
-    "year":2017,
-    "income":"High",
-    "pct_gov_dominant_uhc50":100.0,
-    "pct_gov_dominant_uhc75":100.0
+    "pct_gov_dominant_uhc50":77.7777777778,
+    "pct_gov_dominant_uhc75":66.6666666667
   },
   {
     "year":2017,
@@ -428,14 +320,8 @@
   {
     "year":2017,
     "income":"Upper-middle",
-    "pct_gov_dominant_uhc50":75.0,
-    "pct_gov_dominant_uhc75":62.5
-  },
-  {
-    "year":2018,
-    "income":"High",
-    "pct_gov_dominant_uhc50":100.0,
-    "pct_gov_dominant_uhc75":100.0
+    "pct_gov_dominant_uhc50":77.7777777778,
+    "pct_gov_dominant_uhc75":66.6666666667
   },
   {
     "year":2018,
@@ -452,14 +338,8 @@
   {
     "year":2018,
     "income":"Upper-middle",
-    "pct_gov_dominant_uhc50":75.0,
-    "pct_gov_dominant_uhc75":62.5
-  },
-  {
-    "year":2019,
-    "income":"High",
-    "pct_gov_dominant_uhc50":100.0,
-    "pct_gov_dominant_uhc75":100.0
+    "pct_gov_dominant_uhc50":77.7777777778,
+    "pct_gov_dominant_uhc75":66.6666666667
   },
   {
     "year":2019,
@@ -476,14 +356,8 @@
   {
     "year":2019,
     "income":"Upper-middle",
-    "pct_gov_dominant_uhc50":75.0,
-    "pct_gov_dominant_uhc75":62.5
-  },
-  {
-    "year":2020,
-    "income":"High",
-    "pct_gov_dominant_uhc50":100.0,
-    "pct_gov_dominant_uhc75":100.0
+    "pct_gov_dominant_uhc50":77.7777777778,
+    "pct_gov_dominant_uhc75":66.6666666667
   },
   {
     "year":2020,
@@ -500,14 +374,8 @@
   {
     "year":2020,
     "income":"Upper-middle",
-    "pct_gov_dominant_uhc50":75.0,
-    "pct_gov_dominant_uhc75":62.5
-  },
-  {
-    "year":2021,
-    "income":"High",
-    "pct_gov_dominant_uhc50":100.0,
-    "pct_gov_dominant_uhc75":100.0
+    "pct_gov_dominant_uhc50":77.7777777778,
+    "pct_gov_dominant_uhc75":66.6666666667
   },
   {
     "year":2021,
@@ -524,14 +392,8 @@
   {
     "year":2021,
     "income":"Upper-middle",
-    "pct_gov_dominant_uhc50":87.5,
-    "pct_gov_dominant_uhc75":75.0
-  },
-  {
-    "year":2022,
-    "income":"High",
-    "pct_gov_dominant_uhc50":100.0,
-    "pct_gov_dominant_uhc75":100.0
+    "pct_gov_dominant_uhc50":88.8888888889,
+    "pct_gov_dominant_uhc75":77.7777777778
   },
   {
     "year":2022,
@@ -548,14 +410,8 @@
   {
     "year":2022,
     "income":"Upper-middle",
-    "pct_gov_dominant_uhc50":50.0,
-    "pct_gov_dominant_uhc75":50.0
-  },
-  {
-    "year":2023,
-    "income":"High",
-    "pct_gov_dominant_uhc50":100.0,
-    "pct_gov_dominant_uhc75":100.0
+    "pct_gov_dominant_uhc50":55.5555555556,
+    "pct_gov_dominant_uhc75":55.5555555556
   },
   {
     "year":2023,
@@ -572,7 +428,7 @@
   {
     "year":2023,
     "income":"Upper-middle",
-    "pct_gov_dominant_uhc50":62.5,
-    "pct_gov_dominant_uhc75":62.5
+    "pct_gov_dominant_uhc50":66.6666666667,
+    "pct_gov_dominant_uhc75":66.6666666667
   }
 ]

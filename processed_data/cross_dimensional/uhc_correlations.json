@@ -1,23 +1,13 @@
 [
   {
     "year":2000,
-    "income":"High",
-    "pct_public_threshold_uhc50":0.0,
-    "pct_public_threshold_uhc75":0.0,
-    "pct_abuja_uhc50":0.0,
-    "pct_abuja_uhc75":0.0,
-    "pct_oop_benchmark_uhc50":100.0,
-    "pct_oop_benchmark_uhc75":100.0
-  },
-  {
-    "year":2000,
     "income":"Low",
     "pct_public_threshold_uhc50":0.0,
     "pct_public_threshold_uhc75":0.0,
     "pct_abuja_uhc50":0.0,
     "pct_abuja_uhc75":0.0,
     "pct_oop_benchmark_uhc50":5.0,
-    "pct_oop_benchmark_uhc75":5.0
+    "pct_oop_benchmark_uhc75":0.0
   },
   {
     "year":2000,
@@ -34,20 +24,10 @@
     "income":"Upper-middle",
     "pct_public_threshold_uhc50":0.0,
     "pct_public_threshold_uhc75":0.0,
-    "pct_abuja_uhc50":12.5,
-    "pct_abuja_uhc75":12.5,
-    "pct_oop_benchmark_uhc50":37.5,
-    "pct_oop_benchmark_uhc75":37.5
-  },
-  {
-    "year":2001,
-    "income":"High",
-    "pct_public_threshold_uhc50":0.0,
-    "pct_public_threshold_uhc75":0.0,
-    "pct_abuja_uhc50":0.0,
-    "pct_abuja_uhc75":0.0,
-    "pct_oop_benchmark_uhc50":100.0,
-    "pct_oop_benchmark_uhc75":100.0
+    "pct_abuja_uhc50":11.1111111111,
+    "pct_abuja_uhc75":11.1111111111,
+    "pct_oop_benchmark_uhc50":44.4444444444,
+    "pct_oop_benchmark_uhc75":44.4444444444
   },
   {
     "year":2001,
@@ -57,7 +37,7 @@
     "pct_abuja_uhc50":0.0,
     "pct_abuja_uhc75":0.0,
     "pct_oop_benchmark_uhc50":5.0,
-    "pct_oop_benchmark_uhc75":5.0
+    "pct_oop_benchmark_uhc75":0.0
   },
   {
     "year":2001,
@@ -74,20 +54,10 @@
     "income":"Upper-middle",
     "pct_public_threshold_uhc50":0.0,
     "pct_public_threshold_uhc75":0.0,
-    "pct_abuja_uhc50":12.5,
-    "pct_abuja_uhc75":12.5,
-    "pct_oop_benchmark_uhc50":37.5,
-    "pct_oop_benchmark_uhc75":37.5
-  },
-  {
-    "year":2002,
-    "income":"High",
-    "pct_public_threshold_uhc50":0.0,
-    "pct_public_threshold_uhc75":0.0,
-    "pct_abuja_uhc50":0.0,
-    "pct_abuja_uhc75":0.0,
-    "pct_oop_benchmark_uhc50":100.0,
-    "pct_oop_benchmark_uhc75":100.0
+    "pct_abuja_uhc50":11.1111111111,
+    "pct_abuja_uhc75":11.1111111111,
+    "pct_oop_benchmark_uhc50":44.4444444444,
+    "pct_oop_benchmark_uhc75":44.4444444444
   },
   {
     "year":2002,
@@ -114,20 +84,10 @@
     "income":"Upper-middle",
     "pct_public_threshold_uhc50":0.0,
     "pct_public_threshold_uhc75":0.0,
-    "pct_abuja_uhc50":12.5,
-    "pct_abuja_uhc75":12.5,
-    "pct_oop_benchmark_uhc50":37.5,
-    "pct_oop_benchmark_uhc75":37.5
-  },
-  {
-    "year":2003,
-    "income":"High",
-    "pct_public_threshold_uhc50":0.0,
-    "pct_public_threshold_uhc75":0.0,
-    "pct_abuja_uhc50":0.0,
-    "pct_abuja_uhc75":0.0,
-    "pct_oop_benchmark_uhc50":100.0,
-    "pct_oop_benchmark_uhc75":100.0
+    "pct_abuja_uhc50":11.1111111111,
+    "pct_abuja_uhc75":11.1111111111,
+    "pct_oop_benchmark_uhc50":44.4444444444,
+    "pct_oop_benchmark_uhc75":44.4444444444
   },
   {
     "year":2003,
@@ -154,20 +114,10 @@
     "income":"Upper-middle",
     "pct_public_threshold_uhc50":0.0,
     "pct_public_threshold_uhc75":0.0,
-    "pct_abuja_uhc50":12.5,
-    "pct_abuja_uhc75":12.5,
-    "pct_oop_benchmark_uhc50":37.5,
-    "pct_oop_benchmark_uhc75":37.5
-  },
-  {
-    "year":2004,
-    "income":"High",
-    "pct_public_threshold_uhc50":0.0,
-    "pct_public_threshold_uhc75":0.0,
-    "pct_abuja_uhc50":0.0,
-    "pct_abuja_uhc75":0.0,
-    "pct_oop_benchmark_uhc50":100.0,
-    "pct_oop_benchmark_uhc75":100.0
+    "pct_abuja_uhc50":11.1111111111,
+    "pct_abuja_uhc75":11.1111111111,
+    "pct_oop_benchmark_uhc50":44.4444444444,
+    "pct_oop_benchmark_uhc75":44.4444444444
   },
   {
     "year":2004,
@@ -194,20 +144,10 @@
     "income":"Upper-middle",
     "pct_public_threshold_uhc50":0.0,
     "pct_public_threshold_uhc75":0.0,
-    "pct_abuja_uhc50":12.5,
-    "pct_abuja_uhc75":12.5,
-    "pct_oop_benchmark_uhc50":37.5,
-    "pct_oop_benchmark_uhc75":37.5
-  },
-  {
-    "year":2005,
-    "income":"High",
-    "pct_public_threshold_uhc50":0.0,
-    "pct_public_threshold_uhc75":0.0,
-    "pct_abuja_uhc50":0.0,
-    "pct_abuja_uhc75":0.0,
-    "pct_oop_benchmark_uhc50":100.0,
-    "pct_oop_benchmark_uhc75":100.0
+    "pct_abuja_uhc50":11.1111111111,
+    "pct_abuja_uhc75":11.1111111111,
+    "pct_oop_benchmark_uhc50":44.4444444444,
+    "pct_oop_benchmark_uhc75":44.4444444444
   },
   {
     "year":2005,
@@ -234,20 +174,10 @@
     "income":"Upper-middle",
     "pct_public_threshold_uhc50":0.0,
     "pct_public_threshold_uhc75":0.0,
-    "pct_abuja_uhc50":12.5,
-    "pct_abuja_uhc75":12.5,
-    "pct_oop_benchmark_uhc50":37.5,
-    "pct_oop_benchmark_uhc75":37.5
-  },
-  {
-    "year":2006,
-    "income":"High",
-    "pct_public_threshold_uhc50":0.0,
-    "pct_public_threshold_uhc75":0.0,
-    "pct_abuja_uhc50":0.0,
-    "pct_abuja_uhc75":0.0,
-    "pct_oop_benchmark_uhc50":100.0,
-    "pct_oop_benchmark_uhc75":100.0
+    "pct_abuja_uhc50":11.1111111111,
+    "pct_abuja_uhc75":11.1111111111,
+    "pct_oop_benchmark_uhc50":44.4444444444,
+    "pct_oop_benchmark_uhc75":44.4444444444
   },
   {
     "year":2006,
@@ -274,20 +204,10 @@
     "income":"Upper-middle",
     "pct_public_threshold_uhc50":0.0,
     "pct_public_threshold_uhc75":0.0,
-    "pct_abuja_uhc50":12.5,
-    "pct_abuja_uhc75":12.5,
-    "pct_oop_benchmark_uhc50":37.5,
-    "pct_oop_benchmark_uhc75":37.5
-  },
-  {
-    "year":2007,
-    "income":"High",
-    "pct_public_threshold_uhc50":0.0,
-    "pct_public_threshold_uhc75":0.0,
-    "pct_abuja_uhc50":0.0,
-    "pct_abuja_uhc75":0.0,
-    "pct_oop_benchmark_uhc50":100.0,
-    "pct_oop_benchmark_uhc75":100.0
+    "pct_abuja_uhc50":11.1111111111,
+    "pct_abuja_uhc75":11.1111111111,
+    "pct_oop_benchmark_uhc50":44.4444444444,
+    "pct_oop_benchmark_uhc75":44.4444444444
   },
   {
     "year":2007,
@@ -314,20 +234,10 @@
     "income":"Upper-middle",
     "pct_public_threshold_uhc50":0.0,
     "pct_public_threshold_uhc75":0.0,
-    "pct_abuja_uhc50":12.5,
-    "pct_abuja_uhc75":12.5,
-    "pct_oop_benchmark_uhc50":37.5,
-    "pct_oop_benchmark_uhc75":37.5
-  },
-  {
-    "year":2008,
-    "income":"High",
-    "pct_public_threshold_uhc50":0.0,
-    "pct_public_threshold_uhc75":0.0,
-    "pct_abuja_uhc50":0.0,
-    "pct_abuja_uhc75":0.0,
-    "pct_oop_benchmark_uhc50":0.0,
-    "pct_oop_benchmark_uhc75":0.0
+    "pct_abuja_uhc50":11.1111111111,
+    "pct_abuja_uhc75":11.1111111111,
+    "pct_oop_benchmark_uhc50":44.4444444444,
+    "pct_oop_benchmark_uhc75":44.4444444444
   },
   {
     "year":2008,
@@ -337,7 +247,7 @@
     "pct_abuja_uhc50":0.0,
     "pct_abuja_uhc75":0.0,
     "pct_oop_benchmark_uhc50":15.0,
-    "pct_oop_benchmark_uhc75":5.0
+    "pct_oop_benchmark_uhc75":0.0
   },
   {
     "year":2008,
@@ -354,20 +264,10 @@
     "income":"Upper-middle",
     "pct_public_threshold_uhc50":0.0,
     "pct_public_threshold_uhc75":0.0,
-    "pct_abuja_uhc50":12.5,
-    "pct_abuja_uhc75":12.5,
-    "pct_oop_benchmark_uhc50":37.5,
-    "pct_oop_benchmark_uhc75":37.5
-  },
-  {
-    "year":2009,
-    "income":"High",
-    "pct_public_threshold_uhc50":0.0,
-    "pct_public_threshold_uhc75":0.0,
-    "pct_abuja_uhc50":0.0,
-    "pct_abuja_uhc75":0.0,
-    "pct_oop_benchmark_uhc50":0.0,
-    "pct_oop_benchmark_uhc75":0.0
+    "pct_abuja_uhc50":11.1111111111,
+    "pct_abuja_uhc75":11.1111111111,
+    "pct_oop_benchmark_uhc50":33.3333333333,
+    "pct_oop_benchmark_uhc75":33.3333333333
   },
   {
     "year":2009,
@@ -377,7 +277,7 @@
     "pct_abuja_uhc50":0.0,
     "pct_abuja_uhc75":0.0,
     "pct_oop_benchmark_uhc50":15.0,
-    "pct_oop_benchmark_uhc75":5.0
+    "pct_oop_benchmark_uhc75":0.0
   },
   {
     "year":2009,
@@ -396,18 +296,8 @@
     "pct_public_threshold_uhc75":0.0,
     "pct_abuja_uhc50":0.0,
     "pct_abuja_uhc75":0.0,
-    "pct_oop_benchmark_uhc50":37.5,
-    "pct_oop_benchmark_uhc75":37.5
-  },
-  {
-    "year":2010,
-    "income":"High",
-    "pct_public_threshold_uhc50":0.0,
-    "pct_public_threshold_uhc75":0.0,
-    "pct_abuja_uhc50":0.0,
-    "pct_abuja_uhc75":0.0,
-    "pct_oop_benchmark_uhc50":0.0,
-    "pct_oop_benchmark_uhc75":0.0
+    "pct_oop_benchmark_uhc50":33.3333333333,
+    "pct_oop_benchmark_uhc75":33.3333333333
   },
   {
     "year":2010,
@@ -436,18 +326,8 @@
     "pct_public_threshold_uhc75":0.0,
     "pct_abuja_uhc50":0.0,
     "pct_abuja_uhc75":0.0,
-    "pct_oop_benchmark_uhc50":37.5,
-    "pct_oop_benchmark_uhc75":37.5
-  },
-  {
-    "year":2011,
-    "income":"High",
-    "pct_public_threshold_uhc50":0.0,
-    "pct_public_threshold_uhc75":0.0,
-    "pct_abuja_uhc50":0.0,
-    "pct_abuja_uhc75":0.0,
-    "pct_oop_benchmark_uhc50":0.0,
-    "pct_oop_benchmark_uhc75":0.0
+    "pct_oop_benchmark_uhc50":33.3333333333,
+    "pct_oop_benchmark_uhc75":33.3333333333
   },
   {
     "year":2011,
@@ -456,8 +336,8 @@
     "pct_public_threshold_uhc75":0.0,
     "pct_abuja_uhc50":0.0,
     "pct_abuja_uhc75":0.0,
-    "pct_oop_benchmark_uhc50":15.0,
-    "pct_oop_benchmark_uhc75":5.0
+    "pct_oop_benchmark_uhc50":10.0,
+    "pct_oop_benchmark_uhc75":0.0
   },
   {
     "year":2011,
@@ -476,18 +356,8 @@
     "pct_public_threshold_uhc75":0.0,
     "pct_abuja_uhc50":0.0,
     "pct_abuja_uhc75":0.0,
-    "pct_oop_benchmark_uhc50":37.5,
-    "pct_oop_benchmark_uhc75":37.5
-  },
-  {
-    "year":2012,
-    "income":"High",
-    "pct_public_threshold_uhc50":0.0,
-    "pct_public_threshold_uhc75":0.0,
-    "pct_abuja_uhc50":0.0,
-    "pct_abuja_uhc75":0.0,
-    "pct_oop_benchmark_uhc50":100.0,
-    "pct_oop_benchmark_uhc75":100.0
+    "pct_oop_benchmark_uhc50":33.3333333333,
+    "pct_oop_benchmark_uhc75":33.3333333333
   },
   {
     "year":2012,
@@ -516,18 +386,8 @@
     "pct_public_threshold_uhc75":0.0,
     "pct_abuja_uhc50":0.0,
     "pct_abuja_uhc75":0.0,
-    "pct_oop_benchmark_uhc50":37.5,
-    "pct_oop_benchmark_uhc75":37.5
-  },
-  {
-    "year":2013,
-    "income":"High",
-    "pct_public_threshold_uhc50":0.0,
-    "pct_public_threshold_uhc75":0.0,
-    "pct_abuja_uhc50":0.0,
-    "pct_abuja_uhc75":0.0,
-    "pct_oop_benchmark_uhc50":100.0,
-    "pct_oop_benchmark_uhc75":100.0
+    "pct_oop_benchmark_uhc50":44.4444444444,
+    "pct_oop_benchmark_uhc75":44.4444444444
   },
   {
     "year":2013,
@@ -556,18 +416,8 @@
     "pct_public_threshold_uhc75":0.0,
     "pct_abuja_uhc50":0.0,
     "pct_abuja_uhc75":0.0,
-    "pct_oop_benchmark_uhc50":37.5,
-    "pct_oop_benchmark_uhc75":37.5
-  },
-  {
-    "year":2014,
-    "income":"High",
-    "pct_public_threshold_uhc50":0.0,
-    "pct_public_threshold_uhc75":0.0,
-    "pct_abuja_uhc50":0.0,
-    "pct_abuja_uhc75":0.0,
-    "pct_oop_benchmark_uhc50":0.0,
-    "pct_oop_benchmark_uhc75":0.0
+    "pct_oop_benchmark_uhc50":44.4444444444,
+    "pct_oop_benchmark_uhc75":44.4444444444
   },
   {
     "year":2014,
@@ -596,18 +446,8 @@
     "pct_public_threshold_uhc75":0.0,
     "pct_abuja_uhc50":0.0,
     "pct_abuja_uhc75":0.0,
-    "pct_oop_benchmark_uhc50":37.5,
-    "pct_oop_benchmark_uhc75":37.5
-  },
-  {
-    "year":2015,
-    "income":"High",
-    "pct_public_threshold_uhc50":0.0,
-    "pct_public_threshold_uhc75":0.0,
-    "pct_abuja_uhc50":0.0,
-    "pct_abuja_uhc75":0.0,
-    "pct_oop_benchmark_uhc50":0.0,
-    "pct_oop_benchmark_uhc75":0.0
+    "pct_oop_benchmark_uhc50":33.3333333333,
+    "pct_oop_benchmark_uhc75":33.3333333333
   },
   {
     "year":2015,
@@ -634,20 +474,10 @@
     "income":"Upper-middle",
     "pct_public_threshold_uhc50":0.0,
     "pct_public_threshold_uhc75":0.0,
-    "pct_abuja_uhc50":12.5,
-    "pct_abuja_uhc75":12.5,
-    "pct_oop_benchmark_uhc50":37.5,
-    "pct_oop_benchmark_uhc75":37.5
-  },
-  {
-    "year":2016,
-    "income":"High",
-    "pct_public_threshold_uhc50":0.0,
-    "pct_public_threshold_uhc75":0.0,
-    "pct_abuja_uhc50":0.0,
-    "pct_abuja_uhc75":0.0,
-    "pct_oop_benchmark_uhc50":0.0,
-    "pct_oop_benchmark_uhc75":0.0
+    "pct_abuja_uhc50":11.1111111111,
+    "pct_abuja_uhc75":11.1111111111,
+    "pct_oop_benchmark_uhc50":33.3333333333,
+    "pct_oop_benchmark_uhc75":33.3333333333
   },
   {
     "year":2016,
@@ -674,20 +504,10 @@
     "income":"Upper-middle",
     "pct_public_threshold_uhc50":0.0,
     "pct_public_threshold_uhc75":0.0,
-    "pct_abuja_uhc50":12.5,
-    "pct_abuja_uhc75":12.5,
-    "pct_oop_benchmark_uhc50":37.5,
-    "pct_oop_benchmark_uhc75":37.5
-  },
-  {
-    "year":2017,
-    "income":"High",
-    "pct_public_threshold_uhc50":100.0,
-    "pct_public_threshold_uhc75":100.0,
-    "pct_abuja_uhc50":0.0,
-    "pct_abuja_uhc75":0.0,
-    "pct_oop_benchmark_uhc50":0.0,
-    "pct_oop_benchmark_uhc75":0.0
+    "pct_abuja_uhc50":11.1111111111,
+    "pct_abuja_uhc75":11.1111111111,
+    "pct_oop_benchmark_uhc50":33.3333333333,
+    "pct_oop_benchmark_uhc75":33.3333333333
   },
   {
     "year":2017,
@@ -712,22 +532,12 @@
   {
     "year":2017,
     "income":"Upper-middle",
-    "pct_public_threshold_uhc50":0.0,
-    "pct_public_threshold_uhc75":0.0,
-    "pct_abuja_uhc50":12.5,
-    "pct_abuja_uhc75":12.5,
-    "pct_oop_benchmark_uhc50":37.5,
-    "pct_oop_benchmark_uhc75":37.5
-  },
-  {
-    "year":2018,
-    "income":"High",
-    "pct_public_threshold_uhc50":100.0,
-    "pct_public_threshold_uhc75":100.0,
-    "pct_abuja_uhc50":0.0,
-    "pct_abuja_uhc75":0.0,
-    "pct_oop_benchmark_uhc50":0.0,
-    "pct_oop_benchmark_uhc75":0.0
+    "pct_public_threshold_uhc50":11.1111111111,
+    "pct_public_threshold_uhc75":11.1111111111,
+    "pct_abuja_uhc50":11.1111111111,
+    "pct_abuja_uhc75":11.1111111111,
+    "pct_oop_benchmark_uhc50":33.3333333333,
+    "pct_oop_benchmark_uhc75":33.3333333333
   },
   {
     "year":2018,
@@ -752,22 +562,12 @@
   {
     "year":2018,
     "income":"Upper-middle",
-    "pct_public_threshold_uhc50":0.0,
-    "pct_public_threshold_uhc75":0.0,
-    "pct_abuja_uhc50":12.5,
-    "pct_abuja_uhc75":12.5,
-    "pct_oop_benchmark_uhc50":37.5,
-    "pct_oop_benchmark_uhc75":37.5
-  },
-  {
-    "year":2019,
-    "income":"High",
-    "pct_public_threshold_uhc50":100.0,
-    "pct_public_threshold_uhc75":100.0,
-    "pct_abuja_uhc50":0.0,
-    "pct_abuja_uhc75":0.0,
-    "pct_oop_benchmark_uhc50":0.0,
-    "pct_oop_benchmark_uhc75":0.0
+    "pct_public_threshold_uhc50":11.1111111111,
+    "pct_public_threshold_uhc75":11.1111111111,
+    "pct_abuja_uhc50":11.1111111111,
+    "pct_abuja_uhc75":11.1111111111,
+    "pct_oop_benchmark_uhc50":33.3333333333,
+    "pct_oop_benchmark_uhc75":33.3333333333
   },
   {
     "year":2019,
@@ -792,22 +592,12 @@
   {
     "year":2019,
     "income":"Upper-middle",
-    "pct_public_threshold_uhc50":0.0,
-    "pct_public_threshold_uhc75":0.0,
-    "pct_abuja_uhc50":12.5,
-    "pct_abuja_uhc75":12.5,
-    "pct_oop_benchmark_uhc50":37.5,
-    "pct_oop_benchmark_uhc75":37.5
-  },
-  {
-    "year":2020,
-    "income":"High",
-    "pct_public_threshold_uhc50":100.0,
-    "pct_public_threshold_uhc75":100.0,
-    "pct_abuja_uhc50":0.0,
-    "pct_abuja_uhc75":0.0,
-    "pct_oop_benchmark_uhc50":0.0,
-    "pct_oop_benchmark_uhc75":0.0
+    "pct_public_threshold_uhc50":11.1111111111,
+    "pct_public_threshold_uhc75":11.1111111111,
+    "pct_abuja_uhc50":11.1111111111,
+    "pct_abuja_uhc75":11.1111111111,
+    "pct_oop_benchmark_uhc50":33.3333333333,
+    "pct_oop_benchmark_uhc75":33.3333333333
   },
   {
     "year":2020,
@@ -832,22 +622,12 @@
   {
     "year":2020,
     "income":"Upper-middle",
-    "pct_public_threshold_uhc50":0.0,
-    "pct_public_threshold_uhc75":0.0,
-    "pct_abuja_uhc50":25.0,
-    "pct_abuja_uhc75":25.0,
-    "pct_oop_benchmark_uhc50":37.5,
-    "pct_oop_benchmark_uhc75":37.5
-  },
-  {
-    "year":2021,
-    "income":"High",
-    "pct_public_threshold_uhc50":0.0,
-    "pct_public_threshold_uhc75":0.0,
-    "pct_abuja_uhc50":0.0,
-    "pct_abuja_uhc75":0.0,
-    "pct_oop_benchmark_uhc50":0.0,
-    "pct_oop_benchmark_uhc75":0.0
+    "pct_public_threshold_uhc50":11.1111111111,
+    "pct_public_threshold_uhc75":11.1111111111,
+    "pct_abuja_uhc50":22.2222222222,
+    "pct_abuja_uhc75":22.2222222222,
+    "pct_oop_benchmark_uhc50":33.3333333333,
+    "pct_oop_benchmark_uhc75":33.3333333333
   },
   {
     "year":2021,
@@ -874,20 +654,10 @@
     "income":"Upper-middle",
     "pct_public_threshold_uhc50":0.0,
     "pct_public_threshold_uhc75":0.0,
-    "pct_abuja_uhc50":25.0,
-    "pct_abuja_uhc75":25.0,
-    "pct_oop_benchmark_uhc50":37.5,
-    "pct_oop_benchmark_uhc75":37.5
-  },
-  {
-    "year":2022,
-    "income":"High",
-    "pct_public_threshold_uhc50":100.0,
-    "pct_public_threshold_uhc75":100.0,
-    "pct_abuja_uhc50":0.0,
-    "pct_abuja_uhc75":0.0,
-    "pct_oop_benchmark_uhc50":0.0,
-    "pct_oop_benchmark_uhc75":0.0
+    "pct_abuja_uhc50":22.2222222222,
+    "pct_abuja_uhc75":22.2222222222,
+    "pct_oop_benchmark_uhc50":33.3333333333,
+    "pct_oop_benchmark_uhc75":33.3333333333
   },
   {
     "year":2022,
@@ -912,22 +682,12 @@
   {
     "year":2022,
     "income":"Upper-middle",
-    "pct_public_threshold_uhc50":0.0,
-    "pct_public_threshold_uhc75":0.0,
-    "pct_abuja_uhc50":25.0,
-    "pct_abuja_uhc75":25.0,
-    "pct_oop_benchmark_uhc50":37.5,
-    "pct_oop_benchmark_uhc75":37.5
-  },
-  {
-    "year":2023,
-    "income":"High",
-    "pct_public_threshold_uhc50":100.0,
-    "pct_public_threshold_uhc75":100.0,
-    "pct_abuja_uhc50":0.0,
-    "pct_abuja_uhc75":0.0,
-    "pct_oop_benchmark_uhc50":0.0,
-    "pct_oop_benchmark_uhc75":0.0
+    "pct_public_threshold_uhc50":11.1111111111,
+    "pct_public_threshold_uhc75":11.1111111111,
+    "pct_abuja_uhc50":22.2222222222,
+    "pct_abuja_uhc75":22.2222222222,
+    "pct_oop_benchmark_uhc50":33.3333333333,
+    "pct_oop_benchmark_uhc75":33.3333333333
   },
   {
     "year":2023,
@@ -952,11 +712,11 @@
   {
     "year":2023,
     "income":"Upper-middle",
-    "pct_public_threshold_uhc50":0.0,
-    "pct_public_threshold_uhc75":0.0,
-    "pct_abuja_uhc50":12.5,
-    "pct_abuja_uhc75":12.5,
-    "pct_oop_benchmark_uhc50":50.0,
-    "pct_oop_benchmark_uhc75":50.0
+    "pct_public_threshold_uhc50":11.1111111111,
+    "pct_public_threshold_uhc75":11.1111111111,
+    "pct_abuja_uhc50":11.1111111111,
+    "pct_abuja_uhc75":11.1111111111,
+    "pct_oop_benchmark_uhc50":44.4444444444,
+    "pct_oop_benchmark_uhc75":44.4444444444
   }
 ]
