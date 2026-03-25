@@ -3,6 +3,19 @@
  * Calculates all analytics metrics based on real data and selected year
  */
 
+// Helper function to determine if indicator is measured in percentages
+const isPercentageIndicator = (fieldName: string): boolean => {
+  return fieldName.includes('GDP') ||
+         fieldName.includes('budget') ||
+         fieldName.includes('on health exp') ||
+         fieldName.includes('Out-of-pocket') ||
+         fieldName.includes('Govern on health') ||
+         fieldName.includes('External on health') ||
+         fieldName.includes('Voluntary') ||
+         fieldName.includes('Private on health') ||
+         fieldName.includes('as % of');
+};
+
 // Helper function to format values with appropriate units based on field name
 const formatValueWithUnit = (value: number, fieldName: string): string => {
   // Determine unit based on field name
@@ -10,11 +23,7 @@ const formatValueWithUnit = (value: number, fieldName: string): string => {
       fieldName.includes('Gap for') || fieldName.includes('Expenditure per capita')) {
     // Monetary values - prefix with $
     return `$${value.toFixed(2)}`;
-  } else if (fieldName.includes('GDP') || fieldName.includes('budget') ||
-             fieldName.includes('on health exp') || fieldName.includes('Out-of-pocket') ||
-             fieldName.includes('Govern on health') || fieldName.includes('External on health') ||
-             fieldName.includes('Voluntary') || fieldName.includes('Private on health') ||
-             fieldName.includes('as % of')) {
+  } else if (isPercentageIndicator(fieldName)) {
     // Percentage values - suffix with %
     return `${value.toFixed(1)}%`;
   } else if (fieldName.includes('mortality')) {
@@ -261,17 +270,58 @@ export const calculateDynamicAnalytics = (
     ? baselineYearData.reduce((sum, d) => sum + d[field], 0) / baselineYearData.length
     : null;
 
-  const change = baselineAvg !== null ? currentAvg - baselineAvg : null;
-  const percentChange = change !== null && baselineAvg !== null && baselineAvg !== 0
-    ? (change / baselineAvg) * 100
-    : null;
+  // Calculate average year-on-year change from 2016 to 2023
+  const years = [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023];
+
+  // Get average values for each year
+  const yearlyAverages: { year: number; avg: number }[] = [];
+  for (const year of years) {
+    const yearData = masterData.filter(d =>
+      d.year === year &&
+      d[field] !== null &&
+      d[field] !== undefined &&
+      !isNaN(d[field])
+    );
+    if (yearData.length > 0) {
+      const avg = yearData.reduce((sum, d) => sum + d[field], 0) / yearData.length;
+      yearlyAverages.push({ year, avg });
+    }
+  }
+
+  let trendDescription = 'Insufficient data';
+  if (yearlyAverages.length >= 2) {
+    const avg2016 = yearlyAverages.find(y => y.year === 2016)?.avg;
+    const avg2023 = yearlyAverages.find(y => y.year === 2023)?.avg;
+
+    if (isPercentageIndicator(field) && avg2016 !== undefined && avg2023 !== undefined) {
+      // For percentage indicators: use percentage POINT change
+      const absoluteChange = avg2023 - avg2016;
+      const totalYears = 2023 - 2016; // 7 years
+      const avgAnnualChange = absoluteChange / totalYears;
+      trendDescription = `${avgAnnualChange > 0 ? '+' : ''}${avgAnnualChange.toFixed(2)} percentage points per year (2016-2023). Calculated as absolute change in percentage points divided by number of years.`;
+    } else if (!isPercentageIndicator(field)) {
+      // For non-percentage indicators: calculate average of year-on-year percentage changes
+      const annualPercentChanges: number[] = [];
+      for (let i = 0; i < yearlyAverages.length - 1; i++) {
+        const currentYear = yearlyAverages[i];
+        const nextYear = yearlyAverages[i + 1];
+        if (currentYear.avg !== 0) {
+          const percentChange = ((nextYear.avg - currentYear.avg) / currentYear.avg) * 100;
+          annualPercentChanges.push(percentChange);
+        }
+      }
+
+      if (annualPercentChanges.length > 0) {
+        const avgAnnualPercentChange = annualPercentChanges.reduce((sum, c) => sum + c, 0) / annualPercentChanges.length;
+        trendDescription = `${avgAnnualPercentChange > 0 ? '+' : ''}${avgAnnualPercentChange.toFixed(1)}% per year (2016-2023). Calculated as average of year-on-year percentage changes.`;
+      }
+    }
+  }
 
   const continentalOverview = {
     current: `Africa average: ${formatValueWithUnit(currentAvg, field)} (${currentYear})`,
     baseline: baselineAvg !== null ? `${formatValueWithUnit(baselineAvg, field)} (${baselineYear})` : 'N/A',
-    trend: percentChange !== null
-      ? `${percentChange > 0 ? '+' : ''}${percentChange.toFixed(1)}% change since ${baselineYear}`
-      : 'Insufficient data'
+    trend: trendDescription
   };
 
   // 2. Target Achievement (if threshold provided)
@@ -326,13 +376,42 @@ export const calculateDynamicAnalytics = (
 
   // 3. Progress Analysis
   const progressTrend = calculateProgressTrend(masterData, field, currentYear, 5);
-  const annualChange = percentChange !== null ? percentChange / (currentYear - baselineYear) : 0;
+
+  // Calculate average annual change from 2016 to 2023 using appropriate methodology
+  let annualChangeText = 'Insufficient data';
+  if (yearlyAverages.length >= 2) {
+    const avg2016 = yearlyAverages.find(y => y.year === 2016)?.avg;
+    const avg2023 = yearlyAverages.find(y => y.year === 2023)?.avg;
+
+    if (isPercentageIndicator(field) && avg2016 !== undefined && avg2023 !== undefined) {
+      // For percentage indicators: percentage POINT change
+      const totalYears = 2023 - 2016;
+      const avgAnnualChange = (avg2023 - avg2016) / totalYears;
+      annualChangeText = `${avgAnnualChange > 0 ? '+' : ''}${avgAnnualChange.toFixed(2)} pp/year (percentage point change, 2016-2023)`;
+    } else if (!isPercentageIndicator(field)) {
+      // For non-percentage indicators: calculate average of year-on-year percentage changes
+      const annualPercentChanges: number[] = [];
+      for (let i = 0; i < yearlyAverages.length - 1; i++) {
+        const currentYear = yearlyAverages[i];
+        const nextYear = yearlyAverages[i + 1];
+        if (currentYear.avg !== 0) {
+          const percentChange = ((nextYear.avg - currentYear.avg) / currentYear.avg) * 100;
+          annualPercentChanges.push(percentChange);
+        }
+      }
+
+      if (annualPercentChanges.length > 0) {
+        const avgAnnualPercentChange = annualPercentChanges.reduce((sum, c) => sum + c, 0) / annualPercentChanges.length;
+        annualChangeText = `${avgAnnualPercentChange > 0 ? '+' : ''}${avgAnnualPercentChange.toFixed(1)}% per year (percentage change, 2016-2023)`;
+      }
+    }
+  }
 
   const progressAnalysis = {
     improving: progressTrend.improving,
     stagnating: progressTrend.stagnating,
     worsening: progressTrend.worsening,
-    averageAnnualChange: `${annualChange > 0 ? '+' : ''}${annualChange.toFixed(2)}% average annually`,
+    averageAnnualChange: annualChangeText,
     recentTrend: `${progressTrend.improving} countries improving, ${progressTrend.stagnating} stagnating, ${progressTrend.worsening} worsening (vs ${currentYear - 5})`
   };
 

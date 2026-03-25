@@ -738,7 +738,10 @@ const DataExplorer: React.FC = () => {
 
             return (
               <div style={{ marginTop: '1.5rem', padding: '1.5rem', background: '#f8fafc', borderRadius: '8px', border: '1px solid #cbd5e1' }}>
-                <h4 style={{ margin: '0 0 1rem 0', color: '#475569' }}>📈 Trends ({insights.earliestYear} to {insights.latestYear})</h4>
+                <h4 style={{ margin: '0 0 0.5rem 0', color: '#475569' }}>📈 Trends ({insights.earliestYear} to {insights.latestYear})</h4>
+                <p style={{ margin: '0 0 1rem 0', fontSize: '0.85rem', color: '#64748b' }}>
+                  Total percentage change from {insights.earliestYear} to {insights.latestYear}. For detailed annual trends, see Policy-Relevant Insights section.
+                </p>
                 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: '1rem' }}>
                   {insights.trends.map(trend => {
                     // For indicators where lower is better, reverse the color logic

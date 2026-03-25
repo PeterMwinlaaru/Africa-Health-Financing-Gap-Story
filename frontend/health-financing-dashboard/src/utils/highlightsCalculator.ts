@@ -190,10 +190,14 @@ export const generateLineChartHighlights = (
   // Trend analysis
   const trend = calculateTrend(data, 'year', field === 'value' ? 'value' : field);
   if (trend) {
+    const sortedData = [...data].filter(d => d[field === 'value' ? 'value' : field] !== null).sort((a, b) => (a.year || 0) - (b.year || 0));
+    const firstYear = sortedData.length > 0 ? sortedData[0].year : '';
+    const lastYear = sortedData.length > 0 ? sortedData[sortedData.length - 1].year : '';
+
     highlights.push({
       label: 'Trend',
       value: `${trend.percentChange > 0 ? '+' : ''}${trend.percentChange.toFixed(1)}%`,
-      subtext: `${trend.direction === 'up' ? 'Improving' : trend.direction === 'down' ? 'Declining' : 'Stable'} over time`,
+      subtext: `Total change from ${firstYear} to ${lastYear}`,
       trend: trend.direction
     });
   }

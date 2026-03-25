@@ -128,6 +128,10 @@ const EnhancedAnalytics: React.FC<Props> = ({
         {/* Continental Overview */}
         {activeTab === 'overview' && (
           <div className="analytics-section">
+            <div className="methodology-note">
+              <p><strong>Trend Methodology:</strong> For indicators already measured as percentages (e.g., % of GDP), trends show average annual <em>percentage point</em> changes. For indicators in other units (e.g., USD, index scores), trends show average <em>year-on-year percentage</em> changes. Period: 2016-2023.</p>
+            </div>
+
             <div className="metric-card highlight">
               <div className="metric-icon">🌍</div>
               <div className="metric-content">
@@ -231,7 +235,8 @@ const EnhancedAnalytics: React.FC<Props> = ({
         {activeTab === 'progress' && (
           <div className="analytics-section">
             <div className="methodology-note">
-              <p><strong>Methodology:</strong> Progress classification based on 5-year trend analysis ({selectedYear - 5}-{selectedYear}). Countries are classified as improving, stagnating, or worsening based on their trajectory pattern, not just year-to-year comparison.</p>
+              <p><strong>Progress Classification:</strong> Based on 5-year trend analysis ({selectedYear - 5}-{selectedYear}). Countries are classified as improving, stagnating, or worsening based on their trajectory pattern, not just year-to-year comparison.</p>
+              <p><strong>Average Annual Change:</strong> For percentage indicators (e.g., % of GDP), this shows the average annual <em>percentage point</em> change (2016-2023). For other indicators (e.g., USD, index scores), this shows the average of <em>year-on-year percentage changes</em> (2016-2023), which properly accounts for compounding growth.</p>
             </div>
 
             <div className="progress-summary">
@@ -257,7 +262,7 @@ const EnhancedAnalytics: React.FC<Props> = ({
 
             <div className="progress-details">
               <div className="detail-row">
-                <span className="detail-label">Average Annual Change:</span>
+                <span className="detail-label">Average Annual Change (2016-2023):</span>
                 <span className="detail-value">{analytics.progressAnalysis.averageAnnualChange}</span>
               </div>
               <div className="recent-trend">

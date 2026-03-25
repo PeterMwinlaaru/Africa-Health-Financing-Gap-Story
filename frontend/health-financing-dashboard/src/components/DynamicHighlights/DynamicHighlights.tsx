@@ -39,7 +39,22 @@ const DynamicHighlights: React.FC<DynamicHighlightsProps> = ({ highlights, title
 
   return (
     <div className="dynamic-highlights">
-      {title && <h3 className="highlights-title">{title}</h3>}
+      {title && (
+        <>
+          <h3 className="highlights-title">{title}</h3>
+          {title === 'Key Statistics' && (
+            <p style={{
+              fontSize: '0.85rem',
+              color: '#64748b',
+              marginTop: '-0.5rem',
+              marginBottom: '1rem',
+              fontStyle: 'italic'
+            }}>
+              Quick summary for the selected time period. For detailed annual trend analysis with year-on-year methodology, see Policy-Relevant Insights below.
+            </p>
+          )}
+        </>
+      )}
       <div className="highlights-grid">
         {highlights.map((highlight, index) => (
           <div
