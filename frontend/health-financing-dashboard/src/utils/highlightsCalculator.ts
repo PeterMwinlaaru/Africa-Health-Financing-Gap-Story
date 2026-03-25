@@ -206,6 +206,7 @@ export const generateLineChartHighlights = (
   if (threshold !== undefined && currentValue !== null && currentValue !== undefined) {
     const gap = threshold - currentValue;
     const gapPercent = (gap / threshold) * 100;
+    const year = latestData?.year || 'N/A';
 
     highlights.push({
       label: currentValue >= threshold ? 'Above Threshold' : 'Gap to Threshold',
@@ -213,8 +214,8 @@ export const generateLineChartHighlights = (
         ? `+${formatValueWithUnit(currentValue - threshold, field)}`
         : formatValueWithUnit(Math.abs(gap), field),
       subtext: currentValue >= threshold
-        ? `Exceeds by ${Math.abs(gapPercent).toFixed(1)}%`
-        : `${Math.abs(gapPercent).toFixed(1)}% below target`
+        ? `Exceeds by ${Math.abs(gapPercent).toFixed(1)}% (${year})`
+        : `${Math.abs(gapPercent).toFixed(1)}% below target (${year})`
     });
   }
 
@@ -269,10 +270,11 @@ export const generateCountryComparisonHighlights = (
   // Threshold compliance (if applicable)
   if (threshold !== undefined) {
     const meeting = countMeetingThreshold(data, 'value', threshold);
+    const yearText = year ? ` (${year})` : '';
     highlights.push({
       label: 'Meeting Threshold',
       value: `${meeting.count} of ${data.length}`,
-      subtext: `${meeting.percentage.toFixed(1)}% of countries`
+      subtext: `${meeting.percentage.toFixed(1)}% of countries${yearText}`
     });
   }
 
