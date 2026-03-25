@@ -17,6 +17,19 @@ interface DataPoint {
   [key: string]: any;
 }
 
+// Helper function to determine if indicator is measured in percentages
+const isPercentageIndicator = (fieldName: string): boolean => {
+  return fieldName.includes('GDP') ||
+         fieldName.includes('budget') ||
+         fieldName.includes('on health exp') ||
+         fieldName.includes('Out-of-pocket') ||
+         fieldName.includes('Govern on health') ||
+         fieldName.includes('External on health') ||
+         fieldName.includes('Voluntary') ||
+         fieldName.includes('Private on health') ||
+         fieldName.includes('as % of');
+};
+
 // Helper function to format values with appropriate units based on field name
 const formatValueWithUnit = (value: number, fieldName: string): string => {
   // Determine unit based on field name
@@ -24,10 +37,7 @@ const formatValueWithUnit = (value: number, fieldName: string): string => {
       fieldName.includes('Gap for') || fieldName.includes('Expenditure per capita')) {
     // Monetary values - prefix with $
     return `$${value.toFixed(2)}`;
-  } else if (fieldName.includes('GDP') || fieldName.includes('budget') ||
-             fieldName.includes('on health exp') || fieldName.includes('Out-of-pocket') ||
-             fieldName.includes('Govern on health') || fieldName.includes('External on health') ||
-             fieldName.includes('Voluntary') || fieldName.includes('Private on health')) {
+  } else if (isPercentageIndicator(fieldName)) {
     // Percentage values - suffix with %
     return `${value.toFixed(1)}%`;
   } else if (fieldName.includes('mortality')) {
@@ -126,6 +136,7 @@ export const calculateTrend = (data: any[], xField: string, yField: string): {
   direction: 'up' | 'down' | 'neutral';
   change: number;
   percentChange: number;
+  absoluteChange: number;
 } | null => {
   const sortedData = [...data]
     .filter(d => d[yField] !== null && d[yField] !== undefined && !isNaN(d[yField]))
@@ -137,13 +148,14 @@ export const calculateTrend = (data: any[], xField: string, yField: string): {
   const lastValue = sortedData[sortedData.length - 1][yField];
   const change = lastValue - firstValue;
   const percentChange = (change / Math.abs(firstValue)) * 100;
+  const absoluteChange = change; // For percentage indicators, this is the percentage point change
 
   let direction: 'up' | 'down' | 'neutral' = 'neutral';
   if (Math.abs(percentChange) > 1) {
     direction = change > 0 ? 'up' : 'down';
   }
 
-  return { direction, change, percentChange };
+  return { direction, change, percentChange, absoluteChange };
 };
 
 /**
@@ -194,10 +206,24 @@ export const generateLineChartHighlights = (
     const firstYear = sortedData.length > 0 ? sortedData[0].year : '';
     const lastYear = sortedData.length > 0 ? sortedData[sortedData.length - 1].year : '';
 
+    // For percentage indicators, use percentage point change; for others, use percentage change
+    let trendValue: string;
+    let trendSubtext: string;
+
+    if (isPercentageIndicator(field)) {
+      // Percentage indicators: show percentage point change
+      trendValue = `${trend.absoluteChange > 0 ? '+' : ''}${trend.absoluteChange.toFixed(2)} pp`;
+      trendSubtext = `Percentage point change from ${firstYear} to ${lastYear}`;
+    } else {
+      // Non-percentage indicators: show percentage change
+      trendValue = `${trend.percentChange > 0 ? '+' : ''}${trend.percentChange.toFixed(1)}%`;
+      trendSubtext = `Percentage change from ${firstYear} to ${lastYear}`;
+    }
+
     highlights.push({
       label: 'Trend',
-      value: `${trend.percentChange > 0 ? '+' : ''}${trend.percentChange.toFixed(1)}%`,
-      subtext: `Total change from ${firstYear} to ${lastYear}`,
+      value: trendValue,
+      subtext: trendSubtext,
       trend: trend.direction
     });
   }
