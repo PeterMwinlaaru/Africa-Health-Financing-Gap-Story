@@ -17,6 +17,31 @@ interface DataPoint {
   [key: string]: any;
 }
 
+// Helper function to format values with appropriate units based on field name
+const formatValueWithUnit = (value: number, fieldName: string): string => {
+  // Determine unit based on field name
+  if (fieldName.includes('per capita') || fieldName.includes('Per Capita') ||
+      fieldName.includes('Gap for') || fieldName.includes('Expenditure per capita')) {
+    // Monetary values - prefix with $
+    return `$${value.toFixed(2)}`;
+  } else if (fieldName.includes('GDP') || fieldName.includes('budget') ||
+             fieldName.includes('on health exp') || fieldName.includes('Out-of-pocket') ||
+             fieldName.includes('Govern on health') || fieldName.includes('External on health') ||
+             fieldName.includes('Voluntary') || fieldName.includes('Private on health')) {
+    // Percentage values - suffix with %
+    return `${value.toFixed(1)}%`;
+  } else if (fieldName.includes('mortality')) {
+    // Mortality rates - no unit
+    return value.toFixed(1);
+  } else if (fieldName.includes('coverage')) {
+    // Index values - no unit
+    return value.toFixed(1);
+  } else {
+    // Default - 1 decimal, no unit
+    return value.toFixed(1);
+  }
+};
+
 /**
  * Calculate average from data points
  */
@@ -142,7 +167,7 @@ export const generateLineChartHighlights = (
   data: any[],
   field: string,
   threshold?: number,
-  unit: string = ''
+  unit: string = '' // Deprecated parameter, kept for backwards compatibility
 ): HighlightData[] => {
   if (!data || data.length === 0) return [];
 
@@ -154,11 +179,9 @@ export const generateLineChartHighlights = (
   const currentValue = latestData ? (latestData.value ?? latestData[field]) : null;
 
   if (currentValue !== null && currentValue !== undefined) {
-    // Use 1 decimal for percentages/indices, 2 for currency
-    const decimals = unit === ' USD' ? 2 : 1;
     highlights.push({
       label: 'Current Average',
-      value: `${currentValue.toFixed(decimals)}${unit}`,
+      value: formatValueWithUnit(currentValue, field),
       subtext: `Year ${latestData.year || 'N/A'}`,
       highlight: true
     });
@@ -183,8 +206,8 @@ export const generateLineChartHighlights = (
     highlights.push({
       label: currentValue >= threshold ? 'Above Threshold' : 'Gap to Threshold',
       value: currentValue >= threshold
-        ? `+${(currentValue - threshold).toFixed(1)}${unit}`
-        : `${Math.abs(gap).toFixed(1)}${unit}`,
+        ? `+${formatValueWithUnit(currentValue - threshold, field)}`
+        : formatValueWithUnit(Math.abs(gap), field),
       subtext: currentValue >= threshold
         ? `Exceeds by ${Math.abs(gapPercent).toFixed(1)}%`
         : `${Math.abs(gapPercent).toFixed(1)}% below target`
@@ -201,21 +224,18 @@ export const generateCountryComparisonHighlights = (
   data: any[],
   field: string,
   threshold?: number,
-  unit: string = '',
+  unit: string = '', // Deprecated parameter, kept for backwards compatibility
   year?: number
 ): HighlightData[] => {
   if (!data || data.length === 0) return [];
 
   const highlights: HighlightData[] = [];
 
-  // Use 1 decimal for percentages/indices, 2 for currency
-  const decimals = unit === ' USD' ? 2 : 1;
-
   // Average
   const avg = calculateAverage(data, 'value');
   highlights.push({
     label: 'Average',
-    value: `${avg.toFixed(decimals)}${unit}`,
+    value: formatValueWithUnit(avg, field),
     subtext: `Across ${data.length} countries`,
     highlight: true
   });
@@ -225,7 +245,7 @@ export const generateCountryComparisonHighlights = (
   if (max) {
     highlights.push({
       label: 'Top Performer',
-      value: `${max.value.toFixed(decimals)}${unit}`,
+      value: formatValueWithUnit(max.value, field),
       subtext: max.country,
       trend: 'up'
     });
@@ -236,7 +256,7 @@ export const generateCountryComparisonHighlights = (
   if (min) {
     highlights.push({
       label: 'Lowest',
-      value: `${min.value.toFixed(decimals)}${unit}`,
+      value: formatValueWithUnit(min.value, field),
       subtext: min.country,
       trend: 'down'
     });

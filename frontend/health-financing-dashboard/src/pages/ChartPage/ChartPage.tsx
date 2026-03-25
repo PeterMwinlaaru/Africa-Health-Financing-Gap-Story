@@ -84,6 +84,48 @@ const FIELD_LABELS: Record<string, string> = {
   'Other Private on health exp': 'Other Private'
 };
 
+// Unit mapping for indicators - determines what unit symbol to display
+const INDICATOR_UNITS: Record<string, { symbol: string; position: 'prefix' | 'suffix' }> = {
+  // Monetary indicators (per capita values)
+  'Gov exp Health per capita': { symbol: '$', position: 'prefix' },
+  'Gap for Gov exp Health per capita': { symbol: '$', position: 'prefix' },
+  'Expenditure per capita current': { symbol: '$', position: 'prefix' },
+
+  // Percentage indicators
+  'Gov exp Health on budget': { symbol: '%', position: 'suffix' },
+  'Gov exp Health on GDP': { symbol: '%', position: 'suffix' },
+  'Exp Health on GDP': { symbol: '%', position: 'suffix' },
+  'Gap Gov exp Health on GDP': { symbol: '%', position: 'suffix' },
+  'Out-of-pocket on health exp': { symbol: '%', position: 'suffix' },
+  'Govern on health exp': { symbol: '%', position: 'suffix' },
+  'External on health exp': { symbol: '%', position: 'suffix' },
+  'Voluntary Prepayments on health exp': { symbol: '%', position: 'suffix' },
+  'Other Private on health exp': { symbol: '%', position: 'suffix' },
+
+  // Index/Score indicators (no unit, just number)
+  'Universal health coverage': { symbol: '', position: 'suffix' },
+
+  // Rate indicators (per 1,000 or per 100,000 - shown as raw numbers, explained in labels)
+  'Neonatal mortality rate': { symbol: '', position: 'suffix' },
+  'Maternal mortality ratio': { symbol: '', position: 'suffix' }
+};
+
+// Helper function to format values with appropriate units
+const formatValueWithUnit = (value: number, fieldName: string, decimals: number = 1): string => {
+  const unitInfo = INDICATOR_UNITS[fieldName];
+  if (!unitInfo) {
+    return value.toFixed(decimals);
+  }
+
+  const formattedValue = value.toFixed(decimals);
+  if (unitInfo.position === 'prefix') {
+    return `${unitInfo.symbol}${formattedValue}`;
+  } else if (unitInfo.symbol) {
+    return `${formattedValue}${unitInfo.symbol}`;
+  }
+  return formattedValue;
+};
+
 const ChartPage: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
   const [chartConfig, setChartConfig] = useState<ChartConfig | null>(null);
@@ -882,9 +924,8 @@ const ChartPage: React.FC = () => {
                   tickLine={{ stroke: '#94a3b8' }}
                   domain={calculateDomain()}
                   tickFormatter={(value) => {
-                    // Use 1 decimal for percentages and indices, 2 for currency
                     const decimals = chartConfig?.slug === 'government-health-expenditure-per-capita' ? 2 : 1;
-                    return typeof value === 'number' ? value.toFixed(decimals) : value;
+                    return typeof value === 'number' ? formatValueWithUnit(value, yFields[0], decimals) : value;
                   }}
                 />
                 <Tooltip
@@ -895,12 +936,9 @@ const ChartPage: React.FC = () => {
                     boxShadow: '0 4px 6px rgba(0,0,0,0.1)'
                   }}
                   formatter={(value: any, name: any) => {
-                    // Use 1 decimal for percentages and indices, 2 for currency
                     const decimals = chartConfig?.slug === 'government-health-expenditure-per-capita' ? 2 : 1;
-                    const formattedValue = typeof value === 'number' ? value.toFixed(decimals) : value;
-                    // Add % unit for financing structure chart
-                    const unit = chartConfig?.slug === 'health-financing-structure' ? '%' : '';
-                    return [`${formattedValue}${unit}`, getGroupLabel(name)];
+                    const formattedValue = typeof value === 'number' ? formatValueWithUnit(value, yFields[0], decimals) : value;
+                    return [formattedValue, getGroupLabel(name)];
                   }}
                 />
                 <Legend formatter={(value: string) => getGroupLabel(value)} />
@@ -987,9 +1025,8 @@ const ChartPage: React.FC = () => {
                   tickLine={{ stroke: '#94a3b8' }}
                   domain={calculateDomain()}
                   tickFormatter={(value) => {
-                    // Use 1 decimal for percentages and indices, 2 for currency
                     const decimals = chartConfig?.slug === 'government-health-expenditure-per-capita' ? 2 : 1;
-                    return typeof value === 'number' ? value.toFixed(decimals) : value;
+                    return typeof value === 'number' ? formatValueWithUnit(value, yFields[0], decimals) : value;
                   }}
                 />
                 <Tooltip
@@ -1000,12 +1037,9 @@ const ChartPage: React.FC = () => {
                     boxShadow: '0 4px 6px rgba(0,0,0,0.1)'
                   }}
                   formatter={(value: any, name: any) => {
-                    // Use 1 decimal for percentages and indices, 2 for currency
                     const decimals = chartConfig?.slug === 'government-health-expenditure-per-capita' ? 2 : 1;
-                    const formattedValue = typeof value === 'number' ? value.toFixed(decimals) : value;
-                    // Add % unit for financing structure chart
-                    const unit = chartConfig?.slug === 'health-financing-structure' ? '%' : '';
-                    return [`${formattedValue}${unit}`, getGroupLabel(name)];
+                    const formattedValue = typeof value === 'number' ? formatValueWithUnit(value, yFields[0], decimals) : value;
+                    return [formattedValue, getGroupLabel(name)];
                   }}
                 />
                 <Legend formatter={(value: string) => getGroupLabel(value)} />
@@ -1083,16 +1117,14 @@ const ChartPage: React.FC = () => {
                 <YAxis
                   domain={calculateDomain()}
                   tickFormatter={(value) => {
-                    // Use 1 decimal for percentages and indices, 2 for currency
                     const decimals = chartConfig?.slug === 'government-health-expenditure-per-capita' ? 2 : 1;
-                    return typeof value === 'number' ? value.toFixed(decimals) : value;
+                    return typeof value === 'number' ? formatValueWithUnit(value, yFields[0], decimals) : value;
                   }}
                 />
                 <Tooltip
                   formatter={(value: any) => {
-                    // Use 1 decimal for percentages and indices, 2 for currency
                     const decimals = chartConfig?.slug === 'government-health-expenditure-per-capita' ? 2 : 1;
-                    return typeof value === 'number' ? value.toFixed(decimals) : value;
+                    return typeof value === 'number' ? formatValueWithUnit(value, yFields[0], decimals) : value;
                   }}
                 />
                 <Legend />
@@ -1140,16 +1172,16 @@ const ChartPage: React.FC = () => {
               <XAxis dataKey="name" angle={-45} textAnchor="end" height={150} />
               <YAxis
                 tickFormatter={(value) => {
-                  // Use 1 decimal for percentages and indices, 2 for currency
                   const decimals = chartConfig?.slug === 'government-health-expenditure-per-capita' ? 2 : 1;
-                  return typeof value === 'number' ? value.toFixed(decimals) : value;
+                  const yField = chartConfig.yField as string;
+                  return typeof value === 'number' ? formatValueWithUnit(value, yField, decimals) : value;
                 }}
               />
               <Tooltip
                 formatter={(value: any) => {
-                  // Use 1 decimal for percentages and indices, 2 for currency
                   const decimals = chartConfig?.slug === 'government-health-expenditure-per-capita' ? 2 : 1;
-                  return typeof value === 'number' ? value.toFixed(decimals) : value;
+                  const yField = chartConfig.yField as string;
+                  return typeof value === 'number' ? formatValueWithUnit(value, yField, decimals) : value;
                 }}
               />
               <Legend />
@@ -1268,9 +1300,9 @@ const ChartPage: React.FC = () => {
                 return fieldMaximums[yField] ? Math.ceil(fieldMaximums[yField] * 1.05) : 'auto';
               })()]}
               tickFormatter={(value) => {
-                // Use 1 decimal for percentages and indices, 2 for currency
                 const decimals = chartConfig?.slug === 'government-health-expenditure-per-capita' ? 2 : 1;
-                return typeof value === 'number' ? value.toFixed(decimals) : value;
+                const yField = isMultiLine ? selectedFinancingSource : (Array.isArray(chartConfig.yField) ? chartConfig.yField[0] : chartConfig.yField);
+                return typeof value === 'number' ? formatValueWithUnit(value, yField, decimals) : value;
               }}
               label={isMultiLine ? { value: '% of health expenditure', position: 'insideBottom', offset: -5, fontSize: 12 } : undefined}
             />
@@ -1290,12 +1322,11 @@ const ChartPage: React.FC = () => {
                 const income = props.payload?.income;
                 const subregion = props.payload?.subregion;
                 const labelText = isMultiLine ? `${FIELD_LABELS[selectedFinancingSource] || selectedFinancingSource}` : 'Value';
-                // Use 1 decimal for percentages and indices, 2 for currency
                 const decimals = chartConfig?.slug === 'government-health-expenditure-per-capita' ? 2 : 1;
-                const formattedValue = typeof value === 'number' ? value.toFixed(decimals) : value;
-                const unit = isMultiLine ? '%' : '';
+                const yField = isMultiLine ? selectedFinancingSource : (Array.isArray(chartConfig.yField) ? chartConfig.yField[0] : chartConfig.yField);
+                const formattedValue = typeof value === 'number' ? formatValueWithUnit(value, yField, decimals) : value;
                 return [
-                  `${formattedValue}${unit}${income ? ` (${income}, ${subregion})` : ''}`,
+                  `${formattedValue}${income ? ` (${income}, ${subregion})` : ''}`,
                   labelText
                 ];
               }}

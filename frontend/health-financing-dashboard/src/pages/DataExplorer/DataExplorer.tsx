@@ -346,13 +346,29 @@ const DataExplorer: React.FC = () => {
 
   // Determine if indicator is monetary, percentage, or other
   const getIndicatorType = (indicatorName: string): 'monetary' | 'percentage' | 'rate' | 'index' => {
-    if (indicatorName.includes('per capita') || indicatorName.includes('USD')) return 'monetary';
+    // Monetary indicators: anything with "per capita", "USD", "Gap for", or "Expenditure"
+    if (indicatorName.includes('per capita') ||
+        indicatorName.includes('USD') ||
+        indicatorName.includes('Gap for') ||
+        indicatorName.includes('Expenditure per capita')) return 'monetary';
+
+    // Percentage indicators: budget share, GDP share, expenditure composition
     if (indicatorName.includes('on budget') ||
         indicatorName.includes('on GDP') ||
         indicatorName.includes('on health exp') ||
-        indicatorName.includes('Out-of-pocket')) return 'percentage';
+        indicatorName.includes('Out-of-pocket') ||
+        indicatorName.includes('Govern on health') ||
+        indicatorName.includes('External on health') ||
+        indicatorName.includes('Voluntary') ||
+        indicatorName.includes('Private on health') ||
+        indicatorName.includes('Gap Gov exp Health on GDP')) return 'percentage';
+
+    // Rate indicators: mortality rates
     if (indicatorName.includes('mortality')) return 'rate';
+
+    // Index indicators: coverage, other scores
     if (indicatorName.includes('coverage')) return 'index';
+
     return 'index';
   };
 

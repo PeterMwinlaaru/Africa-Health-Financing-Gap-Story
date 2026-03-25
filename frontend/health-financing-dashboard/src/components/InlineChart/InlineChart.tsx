@@ -67,6 +67,40 @@ const FIELD_LABELS: Record<string, string> = {
   'Maternal mortality ratio': 'Maternal Mortality (per 100k)',
 };
 
+// Unit mapping for value formatting
+const FIELD_UNITS: Record<string, { symbol: string; position: 'prefix' | 'suffix'; decimals: number }> = {
+  'Gov exp Health per capita': { symbol: '$', position: 'prefix', decimals: 2 },
+  'Gap for Gov exp Health per capita': { symbol: '$', position: 'prefix', decimals: 2 },
+  'Expenditure per capita current': { symbol: '$', position: 'prefix', decimals: 2 },
+  'Gov exp Health on budget': { symbol: '%', position: 'suffix', decimals: 1 },
+  'Gov exp Health on GDP': { symbol: '%', position: 'suffix', decimals: 1 },
+  'Exp Health on GDP': { symbol: '%', position: 'suffix', decimals: 1 },
+  'Out-of-pocket on health exp': { symbol: '%', position: 'suffix', decimals: 1 },
+  'External on health exp': { symbol: '%', position: 'suffix', decimals: 1 },
+  'Govern on health exp': { symbol: '%', position: 'suffix', decimals: 1 },
+  'Voluntary Prepayments on health exp': { symbol: '%', position: 'suffix', decimals: 1 },
+  'Other Private on health exp': { symbol: '%', position: 'suffix', decimals: 1 },
+  'Universal health coverage': { symbol: '', position: 'suffix', decimals: 1 },
+  'Neonatal mortality rate': { symbol: '', position: 'suffix', decimals: 1 },
+  'Maternal mortality ratio': { symbol: '', position: 'suffix', decimals: 1 },
+};
+
+// Helper function to format values with appropriate units
+const formatValueWithUnit = (value: number, fieldName: string): string => {
+  const unitInfo = FIELD_UNITS[fieldName];
+  if (!unitInfo) {
+    return value.toFixed(2);
+  }
+
+  const formattedValue = value.toFixed(unitInfo.decimals);
+  if (unitInfo.position === 'prefix' && unitInfo.symbol) {
+    return `${unitInfo.symbol}${formattedValue}`;
+  } else if (unitInfo.symbol) {
+    return `${formattedValue}${unitInfo.symbol}`;
+  }
+  return formattedValue;
+};
+
 // Friendly names for groups (matches actual data format)
 const GROUP_LABELS: Record<string, string> = {
   'Low': 'Low Income',
@@ -282,11 +316,12 @@ const InlineChart: React.FC<InlineChartProps> = ({ config, topicColor = '#3b82f6
                     boxShadow: '0 4px 6px rgba(0,0,0,0.1)'
                   }}
                   formatter={(value: any, name: any) => {
-                    const formattedValue = typeof value === 'number' ? value.toFixed(2) : value;
-                    return [formattedValue, name || 'Value'];
+                    // name is the raw field name, format with units
+                    const formattedValue = typeof value === 'number' ? formatValueWithUnit(value, name) : value;
+                    return [formattedValue, getFieldLabel(name) || name];
                   }}
                 />
-                <Legend />
+                <Legend formatter={(name: string) => getFieldLabel(name) || name} />
                 {THRESHOLDS[yFields[0]] && (
                   <ReferenceLine
                     yAxisId="left"
@@ -313,7 +348,7 @@ const InlineChart: React.FC<InlineChartProps> = ({ config, topicColor = '#3b82f6
                   strokeWidth={3}
                   dot={{ fill: SERIES_COLORS[0], strokeWidth: 2, r: 3 }}
                   activeDot={{ r: 5 }}
-                  name={getFieldLabel(yFields[0])}
+                  name={yFields[0]}
                 />
                 <Line
                   yAxisId="right"
@@ -323,7 +358,7 @@ const InlineChart: React.FC<InlineChartProps> = ({ config, topicColor = '#3b82f6
                   strokeWidth={3}
                   dot={{ fill: SERIES_COLORS[1], strokeWidth: 2, r: 3 }}
                   activeDot={{ r: 5 }}
-                  name={getFieldLabel(yFields[1])}
+                  name={yFields[1]}
                 />
               </LineChart>
             </ResponsiveContainer>
@@ -354,7 +389,8 @@ const InlineChart: React.FC<InlineChartProps> = ({ config, topicColor = '#3b82f6
                     boxShadow: '0 4px 6px rgba(0,0,0,0.1)'
                   }}
                   formatter={(value: any, name: any) => {
-                    const formattedValue = typeof value === 'number' ? value.toFixed(2) : value;
+                    // name is the group key, use yFields[0] for the actual field
+                    const formattedValue = typeof value === 'number' ? formatValueWithUnit(value, yFields[0]) : value;
                     return [formattedValue, getGroupLabel(name)];
                   }}
                 />
@@ -406,7 +442,7 @@ const InlineChart: React.FC<InlineChartProps> = ({ config, topicColor = '#3b82f6
                   borderRadius: '8px',
                   boxShadow: '0 4px 6px rgba(0,0,0,0.1)'
                 }}
-                formatter={(value: any) => [typeof value === 'number' ? value.toFixed(2) : value, 'Value']}
+                formatter={(value: any) => [typeof value === 'number' ? formatValueWithUnit(value, yFields[0]) : value, 'Value']}
               />
               <Legend />
               {threshold && (
@@ -458,8 +494,9 @@ const InlineChart: React.FC<InlineChartProps> = ({ config, topicColor = '#3b82f6
                 }}
                 formatter={(value: any, name: any, props: any) => {
                   const income = props.payload?.income;
+                  const formattedValue = typeof value === 'number' ? formatValueWithUnit(value, yFields[0]) : value;
                   return [
-                    `${typeof value === 'number' ? value.toFixed(2) : value}${income ? ` (${income})` : ''}`,
+                    `${formattedValue}${income ? ` (${income})` : ''}`,
                     'Value'
                   ];
                 }}

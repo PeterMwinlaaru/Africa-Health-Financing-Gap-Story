@@ -3,6 +3,32 @@
  * Calculates all analytics metrics based on real data and selected year
  */
 
+// Helper function to format values with appropriate units based on field name
+const formatValueWithUnit = (value: number, fieldName: string): string => {
+  // Determine unit based on field name
+  if (fieldName.includes('per capita') || fieldName.includes('Per Capita') ||
+      fieldName.includes('Gap for') || fieldName.includes('Expenditure per capita')) {
+    // Monetary values - prefix with $
+    return `$${value.toFixed(2)}`;
+  } else if (fieldName.includes('GDP') || fieldName.includes('budget') ||
+             fieldName.includes('on health exp') || fieldName.includes('Out-of-pocket') ||
+             fieldName.includes('Govern on health') || fieldName.includes('External on health') ||
+             fieldName.includes('Voluntary') || fieldName.includes('Private on health') ||
+             fieldName.includes('as % of')) {
+    // Percentage values - suffix with %
+    return `${value.toFixed(1)}%`;
+  } else if (fieldName.includes('mortality')) {
+    // Mortality rates - no unit
+    return value.toFixed(1);
+  } else if (fieldName.includes('coverage')) {
+    // Index values - no unit
+    return value.toFixed(1);
+  } else {
+    // Default - 1 decimal, no unit
+    return value.toFixed(1);
+  }
+};
+
 interface TargetAchievementData {
   status: "met" | "close" | "moderate" | "far";
   percentBelow: number;
@@ -170,9 +196,7 @@ const generatePolicyInsights = (
   countriesMet: number,
   totalCountries: number,
   improving: number,
-  worsening: number,
-  unit: string,
-  decimals: number
+  worsening: number
 ): string[] => {
   const insights: string[] = [];
 
@@ -193,7 +217,7 @@ const generatePolicyInsights = (
     const gap = threshold - currentAvg;
     const gapPercent = (gap / threshold) * 100;
     insights.push(
-      `Continental average of ${currentAvg.toFixed(decimals)} is ${gap.toFixed(decimals)} points (${gapPercent.toFixed(1)}%) below threshold - closing this gap requires sustained policy commitment`
+      `Continental average of ${formatValueWithUnit(currentAvg, field)} is ${formatValueWithUnit(gap, field)} points (${gapPercent.toFixed(1)}%) below threshold - closing this gap requires sustained policy commitment`
     );
   }
 
@@ -242,12 +266,9 @@ export const calculateDynamicAnalytics = (
     ? (change / baselineAvg) * 100
     : null;
 
-  // Use 1 decimal for percentages/indices, 2 for currency
-  const decimals = unit === ' USD' ? 2 : 1;
-
   const continentalOverview = {
-    current: `Africa average: ${currentAvg.toFixed(decimals)}${unit} (${currentYear})`,
-    baseline: baselineAvg !== null ? `${baselineAvg.toFixed(decimals)}${unit} (${baselineYear})` : 'N/A',
+    current: `Africa average: ${formatValueWithUnit(currentAvg, field)} (${currentYear})`,
+    baseline: baselineAvg !== null ? `${formatValueWithUnit(baselineAvg, field)} (${baselineYear})` : 'N/A',
     trend: percentChange !== null
       ? `${percentChange > 0 ? '+' : ''}${percentChange.toFixed(1)}% change since ${baselineYear}`
       : 'Insufficient data'
@@ -269,7 +290,7 @@ export const calculateDynamicAnalytics = (
     const countriesMetNames = meetingThreshold
       .sort((a, b) => b[field] - a[field])
       .slice(0, 5)
-      .map(d => `${d.location} (${d[field].toFixed(decimals)}${unit})`);
+      .map(d => `${d.location} (${formatValueWithUnit(d[field], field)})`);
 
     // Calculate gap distribution
     const gapDistribution = { close: 0, moderate: 0, far: 0 };
@@ -291,11 +312,11 @@ export const calculateDynamicAnalytics = (
       : 0;
 
     targetAchievement = {
-      targetDescription: `Analysis threshold: ${threshold}${unit}`,
+      targetDescription: `Analysis threshold: ${formatValueWithUnit(threshold, field)}`,
       countriesMet,
       countriesMetNames,
       countriesNotMet: notMeeting.length,
-      averageGap: `${avgGap.toFixed(decimals)}${unit} ${thresholdDirection === 'above' ? 'below' : 'above'} threshold`,
+      averageGap: `${formatValueWithUnit(avgGap, field)} ${thresholdDirection === 'above' ? 'below' : 'above'} threshold`,
       gapDistribution
     };
 
@@ -322,11 +343,11 @@ export const calculateDynamicAnalytics = (
   const sortedCurrent = [...currentYearData].sort((a, b) => b[field] - a[field]);
   const topPerformers = sortedCurrent.slice(0, 5).map(d => ({
     country: d.location,
-    value: `${d[field].toFixed(decimals)}${unit}`
+    value: formatValueWithUnit(d[field], field)
   }));
   const bottomPerformers = sortedCurrent.slice(-5).reverse().map(d => ({
     country: d.location,
-    value: `${d[field].toFixed(decimals)}${unit}`
+    value: formatValueWithUnit(d[field], field)
   }));
 
   const equity = {
@@ -359,13 +380,13 @@ export const calculateDynamicAnalytics = (
 
   const geographicPatterns = {
     leadingRegion: leadingRegion
-      ? `${leadingRegion.region} leads with ${leadingRegion.average.toFixed(decimals)}${unit} average`
+      ? `${leadingRegion.region} leads with ${formatValueWithUnit(leadingRegion.average, field)} average`
       : 'Insufficient data',
     laggingRegion: laggingRegion
-      ? `${laggingRegion.region} lags with ${laggingRegion.average.toFixed(decimals)}${unit} average`
+      ? `${laggingRegion.region} lags with ${formatValueWithUnit(laggingRegion.average, field)} average`
       : 'Insufficient data',
     clustering: subregionAverages.length > 1
-      ? `Significant variation across subregions from ${laggingRegion.average.toFixed(decimals)}${unit} to ${leadingRegion.average.toFixed(decimals)}${unit}`
+      ? `Significant variation across subregions from ${formatValueWithUnit(laggingRegion.average, field)} to ${formatValueWithUnit(leadingRegion.average, field)}`
       : 'Insufficient data',
     targetAchievementMap
   };
@@ -380,12 +401,10 @@ export const calculateDynamicAnalytics = (
         targetAchievement?.countriesMet || 0,
         currentYearData.length,
         progressTrend.improving,
-        progressTrend.worsening,
-        unit,
-        decimals
+        progressTrend.worsening
       )
     : [
-        `Continental average of ${currentAvg.toFixed(decimals)}${unit} in ${currentYear} represents the current state`,
+        `Continental average of ${formatValueWithUnit(currentAvg, field)} in ${currentYear} represents the current state`,
         `${progressTrend.improving} countries showing improvement over the past 5 years`,
         `Equity analysis shows ${gini < 0.3 ? 'relatively low' : 'significant'} inequality across countries`
       ];
