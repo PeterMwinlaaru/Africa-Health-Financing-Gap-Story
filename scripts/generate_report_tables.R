@@ -773,7 +773,7 @@ create_threshold_crosstab <- function(df, outcome_col, outcome_label, group_by) 
                       "75-99.9% of expenditure threshold", "Meet expenditure threshold target")
 
   income_order <- c("Low" = 1, "Lower-middle" = 2, "Upper-middle" = 3)
-  subregion_order <- c("Central Africa" = 1, "Eastern Africa" = 2, "Middle Africa" = 3,
+  subregion_order <- c("Central Africa" = 1, "Eastern Africa" = 2, "Central Africa" = 3,
                        "Northern Africa" = 4, "Southern Africa" = 5, "Western Africa" = 6)
 
   valid_df <- df %>%

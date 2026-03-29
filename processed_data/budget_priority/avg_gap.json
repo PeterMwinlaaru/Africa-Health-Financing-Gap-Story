@@ -8,7 +8,7 @@
   {
     "year":2000,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":4.289796825
   },
   {
@@ -38,7 +38,7 @@
   {
     "year":2000,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":11.650413755
   },
   {
@@ -68,7 +68,7 @@
   {
     "year":2000,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":11.224544525
   },
   {
@@ -92,7 +92,7 @@
   {
     "year":2001,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":3.70273304
   },
   {
@@ -122,7 +122,7 @@
   {
     "year":2001,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":9.77010242
   },
   {
@@ -152,7 +152,7 @@
   {
     "year":2001,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":11.277451635
   },
   {
@@ -176,7 +176,7 @@
   {
     "year":2002,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":4.83402681
   },
   {
@@ -206,7 +206,7 @@
   {
     "year":2002,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":9.5606447033
   },
   {
@@ -236,7 +236,7 @@
   {
     "year":2002,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":11.068782685
   },
   {
@@ -260,7 +260,7 @@
   {
     "year":2003,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":4.234906675
   },
   {
@@ -290,7 +290,7 @@
   {
     "year":2003,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":8.3170102833
   },
   {
@@ -320,7 +320,7 @@
   {
     "year":2003,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":10.19203842
   },
   {
@@ -344,7 +344,7 @@
   {
     "year":2004,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":3.72393608
   },
   {
@@ -374,7 +374,7 @@
   {
     "year":2004,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":9.79675897
   },
   {
@@ -404,7 +404,7 @@
   {
     "year":2004,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":10.106232045
   },
   {
@@ -428,7 +428,7 @@
   {
     "year":2005,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":5.588095425
   },
   {
@@ -458,7 +458,7 @@
   {
     "year":2005,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":8.76013283
   },
   {
@@ -488,7 +488,7 @@
   {
     "year":2005,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":11.04166627
   },
   {
@@ -512,7 +512,7 @@
   {
     "year":2006,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":6.838719365
   },
   {
@@ -542,7 +542,7 @@
   {
     "year":2006,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":12.0138031267
   },
   {
@@ -572,7 +572,7 @@
   {
     "year":2006,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":10.85462952
   },
   {
@@ -596,7 +596,7 @@
   {
     "year":2007,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":7.065198425
   },
   {
@@ -626,7 +626,7 @@
   {
     "year":2007,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":11.48181804
   },
   {
@@ -656,7 +656,7 @@
   {
     "year":2007,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":10.59827721
   },
   {
@@ -680,7 +680,7 @@
   {
     "year":2008,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":10.24250388
   },
   {
@@ -710,7 +710,7 @@
   {
     "year":2008,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":10.9906835567
   },
   {
@@ -740,7 +740,7 @@
   {
     "year":2008,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":10.97795248
   },
   {
@@ -764,7 +764,7 @@
   {
     "year":2009,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":10.93734813
   },
   {
@@ -794,7 +794,7 @@
   {
     "year":2009,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":12.0506916033
   },
   {
@@ -824,7 +824,7 @@
   {
     "year":2009,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":10.62599009
   },
   {
@@ -848,7 +848,7 @@
   {
     "year":2010,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":11.580299735
   },
   {
@@ -878,7 +878,7 @@
   {
     "year":2010,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":11.5406051467
   },
   {
@@ -908,7 +908,7 @@
   {
     "year":2010,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":10.558719515
   },
   {
@@ -932,7 +932,7 @@
   {
     "year":2011,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":11.68970847
   },
   {
@@ -962,7 +962,7 @@
   {
     "year":2011,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":11.7144418567
   },
   {
@@ -992,7 +992,7 @@
   {
     "year":2011,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":10.33104837
   },
   {
@@ -1016,7 +1016,7 @@
   {
     "year":2012,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":10.905992865
   },
   {
@@ -1046,7 +1046,7 @@
   {
     "year":2012,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":11.3433388833
   },
   {
@@ -1076,7 +1076,7 @@
   {
     "year":2012,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":10.906056765
   },
   {
@@ -1100,7 +1100,7 @@
   {
     "year":2013,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":8.809027195
   },
   {
@@ -1130,7 +1130,7 @@
   {
     "year":2013,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":10.6164794733
   },
   {
@@ -1160,7 +1160,7 @@
   {
     "year":2013,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":11.315873145
   },
   {
@@ -1184,7 +1184,7 @@
   {
     "year":2014,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":10.252299305
   },
   {
@@ -1214,7 +1214,7 @@
   {
     "year":2014,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":10.77816228
   },
   {
@@ -1244,7 +1244,7 @@
   {
     "year":2014,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":10.77734685
   },
   {
@@ -1268,7 +1268,7 @@
   {
     "year":2015,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":10.745135905
   },
   {
@@ -1298,7 +1298,7 @@
   {
     "year":2015,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":11.84680303
   },
   {
@@ -1328,7 +1328,7 @@
   {
     "year":2015,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":10.588567435
   },
   {
@@ -1352,7 +1352,7 @@
   {
     "year":2016,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":9.663923025
   },
   {
@@ -1382,7 +1382,7 @@
   {
     "year":2016,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":10.7666266767
   },
   {
@@ -1412,7 +1412,7 @@
   {
     "year":2016,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":8.8434515
   },
   {
@@ -1436,7 +1436,7 @@
   {
     "year":2017,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":10.030813455
   },
   {
@@ -1466,7 +1466,7 @@
   {
     "year":2017,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":10.03060343
   },
   {
@@ -1496,7 +1496,7 @@
   {
     "year":2017,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":8.174315455
   },
   {
@@ -1520,7 +1520,7 @@
   {
     "year":2018,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":10.61381495
   },
   {
@@ -1550,7 +1550,7 @@
   {
     "year":2018,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":10.0566994767
   },
   {
@@ -1580,7 +1580,7 @@
   {
     "year":2018,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":8.15362525
   },
   {
@@ -1604,7 +1604,7 @@
   {
     "year":2019,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":10.148093465
   },
   {
@@ -1634,7 +1634,7 @@
   {
     "year":2019,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":9.3116947833
   },
   {
@@ -1664,7 +1664,7 @@
   {
     "year":2019,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":7.80810666
   },
   {
@@ -1688,7 +1688,7 @@
   {
     "year":2020,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":10.59057224
   },
   {
@@ -1718,7 +1718,7 @@
   {
     "year":2020,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":6.7732195067
   },
   {
@@ -1748,7 +1748,7 @@
   {
     "year":2020,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":7.006530045
   },
   {
@@ -1772,7 +1772,7 @@
   {
     "year":2021,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":8.96867657
   },
   {
@@ -1802,7 +1802,7 @@
   {
     "year":2021,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":6.9258711367
   },
   {
@@ -1832,7 +1832,7 @@
   {
     "year":2021,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":5.70553255
   },
   {
@@ -1856,7 +1856,7 @@
   {
     "year":2022,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":7.130034685
   },
   {
@@ -1886,7 +1886,7 @@
   {
     "year":2022,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":9.7389148867
   },
   {
@@ -1916,7 +1916,7 @@
   {
     "year":2022,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":7.273555515
   },
   {
@@ -1940,7 +1940,7 @@
   {
     "year":2023,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":7.130034685
   },
   {
@@ -1970,7 +1970,7 @@
   {
     "year":2023,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":8.9639654967
   },
   {
@@ -2000,7 +2000,7 @@
   {
     "year":2023,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_budget_priority_gap":7.271566865
   },
   {

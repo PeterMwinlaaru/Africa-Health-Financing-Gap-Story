@@ -69,7 +69,7 @@ export const TOPIC_CONFIGS: TopicConfig[] = [
     description: 'Sources of health financing including government share, voluntary prepaid insurance, out-of-pocket payments, other private spending, and development partner contributions.',
     icon: '🏛️',
     color: '#047857',  // Deep green for text
-    keyMessage: 'In 2023, households pay more out-of-pocket (35.5%) than governments contribute (34.6%) - an unsustainable and inequitable structure.',
+    keyMessage: 'In 2023, households pay more out-of-pocket (35.47%) than governments contribute (34.55%) - an unsustainable and inequitable structure.',
     order: 4
   },
   {
@@ -81,7 +81,7 @@ export const TOPIC_CONFIGS: TopicConfig[] = [
     description: 'Universal Health Coverage service coverage index, measuring access to essential health services across reproductive, maternal, child health, infectious diseases, and NCDs.',
     icon: '🏥',
     color: '#0e7490',  // Deep cyan for text
-    keyMessage: 'Africa\'s UHC index improved from 32 to 52 points between 2000-2023, but remains far from the threshold of 75.',
+    keyMessage: 'Africa\'s UHC index improved from 32.86 to 51.85 points between 2000-2023, but remains far from the threshold of 75.',
     order: 5
   },
   {

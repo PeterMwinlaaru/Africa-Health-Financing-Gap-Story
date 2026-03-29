@@ -10,7 +10,7 @@
   {
     "year":2000,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":10.02161694,
     "max_budget_priority":11.39878941,
     "range_budget_priority":1.37717247
@@ -50,7 +50,7 @@
   {
     "year":2000,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":2.27290344,
     "max_budget_priority":32.57132339,
     "range_budget_priority":30.29841995
@@ -90,7 +90,7 @@
   {
     "year":2000,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":2.30962849,
     "max_budget_priority":5.24128246,
     "range_budget_priority":2.93165397
@@ -122,7 +122,7 @@
   {
     "year":2001,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":10.7257576,
     "max_budget_priority":11.86877632,
     "range_budget_priority":1.14301872
@@ -162,7 +162,7 @@
   {
     "year":2001,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":3.31901908,
     "max_budget_priority":7.02692604,
     "range_budget_priority":3.70790696
@@ -202,7 +202,7 @@
   {
     "year":2001,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":2.90732694,
     "max_budget_priority":4.53776979,
     "range_budget_priority":1.63044285
@@ -234,7 +234,7 @@
   {
     "year":2002,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":8.60752106,
     "max_budget_priority":11.72442532,
     "range_budget_priority":3.11690426
@@ -274,7 +274,7 @@
   {
     "year":2002,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":1.3442719,
     "max_budget_priority":8.54080868,
     "range_budget_priority":7.19653678
@@ -314,7 +314,7 @@
   {
     "year":2002,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":3.19876695,
     "max_budget_priority":4.66366768,
     "range_budget_priority":1.46490073
@@ -346,7 +346,7 @@
   {
     "year":2003,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":8.98155689,
     "max_budget_priority":12.54862976,
     "range_budget_priority":3.56707287
@@ -386,7 +386,7 @@
   {
     "year":2003,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":1.85525787,
     "max_budget_priority":11.67833424,
     "range_budget_priority":9.82307637
@@ -426,7 +426,7 @@
   {
     "year":2003,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":2.86154866,
     "max_budget_priority":6.7543745,
     "range_budget_priority":3.89282584
@@ -458,7 +458,7 @@
   {
     "year":2004,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":11.27606392,
     "max_budget_priority":15.0313797,
     "range_budget_priority":3.75531578
@@ -498,7 +498,7 @@
   {
     "year":2004,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":1.78429937,
     "max_budget_priority":8.56359005,
     "range_budget_priority":6.77929068
@@ -538,7 +538,7 @@
   {
     "year":2004,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":3.27431989,
     "max_budget_priority":6.51321602,
     "range_budget_priority":3.23889613
@@ -570,7 +570,7 @@
   {
     "year":2005,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":6.40039492,
     "max_budget_priority":12.42341423,
     "range_budget_priority":6.02301931
@@ -610,7 +610,7 @@
   {
     "year":2005,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":1.95315254,
     "max_budget_priority":11.51896095,
     "range_budget_priority":9.56580841
@@ -650,7 +650,7 @@
   {
     "year":2005,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":2.83986473,
     "max_budget_priority":5.07680273,
     "range_budget_priority":2.236938
@@ -682,7 +682,7 @@
   {
     "year":2006,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":7.14463902,
     "max_budget_priority":9.17792225,
     "range_budget_priority":2.03328323
@@ -722,7 +722,7 @@
   {
     "year":2006,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":1.69165504,
     "max_budget_priority":5.18314695,
     "range_budget_priority":3.49149191
@@ -762,7 +762,7 @@
   {
     "year":2006,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":2.53066921,
     "max_budget_priority":5.76007175,
     "range_budget_priority":3.22940254
@@ -794,7 +794,7 @@
   {
     "year":2007,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":5.99494457,
     "max_budget_priority":9.87465858,
     "range_budget_priority":3.87971401
@@ -834,7 +834,7 @@
   {
     "year":2007,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":2.05207968,
     "max_budget_priority":4.27638435,
     "range_budget_priority":2.22430467
@@ -874,7 +874,7 @@
   {
     "year":2007,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":2.44153905,
     "max_budget_priority":6.36190653,
     "range_budget_priority":3.92036748
@@ -906,7 +906,7 @@
   {
     "year":2008,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":4.2314992,
     "max_budget_priority":5.28349304,
     "range_budget_priority":1.05199384
@@ -946,7 +946,7 @@
   {
     "year":2008,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":3.46105146,
     "max_budget_priority":4.54892206,
     "range_budget_priority":1.0878706
@@ -986,7 +986,7 @@
   {
     "year":2008,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":2.43119001,
     "max_budget_priority":5.61290503,
     "range_budget_priority":3.18171502
@@ -1018,7 +1018,7 @@
   {
     "year":2009,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":3.54986572,
     "max_budget_priority":4.57543802,
     "range_budget_priority":1.0255723
@@ -1058,7 +1058,7 @@
   {
     "year":2009,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":2.52816463,
     "max_budget_priority":3.2723732,
     "range_budget_priority":0.74420857
@@ -1098,7 +1098,7 @@
   {
     "year":2009,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":1.93038285,
     "max_budget_priority":6.81763697,
     "range_budget_priority":4.88725412
@@ -1130,7 +1130,7 @@
   {
     "year":2010,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":3.34147334,
     "max_budget_priority":3.49792719,
     "range_budget_priority":0.15645385
@@ -1170,7 +1170,7 @@
   {
     "year":2010,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":2.67579794,
     "max_budget_priority":4.10028458,
     "range_budget_priority":1.42448664
@@ -1210,7 +1210,7 @@
   {
     "year":2010,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":2.06918454,
     "max_budget_priority":6.81337643,
     "range_budget_priority":4.74419189
@@ -1242,7 +1242,7 @@
   {
     "year":2011,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":2.93255639,
     "max_budget_priority":3.68802667,
     "range_budget_priority":0.75547028
@@ -1282,7 +1282,7 @@
   {
     "year":2011,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":2.33683133,
     "max_budget_priority":4.30936193,
     "range_budget_priority":1.9725306
@@ -1322,7 +1322,7 @@
   {
     "year":2011,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":2.15473962,
     "max_budget_priority":7.18316364,
     "range_budget_priority":5.02842402
@@ -1354,7 +1354,7 @@
   {
     "year":2012,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":3.96469712,
     "max_budget_priority":4.22331715,
     "range_budget_priority":0.25862003
@@ -1394,7 +1394,7 @@
   {
     "year":2012,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":2.67131019,
     "max_budget_priority":4.56686974,
     "range_budget_priority":1.89555955
@@ -1434,7 +1434,7 @@
   {
     "year":2012,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":1.99630141,
     "max_budget_priority":6.19158506,
     "range_budget_priority":4.19528365
@@ -1466,7 +1466,7 @@
   {
     "year":2013,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":5.03679276,
     "max_budget_priority":7.34515285,
     "range_budget_priority":2.30836009
@@ -1506,7 +1506,7 @@
   {
     "year":2013,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":2.20951629,
     "max_budget_priority":8.44008923,
     "range_budget_priority":6.23057294
@@ -1546,7 +1546,7 @@
   {
     "year":2013,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":2.11071348,
     "max_budget_priority":5.25754023,
     "range_budget_priority":3.14682675
@@ -1578,7 +1578,7 @@
   {
     "year":2014,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":3.94678593,
     "max_budget_priority":5.54861546,
     "range_budget_priority":1.60182953
@@ -1618,7 +1618,7 @@
   {
     "year":2014,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":1.9499675,
     "max_budget_priority":7.77581406,
     "range_budget_priority":5.82584656
@@ -1658,7 +1658,7 @@
   {
     "year":2014,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":2.06072378,
     "max_budget_priority":6.38458252,
     "range_budget_priority":4.32385874
@@ -1690,7 +1690,7 @@
   {
     "year":2015,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":3.26452565,
     "max_budget_priority":5.24520254,
     "range_budget_priority":1.98067689
@@ -1730,7 +1730,7 @@
   {
     "year":2015,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":1.81293964,
     "max_budget_priority":4.93684101,
     "range_budget_priority":3.12390137
@@ -1770,7 +1770,7 @@
   {
     "year":2015,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":1.78799117,
     "max_budget_priority":7.03487396,
     "range_budget_priority":5.24688279
@@ -1802,7 +1802,7 @@
   {
     "year":2016,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":4.94713306,
     "max_budget_priority":5.72502089,
     "range_budget_priority":0.77788783
@@ -1842,7 +1842,7 @@
   {
     "year":2016,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":1.81293964,
     "max_budget_priority":8.00215721,
     "range_budget_priority":6.18921757
@@ -1882,7 +1882,7 @@
   {
     "year":2016,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":3.11053944,
     "max_budget_priority":9.20255756,
     "range_budget_priority":6.09201812
@@ -1914,7 +1914,7 @@
   {
     "year":2017,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":4.67839575,
     "max_budget_priority":5.25997734,
     "range_budget_priority":0.58158159
@@ -1954,7 +1954,7 @@
   {
     "year":2017,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":0.73440903,
     "max_budget_priority":10.76263332,
     "range_budget_priority":10.02822429
@@ -1994,7 +1994,7 @@
   {
     "year":2017,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":3.93629169,
     "max_budget_priority":9.7150774,
     "range_budget_priority":5.77878571
@@ -2026,7 +2026,7 @@
   {
     "year":2018,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":3.91087461,
     "max_budget_priority":4.86149549,
     "range_budget_priority":0.95062088
@@ -2066,7 +2066,7 @@
   {
     "year":2018,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":1.95703375,
     "max_budget_priority":9.38566875,
     "range_budget_priority":7.428635
@@ -2106,7 +2106,7 @@
   {
     "year":2018,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":4.27754259,
     "max_budget_priority":9.41520691,
     "range_budget_priority":5.13766432
@@ -2138,7 +2138,7 @@
   {
     "year":2019,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":4.84231758,
     "max_budget_priority":4.86149549,
     "range_budget_priority":0.01917791
@@ -2178,7 +2178,7 @@
   {
     "year":2019,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":2.17985916,
     "max_budget_priority":9.77780437,
     "range_budget_priority":7.59794521
@@ -2218,7 +2218,7 @@
   {
     "year":2019,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":4.79222822,
     "max_budget_priority":9.59155846,
     "range_budget_priority":4.79933024
@@ -2250,7 +2250,7 @@
   {
     "year":2020,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":3.95443511,
     "max_budget_priority":4.86442041,
     "range_budget_priority":0.9099853
@@ -2290,7 +2290,7 @@
   {
     "year":2020,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":3.65950561,
     "max_budget_priority":12.80399513,
     "range_budget_priority":9.14448952
@@ -2330,7 +2330,7 @@
   {
     "year":2020,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":6.39538145,
     "max_budget_priority":9.59155846,
     "range_budget_priority":3.19617701
@@ -2362,7 +2362,7 @@
   {
     "year":2021,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":5.64191198,
     "max_budget_priority":6.42073488,
     "range_budget_priority":0.7788229
@@ -2402,7 +2402,7 @@
   {
     "year":2021,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":2.86292386,
     "max_budget_priority":13.14262199,
     "range_budget_priority":10.27969813
@@ -2442,7 +2442,7 @@
   {
     "year":2021,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":8.99737644,
     "max_budget_priority":9.59155846,
     "range_budget_priority":0.59418202
@@ -2474,7 +2474,7 @@
   {
     "year":2022,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":7.26373339,
     "max_budget_priority":8.47619724,
     "range_budget_priority":1.21246385
@@ -2514,7 +2514,7 @@
   {
     "year":2022,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":3.52587986,
     "max_budget_priority":8.34457493,
     "range_budget_priority":4.81869507
@@ -2554,7 +2554,7 @@
   {
     "year":2022,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":5.86133051,
     "max_budget_priority":9.59155846,
     "range_budget_priority":3.73022795
@@ -2586,7 +2586,7 @@
   {
     "year":2023,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":7.26373339,
     "max_budget_priority":8.47619724,
     "range_budget_priority":1.21246385
@@ -2626,7 +2626,7 @@
   {
     "year":2023,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":3.91280055,
     "max_budget_priority":8.7735281,
     "range_budget_priority":4.86072755
@@ -2666,7 +2666,7 @@
   {
     "year":2023,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_budget_priority":5.86530781,
     "max_budget_priority":9.59155846,
     "range_budget_priority":3.72625065

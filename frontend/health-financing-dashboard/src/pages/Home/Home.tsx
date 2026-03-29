@@ -28,7 +28,7 @@ const Home: React.FC = () => {
     {
       icon: '🌍',
       title: 'Unsustainable Dependency',
-      text: 'External health financing more than doubled since 2000 (10.67% → 23.36%). In 2023, 16 countries are critically dependent with over 50% external financing.'
+      text: 'External health financing more than doubled since 2000 (10.67% → 23.36%). In 2023, 5 countries are critically dependent with over 50% external financing.'
     }
   ];
 
@@ -77,7 +77,7 @@ const Home: React.FC = () => {
       <section className="hero-section-main">
         <div className="hero-content-main">
           <span className="hero-label">UN Economic Commission for Africa</span>
-          <h1>Africa's Health Financing Gap</h1>
+          <h1>Africa Health Financing Gap and Investment Analysis</h1>
           <p className="hero-description">
             Evidence-based platform for policymakers to track progress, compare countries,
             and explore the data behind health financing across 54 African nations
@@ -88,12 +88,12 @@ const Home: React.FC = () => {
               <span className="stat-label">Countries</span>
             </div>
             <div className="hero-stat-box">
-              <span className="stat-number">23</span>
+              <span className="stat-number">24</span>
               <span className="stat-label">Years of Data</span>
             </div>
             <div className="hero-stat-box">
-              <span className="stat-number">1,350</span>
-              <span className="stat-label">Data Points</span>
+              <span className="stat-number">13</span>
+              <span className="stat-label">Indicators</span>
             </div>
             <div className="hero-stat-box">
               <span className="stat-number">WHO</span>
@@ -222,9 +222,9 @@ const Home: React.FC = () => {
               <span className="stat-icon">⚠️</span>
               <span className="stat-category">Financing Gap</span>
             </div>
-            <div className="stat-value">51 of 54</div>
-            <div className="stat-label">Countries below minimum expenditure threshold</div>
-            <div className="stat-detail">Only 5.6% meet WHO benchmarks (2023)</div>
+            <div className="stat-value">$70.96</div>
+            <div className="stat-label">Avg government health spending per capita (2023)</div>
+            <div className="stat-detail">51 of 54 countries below income-specific thresholds</div>
           </div>
 
           <div className="stat-card orange">
@@ -234,7 +234,7 @@ const Home: React.FC = () => {
             </div>
             <div className="stat-value">7.07%</div>
             <div className="stat-label">Average budget share to health (2023)</div>
-            <div className="stat-detail">Half the Abuja 15% target</div>
+            <div className="stat-detail">53 of 54 countries below Abuja 15% target</div>
           </div>
 
           <div className="stat-card purple">
@@ -242,7 +242,7 @@ const Home: React.FC = () => {
               <span className="stat-icon">🏥</span>
               <span className="stat-category">Out-of-Pocket</span>
             </div>
-            <div className="stat-value">35.5%</div>
+            <div className="stat-value">35.47%</div>
             <div className="stat-label">Household spending on health (2023)</div>
             <div className="stat-detail">41 countries above 20% protection threshold</div>
           </div>
@@ -254,22 +254,90 @@ const Home: React.FC = () => {
             </div>
             <div className="stat-value">23.36%</div>
             <div className="stat-label">External health financing share (2023)</div>
-            <div className="stat-detail">Doubled since 2000 (10.67%)</div>
+            <div className="stat-detail">23 of 54 countries above 22.5% sustainability threshold</div>
+          </div>
+
+          <div className="stat-card orange">
+            <div className="stat-card-header">
+              <span className="stat-icon">📊</span>
+              <span className="stat-category">Health as % of GDP</span>
+            </div>
+            <div className="stat-value">1.87%</div>
+            <div className="stat-label">Avg government health spending (2023)</div>
+            <div className="stat-detail">50 of 54 countries below 5% target</div>
+          </div>
+
+          <div className="stat-card red">
+            <div className="stat-card-header">
+              <span className="stat-icon">🏛️</span>
+              <span className="stat-category">Government Dominance</span>
+            </div>
+            <div className="stat-value">34.55%</div>
+            <div className="stat-label">Avg government share of health expenditure (2023)</div>
+            <div className="stat-detail">43 countries below 50% sustainability threshold</div>
+          </div>
+
+          <div className="stat-card purple">
+            <div className="stat-card-header">
+              <span className="stat-icon">🏥</span>
+              <span className="stat-category">Universal Coverage</span>
+            </div>
+            <div className="stat-value">51.85</div>
+            <div className="stat-label">Average UHC index score (2023)</div>
+            <div className="stat-detail">51 of 54 countries below 75 target</div>
+          </div>
+
+          <div className="stat-card red">
+            <div className="stat-card-header">
+              <span className="stat-icon">👶</span>
+              <span className="stat-category">Neonatal Mortality</span>
+            </div>
+            <div className="stat-value">22</div>
+            <div className="stat-label">Deaths per 1,000 live births (2023)</div>
+            <div className="stat-detail">45 countries above SDG target of 12</div>
+          </div>
+
+          <div className="stat-card red">
+            <div className="stat-card-header">
+              <span className="stat-icon">👩</span>
+              <span className="stat-category">Maternal Mortality</span>
+            </div>
+            <div className="stat-value">292</div>
+            <div className="stat-label">Deaths per 100,000 live births (2023)</div>
+            <div className="stat-detail">46 countries above SDG target of 70</div>
           </div>
         </div>
       </section>
 
       {/* Key Benchmarks */}
       <section className="benchmarks-section-compact">
-        <h2>Key International Benchmarks</h2>
+        <h2>Key Benchmarks</h2>
         <div className="benchmarks-grid-compact">
+          <div className="benchmark-box benchmark-box-wide">
+            <h4>Gov. Health Exp. Per Capita</h4>
+            <div className="benchmark-income-breakdown">
+              <div className="benchmark-income-item">
+                <span className="income-label">LICs</span>
+                <span className="income-value">≥ $112</span>
+              </div>
+              <div className="benchmark-income-item">
+                <span className="income-label">LMICs</span>
+                <span className="income-value">≥ $146</span>
+              </div>
+              <div className="benchmark-income-item">
+                <span className="income-label">UMICs</span>
+                <span className="income-value">≥ $477</span>
+              </div>
+            </div>
+            <p>per capita by income group</p>
+          </div>
           <div className="benchmark-box">
             <h4>Abuja Declaration</h4>
             <div className="benchmark-value-main">≥ 15%</div>
             <p>of budget to health</p>
           </div>
           <div className="benchmark-box">
-            <h4>WHO GDP Target</h4>
+            <h4>Health Spending Target</h4>
             <div className="benchmark-value-main">≥ 5%</div>
             <p>of GDP to health</p>
           </div>
@@ -284,7 +352,7 @@ const Home: React.FC = () => {
             <p>external financing</p>
           </div>
           <div className="benchmark-box">
-            <h4>UHC Coverage</h4>
+            <h4>UHC Coverage Target</h4>
             <div className="benchmark-value-main">≥ 75</div>
             <p>service coverage index</p>
           </div>
@@ -292,6 +360,11 @@ const Home: React.FC = () => {
             <h4>Maternal Mortality</h4>
             <div className="benchmark-value-main">&lt; 70</div>
             <p>per 100,000 births</p>
+          </div>
+          <div className="benchmark-box">
+            <h4>Neonatal Mortality</h4>
+            <div className="benchmark-value-main">&lt; 12</div>
+            <p>per 1,000 live births</p>
           </div>
         </div>
       </section>

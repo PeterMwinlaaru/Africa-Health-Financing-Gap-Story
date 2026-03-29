@@ -47,8 +47,7 @@ export interface EnhancedAnalytics {
     improving: number;         // # countries improving
     stagnating: number;        // # countries stagnating
     worsening: number;         // # countries worsening
-    averageAnnualChange: string; // e.g., "+3.8% average (2018-2023)"
-    projectedTimeline?: string;  // e.g., "At current pace, target reachable by 2045"
+    paceAssessment: string;    // Years to target + required vs actual pace
     recentTrend: string;       // Qualitative assessment
   };
 
@@ -130,8 +129,8 @@ These thresholds represent the minimum government health spending needed to prov
     insights: [
       'Only 3 out of 54 countries (5.6%) meet their income-specific thresholds: Seychelles, Tunisia, and Cabo Verde',
       'Low-income countries average just $8.92 per capita - 92% below the $112 threshold',
-      '45 countries (88.2% of those not meeting targets) are more than 50% below required spending levels',
-      'Government health spending has grown 193.7% since 2000, but only 15 countries show consistent recent improvement',
+      '45 countries (83.3% of all countries) are more than 50% below required spending levels',
+      'Government health spending has grown 193.7% since 2000, but only 33 countries show consistent recent improvement',
       'Southern Africa leads at $135.89 per capita while Western Africa lags at $25.59'
     ],
     dataEndpoint: '/api/data/master',
@@ -165,12 +164,11 @@ These thresholds represent the minimum government health spending needed to prov
         }
       },
       progressAnalysis: {
-        improving: 15,
-        stagnating: 36,
-        worsening: 3,
-        averageAnnualChange: "+6.84% average annual growth (2018-2023)",
-        projectedTimeline: "At current pace, low-income countries will reach $112 threshold by 2063",
-        recentTrend: "Limited progress: Only 15 countries (27.8%) show consistent improvement, while 36 (66.7%) stagnate and 3 (5.6%) worsen. Growth rate insufficient to meet SDG targets."
+        improving: 33,
+        stagnating: 5,
+        worsening: 16,
+        paceAssessment: "At current pace (1.8% CAGR), the continental average will reach the $112 LIC threshold in ~26 years (by 2049). Reaching it by 2030 would require a 6.7% CAGR — 3.8x the current rate.",
+        recentTrend: "Mixed progress: 33 countries (61.1%) show improvement, while 5 (9.3%) stagnate and 16 (29.6%) worsen. Growth rate insufficient to meet SDG targets."
       },
       equity: {
         topPerformers: [
@@ -252,9 +250,9 @@ These thresholds represent the minimum government health spending needed to prov
         }
       },
       policyInsights: [
-        "Crisis-level gaps: 88.2% of countries failing to meet thresholds are more than 50% below required levels, indicating systemic underinvestment",
+        "Crisis-level gaps: 83.3% of countries are more than 50% below required spending levels, indicating systemic underinvestment",
         "All low-income countries critically underfunded: Every single low-income country (22 of 22) is >50% below the $112 threshold, averaging only $8.92 per capita",
-        "Stagnation dominates: Two-thirds of countries (36 of 54) show flat or erratic spending trends, with no clear progress toward targets",
+        "16 countries (29.6%) show worsening spending trends, while 5 countries stagnate and 33 show improvement",
         "Fastest improvers from lowest base: Somalia (+69.5%/year), Chad (+33.9%/year), CAR (+28.1%/year) show dramatic growth but from extremely low starting points",
         "Morocco and Eswatini closest to breakthrough: Only 2 countries within striking distance (10-13% below threshold) of meeting their targets"
       ]
@@ -310,17 +308,17 @@ Meeting the Abuja target would roughly triple health funding in many countries, 
         countriesNotMet: 53,
         averageGap: "8.12 percentage points below target",
         gapDistribution: {
-          close: 4,
-          moderate: 15,
-          far: 34
+          close: 8,
+          moderate: 28,
+          far: 17
         }
       },
       progressAnalysis: {
-        improving: 25,
-        stagnating: 15,
-        worsening: 14,
-        averageAnnualChange: "+0.9% average annually (2018-2023)",
-        recentTrend: "Recent trends show 25 countries improving, 15 stagnating, and 14 worsening since 2018"
+        improving: 30,
+        stagnating: 12,
+        worsening: 12,
+        paceAssessment: "At current pace (+0.06 pp/year), the continental average will reach the 15% Abuja target in ~124 years. Reaching it by 2030 would require +1.13 pp/year — 19x the current rate.",
+        recentTrend: "Recent trends show 30 countries improving, 12 stagnating, and 12 worsening since 2018"
       },
       equity: {
         giniCoefficient: "0.26 (low inequality)",
@@ -402,7 +400,7 @@ Meeting the Abuja target would roughly triple health funding in many countries, 
       },
       policyInsights: [
         "Only 1 of 54 African countries meets the 15% Abuja target, indicating widespread challenges in prioritizing health within government budgets",
-        "Positive momentum: 25 countries showing improvement vs 14 worsening - but progress remains slow after 23 years since the Abuja Declaration",
+        "Positive momentum: 30 countries showing improvement vs 12 worsening - but progress remains slow after 23 years since the Abuja Declaration",
         "Southern Africa leads the continent with nearly double the budget allocation of Eastern Africa",
         "With continental average at 7.07%, most countries need to more than double their health budget allocation to meet the Abuja target",
         "Low inequality (Gini 0.26) suggests the challenge is universal across income levels, not concentrated in specific countries"
@@ -464,11 +462,11 @@ Low GDP shares mean that even as economies grow, health budgets may not keep pac
         }
       },
       progressAnalysis: {
-        improving: 13,
-        stagnating: 34,
-        worsening: 7,
-        averageAnnualChange: "+1.9% average annually (2018-2023)",
-        recentTrend: "Progress is stagnant: only 13 countries improving while 34 show no meaningful change since 2018"
+        improving: 11,
+        stagnating: 35,
+        worsening: 8,
+        paceAssessment: "At current pace (+0.03 pp/year), the continental average will reach the 5% WHO target in ~95 years. Reaching it by 2030 would require +0.45 pp/year — 15x the current rate.",
+        recentTrend: "Progress is largely stagnant: 35 countries show no meaningful change, while 11 improve and 8 worsen since 2018"
       },
       equity: {
         giniCoefficient: "0.39 (moderate inequality)",
@@ -552,7 +550,7 @@ Low GDP shares mean that even as economies grow, health budgets may not keep pac
         "Only 4 of 54 African countries meet the 5% WHO target - 93% of countries fall short despite 23 years of advocacy",
         "Moderate inequality (Gini 0.39) with top performers spending 10× more than bottom performers relative to GDP",
         "Southern Africa's leadership demonstrates that higher GDP spending on health is achievable even in Africa",
-        "With 34 countries stagnating, most African governments are not increasing health spending as economies grow",
+        "With 35 countries stagnating, most African governments are not meaningfully increasing health spending as a share of GDP",
         "Nigeria and Sudan - two of Africa's largest economies - rank among the bottom 5, suggesting political commitment matters more than economic capacity"
       ]
     }
@@ -593,11 +591,11 @@ The difference between total and government health expenditure reveals how much 
         trend: "+30.2% change since 2000"
       },
       progressAnalysis: {
-        improving: 19,
-        stagnating: 24,
-        worsening: 11,
-        averageAnnualChange: "+1.6% average annually (2018-2023)",
-        recentTrend: "Mixed progress: 19 countries improving, 24 stagnating, and 11 worsening since 2018"
+        improving: 22,
+        stagnating: 23,
+        worsening: 9,
+        paceAssessment: "Total health spending as share of GDP is growing at +0.08 pp/year. While the continental average (5.52%) exceeds 5%, government share remains low — households and donors fill the gap.",
+        recentTrend: "Mixed progress: 22 countries improving, 23 stagnating, and 9 worsening since 2018"
       },
       equity: {
         giniCoefficient: "0.25 (low inequality)",
@@ -685,11 +683,11 @@ High OOP spending creates barriers to access - people delay or forgo care becaus
         }
       },
       progressAnalysis: {
-        improving: 16,
-        stagnating: 6,
-        worsening: 32,
-        averageAnnualChange: "-1.1% average annually (2018-2023)",
-        recentTrend: "Concerning reversal: 32 countries worsening vs only 16 improving since 2018"
+        improving: 33,
+        stagnating: 3,
+        worsening: 18,
+        paceAssessment: "At current pace (-0.42 pp/year), the continental average will reach the 20% financial protection threshold in ~37 years (by 2060). Reaching it by 2030 would require -2.21 pp/year — 5.3x the current rate.",
+        recentTrend: "33 countries improving (reducing OOP) vs 18 worsening since 2018"
       },
       equity: {
         giniCoefficient: "0.30 (low inequality)",
@@ -771,7 +769,7 @@ High OOP spending creates barriers to access - people delay or forgo care becaus
       },
       policyInsights: [
         "Only 13 of 54 countries meet the 20% target - 76% of African populations lack adequate financial protection from health costs",
-        "Alarming reversal: After improving from 2000-2018, 32 countries now show worsening OOP trends, likely due to stagnating government health budgets",
+        "18 countries show worsening OOP trends, though 33 countries are improving (reducing out-of-pocket spending)",
         "Nigeria's 72% OOP rate means most of Africa's largest population pays directly for health care, risking catastrophic expenditure",
         "Southern Africa's success (15% average) proves strong public financing can provide financial protection even in Africa",
         "High OOP spending creates vicious cycle: people avoid care due to cost, leading to worse health outcomes and higher eventual treatment costs"
@@ -865,11 +863,11 @@ Overdependence on external financing means health systems are vulnerable to dono
         }
       },
       progressAnalysis: {
-        improving: 35,
-        stagnating: 4,
-        worsening: 15,
-        averageAnnualChange: "+1.5% average annually (2018-2023)",
-        recentTrend: "Increasing dependency: 35 countries showing rising external financing, only 15 reducing reliance"
+        improving: 12,
+        stagnating: 8,
+        worsening: 34,
+        paceAssessment: "External dependency is increasing at +0.32 pp/year, moving away from the 22.5% sustainability threshold. The continental average (23.36%) already exceeds the target and the gap is widening.",
+        recentTrend: "Increasing dependency: 34 countries showing rising external financing, only 12 reducing reliance"
       },
       equity: {
         giniCoefficient: "0.43 (high inequality)",
@@ -952,7 +950,7 @@ Overdependence on external financing means health systems are vulnerable to dono
       policyInsights: [
         "Continental average of 23.36% just exceeds the 22.5% sustainability threshold - but masks extreme variation from 0% to 65%",
         "Concerning trend: External dependency more than doubled since 2000, indicating Africa's health systems increasingly reliant on donors rather than domestic resources",
-        "16 countries critically dependent (>50% external) face severe sustainability risks - vulnerable to donor priorities, funding cycles, and aid withdrawal",
+        "5 countries critically dependent (>50% external) face severe sustainability risks - vulnerable to donor priorities, funding cycles, and aid withdrawal",
         "Eastern Africa's 35% average shows sub-regional crisis: conflict, poverty, and weak tax systems create structural dependence on external health financing",
         "Northern Africa's near-zero dependency proves African countries can sustainably finance health when governance and domestic resource mobilization are prioritized"
       ]
@@ -1013,11 +1011,11 @@ Higher scores indicate that more of the population can access essential health s
         }
       },
       progressAnalysis: {
-        improving: 42,
-        stagnating: 4,
-        worsening: 8,
-        averageAnnualChange: "+1.1% average annually (2018-2023)",
-        recentTrend: "Strong momentum: 42 countries improving vs only 8 worsening since 2018"
+        improving: 15,
+        stagnating: 39,
+        worsening: 0,
+        paceAssessment: "At current pace (1.05% CAGR), the continental average will reach the UHC index target of 75 in ~35 years (by 2058). Reaching it by 2030 would require a 5.4% CAGR — 5.1x the current rate.",
+        recentTrend: "Slow but steady: 15 countries showing meaningful improvement, 39 stagnating, and none worsening since 2018"
       },
       equity: {
         giniCoefficient: "0.14 (low inequality)",
@@ -1100,7 +1098,7 @@ Higher scores indicate that more of the population can access essential health s
       policyInsights: [
         "Only 3 of 54 countries achieve the threshold score of 75 - despite strong progress since 2000, 94% of African countries still have substantial UHC gaps",
         "Impressive 58% improvement since 2000 shows UHC is achievable in Africa, but current pace means most countries won't reach the threshold before 2050",
-        "42 countries improving indicates continent-wide momentum, driven by investments in maternal/child health, infectious disease programs, and primary care expansion",
+        "15 countries showing meaningful UHC improvement, with 39 stagnating - driven by investments in maternal/child health, infectious disease programs, and primary care expansion",
         "Low inequality (Gini 0.14) masks reality: gap between best (Seychelles 80) and worst (Chad 26) is 3.1×, representing millions without access to essential services",
         "UHC requires both service availability AND financial protection - countries must simultaneously expand coverage and reduce out-of-pocket spending below 20%"
       ]
@@ -1145,16 +1143,16 @@ Reducing neonatal mortality requires strengthening maternal and newborn care, im
     disaggregations: ['income', 'Subregion', 'year'],
     enhancedAnalytics: {
       continentalOverview: {
-        current: "Africa average: 22.41 per 1,000 live births (2023)",
-        baseline: "34.29 per 1,000 live births (2000)",
+        current: "Africa average: 22 per 1,000 live births (2023)",
+        baseline: "34 per 1,000 live births (2000)",
         trend: "-34.6% reduction since 2000"
       },
       targetAchievement: {
         targetDescription: "SDG target: Neonatal mortality rate below 12 per 1,000 live births by 2030",
         countriesMet: 9,
-        countriesMetNames: ["Libya (5.70)", "Sao Tome and Principe (6.80)", "Cabo Verde (8.30)", "Seychelles (8.50)", "Tunisia (8.40)"],
+        countriesMetNames: ["Libya (5.70)", "Sao Tome and Principe (6.80)", "Cabo Verde (8.30)", "Tunisia (8.40)", "Seychelles (8.50)"],
         countriesNotMet: 45,
-        averageGap: "13.16 deaths per 1,000 above target",
+        averageGap: "13 deaths per 1,000 above target",
         gapDistribution: {
           close: 0,
           moderate: 5,
@@ -1162,11 +1160,11 @@ Reducing neonatal mortality requires strengthening maternal and newborn care, im
         }
       },
       progressAnalysis: {
-        improving: 50,
-        stagnating: 4,
+        improving: 47,
+        stagnating: 7,
         worsening: 0,
-        averageAnnualChange: "-1.8% average annually (2018-2023)",
-        recentTrend: "Sustained progress: 50 countries reducing neonatal mortality, none worsening since 2018"
+        paceAssessment: "At current pace (-1.89% CAGR), the continental average will reach the SDG target of 12 per 1,000 in ~33 years (by 2056). Reaching it by 2030 would require -8.5% CAGR — 4.5x the current rate.",
+        recentTrend: "Sustained progress: 47 countries reducing neonatal mortality, none worsening since 2018"
       },
       equity: {
         giniCoefficient: "0.20 (low inequality)",
@@ -1186,8 +1184,8 @@ Reducing neonatal mortality requires strengthening maternal and newborn care, im
         ]
       },
       geographicPatterns: {
-        leadingRegion: "Northern Africa achieves best outcomes with 13.60 per 1,000 average",
-        laggingRegion: "Western Africa lags with 26.74 per 1,000 - nearly double Northern Africa's rate",
+        leadingRegion: "Northern Africa achieves best outcomes with 14 per 1,000 average",
+        laggingRegion: "Western Africa lags with 27 per 1,000 - nearly double Northern Africa's rate",
         clustering: "Low inequality (Gini 0.20) but 7× gap between best and worst performers indicates concentrated challenges in conflict-affected and low-capacity health systems",
         targetAchievementMap: {
           "Algeria": { status: "moderate", percentBelow: 27.5 },
@@ -1249,7 +1247,7 @@ Reducing neonatal mortality requires strengthening maternal and newborn care, im
       policyInsights: [
         "Remarkable 35% reduction since 2000 shows Africa can achieve dramatic mortality reductions through focused maternal-newborn interventions",
         "Only 9 countries meeting the SDG target with 6 years until 2030 deadline - most countries require accelerated action on skilled birth attendance and emergency newborn care",
-        "All 50 countries with recent data show improving trends - unprecedented continent-wide momentum driven by investments in maternal-child health programs",
+        "47 of 54 countries show improving trends - strong continent-wide momentum driven by investments in maternal-child health programs",
         "Western Africa's high rates (27 per 1,000) linked to weak health systems, high home births, and limited access to emergency obstetric care",
         "Leading causes - prematurity, birth asphyxia, infections - are largely preventable with quality antenatal care, skilled delivery, and immediate post-birth interventions"
       ]
@@ -1293,8 +1291,8 @@ Reducing maternal mortality requires skilled birth attendance, emergency obstetr
     disaggregations: ['income', 'Subregion', 'year'],
     enhancedAnalytics: {
       continentalOverview: {
-        current: "Africa average: 292.14 per 100,000 live births (2023)",
-        baseline: "556.93 per 100,000 live births (2000)",
+        current: "Africa average: 292 per 100,000 live births (2023)",
+        baseline: "557 per 100,000 live births (2000)",
         trend: "-47.5% reduction since 2000"
       },
       targetAchievement: {
@@ -1302,7 +1300,7 @@ Reducing maternal mortality requires skilled birth attendance, emergency obstetr
         countriesMet: 8,
         countriesMetNames: ["Egypt (16.95)", "Tunisia (35.71)", "Cabo Verde (40.04)", "Seychelles (41.89)", "Libya (59.50)"],
         countriesNotMet: 46,
-        averageGap: "264.42 deaths per 100,000 above target",
+        averageGap: "264 deaths per 100,000 above target",
         gapDistribution: {
           close: 2,
           moderate: 1,
@@ -1310,11 +1308,11 @@ Reducing maternal mortality requires skilled birth attendance, emergency obstetr
         }
       },
       progressAnalysis: {
-        improving: 45,
-        stagnating: 1,
-        worsening: 8,
-        averageAnnualChange: "-3.2% average annually (2018-2023)",
-        recentTrend: "Strong progress: 45 countries reducing maternal mortality vs only 8 worsening since 2018"
+        improving: 47,
+        stagnating: 5,
+        worsening: 2,
+        paceAssessment: "At current pace (-3.44% CAGR), the continental average will reach the SDG target of 70 per 100,000 in ~41 years (by 2064). Reaching it by 2030 would require -18.5% CAGR — 5.4x the current rate.",
+        recentTrend: "Strong progress: 47 countries reducing maternal mortality vs only 2 worsening since 2018"
       },
       equity: {
         giniCoefficient: "0.38 (moderate inequality)",
@@ -1334,8 +1332,8 @@ Reducing maternal mortality requires skilled birth attendance, emergency obstetr
         ]
       },
       geographicPatterns: {
-        leadingRegion: "Northern Africa achieves best outcomes with 125.88 per 100,000 average",
-        laggingRegion: "Western Africa faces crisis with 401.68 per 100,000 - more than 3× Northern Africa's rate",
+        leadingRegion: "Northern Africa achieves best outcomes with 126 per 100,000 average",
+        laggingRegion: "Western Africa faces crisis with 402 per 100,000 - more than 3x Northern Africa's rate",
         clustering: "Moderate inequality (Gini 0.38) but 59× gap between Egypt (17) and Nigeria (993) reveals extreme disparities in maternal health systems",
         targetAchievementMap: {
           "Algeria": { status: "met", percentBelow: 0 },

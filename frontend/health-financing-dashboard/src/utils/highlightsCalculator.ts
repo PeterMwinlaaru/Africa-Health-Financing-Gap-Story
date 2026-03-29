@@ -41,8 +41,8 @@ const formatValueWithUnit = (value: number, fieldName: string): string => {
     // Percentage values - suffix with %
     return `${value.toFixed(1)}%`;
   } else if (fieldName.includes('mortality')) {
-    // Mortality rates - no unit
-    return value.toFixed(1);
+    // Mortality rates - whole numbers (deaths are counts)
+    return Math.round(value).toString();
   } else if (fieldName.includes('coverage')) {
     // Index values - no unit
     return value.toFixed(1);
@@ -174,12 +174,16 @@ export const calculateGap = (
 
 /**
  * Generate highlights for line chart with time series data
+ * @param countryData - Optional raw country-level data for computing gap excluding countries that met threshold
+ * @param thresholdDirection - Whether countries should be above or below the threshold
  */
 export const generateLineChartHighlights = (
   data: any[],
   field: string,
   threshold?: number,
-  unit: string = '' // Deprecated parameter, kept for backwards compatibility
+  unit: string = '', // Deprecated parameter, kept for backwards compatibility
+  countryData?: any[],
+  thresholdDirection: 'above' | 'below' = 'above'
 ): HighlightData[] => {
   if (!data || data.length === 0) return [];
 
@@ -229,19 +233,56 @@ export const generateLineChartHighlights = (
   }
 
   // Threshold comparison (if applicable)
+  // Gap is computed only from countries that have NOT met the threshold
   if (threshold !== undefined && currentValue !== null && currentValue !== undefined) {
-    const gap = threshold - currentValue;
-    const gapPercent = (gap / threshold) * 100;
     const year = latestData?.year || 'N/A';
 
+    // If country-level data is available, compute gap excluding countries that met the threshold
+    let gapValue: number;
+    let gapLabel: string;
+    let gapSubtext: string;
+
+    if (countryData && countryData.length > 0) {
+      const latestYear = latestData?.year;
+      const latestCountryData = countryData.filter((d: any) =>
+        d.year === latestYear && d[field] !== null && d[field] !== undefined && !isNaN(d[field])
+      );
+
+      const notMeeting = latestCountryData.filter((d: any) =>
+        thresholdDirection === 'above' ? d[field] < threshold : d[field] > threshold
+      );
+
+      if (notMeeting.length === 0) {
+        gapLabel = 'All Meet Threshold';
+        gapValue = 0;
+        gapSubtext = `All ${latestCountryData.length} countries meet the target (${year})`;
+      } else {
+        const avgNotMeeting = notMeeting.reduce((sum: number, d: any) => sum + d[field], 0) / notMeeting.length;
+        const gap = thresholdDirection === 'above' ? threshold - avgNotMeeting : avgNotMeeting - threshold;
+        const gapPercent = (gap / threshold) * 100;
+        gapLabel = 'Gap to Threshold';
+        gapValue = Math.abs(gap);
+        gapSubtext = `${Math.abs(gapPercent).toFixed(1)}% ${thresholdDirection === 'above' ? 'below' : 'above'} target — avg of ${notMeeting.length} countries not meeting threshold (${year})`;
+      }
+    } else {
+      // Fallback: use continental average
+      const gap = threshold - currentValue;
+      const gapPercent = (gap / threshold) * 100;
+      if (currentValue >= threshold) {
+        gapLabel = 'Above Threshold';
+        gapValue = currentValue - threshold;
+        gapSubtext = `Exceeds by ${Math.abs(gapPercent).toFixed(1)}% (${year})`;
+      } else {
+        gapLabel = 'Gap to Threshold';
+        gapValue = Math.abs(gap);
+        gapSubtext = `${Math.abs(gapPercent).toFixed(1)}% below target (${year})`;
+      }
+    }
+
     highlights.push({
-      label: currentValue >= threshold ? 'Above Threshold' : 'Gap to Threshold',
-      value: currentValue >= threshold
-        ? `+${formatValueWithUnit(currentValue - threshold, field)}`
-        : formatValueWithUnit(Math.abs(gap), field),
-      subtext: currentValue >= threshold
-        ? `Exceeds by ${Math.abs(gapPercent).toFixed(1)}% (${year})`
-        : `${Math.abs(gapPercent).toFixed(1)}% below target (${year})`
+      label: gapLabel,
+      value: gapLabel === 'All Meet Threshold' ? 'None' : formatValueWithUnit(gapValue, field),
+      subtext: gapSubtext
     });
   }
 

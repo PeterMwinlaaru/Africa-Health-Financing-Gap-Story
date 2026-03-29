@@ -16,6 +16,14 @@ const isPercentageIndicator = (fieldName: string): boolean => {
          fieldName.includes('as % of');
 };
 
+// Helper: determine if lower values represent improvement for this indicator
+const isLowerBetter = (fieldName: string): boolean => {
+  return fieldName.includes('mortality') ||
+         fieldName.includes('Out-of-pocket') ||
+         fieldName.includes('External on health') ||
+         fieldName.includes('financial hardship');
+};
+
 // Helper function to format values with appropriate units based on field name
 const formatValueWithUnit = (value: number, fieldName: string): string => {
   // Determine unit based on field name
@@ -27,8 +35,8 @@ const formatValueWithUnit = (value: number, fieldName: string): string => {
     // Percentage values - suffix with %
     return `${value.toFixed(1)}%`;
   } else if (fieldName.includes('mortality')) {
-    // Mortality rates - no unit
-    return value.toFixed(1);
+    // Mortality rates - whole numbers (deaths are counts)
+    return Math.round(value).toString();
   } else if (fieldName.includes('coverage')) {
     // Index values - no unit
     return value.toFixed(1);
@@ -65,7 +73,7 @@ interface EnhancedAnalytics {
     improving: number;
     stagnating: number;
     worsening: number;
-    averageAnnualChange: string;
+    paceAssessment: string;
     recentTrend: string;
   };
   equity: {
@@ -103,15 +111,40 @@ const calculateGini = (values: number[]): number => {
 };
 
 /**
- * Calculate progress trend (comparing year to 5 years prior)
+ * Configurable thresholds for progress classification.
+ * These can be adjusted by users via the UI.
+ */
+export interface ClassificationThresholds {
+  cagrThreshold: number;       // CAGR % for monetary & mortality (default: 1)
+  ppThreshold: number;         // Percentage points for pp indicators (default: 0.5)
+  indexPointsPerYear: number;  // Points per year for index scores (default: 1)
+}
+
+export const DEFAULT_THRESHOLDS: ClassificationThresholds = {
+  cagrThreshold: 1,
+  ppThreshold: 0.5,
+  indexPointsPerYear: 1,
+};
+
+/**
+ * Calculate progress trend using CAGR over the lookback window.
+ *
+ * Classification uses configurable, indicator-specific thresholds.
+ * Direction-aware: for indicators where lower is better (mortality, OOP,
+ * external financing), a decrease counts as improvement.
  */
 const calculateProgressTrend = (
   data: any[],
   field: string,
   currentYear: number,
-  lookbackYears: number = 5
+  lookbackYears: number = 5,
+  thresholds: ClassificationThresholds = DEFAULT_THRESHOLDS
 ): { improving: number; stagnating: number; worsening: number } => {
   const priorYear = currentYear - lookbackYears;
+  const lowerBetter = isLowerBetter(field);
+  const isPct = isPercentageIndicator(field);
+  const isMortality = field.includes('mortality');
+  const isIndex = field.includes('coverage');
 
   const currentYearData = data.filter(d => d.year === currentYear);
   const priorYearData = data.filter(d => d.year === priorYear);
@@ -129,16 +162,30 @@ const calculateProgressTrend = (
     const current = currentYearData.find(d => d.location === country)?.[field];
     const prior = priorYearData.find(d => d.location === country)?.[field];
 
-    if (current !== null && current !== undefined && prior !== null && prior !== undefined) {
-      const change = current - prior;
-      const percentChange = Math.abs(change / prior) * 100;
+    if (current !== null && current !== undefined && prior !== null && prior !== undefined && prior !== 0) {
+      let isStagnating = false;
 
-      if (percentChange <= 2) {
-        stagnating++;
-      } else if (change > 0) {
-        improving++;
+      if (isPct && !isMortality) {
+        const absoluteChange = Math.abs(current - prior);
+        isStagnating = absoluteChange < thresholds.ppThreshold;
+      } else if (isIndex) {
+        const absoluteChange = Math.abs(current - prior);
+        isStagnating = absoluteChange < (thresholds.indexPointsPerYear * lookbackYears);
       } else {
-        worsening++;
+        const cagr = (Math.pow(current / prior, 1 / lookbackYears) - 1) * 100;
+        isStagnating = Math.abs(cagr) < thresholds.cagrThreshold;
+      }
+
+      if (isStagnating) {
+        stagnating++;
+      } else {
+        const change = current - prior;
+        const positiveIsGood = lowerBetter ? change < 0 : change > 0;
+        if (positiveIsGood) {
+          improving++;
+        } else {
+          worsening++;
+        }
       }
     }
   });
@@ -243,7 +290,8 @@ export const calculateDynamicAnalytics = (
   baselineYear: number = 2000,
   threshold?: number,
   thresholdDirection: 'above' | 'below' = 'above',
-  unit: string = ''
+  unit: string = '',
+  classificationThresholds: ClassificationThresholds = DEFAULT_THRESHOLDS
 ): EnhancedAnalytics | null => {
   if (!masterData || masterData.length === 0) return null;
 
@@ -270,12 +318,17 @@ export const calculateDynamicAnalytics = (
     ? baselineYearData.reduce((sum, d) => sum + d[field], 0) / baselineYearData.length
     : null;
 
-  // Calculate average year-on-year change from 2016 to 2023
-  const years = [2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023];
+  // Calculate overall change since baseline for continental overview
+  let trendDescription = 'Insufficient data';
+  if (baselineAvg !== null && baselineAvg !== 0) {
+    const totalChange = ((currentAvg - baselineAvg) / Math.abs(baselineAvg)) * 100;
+    trendDescription = `${totalChange > 0 ? '+' : ''}${totalChange.toFixed(1)}% change since ${baselineYear}`;
+  }
 
-  // Get average values for each year
+  // Get yearly averages for the 5-year lookback window (used by pace assessment)
+  const lookbackYears = [currentYear - 5, currentYear - 4, currentYear - 3, currentYear - 2, currentYear - 1, currentYear];
   const yearlyAverages: { year: number; avg: number }[] = [];
-  for (const year of years) {
+  for (const year of lookbackYears) {
     const yearData = masterData.filter(d =>
       d.year === year &&
       d[field] !== null &&
@@ -285,36 +338,6 @@ export const calculateDynamicAnalytics = (
     if (yearData.length > 0) {
       const avg = yearData.reduce((sum, d) => sum + d[field], 0) / yearData.length;
       yearlyAverages.push({ year, avg });
-    }
-  }
-
-  let trendDescription = 'Insufficient data';
-  if (yearlyAverages.length >= 2) {
-    const avg2016 = yearlyAverages.find(y => y.year === 2016)?.avg;
-    const avg2023 = yearlyAverages.find(y => y.year === 2023)?.avg;
-
-    if (isPercentageIndicator(field) && avg2016 !== undefined && avg2023 !== undefined) {
-      // For percentage indicators: use percentage POINT change
-      const absoluteChange = avg2023 - avg2016;
-      const totalYears = 2023 - 2016; // 7 years
-      const avgAnnualChange = absoluteChange / totalYears;
-      trendDescription = `${avgAnnualChange > 0 ? '+' : ''}${avgAnnualChange.toFixed(2)} percentage points per year (2016-2023). Calculated as absolute change in percentage points divided by number of years.`;
-    } else if (!isPercentageIndicator(field)) {
-      // For non-percentage indicators: calculate average of year-on-year percentage changes
-      const annualPercentChanges: number[] = [];
-      for (let i = 0; i < yearlyAverages.length - 1; i++) {
-        const currentYear = yearlyAverages[i];
-        const nextYear = yearlyAverages[i + 1];
-        if (currentYear.avg !== 0) {
-          const percentChange = ((nextYear.avg - currentYear.avg) / currentYear.avg) * 100;
-          annualPercentChanges.push(percentChange);
-        }
-      }
-
-      if (annualPercentChanges.length > 0) {
-        const avgAnnualPercentChange = annualPercentChanges.reduce((sum, c) => sum + c, 0) / annualPercentChanges.length;
-        trendDescription = `${avgAnnualPercentChange > 0 ? '+' : ''}${avgAnnualPercentChange.toFixed(1)}% per year (2016-2023). Calculated as average of year-on-year percentage changes.`;
-      }
     }
   }
 
@@ -375,35 +398,61 @@ export const calculateDynamicAnalytics = (
   }
 
   // 3. Progress Analysis
-  const progressTrend = calculateProgressTrend(masterData, field, currentYear, 5);
+  const progressTrend = calculateProgressTrend(masterData, field, currentYear, 5, classificationThresholds);
 
-  // Calculate average annual change from 2016 to 2023 using appropriate methodology
-  let annualChangeText = 'Insufficient data';
-  if (yearlyAverages.length >= 2) {
-    const avg2016 = yearlyAverages.find(y => y.year === 2016)?.avg;
-    const avg2023 = yearlyAverages.find(y => y.year === 2023)?.avg;
+  // Calculate pace assessment: years to target + required vs actual pace
+  let paceAssessmentText = 'Insufficient data';
+  const lookbackStart = currentYear - 5;
+  const avg_start = yearlyAverages.find(y => y.year === lookbackStart)?.avg;
+  const avg_end = yearlyAverages.find(y => y.year === currentYear)?.avg;
 
-    if (isPercentageIndicator(field) && avg2016 !== undefined && avg2023 !== undefined) {
-      // For percentage indicators: percentage POINT change
-      const totalYears = 2023 - 2016;
-      const avgAnnualChange = (avg2023 - avg2016) / totalYears;
-      annualChangeText = `${avgAnnualChange > 0 ? '+' : ''}${avgAnnualChange.toFixed(2)} pp/year (percentage point change, 2016-2023)`;
-    } else if (!isPercentageIndicator(field)) {
-      // For non-percentage indicators: calculate average of year-on-year percentage changes
-      const annualPercentChanges: number[] = [];
-      for (let i = 0; i < yearlyAverages.length - 1; i++) {
-        const currentYear = yearlyAverages[i];
-        const nextYear = yearlyAverages[i + 1];
-        if (currentYear.avg !== 0) {
-          const percentChange = ((nextYear.avg - currentYear.avg) / currentYear.avg) * 100;
-          annualPercentChanges.push(percentChange);
-        }
+  if (threshold !== undefined && avg_start !== undefined && avg_end !== undefined && avg_start !== 0) {
+    const targetYear = 2030;
+    const yearsLeft = targetYear - currentYear;
+    const lowerBetter = isLowerBetter(field);
+    const needsToIncrease = thresholdDirection === 'above';
+    const gap = needsToIncrease ? threshold - avg_end : avg_end - threshold;
+    const alreadyMet = needsToIncrease ? avg_end >= threshold : avg_end <= threshold;
+
+    if (alreadyMet) {
+      paceAssessmentText = `Continental average (${formatValueWithUnit(avg_end, field)}) already meets the target of ${formatValueWithUnit(threshold, field)}.`;
+    } else if (isPercentageIndicator(field)) {
+      // pp/year pace
+      const pace = (avg_end - avg_start) / 5;
+      const movingRight = needsToIncrease ? pace > 0 : pace < 0;
+
+      if (movingRight) {
+        const yearsToTarget = Math.round(gap / Math.abs(pace));
+        const requiredPace = gap / yearsLeft;
+        const multiplier = (requiredPace / Math.abs(pace)).toFixed(1);
+        paceAssessmentText = `Between ${lookbackStart} and ${currentYear}, the continental average moved from ${formatValueWithUnit(avg_start, field)} to ${formatValueWithUnit(avg_end, field)} (${pace > 0 ? '+' : ''}${pace.toFixed(2)} pp/year). At this pace, the ${formatValueWithUnit(threshold, field)} target will be reached in ~${yearsToTarget} years (by ${currentYear + yearsToTarget}). Reaching it by ${targetYear} would require ${needsToIncrease ? '+' : '-'}${requiredPace.toFixed(2)} pp/year — ${multiplier}x the current rate.`;
+      } else {
+        paceAssessmentText = `Between ${lookbackStart} and ${currentYear}, the continental average moved from ${formatValueWithUnit(avg_start, field)} to ${formatValueWithUnit(avg_end, field)} — moving away from the ${formatValueWithUnit(threshold, field)} target at ${pace > 0 ? '+' : ''}${pace.toFixed(2)} pp/year. A reversal is needed.`;
       }
+    } else {
+      // CAGR-based pace
+      const cagr = Math.pow(avg_end / avg_start, 1 / 5) - 1;
+      const movingRight = needsToIncrease ? cagr > 0 : cagr < 0;
 
-      if (annualPercentChanges.length > 0) {
-        const avgAnnualPercentChange = annualPercentChanges.reduce((sum, c) => sum + c, 0) / annualPercentChanges.length;
-        annualChangeText = `${avgAnnualPercentChange > 0 ? '+' : ''}${avgAnnualPercentChange.toFixed(1)}% per year (percentage change, 2016-2023)`;
+      if (movingRight) {
+        const yearsToTarget = Math.round(Math.log(threshold / avg_end) / Math.log(1 + cagr));
+        const requiredCagr = Math.pow(threshold / avg_end, 1 / yearsLeft) - 1;
+        const multiplier = (Math.abs(requiredCagr) / Math.abs(cagr)).toFixed(1);
+        paceAssessmentText = `Between ${lookbackStart} and ${currentYear}, the continental average moved from ${formatValueWithUnit(avg_start, field)} to ${formatValueWithUnit(avg_end, field)} (equivalent annual rate of ${Math.abs(cagr * 100).toFixed(1)}%). At this pace, the target of ${formatValueWithUnit(threshold, field)} will be reached in ~${Math.abs(yearsToTarget)} years (by ${currentYear + Math.abs(yearsToTarget)}). Reaching it by ${targetYear} would require ${Math.abs(requiredCagr * 100).toFixed(1)}% per year — ${multiplier}x the current rate.`;
+      } else {
+        paceAssessmentText = `Between ${lookbackStart} and ${currentYear}, the continental average moved from ${formatValueWithUnit(avg_start, field)} to ${formatValueWithUnit(avg_end, field)} — moving away from the target of ${formatValueWithUnit(threshold, field)}. A reversal in trajectory is needed.`;
       }
+    }
+  } else if (avg_start !== undefined && avg_end !== undefined && avg_start !== 0) {
+    // No threshold — provide pace context only
+    if (isPercentageIndicator(field)) {
+      const pace = (avg_end - avg_start) / 5;
+      const direction = pace > 0 ? 'increased' : 'decreased';
+      paceAssessmentText = `Between ${lookbackStart} and ${currentYear}, the continental average ${direction} by an equivalent of ${Math.abs(pace).toFixed(2)} percentage points per year (from ${formatValueWithUnit(avg_start, field)} to ${formatValueWithUnit(avg_end, field)}).`;
+    } else {
+      const cagr = (Math.pow(avg_end / avg_start, 1 / 5) - 1) * 100;
+      const direction = cagr > 0 ? 'grew' : 'declined';
+      paceAssessmentText = `Between ${lookbackStart} and ${currentYear}, the continental average ${direction} at an equivalent annual rate of ${Math.abs(cagr).toFixed(1)}% (from ${formatValueWithUnit(avg_start, field)} to ${formatValueWithUnit(avg_end, field)}).`;
     }
   }
 
@@ -411,7 +460,7 @@ export const calculateDynamicAnalytics = (
     improving: progressTrend.improving,
     stagnating: progressTrend.stagnating,
     worsening: progressTrend.worsening,
-    averageAnnualChange: annualChangeText,
+    paceAssessment: paceAssessmentText,
     recentTrend: `${progressTrend.improving} countries improving, ${progressTrend.stagnating} stagnating, ${progressTrend.worsening} worsening (vs ${currentYear - 5})`
   };
 

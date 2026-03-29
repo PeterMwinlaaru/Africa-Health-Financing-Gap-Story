@@ -54,6 +54,7 @@ const THRESHOLDS: Record<string, { value: number; label: string } | { [key: stri
   },
   'Gov exp Health on budget': { value: 15, label: 'Abuja Target (15%)' },
   'Gov exp Health on GDP': { value: 5, label: 'WHO Target (5%)' },
+  'Exp Health on GDP': { value: 5, label: 'WHO Minimum (5%)' },
   'Out-of-pocket on health exp': { value: 20, label: 'Benchmark (20%)' },
   'External on health exp': { value: 22.5, label: 'Target (≤22.5%)' },
   'Universal health coverage': { value: 75, label: 'Threshold (75)' },
@@ -111,6 +112,7 @@ const INDICATOR_UNITS: Record<string, { symbol: string; position: 'prefix' | 'su
 };
 
 // Helper function to format values with appropriate units
+// Format for chart display — keeps decimal precision
 const formatValueWithUnit = (value: number, fieldName: string, decimals: number = 1): string => {
   const unitInfo = INDICATOR_UNITS[fieldName];
   if (!unitInfo) {
@@ -656,9 +658,15 @@ const ChartPage: React.FC = () => {
       unit = ' USD';
     }
 
+    // Determine threshold direction
+    const thresholdDir: 'above' | 'below' =
+      yField.includes('Out-of-pocket') || yField.includes('External on health') || yField.includes('mortality')
+        ? 'below'
+        : 'above';
+
     // Generate highlights based on chart type
     if (chartConfig.chartType === 'line') {
-      return generateLineChartHighlights(aggregatedData, yField, threshold, unit);
+      return generateLineChartHighlights(aggregatedData, yField, threshold, unit, filteredData, thresholdDir);
     }
 
     return [];
@@ -687,7 +695,7 @@ const ChartPage: React.FC = () => {
       unit = ' USD';
     }
 
-    return generateCountryComparisonHighlights(countryData, 'value', threshold, unit, selectedYear);
+    return generateCountryComparisonHighlights(countryData, yField, threshold, unit, selectedYear);
   }, [chartConfig, countryData, selectedYear, selectedFinancingSource]);
 
   const renderDisaggregationSelector = () => {
@@ -1628,13 +1636,13 @@ const ChartPage: React.FC = () => {
         // OOP, mortality rates want lower values (below threshold is good)
         // Health spending, UHC, budget share want higher values (above threshold is good)
         const thresholdDirection: 'above' | 'below' =
-          yField.includes('OOP') || yField.includes('NMR') || yField.includes('MMR') || yField.includes('mortality')
+          yField.includes('Out-of-pocket') || yField.includes('External on health') || yField.includes('mortality')
             ? 'below'
             : 'above';
 
         // Determine unit
         let unit = '';
-        if (yField.includes('GDP') || yField.includes('budget') || yField.includes('exp') || yField.includes('health exp') || yField.includes('OOP')) {
+        if (yField.includes('GDP') || yField.includes('budget') || yField.includes('exp') || yField.includes('health exp') || yField.includes('Out-of-pocket')) {
           unit = '%';
         } else if (yField.includes('per capita') || yField.includes('Per Capita')) {
           unit = ' USD';

@@ -3,7 +3,7 @@ import {
   BarChart, Bar, PieChart, Pie, Cell, LineChart, Line,
   XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer
 } from 'recharts';
-import { calculateDynamicAnalytics } from '../../utils/analyticsCalculator';
+import { calculateDynamicAnalytics, DEFAULT_THRESHOLDS, ClassificationThresholds } from '../../utils/analyticsCalculator';
 import AfricaMap from './AfricaMap';
 import './EnhancedAnalytics.css';
 
@@ -25,6 +25,8 @@ const EnhancedAnalytics: React.FC<Props> = ({
   baselineYear = 2000
 }) => {
   const [activeTab, setActiveTab] = useState<'overview' | 'targets' | 'progress' | 'equity' | 'geography'>('overview');
+  const [showThresholdSettings, setShowThresholdSettings] = useState(true);
+  const [classificationThresholds, setClassificationThresholds] = useState<ClassificationThresholds>({ ...DEFAULT_THRESHOLDS });
 
   // Get available years from data
   const availableYears = useMemo(() => {
@@ -49,9 +51,10 @@ const EnhancedAnalytics: React.FC<Props> = ({
       baselineYear,
       threshold,
       thresholdDirection,
-      unit
+      unit,
+      classificationThresholds
     );
-  }, [masterData, field, selectedYear, baselineYear, threshold, thresholdDirection, unit]);
+  }, [masterData, field, selectedYear, baselineYear, threshold, thresholdDirection, unit, classificationThresholds]);
 
   // If no analytics data available
   if (!analytics) {
@@ -129,7 +132,7 @@ const EnhancedAnalytics: React.FC<Props> = ({
         {activeTab === 'overview' && (
           <div className="analytics-section">
             <div className="methodology-note">
-              <p><strong>Trend Methodology:</strong> For indicators already measured as percentages (e.g., % of GDP), trends show average annual <em>percentage point</em> changes. For indicators in other units (e.g., USD, index scores), trends show average <em>year-on-year percentage</em> changes. Period: 2016-2023.</p>
+              <p><strong>Trend Methodology:</strong> For indicators already measured as percentages (e.g., % of GDP), trends show average annual <em>percentage point</em> changes. For indicators in other units (e.g., USD, index scores), trends show average <em>year-on-year percentage</em> changes. Period: 2018-2023.</p>
             </div>
 
             <div className="metric-card highlight">
@@ -235,8 +238,127 @@ const EnhancedAnalytics: React.FC<Props> = ({
         {activeTab === 'progress' && (
           <div className="analytics-section">
             <div className="methodology-note">
-              <p><strong>Progress Classification:</strong> Based on 5-year trend analysis ({selectedYear - 5}-{selectedYear}). Countries are classified as improving, stagnating, or worsening based on their trajectory pattern, not just year-to-year comparison.</p>
-              <p><strong>Average Annual Change:</strong> For percentage indicators (e.g., % of GDP), this shows the average annual <em>percentage point</em> change (2016-2023). For other indicators (e.g., USD, index scores), this shows the average of <em>year-on-year percentage changes</em> (2016-2023), which properly accounts for compounding growth.</p>
+              <p><strong>Progress Classification:</strong> Based on 5-year trend analysis ({selectedYear - 5}-{selectedYear}). Countries are classified as improving, stagnating, or worsening.</p>
+              {(() => {
+                const isPct = field.includes('GDP') || field.includes('budget') ||
+                  field.includes('on health exp') || field.includes('Out-of-pocket') ||
+                  field.includes('Govern on health') || field.includes('External on health') ||
+                  field.includes('Voluntary') || field.includes('Private on health') ||
+                  field.includes('as % of');
+                const isMortality = field.includes('mortality');
+                const isIndex = field.includes('coverage');
+                const usesCagr = (!isPct || isMortality) && !isIndex;
+                const usesPp = isPct && !isMortality;
+                const lowerBetter = isMortality || field.includes('Out-of-pocket') || field.includes('External on health') || field.includes('financial hardship');
+
+                return (
+                  <>
+                    <p>
+                      <strong>Stagnation threshold:</strong>{' '}
+                      {usesCagr && <>Compound Annual Growth Rate (CAGR) &lt; {classificationThresholds.cagrThreshold}%. CAGR = (V<sub>end</sub> / V<sub>begin</sub>)<sup>1/n</sup> - 1, where n = number of years.</>}
+                      {usesPp && <>Absolute change &lt; {classificationThresholds.ppThreshold} percentage points over 5 years.</>}
+                      {isIndex && <>Absolute change &lt; {classificationThresholds.indexPointsPerYear} point(s) per year (&lt; {classificationThresholds.indexPointsPerYear * 5} points over 5 years).</>}
+                    </p>
+                    {lowerBetter && (
+                      <p>For this indicator, a decrease is classified as improving.</p>
+                    )}
+                  </>
+                );
+              })()}
+              <p><strong>Pace Assessment:</strong> Projects how many years it will take to reach the target at the current rate of change, and compares this with the pace required to reach the target by 2030.</p>
+            </div>
+
+            {/* Classification Threshold Settings */}
+            <div className="threshold-settings">
+              <button
+                className="threshold-toggle"
+                onClick={() => setShowThresholdSettings(!showThresholdSettings)}
+              >
+                {showThresholdSettings ? '▼' : '▶'} Adjust Classification Thresholds
+              </button>
+              {showThresholdSettings && (() => {
+                // Detect which threshold type applies to this indicator
+                const isPct = field.includes('GDP') || field.includes('budget') ||
+                  field.includes('on health exp') || field.includes('Out-of-pocket') ||
+                  field.includes('Govern on health') || field.includes('External on health') ||
+                  field.includes('Voluntary') || field.includes('Private on health') ||
+                  field.includes('as % of');
+                const isMortality = field.includes('mortality');
+                const isIndex = field.includes('coverage');
+                const usesCagr = (!isPct || isMortality) && !isIndex;
+                const usesPp = isPct && !isMortality;
+
+                return (
+                  <div className="threshold-controls">
+                    {usesCagr && (
+                      <div className="threshold-control">
+                        <label>
+                          CAGR stagnation threshold:
+                          <strong> {classificationThresholds.cagrThreshold.toFixed(1)}%</strong>
+                        </label>
+                        <input
+                          type="range"
+                          min="0.5"
+                          max="5"
+                          step="0.5"
+                          value={classificationThresholds.cagrThreshold}
+                          onChange={(e) => setClassificationThresholds(prev => ({
+                            ...prev,
+                            cagrThreshold: parseFloat(e.target.value)
+                          }))}
+                        />
+                        <span className="threshold-range">0.5% — 5%</span>
+                      </div>
+                    )}
+                    {usesPp && (
+                      <div className="threshold-control">
+                        <label>
+                          Percentage-point stagnation threshold:
+                          <strong> {classificationThresholds.ppThreshold.toFixed(1)} pp</strong>
+                        </label>
+                        <input
+                          type="range"
+                          min="0.1"
+                          max="2.0"
+                          step="0.1"
+                          value={classificationThresholds.ppThreshold}
+                          onChange={(e) => setClassificationThresholds(prev => ({
+                            ...prev,
+                            ppThreshold: parseFloat(e.target.value)
+                          }))}
+                        />
+                        <span className="threshold-range">0.1 pp — 2.0 pp</span>
+                      </div>
+                    )}
+                    {isIndex && (
+                      <div className="threshold-control">
+                        <label>
+                          Index points/year stagnation threshold:
+                          <strong> {classificationThresholds.indexPointsPerYear.toFixed(1)} pts/yr</strong>
+                        </label>
+                        <input
+                          type="range"
+                          min="0.5"
+                          max="3"
+                          step="0.5"
+                          value={classificationThresholds.indexPointsPerYear}
+                          onChange={(e) => setClassificationThresholds(prev => ({
+                            ...prev,
+                            indexPointsPerYear: parseFloat(e.target.value)
+                          }))}
+                        />
+                        <span className="threshold-range">0.5 — 3.0 pts/yr</span>
+                      </div>
+                    )}
+                    <button
+                      className="threshold-reset"
+                      onClick={() => setClassificationThresholds({ ...DEFAULT_THRESHOLDS })}
+                    >
+                      Reset to Default
+                    </button>
+                  </div>
+                );
+              })()}
             </div>
 
             <div className="progress-summary">
@@ -261,9 +383,9 @@ const EnhancedAnalytics: React.FC<Props> = ({
             </div>
 
             <div className="progress-details">
-              <div className="detail-row">
-                <span className="detail-label">Average Annual Change (2016-2023):</span>
-                <span className="detail-value">{analytics.progressAnalysis.averageAnnualChange}</span>
+              <div className="pace-assessment">
+                <h4>Pace Assessment</h4>
+                <p>{analytics.progressAnalysis.paceAssessment}</p>
               </div>
               <div className="recent-trend">
                 <h4>Recent Trend Assessment</h4>

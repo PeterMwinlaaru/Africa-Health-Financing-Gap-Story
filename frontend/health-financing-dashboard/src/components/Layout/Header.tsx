@@ -18,7 +18,7 @@ const Header: React.FC = () => {
               }}
             />
             <div className="logo-text">
-              <h1>Africa Health Financing</h1>
+              <h1>Africa Health Financing Gap and Investment Analysis</h1>
               <p className="tagline">United Nations Economic Commission for Africa (ECA)</p>
             </div>
           </div>

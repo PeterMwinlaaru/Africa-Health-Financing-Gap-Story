@@ -80,6 +80,12 @@ const INDICATOR_INFO: Record<string, {
     interpretation: 'Can complement public financing but should not replace it.',
     unit: 'Percentage of total health expenditure'
   },
+  'Other Private on health exp': {
+    title: 'Other Private Health Expenditure',
+    description: 'Percentage from other private sources excluding out-of-pocket and voluntary insurance.',
+    interpretation: 'Includes private corporate schemes, NGOs, and other non-government domestic sources.',
+    unit: 'Percentage of total health expenditure'
+  },
 
   // 3.5 Universal Health Coverage (1 indicator)
   'Universal health coverage': {
@@ -375,6 +381,7 @@ const DataExplorer: React.FC = () => {
   const indicatorType = getIndicatorType(indicator);
 
   // Format value based on indicator type
+  // Format for chart tooltips and line labels — keeps decimal precision
   const formatValue = (value: number): string => {
     if (value === null || value === undefined || isNaN(value)) return 'N/A';
 
@@ -385,6 +392,24 @@ const DataExplorer: React.FC = () => {
         return `${value.toFixed(1)}%`;
       case 'rate':
         return value.toFixed(1);
+      case 'index':
+        return value.toFixed(1);
+      default:
+        return value.toFixed(1);
+    }
+  };
+
+  // Format for summary statistics — mortality rounded to whole numbers
+  const formatStatValue = (value: number): string => {
+    if (value === null || value === undefined || isNaN(value)) return 'N/A';
+
+    switch (indicatorType) {
+      case 'monetary':
+        return `$${value.toFixed(2)}`;
+      case 'percentage':
+        return `${value.toFixed(1)}%`;
+      case 'rate':
+        return Math.round(value).toString();
       case 'index':
         return value.toFixed(1);
       default:
@@ -424,15 +449,22 @@ const DataExplorer: React.FC = () => {
     const worst = sortedValues[sortedValues.length - 1];
     const average = latestValues.reduce((sum, v) => sum + v.value, 0) / latestValues.length;
 
-    // Calculate trends (comparing first and last year)
+    // Calculate trends per country using each country's own earliest and latest data points
     const trends: { country: string; change: number; percentChange: number }[] = [];
     selectedCountries.forEach(country => {
-      const latestValue = latestYear[country];
-      const earliestValue = earliestYear[country];
-      if (latestValue !== undefined && earliestValue !== undefined &&
-          !isNaN(latestValue) && !isNaN(earliestValue) && Number(earliestValue) !== 0) {
-        const change = Number(latestValue) - Number(earliestValue);
-        const percentChange = (change / Number(earliestValue)) * 100;
+      // Find this country's first and last year with data
+      let countryEarliest: number | null = null;
+      let countryLatest: number | null = null;
+      for (const yearEntry of data) {
+        const val = yearEntry[country];
+        if (val !== undefined && val !== null && !isNaN(val)) {
+          if (countryEarliest === null) countryEarliest = Number(val);
+          countryLatest = Number(val);
+        }
+      }
+      if (countryEarliest !== null && countryLatest !== null && countryEarliest !== 0) {
+        const change = countryLatest - countryEarliest;
+        const percentChange = (change / countryEarliest) * 100;
         trends.push({ country, change, percentChange });
       }
     });
@@ -548,6 +580,7 @@ const DataExplorer: React.FC = () => {
                 <option value="External on health exp">External/Donor Share of Health Exp</option>
                 <option value="Domest Private on health exp">Domestic Private Health Expenditure</option>
                 <option value="Voluntary Prepayments on health exp">Voluntary Health Insurance Share</option>
+                <option value="Other Private on health exp">Other Private Health Expenditure</option>
               </optgroup>
               <optgroup label="Universal Health Coverage">
                 <option value="Universal health coverage">UHC Service Coverage Index</option>
@@ -681,7 +714,7 @@ const DataExplorer: React.FC = () => {
                 </h4>
                 <p style={{ margin: '0', fontSize: '1.5rem', fontWeight: 'bold', color: '#047857' }}>{insights.best.country}</p>
                 <p style={{ margin: '0.5rem 0 0 0', color: '#065f46' }}>
-                  {formatValue(insights.best.value)}
+                  {formatStatValue(insights.best.value)}
                   <span style={{ fontSize: '0.85rem', marginLeft: '0.5rem' }}>
                     ({lowerIsBetter ? 'lowest' : 'highest'})
                   </span>
@@ -696,7 +729,7 @@ const DataExplorer: React.FC = () => {
                   </h4>
                   <p style={{ margin: '0', fontSize: '1.5rem', fontWeight: 'bold', color: '#b91c1c' }}>{insights.worst.country}</p>
                   <p style={{ margin: '0.5rem 0 0 0', color: '#991b1b' }}>
-                    {formatValue(insights.worst.value)}
+                    {formatStatValue(insights.worst.value)}
                     <span style={{ fontSize: '0.85rem', marginLeft: '0.5rem' }}>
                       ({lowerIsBetter ? 'highest' : 'lowest'})
                     </span>
@@ -708,7 +741,7 @@ const DataExplorer: React.FC = () => {
             {selectedCountries.length > 1 && (
               <div className="insight-card" style={{ padding: '1.5rem', background: '#eff6ff', borderRadius: '8px', border: '1px solid #3b82f6' }}>
                 <h4 style={{ margin: '0 0 0.5rem 0', color: '#2563eb', fontSize: '0.95rem' }}>📊 Average Across Selected</h4>
-                <p style={{ margin: '0', fontSize: '1.5rem', fontWeight: 'bold', color: '#1d4ed8' }}>{formatValue(insights.average)}</p>
+                <p style={{ margin: '0', fontSize: '1.5rem', fontWeight: 'bold', color: '#1d4ed8' }}>{formatStatValue(insights.average)}</p>
                 <p style={{ margin: '0.5rem 0 0 0', color: '#1e40af', fontSize: '0.9rem' }}>Based on {selectedCountries.length} countries</p>
               </div>
             )}
@@ -756,7 +789,7 @@ const DataExplorer: React.FC = () => {
                           {trend.percentChange >= 0 ? '↗' : '↘'} {Math.abs(trend.percentChange).toFixed(1)}%
                         </p>
                         <p style={{ margin: '0.25rem 0 0 0', fontSize: '0.85rem', color: '#64748b' }}>
-                          {trend.change >= 0 ? '+' : ''}{formatValue(trend.change)} change
+                          {trend.change >= 0 ? '+' : ''}{formatStatValue(trend.change)} change
                         </p>
                       </div>
                     );

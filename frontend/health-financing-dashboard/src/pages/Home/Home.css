@@ -733,6 +733,39 @@
   line-height: 1.4;
 }
 
+.benchmark-box-wide {
+  grid-column: span 2;
+}
+
+.benchmark-income-breakdown {
+  display: flex;
+  justify-content: center;
+  gap: var(--spacing-lg);
+  margin-bottom: var(--spacing-sm);
+}
+
+.benchmark-income-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-xs);
+}
+
+.income-label {
+  font-size: 0.75rem;
+  font-weight: var(--font-weight-bold);
+  color: var(--medium-gray);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.income-value {
+  font-size: 1.75rem;
+  font-weight: var(--font-weight-bold);
+  color: var(--primary-blue);
+  line-height: 1;
+}
+
 /* ============================================================================
    FOOTER CTA
    ============================================================================ */

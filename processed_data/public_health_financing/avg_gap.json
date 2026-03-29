@@ -8,7 +8,7 @@
   {
     "year":2000,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":108.138287345
   },
   {
@@ -38,7 +38,7 @@
   {
     "year":2000,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":136.2619576967
   },
   {
@@ -68,7 +68,7 @@
   {
     "year":2000,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":450.13154652
   },
   {
@@ -92,7 +92,7 @@
   {
     "year":2001,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":108.229015485
   },
   {
@@ -122,7 +122,7 @@
   {
     "year":2001,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":135.1054893367
   },
   {
@@ -152,7 +152,7 @@
   {
     "year":2001,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":448.40384282
   },
   {
@@ -176,7 +176,7 @@
   {
     "year":2002,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":107.634201685
   },
   {
@@ -206,7 +206,7 @@
   {
     "year":2002,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":135.5080223367
   },
   {
@@ -236,7 +236,7 @@
   {
     "year":2002,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":448.536989865
   },
   {
@@ -260,7 +260,7 @@
   {
     "year":2003,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":106.91968903
   },
   {
@@ -290,7 +290,7 @@
   {
     "year":2003,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":128.76573081
   },
   {
@@ -320,7 +320,7 @@
   {
     "year":2003,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":434.43128783
   },
   {
@@ -344,7 +344,7 @@
   {
     "year":2004,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":104.85436247
   },
   {
@@ -374,7 +374,7 @@
   {
     "year":2004,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":129.7975228867
   },
   {
@@ -404,7 +404,7 @@
   {
     "year":2004,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":428.186098055
   },
   {
@@ -428,7 +428,7 @@
   {
     "year":2005,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":105.67450829
   },
   {
@@ -458,7 +458,7 @@
   {
     "year":2005,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":127.9429717067
   },
   {
@@ -488,7 +488,7 @@
   {
     "year":2005,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":425.586023765
   },
   {
@@ -512,7 +512,7 @@
   {
     "year":2006,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":106.379771695
   },
   {
@@ -542,7 +542,7 @@
   {
     "year":2006,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":138.0609664633
   },
   {
@@ -572,7 +572,7 @@
   {
     "year":2006,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":412.649221055
   },
   {
@@ -596,7 +596,7 @@
   {
     "year":2007,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":105.48912959
   },
   {
@@ -626,7 +626,7 @@
   {
     "year":2007,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":134.4437512467
   },
   {
@@ -656,7 +656,7 @@
   {
     "year":2007,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":397.27356958
   },
   {
@@ -680,7 +680,7 @@
   {
     "year":2008,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":106.489755555
   },
   {
@@ -710,7 +710,7 @@
   {
     "year":2008,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":128.4728655133
   },
   {
@@ -740,7 +740,7 @@
   {
     "year":2008,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":381.31639891
   },
   {
@@ -764,7 +764,7 @@
   {
     "year":2009,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":106.6986604
   },
   {
@@ -794,7 +794,7 @@
   {
     "year":2009,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":133.1589240533
   },
   {
@@ -824,7 +824,7 @@
   {
     "year":2009,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":369.335559695
   },
   {
@@ -848,7 +848,7 @@
   {
     "year":2010,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":106.92582704
   },
   {
@@ -878,7 +878,7 @@
   {
     "year":2010,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":128.5565193233
   },
   {
@@ -908,7 +908,7 @@
   {
     "year":2010,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":367.005657865
   },
   {
@@ -932,7 +932,7 @@
   {
     "year":2011,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":106.95075012
   },
   {
@@ -962,7 +962,7 @@
   {
     "year":2011,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":126.3172865733
   },
   {
@@ -992,7 +992,7 @@
   {
     "year":2011,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":345.04325175
   },
   {
@@ -1016,7 +1016,7 @@
   {
     "year":2012,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":105.861129645
   },
   {
@@ -1046,7 +1046,7 @@
   {
     "year":2012,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":123.34314518
   },
   {
@@ -1076,7 +1076,7 @@
   {
     "year":2012,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":347.256730835
   },
   {
@@ -1100,7 +1100,7 @@
   {
     "year":2013,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":104.75619205
   },
   {
@@ -1130,7 +1130,7 @@
   {
     "year":2013,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":118.0140175867
   },
   {
@@ -1160,7 +1160,7 @@
   {
     "year":2013,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":342.79179592
   },
   {
@@ -1184,7 +1184,7 @@
   {
     "year":2014,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":104.52668754
   },
   {
@@ -1214,7 +1214,7 @@
   {
     "year":2014,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":117.41285503
   },
   {
@@ -1244,7 +1244,7 @@
   {
     "year":2014,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":356.599922425
   },
   {
@@ -1268,7 +1268,7 @@
   {
     "year":2015,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":107.56917428
   },
   {
@@ -1298,7 +1298,7 @@
   {
     "year":2015,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":126.64002697
   },
   {
@@ -1328,7 +1328,7 @@
   {
     "year":2015,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":388.13516609
   },
   {
@@ -1352,7 +1352,7 @@
   {
     "year":2016,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":108.06305058
   },
   {
@@ -1382,7 +1382,7 @@
   {
     "year":2016,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":121.68443305
   },
   {
@@ -1412,7 +1412,7 @@
   {
     "year":2016,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":377.630746705
   },
   {
@@ -1436,7 +1436,7 @@
   {
     "year":2017,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":108.17815204
   },
   {
@@ -1466,7 +1466,7 @@
   {
     "year":2017,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":120.64414114
   },
   {
@@ -1490,7 +1490,7 @@
   {
     "year":2017,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":385.249898585
   },
   {
@@ -1514,7 +1514,7 @@
   {
     "year":2018,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":108.171498275
   },
   {
@@ -1544,7 +1544,7 @@
   {
     "year":2018,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":122.4529485767
   },
   {
@@ -1568,7 +1568,7 @@
   {
     "year":2018,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":382.14212511
   },
   {
@@ -1592,7 +1592,7 @@
   {
     "year":2019,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":107.81968156
   },
   {
@@ -1622,7 +1622,7 @@
   {
     "year":2019,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":120.8435906867
   },
   {
@@ -1646,7 +1646,7 @@
   {
     "year":2019,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":387.491032315
   },
   {
@@ -1670,7 +1670,7 @@
   {
     "year":2020,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":106.710697915
   },
   {
@@ -1700,7 +1700,7 @@
   {
     "year":2020,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":109.72249179
   },
   {
@@ -1724,7 +1724,7 @@
   {
     "year":2020,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":384.555070785
   },
   {
@@ -1748,7 +1748,7 @@
   {
     "year":2021,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":105.32105137
   },
   {
@@ -1778,7 +1778,7 @@
   {
     "year":2021,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":103.52222436
   },
   {
@@ -1808,7 +1808,7 @@
   {
     "year":2021,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":369.572961355
   },
   {
@@ -1832,7 +1832,7 @@
   {
     "year":2022,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":103.92811126
   },
   {
@@ -1862,7 +1862,7 @@
   {
     "year":2022,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":117.6713787967
   },
   {
@@ -1886,7 +1886,7 @@
   {
     "year":2022,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":364.818478605
   },
   {
@@ -1910,7 +1910,7 @@
   {
     "year":2023,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":102.146892875
   },
   {
@@ -1940,7 +1940,7 @@
   {
     "year":2023,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":112.4881123133
   },
   {
@@ -1964,7 +1964,7 @@
   {
     "year":2023,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_public_health_gap":356.23092451
   },
   {

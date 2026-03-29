@@ -14,6 +14,22 @@ import {
 } from 'recharts';
 import './CrossDimensionalExplorer.css';
 
+// Format for chart tooltips — keeps decimal precision
+const formatChartValue = (value: number, fieldName: string): string => {
+  if (fieldName.includes('mortality')) {
+    return value.toFixed(1);
+  }
+  return value.toFixed(2);
+};
+
+// Format for summary statistics — mortality rounded to whole numbers
+const formatStatValue = (value: number, fieldName: string): string => {
+  if (fieldName.includes('mortality')) {
+    return Math.round(value).toString();
+  }
+  return value.toFixed(2);
+};
+
 // Comprehensive indicator list organized by category
 const INDICATOR_CATEGORIES = {
   'Public Health Financing': [
@@ -81,7 +97,7 @@ const CrossDimensionalExplorer: React.FC = () => {
   const [filterYear, setFilterYear] = useState<number | 'all'>('all');
   const [groupBy, setGroupBy] = useState<'none' | 'income' | 'subregion'>('none');
   const [selectedCountry, setSelectedCountry] = useState<string>('all');
-  const [showMethodology, setShowMethodology] = useState(false);
+  const [showMethodology, setShowMethodology] = useState(true);
 
   // Force scroll to top when component mounts
   useEffect(() => {
@@ -257,8 +273,8 @@ const CrossDimensionalExplorer: React.FC = () => {
                       <p>Year: {data.year}</p>
                       <p>Income: {data.income}</p>
                       {groupBy === 'subregion' && <p>Region: {data.subregion}</p>}
-                      <p>{indicator1Info?.label}: {data.x.toFixed(2)} {indicator1Info?.unit}</p>
-                      <p>{indicator2Info?.label}: {data.y.toFixed(2)} {indicator2Info?.unit}</p>
+                      <p>{indicator1Info?.label}: {formatChartValue(data.x, indicator1)} {indicator1Info?.unit}</p>
+                      <p>{indicator2Info?.label}: {formatChartValue(data.y, indicator2)} {indicator2Info?.unit}</p>
                     </div>
                   );
                 }
@@ -1193,7 +1209,7 @@ const CrossDimensionalExplorer: React.FC = () => {
                       <div style={{ padding: '1.5rem', background: 'white', borderRadius: '8px', border: '1px solid #e2e8f0' }}>
                         <h4 style={{ margin: '0 0 0.5rem 0', fontSize: '0.9rem', color: '#64748b' }}>Average {insights.indicator1}</h4>
                         <p style={{ margin: 0, fontSize: '1.5rem', fontWeight: 'bold', color: '#1e293b' }}>
-                          {insights.avgX.toFixed(2)} {insights.unit1}
+                          {formatStatValue(insights.avgX, indicator1)} {insights.unit1}
                         </p>
                       </div>
                     )}
@@ -1202,7 +1218,7 @@ const CrossDimensionalExplorer: React.FC = () => {
                       <div style={{ padding: '1.5rem', background: 'white', borderRadius: '8px', border: '1px solid #e2e8f0' }}>
                         <h4 style={{ margin: '0 0 0.5rem 0', fontSize: '0.9rem', color: '#64748b' }}>Average {insights.indicator2}</h4>
                         <p style={{ margin: 0, fontSize: '1.5rem', fontWeight: 'bold', color: '#1e293b' }}>
-                          {insights.avgY.toFixed(2)} {insights.unit2}
+                          {formatStatValue(insights.avgY, indicator2)} {insights.unit2}
                         </p>
                       </div>
                     )}
@@ -1241,13 +1257,13 @@ const CrossDimensionalExplorer: React.FC = () => {
                             <div>
                               <div style={{ fontSize: '0.8rem', color: '#64748b' }}>{insights.indicator1}</div>
                               <div style={{ fontWeight: '600', color: '#1e293b' }}>
-                                {!isNaN(group.avgX) ? `${group.avgX.toFixed(2)} ${insights.unit1}` : 'N/A'}
+                                {!isNaN(group.avgX) ? `${formatStatValue(group.avgX, indicator1)} ${insights.unit1}` : 'N/A'}
                               </div>
                             </div>
                             <div>
                               <div style={{ fontSize: '0.8rem', color: '#64748b' }}>{insights.indicator2}</div>
                               <div style={{ fontWeight: '600', color: '#1e293b' }}>
-                                {!isNaN(group.avgY) ? `${group.avgY.toFixed(2)} ${insights.unit2}` : 'N/A'}
+                                {!isNaN(group.avgY) ? `${formatStatValue(group.avgY, indicator2)} ${insights.unit2}` : 'N/A'}
                               </div>
                             </div>
                             <div>

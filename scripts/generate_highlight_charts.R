@@ -64,7 +64,7 @@ INCOME_COLORS <- c(
 
 SUBREGION_COLORS <- c(
   "Eastern Africa" = "#1F4E79",
-  "Middle Africa" = "#2E75B6",
+  "Central Africa" = "#2E75B6",
   "Northern Africa" = "#5B9BD5",
   "Southern Africa" = "#70AD47",
   "Western Africa" = "#ED7D31"
@@ -334,7 +334,7 @@ chart_gap_by_subregion <- function(df) {
     coord_flip() +
     labs(
       title = "Government Health Financing Gap by Sub-region (2023)",
-      subtitle = "Middle Africa has the largest gap; Eastern Africa has the smallest",
+      subtitle = "Central Africa has the largest gap; Eastern Africa has the smallest",
       x = "",
       y = "Average Health Financing Gap (USD per capita)"
     ) +

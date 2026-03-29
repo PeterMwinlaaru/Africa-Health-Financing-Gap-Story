@@ -1201,7 +1201,7 @@ def create_threshold_crosstab(df, outcome_col, outcome_label, group_by):
 
     # Define sort order for income and subregion
     income_order = {'Low': 0, 'Lower-middle': 1, 'Upper-middle': 2}
-    subregion_order = {'Central Africa': 0, 'Eastern Africa': 1, 'Middle Africa': 2,
+    subregion_order = {'Central Africa': 0, 'Eastern Africa': 1, 'Central Africa': 2,
                        'Northern Africa': 3, 'Southern Africa': 4, 'Western Africa': 5}
 
     # Number of countries by threshold category

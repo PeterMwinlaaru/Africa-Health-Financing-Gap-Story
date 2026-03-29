@@ -10,7 +10,7 @@
   {
     "year":2000,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":3.83142667,
     "max_public_exp":3.89199864,
     "range_public_exp":0.06057197
@@ -50,7 +50,7 @@
   {
     "year":2000,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":4.57101766,
     "max_public_exp":18.70930694,
     "range_public_exp":14.13828928
@@ -90,7 +90,7 @@
   {
     "year":2000,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":8.6164431,
     "max_public_exp":45.12046386,
     "range_public_exp":36.50402076
@@ -122,7 +122,7 @@
   {
     "year":2001,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":3.48332084,
     "max_public_exp":4.05864819,
     "range_public_exp":0.57532735
@@ -162,7 +162,7 @@
   {
     "year":2001,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":5.58268912,
     "max_public_exp":18.13380993,
     "range_public_exp":12.55112081
@@ -202,7 +202,7 @@
   {
     "year":2001,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":8.74663312,
     "max_public_exp":48.44568124,
     "range_public_exp":39.69904812
@@ -234,7 +234,7 @@
   {
     "year":2002,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":3.53497367,
     "max_public_exp":5.19662296,
     "range_public_exp":1.66164929
@@ -274,7 +274,7 @@
   {
     "year":2002,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":4.31311127,
     "max_public_exp":20.1213104,
     "range_public_exp":15.80819913
@@ -314,7 +314,7 @@
   {
     "year":2002,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":9.34394933,
     "max_public_exp":47.58207094,
     "range_public_exp":38.23812161
@@ -346,7 +346,7 @@
   {
     "year":2003,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":4.47814804,
     "max_public_exp":5.6824739,
     "range_public_exp":1.20432586
@@ -386,7 +386,7 @@
   {
     "year":2003,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":5.620118,
     "max_public_exp":37.60682569,
     "range_public_exp":31.98670769
@@ -426,7 +426,7 @@
   {
     "year":2003,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":17.52466365,
     "max_public_exp":67.61276069,
     "range_public_exp":50.08809704
@@ -458,7 +458,7 @@
   {
     "year":2004,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":4.61428683,
     "max_public_exp":9.67698823,
     "range_public_exp":5.0627014
@@ -498,7 +498,7 @@
   {
     "year":2004,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":6.22817259,
     "max_public_exp":34.38276705,
     "range_public_exp":28.15459446
@@ -538,7 +538,7 @@
   {
     "year":2004,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":23.31647894,
     "max_public_exp":74.31132495,
     "range_public_exp":50.99484601
@@ -570,7 +570,7 @@
   {
     "year":2005,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":3.41263081,
     "max_public_exp":9.23835261,
     "range_public_exp":5.8257218
@@ -610,7 +610,7 @@
   {
     "year":2005,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":7.45090519,
     "max_public_exp":38.94584836,
     "range_public_exp":31.49494317
@@ -650,7 +650,7 @@
   {
     "year":2005,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":34.6570512,
     "max_public_exp":68.17090127,
     "range_public_exp":33.51385007
@@ -682,7 +682,7 @@
   {
     "year":2006,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":4.31361982,
     "max_public_exp":6.92683679,
     "range_public_exp":2.61321697
@@ -722,7 +722,7 @@
   {
     "year":2006,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":4.42199857,
     "max_public_exp":11.67323897,
     "range_public_exp":7.2512404
@@ -762,7 +762,7 @@
   {
     "year":2006,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":46.67523661,
     "max_public_exp":82.02632128,
     "range_public_exp":35.35108467
@@ -794,7 +794,7 @@
   {
     "year":2007,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":5.00488744,
     "max_public_exp":8.01685338,
     "range_public_exp":3.01196594
@@ -834,7 +834,7 @@
   {
     "year":2007,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":7.54214712,
     "max_public_exp":14.18523647,
     "range_public_exp":6.64308935
@@ -874,7 +874,7 @@
   {
     "year":2007,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":60.73159221,
     "max_public_exp":98.72126863,
     "range_public_exp":37.98967642
@@ -906,7 +906,7 @@
   {
     "year":2008,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":3.79158801,
     "max_public_exp":7.22890088,
     "range_public_exp":3.43731287
@@ -946,7 +946,7 @@
   {
     "year":2008,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":8.21752337,
     "max_public_exp":31.13279453,
     "range_public_exp":22.91527116
@@ -986,7 +986,7 @@
   {
     "year":2008,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":88.42804103,
     "max_public_exp":102.93916115,
     "range_public_exp":14.51112012
@@ -1018,7 +1018,7 @@
   {
     "year":2009,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":3.34143171,
     "max_public_exp":7.26124749,
     "range_public_exp":3.91981578
@@ -1058,7 +1058,7 @@
   {
     "year":2009,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":6.54714725,
     "max_public_exp":17.94695417,
     "range_public_exp":11.39980692
@@ -1098,7 +1098,7 @@
   {
     "year":2009,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":102.19443472,
     "max_public_exp":113.13444589,
     "range_public_exp":10.94001117
@@ -1130,7 +1130,7 @@
   {
     "year":2010,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":2.75021569,
     "max_public_exp":7.39813023,
     "range_public_exp":4.64791454
@@ -1170,7 +1170,7 @@
   {
     "year":2010,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":5.68323096,
     "max_public_exp":24.4089272,
     "range_public_exp":18.72569624
@@ -1210,7 +1210,7 @@
   {
     "year":2010,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":88.51553608,
     "max_public_exp":131.47314819,
     "range_public_exp":42.95761211
@@ -1242,7 +1242,7 @@
   {
     "year":2011,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":2.21734988,
     "max_public_exp":7.88114988,
     "range_public_exp":5.6638
@@ -1282,7 +1282,7 @@
   {
     "year":2011,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":8.67433582,
     "max_public_exp":28.25323918,
     "range_public_exp":19.57890336
@@ -1322,7 +1322,7 @@
   {
     "year":2011,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":101.88086494,
     "max_public_exp":162.03263156,
     "range_public_exp":60.15176662
@@ -1354,7 +1354,7 @@
   {
     "year":2012,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":3.38952886,
     "max_public_exp":8.88821185,
     "range_public_exp":5.49868299
@@ -1394,7 +1394,7 @@
   {
     "year":2012,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":9.27550332,
     "max_public_exp":30.56539207,
     "range_public_exp":21.28988875
@@ -1434,7 +1434,7 @@
   {
     "year":2012,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":121.62574334,
     "max_public_exp":137.86079499,
     "range_public_exp":16.23505165
@@ -1466,7 +1466,7 @@
   {
     "year":2013,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":3.58603686,
     "max_public_exp":10.90157904,
     "range_public_exp":7.31554218
@@ -1506,7 +1506,7 @@
   {
     "year":2013,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":7.57046427,
     "max_public_exp":41.7556284,
     "range_public_exp":34.18516413
@@ -1546,7 +1546,7 @@
   {
     "year":2013,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":100.73986929,
     "max_public_exp":167.67653887,
     "range_public_exp":66.93666958
@@ -1578,7 +1578,7 @@
   {
     "year":2014,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":2.91429313,
     "max_public_exp":12.03233179,
     "range_public_exp":9.11803866
@@ -1618,7 +1618,7 @@
   {
     "year":2014,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":9.72798401,
     "max_public_exp":41.94376012,
     "range_public_exp":32.21577611
@@ -1658,7 +1658,7 @@
   {
     "year":2014,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":101.24445194,
     "max_public_exp":139.55570321,
     "range_public_exp":38.31125127
@@ -1690,7 +1690,7 @@
   {
     "year":2015,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":1.66988994,
     "max_public_exp":7.1917615,
     "range_public_exp":5.52187156
@@ -1730,7 +1730,7 @@
   {
     "year":2015,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":5.14828493,
     "max_public_exp":26.83455592,
     "range_public_exp":21.68627099
@@ -1770,7 +1770,7 @@
   {
     "year":2015,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":67.40756821,
     "max_public_exp":110.32209961,
     "range_public_exp":42.9145314
@@ -1802,7 +1802,7 @@
   {
     "year":2016,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":2.3212538,
     "max_public_exp":5.55264504,
     "range_public_exp":3.23139124
@@ -1842,7 +1842,7 @@
   {
     "year":2016,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":5.27569638,
     "max_public_exp":44.23699364,
     "range_public_exp":38.96129726
@@ -1882,7 +1882,7 @@
   {
     "year":2016,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":64.49291983,
     "max_public_exp":134.24558676,
     "range_public_exp":69.75266693
@@ -1914,7 +1914,7 @@
   {
     "year":2017,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":3.15086408,
     "max_public_exp":4.49283184,
     "range_public_exp":1.34196776
@@ -1954,7 +1954,7 @@
   {
     "year":2017,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":2.11259902,
     "max_public_exp":53.8876186,
     "range_public_exp":51.77501958
@@ -1994,7 +1994,7 @@
   {
     "year":2017,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":61.69181438,
     "max_public_exp":121.80838845,
     "range_public_exp":60.11657407
@@ -2026,7 +2026,7 @@
   {
     "year":2018,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":3.21596194,
     "max_public_exp":4.44104151,
     "range_public_exp":1.22507957
@@ -2066,7 +2066,7 @@
   {
     "year":2018,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":5.66157484,
     "max_public_exp":48.26725195,
     "range_public_exp":42.60567711
@@ -2106,7 +2106,7 @@
   {
     "year":2018,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":67.07641183,
     "max_public_exp":122.63933795,
     "range_public_exp":55.56292612
@@ -2138,7 +2138,7 @@
   {
     "year":2019,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":3.77337779,
     "max_public_exp":4.58725909,
     "range_public_exp":0.8138813
@@ -2178,7 +2178,7 @@
   {
     "year":2019,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":6.32829881,
     "max_public_exp":43.5287584,
     "range_public_exp":37.20045959
@@ -2218,7 +2218,7 @@
   {
     "year":2019,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":54.77774925,
     "max_public_exp":124.24018612,
     "range_public_exp":69.46243687
@@ -2250,7 +2250,7 @@
   {
     "year":2020,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":4.78277479,
     "max_public_exp":5.79582938,
     "range_public_exp":1.01305459
@@ -2290,7 +2290,7 @@
   {
     "year":2020,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":9.44591998,
     "max_public_exp":64.80884234,
     "range_public_exp":55.36292236
@@ -2330,7 +2330,7 @@
   {
     "year":2020,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":59.59175318,
     "max_public_exp":125.29810525,
     "range_public_exp":65.70635207
@@ -2362,7 +2362,7 @@
   {
     "year":2021,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":6.38819603,
     "max_public_exp":6.96970123,
     "range_public_exp":0.5815052
@@ -2402,7 +2402,7 @@
   {
     "year":2021,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":8.1746975,
     "max_public_exp":80.19544512,
     "range_public_exp":72.02074762
@@ -2442,7 +2442,7 @@
   {
     "year":2021,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":79.4583788,
     "max_public_exp":135.39569849,
     "range_public_exp":55.93731969
@@ -2474,7 +2474,7 @@
   {
     "year":2022,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":7.19933295,
     "max_public_exp":8.94444453,
     "range_public_exp":1.74511158
@@ -2514,7 +2514,7 @@
   {
     "year":2022,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":10.72591004,
     "max_public_exp":55.66496274,
     "range_public_exp":44.9390527
@@ -2554,7 +2554,7 @@
   {
     "year":2022,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":65.84550723,
     "max_public_exp":158.51753556,
     "range_public_exp":92.67202833
@@ -2586,7 +2586,7 @@
   {
     "year":2023,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":7.72851315,
     "max_public_exp":11.9777011,
     "range_public_exp":4.24918795
@@ -2626,7 +2626,7 @@
   {
     "year":2023,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":11.62274284,
     "max_public_exp":63.22889128,
     "range_public_exp":51.60614844
@@ -2666,7 +2666,7 @@
   {
     "year":2023,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "min_public_exp":75.36635162,
     "max_public_exp":166.17179936,
     "range_public_exp":90.80544774

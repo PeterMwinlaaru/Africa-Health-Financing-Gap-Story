@@ -9,7 +9,7 @@
   {
     "year":2000,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":0.0,
     "avg_health_elasticity":null
   },
@@ -44,7 +44,7 @@
   {
     "year":2000,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":0.0,
     "avg_health_elasticity":null
   },
@@ -79,7 +79,7 @@
   {
     "year":2000,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":0.0,
     "avg_health_elasticity":null
   },
@@ -107,7 +107,7 @@
   {
     "year":2001,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":0.0,
     "avg_health_elasticity":-14.4026525706
   },
@@ -142,7 +142,7 @@
   {
     "year":2001,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":33.3333333333,
     "avg_health_elasticity":7.5147116491
   },
@@ -177,7 +177,7 @@
   {
     "year":2001,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":0.0,
     "avg_health_elasticity":-7.2965090905
   },
@@ -205,7 +205,7 @@
   {
     "year":2002,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":50.0,
     "avg_health_elasticity":-3.4874236891
   },
@@ -240,7 +240,7 @@
   {
     "year":2002,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":100.0,
     "avg_health_elasticity":111.1012552465
   },
@@ -275,7 +275,7 @@
   {
     "year":2002,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":0.0,
     "avg_health_elasticity":0.584149589
   },
@@ -303,7 +303,7 @@
   {
     "year":2003,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":0.0,
     "avg_health_elasticity":-2.4684424483
   },
@@ -338,7 +338,7 @@
   {
     "year":2003,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":66.6666666667,
     "avg_health_elasticity":6.3082061213
   },
@@ -373,7 +373,7 @@
   {
     "year":2003,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":50.0,
     "avg_health_elasticity":-35.9870986554
   },
@@ -401,7 +401,7 @@
   {
     "year":2004,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":50.0,
     "avg_health_elasticity":0.5837406772
   },
@@ -436,7 +436,7 @@
   {
     "year":2004,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":0.0,
     "avg_health_elasticity":-3.6986316019
   },
@@ -471,7 +471,7 @@
   {
     "year":2004,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":50.0,
     "avg_health_elasticity":-1.6454559036
   },
@@ -499,7 +499,7 @@
   {
     "year":2005,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":0.0,
     "avg_health_elasticity":-21.3182670958
   },
@@ -534,7 +534,7 @@
   {
     "year":2005,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":100.0,
     "avg_health_elasticity":4.0288475694
   },
@@ -569,7 +569,7 @@
   {
     "year":2005,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":50.0,
     "avg_health_elasticity":4.2572165501
   },
@@ -597,7 +597,7 @@
   {
     "year":2006,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":100.0,
     "avg_health_elasticity":8.1224701239
   },
@@ -632,7 +632,7 @@
   {
     "year":2006,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":66.6666666667,
     "avg_health_elasticity":1.3187508656
   },
@@ -667,7 +667,7 @@
   {
     "year":2006,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":50.0,
     "avg_health_elasticity":7.6610926077
   },
@@ -695,7 +695,7 @@
   {
     "year":2007,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":100.0,
     "avg_health_elasticity":13.4930064718
   },
@@ -730,7 +730,7 @@
   {
     "year":2007,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":33.3333333333,
     "avg_health_elasticity":92.9308726287
   },
@@ -765,7 +765,7 @@
   {
     "year":2007,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":100.0,
     "avg_health_elasticity":4.6478858851
   },
@@ -793,7 +793,7 @@
   {
     "year":2008,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":50.0,
     "avg_health_elasticity":-15.8244626596
   },
@@ -828,7 +828,7 @@
   {
     "year":2008,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":33.3333333333,
     "avg_health_elasticity":-48.7214182515
   },
@@ -863,7 +863,7 @@
   {
     "year":2008,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":50.0,
     "avg_health_elasticity":1.4692996467
   },
@@ -891,7 +891,7 @@
   {
     "year":2009,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":0.0,
     "avg_health_elasticity":-1.7466621518
   },
@@ -926,7 +926,7 @@
   {
     "year":2009,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":66.6666666667,
     "avg_health_elasticity":34.1604216824
   },
@@ -961,7 +961,7 @@
   {
     "year":2009,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":0.0,
     "avg_health_elasticity":-3.5347329971
   },
@@ -989,7 +989,7 @@
   {
     "year":2010,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":0.0,
     "avg_health_elasticity":-1.5222037889
   },
@@ -1024,7 +1024,7 @@
   {
     "year":2010,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":33.3333333333,
     "avg_health_elasticity":-131.3506149121
   },
@@ -1059,7 +1059,7 @@
   {
     "year":2010,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":100.0,
     "avg_health_elasticity":2.6848427251
   },
@@ -1087,7 +1087,7 @@
   {
     "year":2011,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":50.0,
     "avg_health_elasticity":-0.27634256
   },
@@ -1122,7 +1122,7 @@
   {
     "year":2011,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":66.6666666667,
     "avg_health_elasticity":-68.5347344629
   },
@@ -1157,7 +1157,7 @@
   {
     "year":2011,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":100.0,
     "avg_health_elasticity":7.235441095
   },
@@ -1185,7 +1185,7 @@
   {
     "year":2012,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":100.0,
     "avg_health_elasticity":7.8005508787
   },
@@ -1220,7 +1220,7 @@
   {
     "year":2012,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":66.6666666667,
     "avg_health_elasticity":3.1098315124
   },
@@ -1255,7 +1255,7 @@
   {
     "year":2012,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":50.0,
     "avg_health_elasticity":-2.376643394
   },
@@ -1283,7 +1283,7 @@
   {
     "year":2013,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":0.0,
     "avg_health_elasticity":-14.2778893827
   },
@@ -1318,7 +1318,7 @@
   {
     "year":2013,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":33.3333333333,
     "avg_health_elasticity":0.8376606423
   },
@@ -1353,7 +1353,7 @@
   {
     "year":2013,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":100.0,
     "avg_health_elasticity":6.87946411
   },
@@ -1381,7 +1381,7 @@
   {
     "year":2014,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":0.0,
     "avg_health_elasticity":-22.2660369394
   },
@@ -1416,7 +1416,7 @@
   {
     "year":2014,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":33.3333333333,
     "avg_health_elasticity":3.5430580273
   },
@@ -1451,7 +1451,7 @@
   {
     "year":2014,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":0.0,
     "avg_health_elasticity":-8.5750135365
   },
@@ -1479,7 +1479,7 @@
   {
     "year":2015,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":0.0,
     "avg_health_elasticity":-279.7287743091
   },
@@ -1514,7 +1514,7 @@
   {
     "year":2015,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":66.6666666667,
     "avg_health_elasticity":42.7708338581
   },
@@ -1549,7 +1549,7 @@
   {
     "year":2015,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":50.0,
     "avg_health_elasticity":-13.7633259699
   },
@@ -1577,7 +1577,7 @@
   {
     "year":2016,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":100.0,
     "avg_health_elasticity":8.3892768788
   },
@@ -1612,7 +1612,7 @@
   {
     "year":2016,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":100.0,
     "avg_health_elasticity":7.3546789036
   },
@@ -1647,7 +1647,7 @@
   {
     "year":2016,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":0.0,
     "avg_health_elasticity":-13.512176604
   },
@@ -1675,7 +1675,7 @@
   {
     "year":2017,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":100.0,
     "avg_health_elasticity":8.3909892545
   },
@@ -1710,7 +1710,7 @@
   {
     "year":2017,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":66.6666666667,
     "avg_health_elasticity":-27.3106589573
   },
@@ -1745,7 +1745,7 @@
   {
     "year":2017,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":50.0,
     "avg_health_elasticity":2.3840707494
   },
@@ -1773,7 +1773,7 @@
   {
     "year":2018,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":50.0,
     "avg_health_elasticity":0.2580106285
   },
@@ -1808,7 +1808,7 @@
   {
     "year":2018,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":66.6666666667,
     "avg_health_elasticity":47.4236243276
   },
@@ -1843,7 +1843,7 @@
   {
     "year":2018,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":0.0,
     "avg_health_elasticity":-0.676365668
   },
@@ -1871,7 +1871,7 @@
   {
     "year":2019,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":100.0,
     "avg_health_elasticity":6.2373992382
   },
@@ -1906,7 +1906,7 @@
   {
     "year":2019,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":33.3333333333,
     "avg_health_elasticity":-14.0532101225
   },
@@ -1941,7 +1941,7 @@
   {
     "year":2019,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":50.0,
     "avg_health_elasticity":1.573202603
   },
@@ -1969,7 +1969,7 @@
   {
     "year":2020,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":0.0,
     "avg_health_elasticity":-39.6542562789
   },
@@ -2004,7 +2004,7 @@
   {
     "year":2020,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":33.3333333333,
     "avg_health_elasticity":14.6162898092
   },
@@ -2039,7 +2039,7 @@
   {
     "year":2020,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":0.0,
     "avg_health_elasticity":-0.699594283
   },
@@ -2067,7 +2067,7 @@
   {
     "year":2021,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":0.0,
     "avg_health_elasticity":-14.6154940197
   },
@@ -2102,7 +2102,7 @@
   {
     "year":2021,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":0.0,
     "avg_health_elasticity":-60.2945086271
   },
@@ -2137,7 +2137,7 @@
   {
     "year":2021,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":0.0,
     "avg_health_elasticity":-15.4078657143
   },
@@ -2165,7 +2165,7 @@
   {
     "year":2022,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":100.0,
     "avg_health_elasticity":33.1973853542
   },
@@ -2200,7 +2200,7 @@
   {
     "year":2022,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":100.0,
     "avg_health_elasticity":44.3931079439
   },
@@ -2235,7 +2235,7 @@
   {
     "year":2022,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":50.0,
     "avg_health_elasticity":-1.5224980321
   },
@@ -2263,7 +2263,7 @@
   {
     "year":2023,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":0.0,
     "avg_health_elasticity":-38.14560966
   },
@@ -2298,7 +2298,7 @@
   {
     "year":2023,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":33.3333333333,
     "avg_health_elasticity":-25.142603072
   },
@@ -2333,7 +2333,7 @@
   {
     "year":2023,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "pct_desirable_elasticity":50.0,
     "avg_health_elasticity":10.1092122962
   },

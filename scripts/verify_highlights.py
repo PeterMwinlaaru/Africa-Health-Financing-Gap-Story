@@ -85,9 +85,9 @@ if abs(avg_gap - 125.4) > 5:
 # 7. Gap by subregion
 print('\n7. FINANCING GAP BY SUBREGION (2023)')
 print('-' * 40)
-print('   Highlight: Eastern Africa $109.6, Middle Africa $179.2')
+print('   Highlight: Eastern Africa $109.6, Central Africa $179.2')
 subregion_gap = df_2023.groupby('Subregion')['Gap for Gov exp Health per capita'].mean()
-for sr in ['Eastern Africa', 'Middle Africa', 'Northern Africa', 'Southern Africa', 'Western Africa']:
+for sr in ['Eastern Africa', 'Central Africa', 'Northern Africa', 'Southern Africa', 'Western Africa']:
     if sr in subregion_gap.index:
         print(f'   {sr}: ${subregion_gap[sr]:.1f}')
 if 'Eastern Africa' in subregion_gap.index and abs(subregion_gap['Eastern Africa'] - 109.6) > 5:
@@ -222,7 +222,7 @@ if lic_count != 22:
 print('\n21. BUDGET PRIORITY GAP BY SUBREGION (2023)')
 print('-' * 40)
 print('   Highlight: Eastern 9.3%, Western 9.1%, Southern 6.0%, Northern 6.6%')
-for sr in ['Eastern Africa', 'Western Africa', 'Southern Africa', 'Northern Africa', 'Middle Africa']:
+for sr in ['Eastern Africa', 'Western Africa', 'Southern Africa', 'Northern Africa', 'Central Africa']:
     gap = df_2023[df_2023['Subregion'] == sr]['Gap Gov exp Health on budget'].mean()
     print(f'   {sr}: {gap:.1f}%')
 

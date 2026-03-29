@@ -12,7 +12,7 @@
   {
     "year":2000,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":38.647520065,
     "avg_voluntary_prepaid_share":0.40842684,
     "avg_oop_share":52.247198105,
@@ -62,7 +62,7 @@
   {
     "year":2000,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":28.9697879167,
     "avg_voluntary_prepaid_share":0.4657681933,
     "avg_oop_share":58.3382568333,
@@ -112,7 +112,7 @@
   {
     "year":2000,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":39.702022555,
     "avg_voluntary_prepaid_share":3.84647834,
     "avg_oop_share":52.663900375,
@@ -152,7 +152,7 @@
   {
     "year":2001,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":36.344049455,
     "avg_voluntary_prepaid_share":0.9636738,
     "avg_oop_share":56.18190575,
@@ -202,7 +202,7 @@
   {
     "year":2001,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":33.7817866,
     "avg_voluntary_prepaid_share":0.4780564267,
     "avg_oop_share":54.83686447,
@@ -252,7 +252,7 @@
   {
     "year":2001,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":34.813506125,
     "avg_voluntary_prepaid_share":3.693220825,
     "avg_oop_share":52.574245455,
@@ -292,7 +292,7 @@
   {
     "year":2002,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":31.348939895,
     "avg_voluntary_prepaid_share":1.076735915,
     "avg_oop_share":57.16660881,
@@ -342,7 +342,7 @@
   {
     "year":2002,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":29.09607315,
     "avg_voluntary_prepaid_share":0.50771396,
     "avg_oop_share":57.8383611033,
@@ -392,7 +392,7 @@
   {
     "year":2002,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":24.24796772,
     "avg_voluntary_prepaid_share":4.020665795,
     "avg_oop_share":68.25829697,
@@ -432,7 +432,7 @@
   {
     "year":2003,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":34.195508005,
     "avg_voluntary_prepaid_share":1.59750119,
     "avg_oop_share":48.240680695,
@@ -482,7 +482,7 @@
   {
     "year":2003,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":33.6373602567,
     "avg_voluntary_prepaid_share":0.46469827,
     "avg_oop_share":54.9576988233,
@@ -532,7 +532,7 @@
   {
     "year":2003,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":30.38400841,
     "avg_voluntary_prepaid_share":3.721458825,
     "avg_oop_share":62.994615555,
@@ -572,7 +572,7 @@
   {
     "year":2004,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":35.226970675,
     "avg_voluntary_prepaid_share":1.49135083,
     "avg_oop_share":52.072423935,
@@ -622,7 +622,7 @@
   {
     "year":2004,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":29.9870382967,
     "avg_voluntary_prepaid_share":0.52808159,
     "avg_oop_share":54.9264971433,
@@ -672,7 +672,7 @@
   {
     "year":2004,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":31.352682115,
     "avg_voluntary_prepaid_share":3.723116425,
     "avg_oop_share":61.791578295,
@@ -712,7 +712,7 @@
   {
     "year":2005,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":27.013698575,
     "avg_voluntary_prepaid_share":1.548876615,
     "avg_oop_share":53.97112465,
@@ -762,7 +762,7 @@
   {
     "year":2005,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":30.3480714167,
     "avg_voluntary_prepaid_share":0.51318658,
     "avg_oop_share":53.23751831,
@@ -812,7 +812,7 @@
   {
     "year":2005,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":32.159128185,
     "avg_voluntary_prepaid_share":3.819083695,
     "avg_oop_share":59.813121795,
@@ -852,7 +852,7 @@
   {
     "year":2006,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":24.458813665,
     "avg_voluntary_prepaid_share":1.637846175,
     "avg_oop_share":57.603967665,
@@ -902,7 +902,7 @@
   {
     "year":2006,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":19.18425131,
     "avg_voluntary_prepaid_share":0.5185832167,
     "avg_oop_share":54.31480662,
@@ -952,7 +952,7 @@
   {
     "year":2006,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":35.55817795,
     "avg_voluntary_prepaid_share":3.73972486,
     "avg_oop_share":56.185920715,
@@ -992,7 +992,7 @@
   {
     "year":2007,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":25.489629745,
     "avg_voluntary_prepaid_share":1.915824085,
     "avg_oop_share":57.313045505,
@@ -1042,7 +1042,7 @@
   {
     "year":2007,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":23.1942990633,
     "avg_voluntary_prepaid_share":0.5480512533,
     "avg_oop_share":53.3524932867,
@@ -1092,7 +1092,7 @@
   {
     "year":2007,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":36.91856766,
     "avg_voluntary_prepaid_share":3.61969605,
     "avg_oop_share":54.404424665,
@@ -1132,7 +1132,7 @@
   {
     "year":2008,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":20.31078148,
     "avg_voluntary_prepaid_share":2.110714285,
     "avg_oop_share":63.39420128,
@@ -1182,7 +1182,7 @@
   {
     "year":2008,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":28.2099761967,
     "avg_voluntary_prepaid_share":0.56759006,
     "avg_oop_share":47.44286219,
@@ -1232,7 +1232,7 @@
   {
     "year":2008,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":38.262136455,
     "avg_voluntary_prepaid_share":3.82894802,
     "avg_oop_share":54.32363701,
@@ -1272,7 +1272,7 @@
   {
     "year":2009,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":18.24074411,
     "avg_voluntary_prepaid_share":2.26146868,
     "avg_oop_share":56.42847824,
@@ -1322,7 +1322,7 @@
   {
     "year":2009,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":23.0954043067,
     "avg_voluntary_prepaid_share":0.6007460633,
     "avg_oop_share":51.5128796933,
@@ -1372,7 +1372,7 @@
   {
     "year":2009,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":40.899206165,
     "avg_voluntary_prepaid_share":3.63636735,
     "avg_oop_share":51.427915575,
@@ -1412,7 +1412,7 @@
   {
     "year":2010,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":18.574884415,
     "avg_voluntary_prepaid_share":2.3098827,
     "avg_oop_share":63.552404405,
@@ -1462,7 +1462,7 @@
   {
     "year":2010,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":30.86064434,
     "avg_voluntary_prepaid_share":0.4960415067,
     "avg_oop_share":47.95724042,
@@ -1512,7 +1512,7 @@
   {
     "year":2010,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":50.38249016,
     "avg_voluntary_prepaid_share":4.546745765,
     "avg_oop_share":41.78370571,
@@ -1552,7 +1552,7 @@
   {
     "year":2011,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":16.195836545,
     "avg_voluntary_prepaid_share":2.335332185,
     "avg_oop_share":59.67705727,
@@ -1602,7 +1602,7 @@
   {
     "year":2011,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":30.9052426,
     "avg_voluntary_prepaid_share":0.36446745,
     "avg_oop_share":44.8447182967,
@@ -1652,7 +1652,7 @@
   {
     "year":2011,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":50.19101334,
     "avg_voluntary_prepaid_share":3.59221667,
     "avg_oop_share":42.22833538,
@@ -1692,7 +1692,7 @@
   {
     "year":2012,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":20.221066955,
     "avg_voluntary_prepaid_share":2.2139771,
     "avg_oop_share":58.754606245,
@@ -1742,7 +1742,7 @@
   {
     "year":2012,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":30.5881907133,
     "avg_voluntary_prepaid_share":2.2229265433,
     "avg_oop_share":38.12621498,
@@ -1792,7 +1792,7 @@
   {
     "year":2012,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":52.274414065,
     "avg_voluntary_prepaid_share":4.675457925,
     "avg_oop_share":40.67761326,
@@ -1832,7 +1832,7 @@
   {
     "year":2013,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":24.44708443,
     "avg_voluntary_prepaid_share":2.21817061,
     "avg_oop_share":51.938146595,
@@ -1882,7 +1882,7 @@
   {
     "year":2013,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":31.64576562,
     "avg_voluntary_prepaid_share":2.43505906,
     "avg_oop_share":38.2051531467,
@@ -1932,7 +1932,7 @@
   {
     "year":2013,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":49.67689705,
     "avg_voluntary_prepaid_share":3.212296575,
     "avg_oop_share":45.906388285,
@@ -1972,7 +1972,7 @@
   {
     "year":2014,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":22.05612707,
     "avg_voluntary_prepaid_share":2.07224062,
     "avg_oop_share":51.09231758,
@@ -2022,7 +2022,7 @@
   {
     "year":2014,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":32.30339559,
     "avg_voluntary_prepaid_share":2.0590081433,
     "avg_oop_share":38.40426922,
@@ -2072,7 +2072,7 @@
   {
     "year":2014,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":47.364410405,
     "avg_voluntary_prepaid_share":5.2422546,
     "avg_oop_share":46.02562237,
@@ -2112,7 +2112,7 @@
   {
     "year":2015,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":15.15954256,
     "avg_voluntary_prepaid_share":2.04524766,
     "avg_oop_share":52.75046158,
@@ -2162,7 +2162,7 @@
   {
     "year":2015,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":28.59688123,
     "avg_voluntary_prepaid_share":2.21608038,
     "avg_oop_share":40.77040418,
@@ -2212,7 +2212,7 @@
   {
     "year":2015,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":44.581140515,
     "avg_voluntary_prepaid_share":6.73725575,
     "avg_oop_share":47.026079175,
@@ -2252,7 +2252,7 @@
   {
     "year":2016,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":14.19311571,
     "avg_voluntary_prepaid_share":2.119250385,
     "avg_oop_share":55.177812575,
@@ -2302,7 +2302,7 @@
   {
     "year":2016,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":30.8558133467,
     "avg_voluntary_prepaid_share":4.07574939,
     "avg_oop_share":43.8526433333,
@@ -2352,7 +2352,7 @@
   {
     "year":2016,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":46.90663624,
     "avg_voluntary_prepaid_share":5.50928466,
     "avg_oop_share":45.820620535,
@@ -2392,7 +2392,7 @@
   {
     "year":2017,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":12.95682907,
     "avg_voluntary_prepaid_share":2.381191015,
     "avg_oop_share":58.14757919,
@@ -2442,7 +2442,7 @@
   {
     "year":2017,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":29.37333282,
     "avg_voluntary_prepaid_share":4.3751447867,
     "avg_oop_share":46.2698125867,
@@ -2492,7 +2492,7 @@
   {
     "year":2017,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":45.447868345,
     "avg_voluntary_prepaid_share":4.927265075,
     "avg_oop_share":47.87683296,
@@ -2532,7 +2532,7 @@
   {
     "year":2018,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":10.24722028,
     "avg_voluntary_prepaid_share":0.50621897,
     "avg_oop_share":53.024410245,
@@ -2582,7 +2582,7 @@
   {
     "year":2018,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":29.78781446,
     "avg_voluntary_prepaid_share":3.3957973133,
     "avg_oop_share":46.11204465,
@@ -2632,7 +2632,7 @@
   {
     "year":2018,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":43.244877815,
     "avg_voluntary_prepaid_share":6.3644637,
     "avg_oop_share":46.606637,
@@ -2672,7 +2672,7 @@
   {
     "year":2019,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":12.86136007,
     "avg_voluntary_prepaid_share":0.608417335,
     "avg_oop_share":62.130823135,
@@ -2722,7 +2722,7 @@
   {
     "year":2019,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":31.90467326,
     "avg_voluntary_prepaid_share":2.9860521,
     "avg_oop_share":43.7840220133,
@@ -2772,7 +2772,7 @@
   {
     "year":2019,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":42.42969799,
     "avg_voluntary_prepaid_share":5.758506685,
     "avg_oop_share":48.430764195,
@@ -2812,7 +2812,7 @@
   {
     "year":2020,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":13.13508129,
     "avg_voluntary_prepaid_share":0.708528515,
     "avg_oop_share":59.71839142,
@@ -2862,7 +2862,7 @@
   {
     "year":2020,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":32.6631895667,
     "avg_voluntary_prepaid_share":2.14883494,
     "avg_oop_share":36.3048865,
@@ -2912,7 +2912,7 @@
   {
     "year":2020,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":41.518408775,
     "avg_voluntary_prepaid_share":5.10036525,
     "avg_oop_share":45.47002697,
@@ -2952,7 +2952,7 @@
   {
     "year":2021,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":16.17639971,
     "avg_voluntary_prepaid_share":0.46573256,
     "avg_oop_share":59.52764511,
@@ -3002,7 +3002,7 @@
   {
     "year":2021,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":34.6094652833,
     "avg_voluntary_prepaid_share":2.05347764,
     "avg_oop_share":35.2912594467,
@@ -3052,7 +3052,7 @@
   {
     "year":2021,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":45.926038745,
     "avg_voluntary_prepaid_share":5.36472319,
     "avg_oop_share":43.22991943,
@@ -3092,7 +3092,7 @@
   {
     "year":2022,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":18.645791055,
     "avg_voluntary_prepaid_share":0.43968321,
     "avg_oop_share":52.91058159,
@@ -3142,7 +3142,7 @@
   {
     "year":2022,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":29.97175153,
     "avg_voluntary_prepaid_share":2.1810971133,
     "avg_oop_share":36.63031451,
@@ -3192,7 +3192,7 @@
   {
     "year":2022,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":47.89299202,
     "avg_voluntary_prepaid_share":4.47441256,
     "avg_oop_share":42.3174839,
@@ -3232,7 +3232,7 @@
   {
     "year":2023,
     "income":"Low",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":19.80545282,
     "avg_voluntary_prepaid_share":0.405593695,
     "avg_oop_share":48.3510952,
@@ -3282,7 +3282,7 @@
   {
     "year":2023,
     "income":"Lower-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":28.5510339733,
     "avg_voluntary_prepaid_share":2.2316427933,
     "avg_oop_share":37.4283434533,
@@ -3332,7 +3332,7 @@
   {
     "year":2023,
     "income":"Upper-middle",
-    "Subregion":"Middle Africa",
+    "Subregion":"Central Africa",
     "avg_gov_share":48.96826744,
     "avg_voluntary_prepaid_share":4.29671505,
     "avg_oop_share":41.62735844,

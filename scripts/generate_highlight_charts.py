@@ -46,7 +46,7 @@ INCOME_COLORS = {
 
 SUBREGION_COLORS = {
     'Eastern Africa': '#1F4E79',
-    'Middle Africa': '#2E75B6',
+    'Central Africa': '#2E75B6',
     'Northern Africa': '#5B9BD5',
     'Southern Africa': '#70AD47',
     'Western Africa': '#ED7D31'
@@ -316,7 +316,7 @@ def chart_oop_threshold_2023(df):
 
 # =============================================================================
 # CHART 7: Financing Gap by Subregion
-# Highlight: Average $125.4; Eastern Africa $109.6, Middle Africa $179.2
+# Highlight: Average $125.4; Eastern Africa $109.6, Central Africa $179.2
 # =============================================================================
 def chart_gap_by_subregion(df):
     """Bar chart showing financing gap by subregion."""
@@ -348,7 +348,7 @@ def chart_gap_by_subregion(df):
     ax.set_xlabel('Average Health Financing Gap (USD per capita)', fontsize=12, fontweight='bold')
     ax.set_ylabel('Sub-region', fontsize=12, fontweight='bold')
     ax.set_title('Government Health Financing Gap by Sub-region (2023)\n'
-                 'Middle Africa has the largest gap; Eastern Africa has the smallest',
+                 'Central Africa has the largest gap; Eastern Africa has the smallest',
                  fontsize=14, fontweight='bold', pad=20)
     ax.legend(loc='lower right')
 
