@@ -1589,79 +1589,70 @@ if __name__ == '__main__':
 
 ### 10.1 Analytics Calculator
 
-**Purpose:** Calculate trends, averages, and insights
+**Purpose:** Calculate progress classification, pace assessment, trends, and policy-relevant insights.
 
-**src/utils/analyticsCalculator.ts:**
+The analytics system has three main components:
+
+**1. Progress Classification** (`src/utils/analyticsCalculator.ts`)
+
+Countries are classified as improving, stagnating, or worsening using indicator-specific thresholds over a 5-year window (2018-2023):
+
+| Indicator Type | Stagnation Threshold | Method |
+|---|---|---|
+| Monetary (per capita) | CAGR < 1% | Compound Annual Growth Rate |
+| Mortality rates (NMR, MMR) | CAGR < 1% reduction | CAGR, direction-aware |
+| Percentage-point (% of GDP, budget, OOP) | < 0.5 pp change over 5 years | Absolute change |
+| Index scores (UHC) | < 1 point/year | Absolute change |
+
+CAGR formula: `(V_end / V_begin)^(1/n) - 1`
+
+Direction-aware: for mortality, OOP, and external financing, a decrease is classified as improving.
+
+These thresholds are **configurable by users** via interactive sliders on the Progress Analysis tab.
 
 ```typescript
-/**
- * Calculate year-on-year trend
- */
-export function calculateTrend(
-  data: any[],
-  field: string,
-  startYear: number,
-  endYear: number
-): {
-  change: number;
-  percentChange: number;
-  direction: 'up' | 'down' | 'neutral';
-} | null {
-  const startData = data.find(d => d.year === startYear);
-  const endData = data.find(d => d.year === endYear);
-
-  if (!startData || !endData) return null;
-
-  const startValue = startData[field];
-  const endValue = endData[field];
-
-  if (startValue === 0) return null;
-
-  const change = endValue - startValue;
-  const percentChange = (change / startValue) * 100;
-
-  let direction: 'up' | 'down' | 'neutral' = 'neutral';
-  if (Math.abs(percentChange) > 1) {
-    direction = percentChange > 0 ? 'up' : 'down';
-  }
-
-  return { change, percentChange, direction };
+// Configurable thresholds interface
+export interface ClassificationThresholds {
+  cagrThreshold: number;       // Default: 1%
+  ppThreshold: number;         // Default: 0.5 pp
+  indexPointsPerYear: number;  // Default: 1 point/year
 }
+```
 
-/**
- * Calculate average for a field
- */
+**2. Pace Assessment** (replaces "Average Annual Change")
+
+Instead of showing a static annual change number, the system projects:
+- How many years to reach the target at current pace
+- What pace is required to reach it by 2030
+- How many times faster progress needs to be
+
+**3. Gap Calculations**
+
+Gap-to-threshold statistics exclude countries that have already met the threshold, averaging only from countries still below (or above) the target.
+
+```typescript
+// Example: Calculate average for a field
 export function calculateAverage(data: any[], field: string): number {
   const values = data
     .map(d => d[field])
     .filter(v => v !== null && v !== undefined && !isNaN(v));
-
   if (values.length === 0) return 0;
-
   return values.reduce((sum, v) => sum + v, 0) / values.length;
 }
 
-/**
- * Find countries meeting threshold
- */
+// Example: Count countries meeting threshold
 export function countMeetingThreshold(
   data: any[],
   field: string,
   threshold: number,
   direction: 'above' | 'below' = 'above'
-): {
-  count: number;
-  percentage: number;
-  countries: string[];
-} {
+): { count: number; percentage: number; countries: string[] } {
   const validData = data.filter(d =>
     d[field] !== null && d[field] !== undefined && !isNaN(d[field])
   );
-
   const meeting = validData.filter(d =>
     direction === 'above' ? d[field] >= threshold : d[field] <= threshold
   );
-
   return {
     count: meeting.length,
     percentage: (meeting.length / validData.length) * 100,
@@ -1669,6 +1660,12 @@ export function countMeetingThreshold(
   };
 }
 ```
+
+**Key files:**
+- `src/utils/analyticsCalculator.ts` — Progress classification, pace assessment, Gini coefficient, policy insights
+- `src/utils/highlightsCalculator.ts` — Dynamic highlights for charts, gap calculations
+- `src/components/EnhancedAnalytics/EnhancedAnalytics.tsx` — UI for policy-relevant insights with configurable thresholds
+- `src/config/charts.ts` — Hardcoded fallback analytics data per indicator
 
 ### 10.2 Interactive Data Explorer
 

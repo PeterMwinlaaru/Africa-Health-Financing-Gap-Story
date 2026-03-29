@@ -1,8 +1,8 @@
 # Deployment Guide
 ## Africa Health Financing Gap Analysis Platform
 
-**Version**: 1.0
-**Last Updated**: 2026-03-22
+**Version**: 1.1
+**Last Updated**: 2026-03-29
 **For**: Production Deployment to Web
 
 ---
@@ -746,7 +746,7 @@ sudo systemctl reload nginx
 
 ---
 
-**Document Version**: 1.0
-**Last Updated**: 2026-03-22
+**Document Version**: 1.1
+**Last Updated**: 2026-03-29
 **Maintained By**: UN-ECA Platform Team
 **For Questions**: Contact deployment team lead

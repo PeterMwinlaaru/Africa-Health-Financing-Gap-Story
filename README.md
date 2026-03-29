@@ -1,7 +1,7 @@
 # Africa Health Financing Gap Analysis Platform
 
-**Version**: 1.0
-**Last Updated**: 2026-03-22
+**Version**: 1.1
+**Last Updated**: 2026-03-29
 **Organization**: United Nations Economic Commission for Africa (UN-ECA)
 
 ---
@@ -13,11 +13,13 @@ The Africa Health Financing Gap Analysis Platform provides comprehensive insight
 ### Key Features
 
 - **Comprehensive Coverage**: 54 African countries, 24 years (2000-2023)
-- **10 Indicator Categories**: Public financing, budget priority, financial protection, UHC, health outcomes, and more
+- **13 Indicators**: Public financing, budget priority, financial protection, UHC, health outcomes, and more
 - **Interactive Visualizations**: Dynamic charts, maps, and trend analyses
 - **Cross-Dimensional Analysis**: Explore relationships between financing and health outcomes
 - **Data Explorer**: Filter and download data for custom analysis
 - **Regional Comparisons**: View by income level and sub-region
+- **Configurable Classification Thresholds**: Adjust stagnation thresholds via interactive sliders
+- **Pace Assessment**: Projects years-to-target at current pace with 2030 gap analysis
 
 ### Data Source
 
@@ -84,6 +86,8 @@ health-financing-platform/
 │   ├── health_outcomes/             # Mortality indicators
 │   ├── public_health_financing/     # Government health expenditure
 │   └── uhc/                         # Universal health coverage
+│
+├── reports/                          # Methodological documentation
 │
 ├── DEPLOYMENT_GUIDE.md              # Complete deployment instructions
 ├── ENVIRONMENT_CONFIG.md            # Environment variables reference
@@ -244,6 +248,8 @@ For detailed configuration, see `ENVIRONMENT_CONFIG.md`
 | **USER_GUIDE.md** | End-user platform navigation |
 | **HANDOFF_CHECKLIST.md** | Pre-deployment checklist |
 | **DATA_SOURCE_DOCUMENTATION.md** | Data provenance and processing |
+| **TREND_METHODOLOGY_UPDATE.md** | Trend methodology documentation |
+| **COMPLETE_DEVELOPMENT_GUIDE.md** | Complete development guide |
 | **README.md** | This overview document |
 
 ---
@@ -405,6 +411,6 @@ For more solutions, see `DEPLOYMENT_GUIDE.md` → Troubleshooting section
 
 ---
 
-**Platform Version**: 1.0
-**Last Updated**: 2026-03-22
+**Platform Version**: 1.1
+**Last Updated**: 2026-03-29
 **Maintained By**: UN-ECA Platform Team
