@@ -33,7 +33,6 @@ const INCOME_COLORS: Record<string, string> = {
   'Low': '#ef4444',           // red
   'Lower-middle': '#f59e0b',  // amber
   'Upper-middle': '#10b981',  // green
-  'High': '#3b82f6',          // blue
 };
 
 // Colors for subregions (matches actual data format with spaces)
@@ -106,7 +105,6 @@ const GROUP_LABELS: Record<string, string> = {
   'Low': 'Low Income',
   'Lower-middle': 'Lower-Middle Income',
   'Upper-middle': 'Upper-Middle Income',
-  'High': 'High Income',
   'Northern Africa': 'Northern Africa',
   'Western Africa': 'Western Africa',
   'Eastern Africa': 'Eastern Africa',

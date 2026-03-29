@@ -262,7 +262,7 @@ export const generateLineChartHighlights = (
         const gapPercent = (gap / threshold) * 100;
         gapLabel = 'Gap to Threshold';
         gapValue = Math.abs(gap);
-        gapSubtext = `${Math.abs(gapPercent).toFixed(1)}% ${thresholdDirection === 'above' ? 'below' : 'above'} target — avg of ${notMeeting.length} countries not meeting threshold (${year})`;
+        gapSubtext = `Avg of ${notMeeting.length} countries not meeting threshold (${year})`;
       }
     } else {
       // Fallback: use continental average

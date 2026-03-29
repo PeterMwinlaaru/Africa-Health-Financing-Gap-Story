@@ -220,7 +220,6 @@ const CrossDimensionalExplorer: React.FC = () => {
       'Low': '#e74c3c',
       'Lower-middle': '#f39c12',
       'Upper-middle': '#3498db',
-      'High': '#2ecc71',
     };
 
     const subregionColors: Record<string, string> = {
@@ -654,7 +653,7 @@ const CrossDimensionalExplorer: React.FC = () => {
           // Multiple tables, one per group
           <div className="grouped-tables">
             {groupBy === 'income' && (
-              ['Low', 'Lower-middle', 'Upper-middle', 'High'].map(incomeLevel => {
+              ['Low', 'Lower-middle', 'Upper-middle'].map(incomeLevel => {
                 const groupData = validData.filter(d => d.income === incomeLevel);
                 if (groupData.length === 0) return null;
                 return createTable(groupData, `${incomeLevel} Income`);
