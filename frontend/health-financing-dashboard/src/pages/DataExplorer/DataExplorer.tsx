@@ -184,13 +184,9 @@ const DataExplorer: React.FC = () => {
     const loadInitialData = async () => {
       setLoading(true);
       try{
-        console.log('Loading countries...');
         const countryList = await api.getCountries();
-        console.log('Countries loaded:', countryList?.length);
 
-        console.log('Loading master data...');
         const rawData = await api.getMasterData();
-        console.log('Raw data type:', typeof rawData, 'isArray:', Array.isArray(rawData));
 
         setCountries(Array.isArray(countryList) ? countryList : []);
 
@@ -209,7 +205,6 @@ const DataExplorer: React.FC = () => {
           parsedData = obj.data || obj.records || [];
         }
 
-        console.log('Parsed data records:', parsedData.length);
         setMasterData(parsedData);
         setDataLoaded(true);
 
@@ -219,7 +214,6 @@ const DataExplorer: React.FC = () => {
 
         if (countryParam && Array.isArray(countryList) && countryList.includes(countryParam)) {
           // If country param exists and is valid, select only that country
-          console.log('Pre-selecting country from URL:', countryParam);
           setSelectedCountries([countryParam]);
         } else if (Array.isArray(countryList) && countryList.length >= 2) {
           // Default: select first two countries

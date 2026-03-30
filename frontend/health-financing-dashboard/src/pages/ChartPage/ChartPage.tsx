@@ -191,7 +191,6 @@ const ChartPage: React.FC = () => {
           }
         });
 
-        console.log('Calculated field maximums:', maximums);
         setFieldMaximums(maximums);
       }
 
@@ -213,14 +212,6 @@ const ChartPage: React.FC = () => {
         }))
         .filter((d: any) => d.value !== null && d.value !== undefined)
         .sort((a: any, b: any) => (b.value || 0) - (a.value || 0));
-
-      console.log(`Country comparison data for ${selectedYear}:`, {
-        field: yField,
-        totalCountries: formatted.length,
-        topCountry: formatted[0],
-        bottomCountry: formatted[formatted.length - 1],
-        maxValue: fieldMaximums[yField]
-      });
 
       setCountryData(formatted);
     } catch (error) {
@@ -255,19 +246,16 @@ const ChartPage: React.FC = () => {
 
       // For line charts with multiple yFields, fetch master data and aggregate manually
       if (config.chartType === 'line' && isMultiLine) {
-        console.log('Multi-line chart detected, fetching master data for fields:', yFields, 'disaggregation:', disaggregation);
         rawData = await api.getMasterData();
 
         // Apply income group filter if selected
         if (disaggregation === 'income' && selectedIncomeGroup !== 'all') {
           rawData = rawData.filter((row: any) => row.income === selectedIncomeGroup);
-          console.log(`Filtered to ${selectedIncomeGroup} income countries:`, rawData.length, 'rows');
         }
 
         // Apply subregion filter if selected
         if (disaggregation === 'subregion' && selectedSubregion !== 'all') {
           rawData = rawData.filter((row: any) => row.Subregion === selectedSubregion);
-          console.log(`Filtered to ${selectedSubregion}:`, rawData.length, 'rows');
         }
 
         if (disaggregation === 'overall' || disaggregation === 'income' || disaggregation === 'subregion') {
@@ -314,14 +302,12 @@ const ChartPage: React.FC = () => {
 
                 // Calculate sum for verification
                 const sum = yFields.reduce((acc, field) => acc + (dataPoint[field] || 0), 0);
-                console.log(`Year ${year}: Sum = ${sum.toFixed(1)}% (${yearData.count} countries)`);
               }
 
               return dataPoint;
             })
             .sort((a, b) => a.year - b.year);
 
-          console.log('Processed multi-line data (first 3 years):', processedData.slice(0, 3));
           setData(processedData);
         }
       } else if (config.chartType === 'line') {
@@ -331,19 +317,16 @@ const ChartPage: React.FC = () => {
         // If filters are active, use master data and apply filters
         if ((disaggregation === 'income' && selectedIncomeGroup !== 'all') ||
             (disaggregation === 'subregion' && selectedSubregion !== 'all')) {
-          console.log('Fetching master data for filtered single-line chart');
           rawData = await api.getMasterData();
 
           // Apply income group filter if selected
           if (disaggregation === 'income' && selectedIncomeGroup !== 'all') {
             rawData = rawData.filter((row: any) => row.income === selectedIncomeGroup);
-            console.log(`Filtered to ${selectedIncomeGroup} income countries:`, rawData.length, 'rows');
           }
 
           // Apply subregion filter if selected
           if (disaggregation === 'subregion' && selectedSubregion !== 'all') {
             rawData = rawData.filter((row: any) => row.Subregion === selectedSubregion);
-            console.log(`Filtered to ${selectedSubregion}:`, rawData.length, 'rows');
           }
 
           // Aggregate by year
@@ -368,7 +351,6 @@ const ChartPage: React.FC = () => {
             }))
             .sort((a, b) => a.year - b.year);
 
-          console.log('Processed filtered single-line data:', processedData.slice(0, 3));
           setData(processedData);
         } else {
           // Use aggregate endpoint for non-filtered data
@@ -380,19 +362,15 @@ const ChartPage: React.FC = () => {
             endpoint = `/api/aggregate/by-year?field=${encodeURIComponent(yField)}&groupBy=${disaggregation}`;
           }
 
-          console.log('Fetching from endpoint:', endpoint, 'with disaggregation:', disaggregation);
           rawData = await api.fetchFromEndpoint(endpoint);
 
           // Data is already in correct format from /api/aggregate/by-year
-          console.log('Line chart data received:', rawData.slice(0, 3));
           if (rawData[0]) {
-            console.log('First data point keys:', Object.keys(rawData[0]));
           }
           setData(rawData);
         }
       } else if (config.dataEndpoint) {
         // For non-line charts, use configured endpoint
-        console.log('Fetching from endpoint:', config.dataEndpoint);
         rawData = await api.fetchFromEndpoint(config.dataEndpoint);
         const processedData = processChartData(rawData, config);
         setData(processedData);
@@ -871,20 +849,11 @@ const ChartPage: React.FC = () => {
           key => !['year', 'value', 'count', ...yFields].includes(key) && typeof firstDataPoint[key] === 'number'
         );
 
-        console.log('Rendering line chart:', {
-          disaggregation,
-          hasGrouping,
-          firstDataPoint,
-          yFields,
-          allKeys: firstDataPoint ? Object.keys(firstDataPoint) : []
-        });
-
         if (hasGrouping) {
           // Data is grouped (e.g., by income: {year: 2000, Low: 8, "Lower-middle": 7, "Upper-middle": 3})
           const groupKeys = Object.keys(firstDataPoint).filter(
             key => !['year', 'count'].includes(key) && typeof firstDataPoint[key] === 'number'
           );
-          console.log('Group keys detected:', groupKeys);
 
           // Get thresholds for reference lines
           const thresholds = getThresholds(yFields[0], disaggregation);

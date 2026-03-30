@@ -169,18 +169,37 @@ const EnhancedAnalytics: React.FC<Props> = ({
                   <PieChart>
                     <Pie
                       data={[
-                        { name: 'Meeting Target', value: analytics.targetAchievement.countriesMet, fill: '#059669' },
-                        { name: 'Not Meeting Target', value: analytics.targetAchievement.countriesNotMet, fill: '#ef4444' }
+                        { name: 'Meeting', value: analytics.targetAchievement.countriesMet, fill: '#059669' },
+                        { name: 'Not Meeting', value: analytics.targetAchievement.countriesNotMet, fill: '#ef4444' }
                       ]}
                       cx="50%"
                       cy="50%"
                       labelLine={false}
-                      label={(entry) => `${entry.name}: ${entry.value} (${((entry.value / 54) * 100).toFixed(1)}%)`}
-                      outerRadius={100}
+                      label={({ cx, cy, midAngle, innerRadius, outerRadius, value }: any) => {
+                        const RADIAN = Math.PI / 180;
+                        const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
+                        const x = cx + radius * Math.cos(-(midAngle || 0) * RADIAN);
+                        const y = cy + radius * Math.sin(-(midAngle || 0) * RADIAN);
+                        return (
+                          <text x={x} y={y} fill="white" textAnchor="middle" dominantBaseline="central" fontSize={12} fontWeight={600}>
+                            {value}
+                          </text>
+                        );
+                      }}
+                      outerRadius={90}
                       dataKey="value"
                     >
                     </Pie>
-                    <Tooltip />
+                    <Tooltip formatter={(value: any) => `${value} countries (${((Number(value) / 54) * 100).toFixed(1)}%)`} />
+                    <Legend
+                      formatter={(value: any) => {
+                        const met = analytics.targetAchievement!.countriesMet;
+                        const notMet = analytics.targetAchievement!.countriesNotMet;
+                        const count = value === 'Meeting' ? met : notMet;
+                        const pct = ((count / 54) * 100).toFixed(1);
+                        return `${value}: ${count} (${pct}%)`;
+                      }}
+                    />
                   </PieChart>
                 </ResponsiveContainer>
               </div>
@@ -210,24 +229,25 @@ const EnhancedAnalytics: React.FC<Props> = ({
               <div className="gap-distribution">
                 <h3>Gap Distribution</h3>
                 <div className="distribution-bars">
-                  <div className="dist-bar">
-                    <div className="dist-label">Close to target (within 20%)</div>
-                    <div className="dist-bar-fill close" style={{width: `${(analytics.targetAchievement.gapDistribution.close / analytics.targetAchievement.countriesNotMet) * 100}%`}}>
-                      {analytics.targetAchievement.gapDistribution.close} countries
-                    </div>
-                  </div>
-                  <div className="dist-bar">
-                    <div className="dist-label">Moderate gap (20-50% below)</div>
-                    <div className="dist-bar-fill moderate" style={{width: `${(analytics.targetAchievement.gapDistribution.moderate / analytics.targetAchievement.countriesNotMet) * 100}%`}}>
-                      {analytics.targetAchievement.gapDistribution.moderate} countries
-                    </div>
-                  </div>
-                  <div className="dist-bar">
-                    <div className="dist-label">Far from target (&gt;50% below)</div>
-                    <div className="dist-bar-fill far" style={{width: `${(analytics.targetAchievement.gapDistribution.far / analytics.targetAchievement.countriesNotMet) * 100}%`}}>
-                      {analytics.targetAchievement.gapDistribution.far} countries
-                    </div>
-                  </div>
+                  {[
+                    { label: 'Close to target (within 20%)', value: analytics.targetAchievement.gapDistribution.close, className: 'close' },
+                    { label: 'Moderate gap (20-50% below)', value: analytics.targetAchievement.gapDistribution.moderate, className: 'moderate' },
+                    { label: 'Far from target (>50% below)', value: analytics.targetAchievement.gapDistribution.far, className: 'far' },
+                  ].map((item) => {
+                    const pct = (item.value / analytics.targetAchievement!.countriesNotMet) * 100;
+                    const isNarrow = pct < 20;
+                    return (
+                      <div className="dist-bar" key={item.className}>
+                        <div className="dist-label">{item.label}</div>
+                        <div className="dist-bar-track">
+                          <div className={`dist-bar-fill ${item.className}`} style={{ width: `${Math.max(pct, 2)}%` }}>
+                            {!isNarrow && <span>{item.value} countries</span>}
+                          </div>
+                          {isNarrow && <span className="dist-bar-text-outside">{item.value} countries</span>}
+                        </div>
+                      </div>
+                    );
+                  })}
                 </div>
               </div>
             )}
