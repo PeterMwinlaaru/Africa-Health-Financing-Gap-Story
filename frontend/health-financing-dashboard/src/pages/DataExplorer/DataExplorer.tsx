@@ -616,7 +616,7 @@ const DataExplorer: React.FC = () => {
         </div>
 
         <div className="chart-panel">
-          <h3>Your Custom Chart</h3>
+          <h3>{INDICATOR_INFO[indicator]?.title || indicator}</h3>
           {loading ? (
             <p className="no-data">Loading chart data...</p>
           ) : data.length > 0 ? (
