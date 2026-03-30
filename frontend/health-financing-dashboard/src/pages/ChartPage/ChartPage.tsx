@@ -1289,11 +1289,13 @@ const ChartPage: React.FC = () => {
           ))}
         </div>
 
-        <ResponsiveContainer width="100%" height={Math.max(600, countryData.length * 20)}>
+        <ResponsiveContainer width="100%" height={Math.max(400, countryData.length * 18)}>
           <BarChart
             data={countryData}
             layout="vertical"
-            margin={{ top: 20, right: 30, left: 150, bottom: 20 }}
+            margin={{ top: 30, right: 10, left: 0, bottom: 10 }}
+            barSize={12}
+            barGap={2}
           >
             <CartesianGrid strokeDasharray="3 3" stroke="#e2e8f0" />
             <XAxis
@@ -1313,8 +1315,25 @@ const ChartPage: React.FC = () => {
             <YAxis
               type="category"
               dataKey="name"
-              tick={{ fontSize: 10 }}
-              width={140}
+              tick={(props: any) => {
+                const { x, y, payload } = props;
+                const SHORT_NAMES: Record<string, string> = {
+                  'Democratic Republic of the Congo': 'DR Congo',
+                  'United Republic of Tanzania': 'Tanzania',
+                  'Central African Republic': 'Central African Rep.',
+                  'Sao Tome and Principe': 'Sao Tome & Principe',
+                  'C\u00f4te d\u2019Ivoire': "Cote d'Ivoire",
+                  'C\u00f4te d\'Ivoire': "Cote d'Ivoire",
+                };
+                const label = SHORT_NAMES[payload.value] || payload.value;
+                return (
+                  <text x={x} y={y} dy={3} textAnchor="end" fontSize={9} fill="#374151">
+                    {label}
+                  </text>
+                );
+              }}
+              width={160}
+              interval={0}
             />
             <Tooltip
               contentStyle={{
