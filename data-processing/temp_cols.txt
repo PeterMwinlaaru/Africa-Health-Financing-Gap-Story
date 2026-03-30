@@ -1,0 +1,51 @@
+CountryISO3
+Direct foreign transfers, as % of Current Health Expenditure (CHE)
+Direct foreign transfers, as % of Gross domestic product (GDP)
+Direct foreign transfers, in constant (2023) US$ per capita
+Direct foreign transfers, in current US$ per capita
+Direct foreign transfers, in million constant (2023) US$
+Direct foreign transfers, in million current US$
+Domest Private on health exp
+Exc Out-of-pocket on health exp
+Exp Health on GDP
+Exp Health per capita
+Expenditure in million Constant 2023
+Expenditure on GDP
+Expenditure per capita constant
+Expenditure per capita current
+External on health exp
+GDP per capita Constant 2023
+GDP per capita Current
+Gap Gov exp Health on GDP
+Gap Gov exp Health on budget
+Gap for Gov exp Health per capita
+Gov exp Health on GDP
+Gov exp Health on GDP > 2016 Value
+Gov exp Health on GDP > 5
+Gov exp Health on budget
+Gov exp Health on budget > 15
+Gov exp Health on budget > 2016 Value
+Gov exp Health per capita
+Gov exp Health per capita > 2016 Value
+Gov exp Health per capita More than Threshold
+Govern on health exp
+Gross fixed capital formation, as % of Gross domestic product (GDP)
+Gross fixed capital formation, in constant (2023) US$ per capita
+Gross fixed capital formation, in current US$ per capita
+Gross fixed capital formation, in million constant (2023) US$
+Gross fixed capital formation, in million current US$
+Infant Mortality Rate
+Maternal mortality ratio
+Other Private on health exp
+Out-of-pocket on health exp
+Out-of-pocket on health exp < 20
+Population
+Subregion
+Tax Revenue per GDP
+Total Revenue per GDP
+Universal health coverage
+Voluntary Prepayments on health exp
+financial hardship
+income
+location
+year
